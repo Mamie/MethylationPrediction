@@ -1,6 +1,6 @@
 # Construct feature matrix for user tcga.ab.2803
 
-load('feature450K.RData')
+load('/rhea/Data/MethylationPrediction/feature450K.RData')
 load('Beta190.RData')
 load('Class190.RData')
 library(GenomicRanges)

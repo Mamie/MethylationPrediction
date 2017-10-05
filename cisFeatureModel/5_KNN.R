@@ -1,6 +1,7 @@
 # KNN
 
 load('train.RData')
+if(!require('e1071')) install.packages('e1071', repos="http://cran.rstudio.com/")
 library(e1071)
 library(class)
 library(ROCR)

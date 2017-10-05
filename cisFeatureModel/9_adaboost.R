@@ -1,6 +1,7 @@
 # AdaBoost
 
 load('train.RData')
+if (!require('adabag') install.packages('adabag', repos="http://cran.rstudio.com/")
 library(adabag)
 library(class)
 library(ROCR)

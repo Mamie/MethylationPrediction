@@ -1,6 +1,12 @@
 # Characterize the methylation pattern
 library(ggplot2)
-library(FDb.InfiniumMethylation.hg18
+if (!require("FDb.InfiniumMethylation.hg18")) {
+   source("https://bioconductor.org/biocLite.R")
+   biocLite("FDb.InfiniumMethylation.hg18")
+}
+
+library(FDb.InfiniumMethylation.hg18)
+
 load('Beta190.RData')
 load('Class190.RData')
 rownames(Beta190) <- as.character(Beta190$ID)
@@ -41,7 +47,7 @@ rm(beta.mean)
 
 # Correlation of beta values between neighboring sites
 # get genomic coordinate of the probes (hg 27)
-annotations <- read.csv('HumanMethylation450_15017482_v1-2.csv', sep=',', stringsAsFactors=F, skip=7, header=T)
+annotations <- read.csv('/rhea/Data/MethylationPrediction/HumanMethylation450_15017482_v1-2.csv', sep=',', stringsAsFactors=F, skip=7, header=T)
 row.names(annotations) <- annotations$IlmnID
 hm27.probes <- as.character(Class190[,1])
 probe.genomicCoordinate <- annotations[hm27.probes, c('CHR', 'MAPINFO')]

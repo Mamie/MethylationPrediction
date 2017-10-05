@@ -1,6 +1,12 @@
 # Random forest model
 
 load('feature2803.RData')
+
+if (!require('randomForest')) install.packages('randomForest', repos="http://cran.rstudio.com/")
+if (!require('caret')) install.packages('caret', repos="http://cran.rstudio.com/")
+if (!require('class')) install.packages('class', repos="http://cran.rstudio.com/")
+if (!require('ROCR')) install.packages('ROCR', repos="http://cran.rstudio.com/")
+
 library(randomForest)
 library(caret)
 library(class)
@@ -56,7 +62,7 @@ evalRF <- function(pred.list, n.fold) {
     tn.v <- NULL
     fn.v <- NULL
     for (i in seq(n.fold)) {
-        ROC <- prediction(pred.list[[i]][,5], pred.list[[i]][,2])
+        ROC <- prediction(pred.list[[i]][,4], pred.list[[i]][,1])
 
         auc.pref <- performance(ROC, "auc")
         auc <- auc.pref@y.values[[1]]
