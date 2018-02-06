@@ -20,3 +20,9 @@ wget http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/LAML/20160128/
 mkdir methylationHM27
 tar xzf methylation_hm27.tar.gz -C methylationHM27 --strip-components 1
 rm methylation_hm27.tar.gz
+
+wget https://cancergenome.nih.gov/abouttcga/aboutdata/platformdesign/illumina-infinium-methylation-27-adf -O HM27adf.zip
+unzip HM27adf.zip
+rm HM27adf.zip
+rm jhu-usc.edu_TCGA_HumanMethylation27.v2.adf.txt
+rm DESCRIPTION.txt
