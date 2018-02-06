@@ -38,4 +38,5 @@ cd ../R
 echo "Preprocessing methylation and mRNA-seq data"
 Rscript preprocessing.R
 Rscript model.R
+Rscript visualization.R
 

@@ -1,6 +1,6 @@
 # Author: Mamie Wang
 # Date created: 02/05/2018
-# Date last modified: 02/05/2018
+# Date last modified: 02/06/2018
 # R version: 3.4.2
 # Run lasso model for each methylation cluster using mRNA-seq genes as predictors
 #   - group methylation beta-value within each cluster

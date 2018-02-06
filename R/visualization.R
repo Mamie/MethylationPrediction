@@ -1,6 +1,6 @@
 # Author: Mamie Wang
-# Date created: 02/05/2018
-# Date last modified: 02/05/2018
+# Date created: 02/06/2018
+# Date last modified: 02/06/2018
 # R version: 3.4.2
 # Module network visualization of the clusters
 
