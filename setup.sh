@@ -6,7 +6,7 @@
 
 mkdir data
 cd data
-wget http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/LAML/20160128/gdac.broadinstitute.org_LAML.Merge_rnaseqv2__illuminahiseq_rnaseqv2__unc_edu__Level_3__RSEM_genes_normalized__data.Level_3.2016012800.0.0.tar.gz -O geneExpression.tar.gz
+wget http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/LAML/20160128/gdac.broadinstitute.org_LAML.mRNAseq_Preprocess.Level_3.2016012800.0.0.tar.gz -O geneExpression.tar.gz
 mkdir geneExpression
 tar xzf geneExpression.tar.gz -C geneExpression --strip-components 1
 rm geneExpression.tar.gz
@@ -26,3 +26,10 @@ unzip HM27adf.zip
 rm HM27adf.zip
 rm jhu-usc.edu_TCGA_HumanMethylation27.v2.adf.txt
 rm DESCRIPTION.txt
+
+mkdir processed
+mkdir figures
+
+cd ../R
+echo "Preprocessing methylation and mRNA-seq data"
+Rscript preprocessing.R
