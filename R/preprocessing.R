@@ -13,13 +13,15 @@
 #   - control for age, gender
 #   - filter for low variance probes
 #   - hclust use Euclidean distance and Ward method
-#   - Use CH index to determine optimal cluster # (20)
-#   - Average methylation level for each cluster across patients
+
 
 library(dplyr)
 library(tidyr)
 library(mygene)
 library(ggplot2)
+
+
+methClusterNums = 20
 
 # Process RNA-seq data: remove NA
 print('Reading in mRNA-seq data...')
@@ -188,7 +190,7 @@ hclust.M <- hclust(distances, method='ward.D2')
 
 # select probe with genes that pass the keyword filtration
 probeGene$ID <- as.character(probeGene$ID)
-probeNames <- data.frame(probe=rownames(M.filtered), cluster=cutree(hclust.M, 20)) %>% 
+probeNames <- data.frame(probe=rownames(M.filtered), cluster=cutree(hclust.M, methClusterNums)) %>% 
   dplyr::left_join(probeGene, by=c('probe'='ID'))
 
 geneSymbols <- strsplit(probeNames$Gene.Symbol, ";")
