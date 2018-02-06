@@ -46,6 +46,8 @@ data.HM27[,seq(5)] <- data.HM27[,c(1,3,4,5,2)]
 columnnames <- colnames(data.HM27)
 columnnames[seq(4)] <- c('ID', 'Gene.Symbol', 'Chromosome', 'Genomic.Coordinate')
 colnames(data.HM27) <- columnnames
+methProbes <- data.HM27[, seq(2)]
+save(methProbes, file='../data/processed/methylationProbes.RData')
 rm(columnnames, num.columns, redundant.idx)
 
 # Remove rows with chr X/Y/NA, and missing entries
