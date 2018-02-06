@@ -17,6 +17,7 @@
 #   - Average methylation level for each cluster across patients
 
 library(dplyr)
+library(tidyr)
 library(mygene)
 library(ggplot2)
 
@@ -56,6 +57,7 @@ rm(missing.rm)
 data.annot <- read.csv('../data/GPL8490-65.txt', sep='\t', skip=38, header=T, stringsAsFactors=F)
 data.annot <- data.annot[,-2]
 data.HM27 <- merge(data.HM27, data.annot, by='ID', all.x=T)
+probeGene <- select(data.HM27, ID, Gene.Symbol)
 rm(data.annot)
 
 # Patient gender and age
@@ -168,7 +170,7 @@ for (i in seq(length(res$response$query))) {
 }
 
 # Filter for annotation with keywords "methylation", "transcrip". 
-print('Filtering probes with keywords related to methylation...')
+print('Filtering gene probes with keywords related to methylation...')
 terms.cleaned <- data.frame(name=terms[,1], annotation=terms[,2]) %>%
   dplyr::group_by(name) %>%
   dplyr::mutate(annotations = paste0(annotation, collapse = ", ")) %>%
@@ -179,14 +181,12 @@ terms.filtered <- terms.cleaned %>%
 save(terms.filtered, file='../data/processed/transcriptionRelatedGenes.RData')
 rm(terms.cleaned, res, terms, query, G.std, termConcat, G.genes)
 
-
-
+# Hierachical clustering to define methylation clusters
+print('Hierarchical clustering for methylation')
 distances <- dist(M.filtered) # euclidean distance
 hclust.M <- hclust(distances, method='ward.D2')
 
-load('../../data/TCGA_AML/probeGeneNames.RData')
-library(dplyr)
-library(tidyr)
+# select probe with genes that pass the keyword filtration
 probeGene$ID <- as.character(probeGene$ID)
 probeNames <- data.frame(probe=rownames(M.filtered), cluster=cutree(hclust.M, 20)) %>% 
   dplyr::left_join(probeGene, by=c('probe'='ID'))
@@ -202,4 +202,4 @@ genes <- probeNames %>%
   tidyr::gather(Gene.Symbol, Name, Gene.Symbol1:Gene.Symbol21) %>%
   dplyr::filter(!is.na(Name)) 
 
-save(genes, hclust.M, file='../data/TCGA_AML/clusterTCGA.RData')
+save(genes, hclust.M, file='../data/processed/clusterTCGA.RData')
