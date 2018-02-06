@@ -28,8 +28,14 @@ rm jhu-usc.edu_TCGA_HumanMethylation27.v2.adf.txt
 rm DESCRIPTION.txt
 
 mkdir processed
+mkdir processed/Mcluster
+mkdir processed/coefs
+mkdir processed/GEP
 mkdir figures
+mkdir figures/moduleVisualization
 
 cd ../R
 echo "Preprocessing methylation and mRNA-seq data"
 Rscript preprocessing.R
+Rscript model.R
+
