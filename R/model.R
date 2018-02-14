@@ -16,25 +16,46 @@ load('../data/processed/filteredGEP.RData')
 load('../data/processed/RNAseq.RData')
 load('../data/processed/transcriptionRelatedGenes.RData')
 
+# Convert beta values to M values
+Beta2M <- function(beta) {
+  log(beta/(1 - beta), base=2)
+}
+
+# add / subtract epsilon from 0 and 1
+AddSubtractEpsilon <- function(x) {
+  epsilon = .Machine$double.eps
+  if (x <= epsilon) x = x + epsilon
+  else if (1 - x <= epsilon) x = x - epsilon
+  x
+}
+M.filtered <- apply(M.filtered, 2, function(x) sapply(x, AddSubtractEpsilon))
+methylation.M <- apply(M.filtered, 2, function(x) sapply(x, Beta2M))
+
 # Group beta values within clusters
-print('Average beta values within clusters...')
-probeCluster <- genes %>%
-  dplyr::select(probe, cluster) %>%
-  dplyr::distinct()
-M.grouped <- data.frame(M.filtered) %>%
-  dplyr::mutate(probe = as.character(rownames(M.filtered))) %>%
-  dplyr::left_join(probeCluster) %>%
-  dplyr::group_by(cluster) %>%
-  dplyr::select(-probe) %>%
-  dplyr::summarise_all(funs(mean)) %>%
-  na.omit()
+averageMethylationProfile <- function(probeCluster, M) {
+    print('Average methylation level within clusters...')
+    M.grouped <- data.frame(M) %>%
+      dplyr::mutate(probe = as.character(rownames(M))) %>%
+      dplyr::left_join(probeCluster) %>%
+      dplyr::group_by(cluster) %>%
+      dplyr::select(-probe) %>%
+      dplyr::summarise_all(funs(mean)) %>%
+      na.omit()
+    M.grouped
+}
+
+distances <- dist(methylation.M) # euclidean distance
+hclust.M <- hclust(distances, method='ward.D2')
+methClusterNums = 20
+clusters <- data.frame(probe=rownames(methylation.M),
+                       cluster=cutree(hclust.M, methClusterNums))
+M.grouped <- averageMethylationProfile(clusters, methylation.M)
 save(M.grouped, file='../data/processed/averageMethylationProfile.RData')
 
 i = 1
-methClusterNums <- unique(genes$cluster)
 for (i in seq(methClusterNums)) {
-  M.cluster <- data.frame(M.filtered) %>%
-    dplyr::mutate(probe = as.character(rownames(M.filtered))) %>%
+  M.cluster <- data.frame(methylation.M) %>%
+    dplyr::mutate(probe = as.character(rownames(methylation.M))) %>%
     dplyr::left_join(probeCluster) %>%
     dplyr::group_by(cluster) %>%
     dplyr::filter(cluster==i)
@@ -49,6 +70,7 @@ G <- G.filtered[RNAseq.genes %in% filtered.genes,] # 1629  166
 row.names(G) <- RNAseq.genes[RNAseq.genes %in% filtered.genes]
 G <- G[,-1]
 dim(G) # 1629  166
+
 genes.GEP <- RNAseq.genes[RNAseq.genes %in% filtered.genes]
 
 
