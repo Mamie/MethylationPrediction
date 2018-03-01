@@ -108,3 +108,17 @@ ComputeCorrelation <- function(rnaseq,  methylation) {
                                            processed$rnaseq)
   return(correlation)
 }
+
+#' Convert to the methylation beta value to M value 
+#' 
+#' @param methylation data matrix of methylation beta value
+#' @param threshold threshold (postive number) at which to truncate M values 
+#' @return corresponding data matrix of M value
+Beta2M <- function(methylation, threshold) {
+  M <- apply(methylation, 2, function(beta) log(beta/(1 - beta), base=2))
+  M[M < -threshold] = -threshold
+  M[M > threshold] = threshold
+  return(M)
+}
+
+
