@@ -25,8 +25,10 @@ MethylationGEPCorrelation <- function(hash.map, methylation, rnaseq) {
     return(which(rnaseq.id==x))
     }))
   pairs.index <- cbind(seq(length(methylation.id)), rnaseq.index)[which(!is.na(rnaseq.index)),]
-  
-  unlist(apply(pairs.index, 1, function(x) cor(methylation[x[1],], rnaseq[x[2],])))
+  colnames(pairs.index) <- NULL
+  correlation <- unlist(apply(pairs.index, 1, function(x) cor(as.numeric(methylation[x[1],]), 
+                                                              as.numeric(rnaseq[x[2],]))))
+  return(correlation)
 }
 
 #' Construct a hash map from methylation probe id to RNAseq probe id
@@ -41,7 +43,6 @@ ConstructM2GHashMap <- function(m.geneid, g.geneid) {
   hashmap(m.geneid[,1], sapply(m.geneid[,2], function(x) g.hashmap[[x]]))
 }
 
-
 #' Preprocess the RNAseq data for input of MethylationGEPCorrelation
 #' 
 #' @param rnaseq RNAseq data frame with first column gene id
@@ -53,9 +54,9 @@ PreprocessRNAseq <- function(rnaseq) {
   filtered <- notna & notduplicated
   rnaseq.filtered <- rnaseq[filtered, -1]
   rownames(rnaseq.filtered) <- seq(sum(filtered))
-  m.geneid <- cbind(as.character(seq(sum(filtered))), geneid[filtered])
-  rownames(m.geneid) <- NULL
-  return(list(m.geneid=m.geneid, rnaseq=rnaseq.filtered))
+  g.geneid <- cbind(as.character(seq(sum(filtered))), geneid[filtered])
+  rownames(g.geneid) <- NULL
+  return(list(g.geneid=g.geneid, rnaseq=rnaseq.filtered))
 }
 
 #' Preprocess the methylation data for input of MethylationGEPCorrelation
@@ -71,10 +72,10 @@ PreprocessMethylation <- function(methylation) {
   methylation.filtered <- methylation[notna, -seq(4)]
   colnames(methylation.filtered) <- sapply(colnames(methylation.filtered),
                                            function(x) tolower(substr(x, 1, 12)))
-  rownames(methylation.filtered) <- geneid[notna]
-  g.geneid <- cbind(probeid[notna], geneid[notna])
-  rownames(g.geneid) <- NULL
-  return(list(g.geneid=g.geneid, methylation=methylation.filtered))
+  rownames(methylation.filtered) <- probeid[notna]
+  m.geneid <- cbind(probeid[notna], geneid[notna])
+  rownames(m.geneid) <- NULL
+  return(list(m.geneid=m.geneid, methylation=methylation.filtered))
 }
 
 #' Match the columns between RNAseq and Methylation array
@@ -84,8 +85,8 @@ PreprocessMethylation <- function(methylation) {
 #' @return a list containing RNAseq and methylation with matching columns
 matchColumns <- function(rnaseq, methylation) {
   intersection <- intersect(colnames(rnaseq), colnames(methylation))
-  intersection.rnaseq <- sapply(intersection, function(x) which(x %in% colnames(rnaseq)))
-  intersection.methylation <- sapply(intersection, function(x) which(x %in% colnames(methylation)))
+  intersection.rnaseq <- sapply(intersection, function(x) which(colnames(rnaseq) %in% x))
+  intersection.methylation <- sapply(intersection, function(x) which(colnames(methylation) %in% x))
   list(rnaseq=rnaseq[,intersection.rnaseq], 
        methylation=methylation[,intersection.methylation])
 }
@@ -103,5 +104,7 @@ ComputeCorrelation <- function(rnaseq,  methylation) {
                       rnaseq.processed$g.geneid)
   processed <- matchColumns(rnaseq.processed$rnaseq, 
                             methylation.processed$methylation)
-  MethylationGEPCorrelation(hash.map, processed$methylation, processed$rnaseq)
+  correlation <- MethylationGEPCorrelation(hash.map, processed$methylation, 
+                                           processed$rnaseq)
+  return(correlation)
 }
