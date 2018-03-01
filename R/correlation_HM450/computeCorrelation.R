@@ -62,14 +62,18 @@ PreprocessRNAseq <- function(rnaseq) {
 #' Preprocess the methylation data for input of MethylationGEPCorrelation
 #' 
 #' @param methylation Methylation data frame (first column probe id and second 
+#' @param convert2M whether converting to m value
 #' column gene id) 
 #' @return a list with probe id - gene id data matrix and data matrix with only
 #' methylation level
-PreprocessMethylation <- function(methylation) {
+PreprocessMethylation <- function(methylation, convert2M=F) {
   probeid <- methylation$ID
   geneid <- methylation$Gene.Symbol
   notna <- !is.na(geneid)
-  methylation.filtered <- methylation[notna, -seq(4)]
+  methylation.filtered <- data.matrix(methylation[notna, -seq(4)])
+  if (convert2M) {
+    methylation.filtered <- Beta2M(methylation.filtered, 10)
+  }
   colnames(methylation.filtered) <- sapply(colnames(methylation.filtered),
                                            function(x) tolower(substr(x, 1, 12)))
   rownames(methylation.filtered) <- probeid[notna]
@@ -95,11 +99,12 @@ matchColumns <- function(rnaseq, methylation) {
 #'
 #' @param rnaseq RNAseq data frame
 #' @param methylation methylation data frame
+#' @param convet2M whether converting to M value for methylation
 #' @return a vector of correlation coefficient between matching pairs of rnaseq 
 #' and methylation probes
-ComputeCorrelation <- function(rnaseq,  methylation) {
+ComputeCorrelation <- function(rnaseq,  methylation, convert2M) {
   rnaseq.processed <- PreprocessRNAseq(rnaseq)
-  methylation.processed <- PreprocessMethylation(methylation)
+  methylation.processed <- PreprocessMethylation(methylation, convert2M)
   hash.map <- ConstructM2GHashMap(methylation.processed$m.geneid, 
                       rnaseq.processed$g.geneid)
   processed <- matchColumns(rnaseq.processed$rnaseq, 
