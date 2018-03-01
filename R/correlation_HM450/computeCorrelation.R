@@ -83,8 +83,8 @@ PreprocessMethylation <- function(methylation, convert2M=F, subsetProbes=NULL) {
   }
   colnames(methylation.filtered) <- sapply(colnames(methylation.filtered),
                                            function(x) tolower(substr(x, 1, 12)))
-  rownames(methylation.filtered) <- probeid[notna]
-  m.geneid <- cbind(probeid[notna], geneid[notna])
+  rownames(methylation.filtered) <- probeid[filtered]
+  m.geneid <- cbind(probeid[filtered], geneid[filtered])
   rownames(m.geneid) <- NULL
   return(list(m.geneid=m.geneid, methylation=methylation.filtered))
 }
@@ -112,7 +112,7 @@ matchColumns <- function(rnaseq, methylation) {
 #' and methylation probes
 ComputeCorrelation <- function(rnaseq,  methylation, convert2M=F, subsetProbes=NULL) {
   rnaseq.processed <- PreprocessRNAseq(rnaseq)
-  methylation.processed <- PreprocessMethylation(methylation, convert2M, subsetProbes)
+  methylation.processed <- PreprocessMethylation(methylation, convert2M=convert2M, subsetProbes=subsetProbes)
   hash.map <- ConstructM2GHashMap(methylation.processed$m.geneid, 
                       rnaseq.processed$g.geneid)
   processed <- matchColumns(rnaseq.processed$rnaseq, 
