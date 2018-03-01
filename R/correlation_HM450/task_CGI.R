@@ -12,7 +12,7 @@ load('../../data/processed/RNAseq.RData')
 load('../../data/processed/HM450.RData')
 CGI.probes <- read.csv('../../data/promoterRegionProbes/CGI.tsv', 
                             sep='\t', header=T, stringsAsFactors=F)
-probe.id <- as.character(promoter.probes[,1])
+probe.id <- as.character(CGI.probes[,1])
 correlation <- ComputeCorrelation(RNAseq, data.HM450, convert2M=T, subsetProbes=probe.id)
 save(correlation, file='../../data/processed/CorrelationCGIM.RData')
 correlation <- ComputeCorrelation(RNAseq, data.HM450, convert2M=F, subsetProbes=probe.id)
