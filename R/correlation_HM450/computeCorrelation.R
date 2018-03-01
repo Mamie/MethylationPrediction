@@ -2,7 +2,7 @@
 # File name: computeCorrelation.R
 # Author: Mamie Wang
 # Date created: 02/27/2018
-# Date modified: 02/28/2018
+# Date modified: 03/1/2018
 
 library(hashmap)
 
@@ -64,13 +64,20 @@ PreprocessRNAseq <- function(rnaseq) {
 #' @param methylation Methylation data frame (first column probe id and second 
 #' @param convert2M whether converting to m value
 #' column gene id) 
+#' @param subsetProbes a character vector of the subset of the probe ids
 #' @return a list with probe id - gene id data matrix and data matrix with only
 #' methylation level
-PreprocessMethylation <- function(methylation, convert2M=F) {
+PreprocessMethylation <- function(methylation, convert2M=F, subsetProbes=NULL) {
   probeid <- methylation$ID
   geneid <- methylation$Gene.Symbol
+  if(!is.null(subsetProbes)) {
+    insubset <- probeid %in% subsetProbes
+  } else {
+    insubset <- rep(T, length(probeid))
+  }
   notna <- !is.na(geneid)
-  methylation.filtered <- data.matrix(methylation[notna, -seq(4)])
+  filtered <- notna & insubset
+  methylation.filtered <- data.matrix(methylation[filtered, -seq(4)])
   if (convert2M) {
     methylation.filtered <- Beta2M(methylation.filtered, 10)
   }
@@ -100,11 +107,12 @@ matchColumns <- function(rnaseq, methylation) {
 #' @param rnaseq RNAseq data frame
 #' @param methylation methylation data frame
 #' @param convet2M whether converting to M value for methylation
+#' @param subsetProbes a subset of probe id
 #' @return a vector of correlation coefficient between matching pairs of rnaseq 
 #' and methylation probes
-ComputeCorrelation <- function(rnaseq,  methylation, convert2M) {
+ComputeCorrelation <- function(rnaseq,  methylation, convert2M=F, subsetProbes=NULL) {
   rnaseq.processed <- PreprocessRNAseq(rnaseq)
-  methylation.processed <- PreprocessMethylation(methylation, convert2M)
+  methylation.processed <- PreprocessMethylation(methylation, convert2M, subsetProbes)
   hash.map <- ConstructM2GHashMap(methylation.processed$m.geneid, 
                       rnaseq.processed$g.geneid)
   processed <- matchColumns(rnaseq.processed$rnaseq, 
@@ -125,5 +133,4 @@ Beta2M <- function(methylation, threshold) {
   M[M > threshold] = threshold
   return(M)
 }
-
 
