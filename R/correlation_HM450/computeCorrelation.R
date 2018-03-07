@@ -2,7 +2,7 @@
 # File name: computeCorrelation.R
 # Author: Mamie Wang
 # Date created: 02/27/2018
-# Date modified: 03/1/2018
+# Date modified: 03/6/2018
 
 library(hashmap)
 
@@ -12,9 +12,13 @@ library(hashmap)
 #' @param methylation methylation data matrix with row names as methylation probe id
 #' @param rnaseq RNAseq data matrix with row names as RNAseq probe id and 
 #' same number of columns of the methylation data matrix
-#' @return correlation coefficients all possible matching pair of methylation and RNAseq
+#' @param m.geneid A data frame with first column methylation probe id and second column
+#' corresponding gene symbol
+#' @return a data frame with two columns:
+#'  - correlation coefficients all possible matching pair of methylation and RNAseq
+#'  - the gene of the pair
 
-MethylationGEPCorrelation <- function(hash.map, methylation, rnaseq) {
+MethylationGEPCorrelation <- function(hash.map, methylation, rnaseq, m.geneid) {
   stopifnot(dim(methylation)[2] == dim(rnaseq)[2])
   methylation.id <- row.names(methylation)
   rnaseq.id <- row.names(rnaseq)
@@ -28,7 +32,9 @@ MethylationGEPCorrelation <- function(hash.map, methylation, rnaseq) {
   colnames(pairs.index) <- NULL
   correlation <- unlist(apply(pairs.index, 1, function(x) cor(as.numeric(methylation[x[1],]), 
                                                               as.numeric(rnaseq[x[2],]))))
-  return(correlation)
+  m2g.hashmap <- hashmap(m.geneid[,1], m.geneid[,2])                                                          
+  gene <- unlist(sapply(names(correlation), function(x) m2g.hashmap[[x]]))
+  return(data.frame(gene=gene, correlation=correlation))
 }
 
 #' Construct a hash map from methylation probe id to RNAseq probe id
@@ -118,7 +124,8 @@ ComputeCorrelation <- function(rnaseq,  methylation, convert2M=F, subsetProbes=N
   processed <- matchColumns(rnaseq.processed$rnaseq, 
                             methylation.processed$methylation)
   correlation <- MethylationGEPCorrelation(hash.map, processed$methylation, 
-                                           processed$rnaseq)
+                                           processed$rnaseq, 
+                                           methylation.processed$m.geneid)
   return(correlation)
 }
 
