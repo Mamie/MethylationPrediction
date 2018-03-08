@@ -8,6 +8,7 @@ library(glmnet)
 library(dplyr)
 library(ComplexHeatmap)
 library(viridis)
+library(fastcluster)
 source('../correlation_HM450/computeCorrelation.R')
 
 
@@ -26,7 +27,7 @@ ht_global_opt(heatmap_column_names_gp = gpar(fontsize = 6),
 #' @return cluster membership of the probes
 ClusterMethylation <- function(methylation, distance='euclidean', method='ward.D2', cutoff=20) {
   distances <- dist(methylation, method=distance)
-  methylation.hclust <- hclust(distances, method=method)
+  methylation.hclust <- fastcluster::hclust.vector(distances, method=method)
   cluster <- cutree(methylation.hclust, cutoff)
   return(list(cluster=cluster, hclust=methylation.hclust))
 }
@@ -117,6 +118,7 @@ RunModel <- function(methylation, rnaseq, imagefolder, datafolder, convert2M=F,
                      subsetProbes=NULL, distance='euclidean', method='ward.D2', 
                      cutoff=20, percent.test=0.3, alpha=1, seed=1000) {
   set.seed(seed)
+  print("Preprocessing the methylation and RNAseq data")
   rnaseq.processed <- PreprocessRNAseq(rnaseq)
   rownames(rnaseq.processed$rnaseq) <- rnaseq.processed$g.geneid[,2]
   methylation.processed <- PreprocessMethylation(methylation, convert2M=convert2M,
@@ -125,9 +127,12 @@ RunModel <- function(methylation, rnaseq, imagefolder, datafolder, convert2M=F,
                             methylation.processed$methylation)
   methylation <- processed$methylation
   rnaseq <- processed$rnaseq
+  rm(rnaseq.processed, methylation.processed, processed)
   test.idx <- sample(seq(dim(methylation)[2]), round(dim(methylation)[2]*percent.test))
+  print('Clustering the methylation probes')
   clustering <- ClusterMethylation(methylation, distance=distance, method=method, cutoff=cutoff)
   cluster <- clustering$cluster
+  print('Averaging the methylation level within cluster')
   avemethyl <- AverageMethylation(methylation, cluster)
   for (i in seq(cutoff)) {
     base.name <- paste0('cluster', i)
