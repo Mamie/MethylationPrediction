@@ -99,7 +99,7 @@ ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename, centered=F) 
   }
   ht3 <- Heatmap(GEP, col=viridis(256), width=unit(2, 'inches'),  name='GEP', column_title='GEP', cluster_columns=F)
   setEPS()
-  postscript(file=filename)
+  postscript(file=filename, width=13, height=10)
     draw(ht1 + ht2 + ht3)
   dev.off()
   print(paste('Image saved as', filename))
