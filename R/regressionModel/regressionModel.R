@@ -12,10 +12,10 @@ source('../correlation_HM450/computeCorrelation.R')
 
 
 # Set global options for heatmap plotting
-ht_global_opt(heatmap_column_names_gp = gpar(fontsize = 6), 
+ht_global_opt(heatmap_column_names_gp = gpar(fontsize = 3), 
               heatmap_legend_title_gp= gpar(fontsize = 8),
               heatmap_legend_labels_gp=gpar(fontsize = 6),
-              heatmap_row_names_gp = gpar(fontsize = 6))
+              heatmap_row_names_gp = gpar(fontsize = 3))
 
 #' Cluster the methylation matrix with hierachical clustering
 #' 
@@ -94,7 +94,7 @@ ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename) {
   GEP <- rnaseq #scale(rnaseq, center=TRUE, scale=FALSE)
   ht3 <- Heatmap(GEP, col=viridis(256), name='GEP', column_title='GEP', cluster_columns=F)
   setEPS()
-  postscript(file=filename)
+  postscript(file=filename, width=18, height=10)
     draw(ht1 + ht2 + ht3)
   dev.off()
   print(paste('Image saved as', filename))

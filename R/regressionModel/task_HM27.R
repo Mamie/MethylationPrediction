@@ -9,11 +9,14 @@ source('regressionModel.R')
 
 load('../../data/processed/HM27.RData')
 load('../../data/processed/RNAseq.RData')
+promoter.probes <- read.csv('../../data/promoterRegionProbes/TSS1500.tsv',
+                            sep='\t', header=T, stringsAsFactors=F)
+probe.id <- as.character(promoter.probes[,1])
+subsetProbes <- probe.id
 
 convert2M <- T
-subsetProbes <- NULL
 percent.test <- 0.3
-cutoff <- 2
+cutoff <- 20
 alpha <- 1
 distance <- 'euclidean'
 method <- 'ward.D2'

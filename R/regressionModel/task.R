@@ -16,7 +16,7 @@ subsetProbes <- probe.id
 
 convert2M <- T
 percent.test <- 0.3
-cutoff <- 2
+cutoff <- 20
 alpha <- 1
 distance <- 'euclidean'
 method <- 'ward.D2'
