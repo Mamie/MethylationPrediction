@@ -83,7 +83,7 @@ ExtractNonzeroCoef <- function(cvglmnet.fit) {
 #' @param rnaseq a data matrix of predictive gene RNAseq level (each probe is a column)
 #' @param filename the path to which the image file (eps) will be saved
 #' @return None (side effect: image saved at filename)
-ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename, centered=F) {
+ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename, center=F, scale=F) {
   rownames(methylation) <- NULL
   colnames(methylation) <- NULL
   rownames(rnaseq) <- NULL
@@ -92,8 +92,8 @@ ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename, centered=F) 
                  column_title='methylation')
   ha1 <- avemethyl
   ht2 <- Heatmap(ha1, col=viridis(256), width=unit(0.25, 'inches'), name='Average methylation')
-  if (centered) {
-    GEP <- scale(rnaseq, center=TRUE, scale=FALSE)
+  if (center) {
+    GEP <- scale(rnaseq, center=center, scale=scale)
   } else {
     GEP <- rnaseq 
   }
@@ -120,7 +120,7 @@ ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename, centered=F) 
 #' module network images saved at imagefolder)
 RunModel <- function(methylation, rnaseq, imagefolder, datafolder, convert2M=F,
                      subsetProbes=NULL, distance='euclidean', method='ward.D2', 
-                     cutoff=20, percent.test=0.3, alpha=1, seed=1000, centered=F) {
+                     cutoff=20, percent.test=0.3, alpha=1, seed=1000, center=F, scale=F) {
   set.seed(seed)
   rnaseq.processed <- PreprocessRNAseq(rnaseq)
   rownames(rnaseq.processed$rnaseq) <- rnaseq.processed$g.geneid[,2]
@@ -151,7 +151,7 @@ RunModel <- function(methylation, rnaseq, imagefolder, datafolder, convert2M=F,
     ModuleHeatmap(t(data.matrix(methylation[cluster==i, -test.idx])), 
                   t(data.matrix(avemethyl[i, -1][,-test.idx])), 
                   t(rnaseq[ordering.genes, -test.idx]), 
-                  path.fig, centered=centered)
+                  path.fig, center=center, scale=scale)
     
     save(model, coef, base.name, file=path.model)
     print(paste('Model saved at', path.model))
