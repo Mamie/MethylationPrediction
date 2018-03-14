@@ -1,15 +1,23 @@
 # File name: preprocessing_450K.R
 # Author: Mamie Wang
 # Date created: 02/22/2018
-# Date last modified: 02/22/2018
+# Date last modified: 03/14/2018
 # R version: 3.4.2
+# Input: the HM450 data file, and output directory for preprocessed data
 # Preprocess 450K methylation:
 #   - remove NA, chrX or chrY
 
 library(dplyr)
+library(methods)
 
-data.HM450 <- read.csv('../../data/methylationHM450/LAML.methylation__humanmethylation450__jhu_usc_edu__Level_3__within_bioassay_data_set_function__data.data.txt', 
-                      sep='\t', header=T, stringsAsFactors=F)
+args = commandArgs(trailingOnly = TRUE)
+if (length(args) == 0) {
+  stop('At least two arguments must be supplied', call.=F)
+}
+in.file = args[1]
+out.dir = args[2]
+
+data.HM450 <- read.csv(in.file, sep='\t', header=T, stringsAsFactors=F)
 num.columns <- dim(data.HM450)[2]
 redundant.idx <- c(seq(7, num.columns, by=4), seq(8, num.columns, by=4), 
                    seq(9, num.columns, by=4))
@@ -19,11 +27,11 @@ columnnames <- colnames(data.HM450)
 columnnames[seq(4)] <- c('ID', 'Gene.Symbol', 'Chromosome', 'Genomic.Coordinate')
 colnames(data.HM450) <- columnnames
 methProbes <- data.HM450[, seq(2)]
-save(methProbes, file='../../data/processed/methylationProbes.RData')
+save(methProbes, file=paste0(out.dir, 'methylationProbes.RData'))
 rm(columnnames, num.columns, redundant.idx)
 data.HM450 <- data.HM450 %>%
   filter(!(Chromosome %in% c("X", "Y", NA)))
 missing.rm <- apply(data.HM450[seq(5, dim(data.HM450)[2])], 1, function(x) sum(is.na(x)) > 0)
 data.HM450 <- data.HM450[!missing.rm,]
-save(data.HM450, file='../../data/processed/HM450.RData')
+save(data.HM450, file=paste0(out.dir, 'HM450.RData'))
 
