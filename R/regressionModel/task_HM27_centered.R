@@ -2,7 +2,7 @@
 # File name: simpleTask.R
 # Author: Mamie Wang
 # Date created: 03/07/2018
-# Date modified: 03/07/2018
+# Date modified: 03/13/2018
 
 library(methods)
 source('regressionModel.R')
@@ -20,17 +20,17 @@ cutoff <- 20
 alpha <- 1
 distance <- 'euclidean'
 method <- 'ward.D2'
-imagefolder <- '../../data/180307_M/HM27/moduleNetworkFigMcentered'
-datafolder <- '../../data/180307_M/HM27/resultsMcentered'
+imagefolder <- '../../data/180313/HM27/moduleNetworkFigMcenterScale'
+datafolder <- '../../data/180313/HM27/resultsMcenterScale'
 
 RunModel(data.HM27, RNAseq, imagefolder, datafolder, convert2M=convert2M, 
          subsetProbes=subsetProbes, distance=distance, method=method, 
-         cutoff=cutoff, percent.test=percent.test, alpha=alpha, centered=T)
+         cutoff=cutoff, percent.test=percent.test, alpha=alpha, center=T, scale=T)
 
 convert2M <- F
-imagefolder <- '../../data/180307_M/HM27/moduleNetworkFigBcentered'
-datafolder <- '../../data/180307_M/HM27/resultsBcentered'
+imagefolder <- '../../data/180313/HM27/moduleNetworkFigBcenterScale'
+datafolder <- '../../data/180313/HM27/resultsBcenterScale'
 RunModel(data.HM27, RNAseq, imagefolder, datafolder, convert2M=convert2M, 
          subsetProbes=subsetProbes, distance=distance, method=method, 
-         cutoff=cutoff, percent.test=percent.test, alpha=alpha, centered=T)
+         cutoff=cutoff, percent.test=percent.test, alpha=alpha, center=T, scale=T)
 

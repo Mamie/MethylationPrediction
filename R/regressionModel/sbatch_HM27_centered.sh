@@ -3,7 +3,7 @@
 #SBATCH --job-name=HM27centered
 #SBATCH --output=log/HM27centered.%A.out
 #SBATCH --error=log/HM27centered.%A.err
-#SBATCH --time=0-12:00:00
+#SBATCH --time=0-1:00:00
 #SBATCH -p normal
 #SBATCH --qos=normal
 #SBATCH --nodes=1

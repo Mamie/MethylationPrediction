@@ -7,7 +7,7 @@
 library(methods)
 source('regressionModel.R')
 
-load('../../data/processed/HM450.RData')
+load('../../data/processed/HM27.RData')
 load('../../data/processed/RNAseq.RData')
 
 CGI.probes <- read.csv('../../data/promoterRegionProbes/CGICorFdr10.tsv',
@@ -23,17 +23,17 @@ cutoff <- 20
 alpha <- 1
 distance <- 'euclidean'
 method <- 'ward.D2'
-imagefolder <- '../../data/180313/HM450/moduleNetworkFigMcenterScale'
-datafolder <- '../../data/180313/HM450/resultsMcenterScale'
+imagefolder <- '../../data/180313/HM27/moduleNetworkFigMcentersubset'
+datafolder <- '../../data/180313/HM27/resultsMcentersubset'
 
-RunModel(data.HM450, RNAseq, imagefolder, datafolder, convert2M=convert2M, subsetProbes=subsetProbes, distance=distance, method=method, 
+RunModel(data.HM27, RNAseq, imagefolder, datafolder, convert2M=convert2M, subsetProbes=subsetProbes, distance=distance, method=method, 
          cutoff=cutoff, percent.test=percent.test, alpha=alpha, center=center, scale=scale)
 
 convert2M <- F
-imagefolder <- '../../data/180313/HM450/moduleNetworkFigBcenterScale'
-datafolder <- '../../data/180313/HM450/resultsBcenterScale'
+imagefolder <- '../../data/180313/HM27/moduleNetworkFigBcentersubset'
+datafolder <- '../../data/180313/HM27/resultsBcentersubset'
 
-RunModel(data.HM450, RNAseq, imagefolder, datafolder, convert2M=convert2M, subsetProbes=subsetProbes, distance=distance, method=method, 
+RunModel(data.HM27, RNAseq, imagefolder, datafolder, convert2M=convert2M, subsetProbes=subsetProbes, distance=distance, method=method, 
          cutoff=cutoff, percent.test=percent.test, alpha=alpha, center=center, scale=scale)
 
 

@@ -1,13 +1,13 @@
 #!/bin/bash
 
-#SBATCH --job-name=HM450centered
-#SBATCH --output=log/HM450centered.%A.out
-#SBATCH --error=log/HM450centered.%A.err
-#SBATCH --time=0-2:00:00
+#SBATCH --job-name=HM27subset
+#SBATCH --output=log/HM27subset.%A.out
+#SBATCH --error=log/HM27subset.%A.err
+#SBATCH --time=0-1:00:00
 #SBATCH -p normal
 #SBATCH --qos=normal
 #SBATCH --nodes=1
-#SBATCH --cores=10
+#SBATCH --cores=8
 #SBATCH --mem=64000
 #SBATCH --mail-type=END,FAIL
 #################
@@ -17,4 +17,4 @@ set -beEu -o pipefail
 
 module load R
 
-Rscript task_centered.R
+Rscript task_subset_HM27_centered.R
