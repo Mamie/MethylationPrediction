@@ -30,11 +30,14 @@ MethylationGEPCorrelation <- function(hash.map, methylation, rnaseq, m.geneid) {
     }))
   pairs.index <- cbind(seq(length(methylation.id)), rnaseq.index)[which(!is.na(rnaseq.index)),]
   colnames(pairs.index) <- NULL
-  correlation <- unlist(apply(pairs.index, 1, function(x) cor(as.numeric(methylation[x[1],]), 
-                                                              as.numeric(rnaseq[x[2],]))))
+  correlation <- apply(pairs.index, 1, function(x) {
+			test <- cor.test(as.numeric(methylation[x[1],]), 
+                                         as.numeric(rnaseq[x[2],]))
+			return(c(test$statistic, test$p.value))
+			})
   m2g.hashmap <- hashmap(m.geneid[,1], m.geneid[,2])                                                          
-  gene <- unlist(sapply(names(correlation), function(x) m2g.hashmap[[x]]))
-  return(data.frame(gene=gene, correlation=correlation))
+  gene <- unlist(sapply(colnames(correlation), function(x) m2g.hashmap[[x]]))
+  return(data.frame(gene=gene, correlation=correlation[1,], p.value=correlation[2,]))
 }
 
 #' Construct a hash map from methylation probe id to RNAseq probe id
