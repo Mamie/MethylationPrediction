@@ -49,6 +49,7 @@ vignettes/*.pdf
 *.out
 *.synctex.gz
 *.png
+*.pdf
 
 # Slurm log
 *.err
