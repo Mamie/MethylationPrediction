@@ -3,7 +3,7 @@
 #SBATCH --job-name=corFDR10
 #SBATCH --output=log/corFDR10.%A.out
 #SBATCH --error=log/corFDR10.%A.err
-#SBATCH --time=0-2:00:00
+#SBATCH --time=0-1:00:00
 #SBATCH -p owners,normal
 #SBATCH --qos=normal
 #SBATCH --nodes=1
@@ -17,4 +17,4 @@ set -beEu -o pipefail
 
 module load R
 
-Rscript task_CGI_FDR10.R
+Rscript task_FDR10.R /oak/stanford/groups/andrewg/users/szmamie/repos/MethylationPrediction/data/HNSC/processed
