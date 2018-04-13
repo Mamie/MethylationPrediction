@@ -6,6 +6,7 @@
 
 library(methods)
 source('regressionModel.R')
+source('../correlation_HM450/computeCorrelation.R')
 
 load('../../data/processed/HM450.RData')
 load('../../data/processed/RNAseq.RData')

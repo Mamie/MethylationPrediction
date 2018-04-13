@@ -6,6 +6,7 @@
 
 library(methods)
 source('regressionModel.R')
+source('../correlation_HM450/computeCorrelation.R')
 
 args = commandArgs(trailingOnly = TRUE)
 if (length(args) == 0) {

@@ -8,7 +8,9 @@ library(glmnet)
 library(dplyr)
 library(ComplexHeatmap)
 library(viridis)
-source('../correlation_HM450/computeCorrelation.R')
+library(vbsr)
+library(qvalue)
+#source('../correlation_HM450/computeCorrelation.R')
 
 
 # Set global options for heatmap plotting
@@ -51,15 +53,21 @@ AverageMethylation <- function(methylation, cluster) {
 #' @param rnaseq RNAseq data matrix as predictors
 #' @param test.idx index of the data that is reserved as testing set
 #' @return a glmnet fit object
-RegressMethylationOnRNAseq <- function(methylation, rnaseq, test.idx, alpha=1) {
+RegressMethylationOnRNAseq <- function(methylation, rnaseq, test.idx, method='glmnet', alpha=1) {
   stopifnot(length(methylation) == dim(rnaseq)[2])
   rnaseq.train <- t(data.matrix(rnaseq[, -test.idx]))
   rnaseq.test <- t(data.matrix(rnaseq[, test.idx]))
   methylation.train <- as.numeric(methylation[-test.idx])
   methylation.test <- as.numeric(methylation[, test.idx])
-  glmnet.fit <- cv.glmnet(rnaseq.train, methylation.train, family='gaussian', 
+  if (method =='glmnet') {
+      model.fit <- cv.glmnet(rnaseq.train, methylation.train, family='gaussian', 
                        alpha=alpha, type.measure='mse')
-  return(glmnet.fit)
+  } else if (method == 'vbsr') {
+      model.fit <- vbsr(y=methylation.train, X=rnaseq.train, family='normal')
+  } else {
+      stop("method must be either glmnet or vbsr")
+  }
+  return(model.fit)
 }
 
 
@@ -74,6 +82,17 @@ ExtractNonzeroCoef <- function(cvglmnet.fit) {
   return(data.frame(gene=coef.names, coef=coef.nonzero))
 }
 
+#' Extract coefficients that are significant from a vbsr object 
+#' 
+#' @param vbsr.fit a vbsr object
+#' @return a data matrix of nonzero coefficient with row names as gene symbols
+ExtractVBSRSignificantCoef <- function(vbsr.fit, m, coef.names) {
+    p.val <- vbsr.fit$pval
+    significant.idx <- qvalue(p.val, fdr.level=0.1)$significant
+    coef.names <- coef.names[significant.idx]
+    coef.significant <- vbsr.fit$beta[significant.idx]
+    return(data.frame(gene=coef.names, coef=coef.significant))
+}
 
 #' Module network visualization of the methylation cluster, averge methylation profile
 #' and predictive gene expression level
@@ -120,7 +139,7 @@ ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename, center=F, sc
 #' module network images saved at imagefolder)
 RunModel <- function(methylation, rnaseq, imagefolder, datafolder, convert2M=F,
                      subsetProbes=NULL, distance='euclidean', method='ward.D2', 
-                     cutoff=20, percent.test=0.3, alpha=1, seed=1000, center=F, scale=F) {
+                     cutoff=20, percent.test=0.3, alpha=1, seed=1000, center=F, scale=F, subset.method='glmnet') {
   set.seed(seed)
   rnaseq.processed <- PreprocessRNAseq(rnaseq)
   rownames(rnaseq.processed$rnaseq) <- rnaseq.processed$g.geneid[,2]
@@ -144,8 +163,12 @@ RunModel <- function(methylation, rnaseq, imagefolder, datafolder, convert2M=F,
     print(paste('Running model for cluster', i))
     path.model <- paste0(datafolder, '/', base.name, '.RData')
     path.fig <- paste0(imagefolder, '/', base.name, '.eps')
-    model <- RegressMethylationOnRNAseq(avemethyl[i, -1], rnaseq, test.idx)
-    coef <- ExtractNonzeroCoef(model)
+    model <- RegressMethylationOnRNAseq(avemethyl[i, -1], rnaseq, test.idx, method=subset.method)
+    if (subset.method=='glmnet') {
+        coef <- ExtractNonzeroCoef(model)
+    } else {
+        coef <- ExtractVBSRSignificantCoef(model, m=dim(rnaseq)[1], coef.names=unlist(rnaseq.processed$g.geneid[,2]))
+    }
     ordering <- order(abs(coef[-1,2]), decreasing=T)
     ordering.genes <- as.character(coef[-1,1][ordering])
     ModuleHeatmap(t(data.matrix(methylation[cluster==i, -test.idx])), 
