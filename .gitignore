@@ -55,3 +55,8 @@ vignettes/*.pdf
 *.err
 *.out
 log/
+
+# data files
+*.tar.gz
+*.csv
+
