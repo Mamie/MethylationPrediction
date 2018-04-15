@@ -150,7 +150,7 @@ RunModel <- function(methylation, rnaseq, imagefolder, datafolder, convert2M=F,
   methylation <- processed$methylation
   rnaseq <- processed$rnaseq
   methylprobes.geneid <- methylation.processed$m.geneid[,2]
-  methylation <- AverageMethylation(methylation, methylprobes.geneid)
+  methylation <- AverageMethylation(methylation, methylprobes.geneid) # agregate the methylation level of probes of the same gene
   methylation <- data.matrix(methylation[,-1])
   rownames(methylation) <- methylation.processed$m.geneid[!duplicated(methylprobes.geneid), 1]
   
