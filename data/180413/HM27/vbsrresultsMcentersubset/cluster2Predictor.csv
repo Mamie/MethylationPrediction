@@ -1,0 +1,6 @@
+gene,coef,description
+IMPACT,-0.23708012074675,impact RWD domain protein [Source:HGNC Symbol;Acc:HGNC:20387]
+KLF11,-0.20791300810371,Kruppel like factor 11 [Source:HGNC Symbol;Acc:HGNC:11811]
+MGC12982,0.140758581579977,NA
+TNFSF12,-0.200122744971329,TNF superfamily member 12 [Source:HGNC Symbol;Acc:HGNC:11927]
+TRIM59,-0.41270393631122,tripartite motif containing 59 [Source:HGNC Symbol;Acc:HGNC:30834]
