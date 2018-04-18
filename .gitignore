@@ -50,6 +50,9 @@ vignettes/*.pdf
 *.synctex.gz
 *.png
 *.pdf
+*.nav
+*.snm
+*.toc
 
 # Slurm log
 *.err

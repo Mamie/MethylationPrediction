@@ -1,0 +1,42 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	1
+# genesets in collections:	5574
+# genes in comparison (n):	26
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+CHEN_METABOLIC_SYNDROM_NETWORK	1210	Genes forming the macrophage-enriched metabolic network (MEMN) claimed to have a causal relationship with the metabolic syndrom traits.	10	0.0083	5.59E-10	3.11E-6
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	CHEN_METABOLIC_SYNDROM_NETWORK
+8728	ADAM19	ADAM metallopeptidase domain 19	CHEN_METABOLIC_SYNDROM_NETWORK
+55884	WSB2	WD repeat and SOCS box containing 2	CHEN_METABOLIC_SYNDROM_NETWORK
+55013	CCDC109B	coiled-coil domain containing 109B	CHEN_METABOLIC_SYNDROM_NETWORK
+5479	PPIB	peptidylprolyl isomerase B (cyclophilin B)	CHEN_METABOLIC_SYNDROM_NETWORK
+8704	B4GALT2	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 2	CHEN_METABOLIC_SYNDROM_NETWORK
+8674	VAMP4	vesicle-associated membrane protein 4	CHEN_METABOLIC_SYNDROM_NETWORK
+7097	TLR2	toll-like receptor 2	CHEN_METABOLIC_SYNDROM_NETWORK
+55748	CNDP2	CNDP dipeptidase 2 (metallopeptidase M20 family)	CHEN_METABOLIC_SYNDROM_NETWORK
+3090	HIC1	hypermethylated in cancer 1	CHEN_METABOLIC_SYNDROM_NETWORK
+23786	BCL2L13	BCL2-like 13 (apoptosis facilitator)	CHEN_METABOLIC_SYNDROM_NETWORK
+10605	PAIP1	poly(A) binding protein interacting protein 1	
+6500	SKP1	S-phase kinase-associated protein 1	
+8631	SKAP1	src kinase associated phosphoprotein 1	
+51247	PAIP2	poly(A) binding protein interacting protein 2	
+10490	VTI1B	vesicle transport through interaction with t-SNAREs homolog 1B (yeast)	
+54733	SLC35F2	solute carrier family 35, member F2	
+3801	KIFC3	kinesin family member C3	
+196483	FAM86A	family with sequence similarity 86, member A	
+11065	UBE2C	ubiquitin-conjugating enzyme E2C	
+1844	DUSP2	dual specificity phosphatase 2	
+8927	BSN	bassoon (presynaptic cytomatrix protein)	
+26013	L3MBTL1	l(3)mbt-like 1 (Drosophila)	
+9764	KIAA0513	KIAA0513	
+5825	ABCD3	ATP-binding cassette, sub-family D (ALD), member 3	
+124565	SLC38A10	solute carrier family 38, member 10	
+162968	ZNF497	zinc finger protein 497	
