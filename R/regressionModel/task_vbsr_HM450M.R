@@ -25,17 +25,19 @@ subset.method <- 'vbsr'
 distance <- 'euclidean'
 method <- 'ward.D2'
 imagefolder <- '../../data/180413/HM450/vbsrMcenterScale'
-datafolder <- '../../data/180413/HM450/vbsrMcenterScale'
+datafolder <- '../../data/180413/HM450/vbsrMcenterScaleData'
 
 RunModel(data.HM450, RNAseq, imagefolder, datafolder, convert2M=convert2M, subsetProbes=subsetProbes, distance=distance, method=method, 
          cutoff=cutoff, percent.test=percent.test, alpha=alpha, center=center, scale=scale, subset.method=subset.method)
+print('model 1 finished')
 
 convert2M <- F
 imagefolder <- '../../data/180413/HM450/vbsrBcenterScale'
-datafolder <- '../../data/180413/HM450/vbsrBcenterScale'
+datafolder <- '../../data/180413/HM450/vbsrBcenterScaleData'
 
 RunModel(data.HM450, RNAseq, imagefolder, datafolder, convert2M=convert2M, subsetProbes=subsetProbes, distance=distance, method=method, 
          cutoff=cutoff, percent.test=percent.test, alpha=alpha, center=center, scale=scale, subset.method=subset.method)
 
+print('model 2 finished')
 
 

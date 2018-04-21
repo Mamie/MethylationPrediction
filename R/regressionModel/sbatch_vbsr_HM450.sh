@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#SBATCH --job-name=HM450centered
-#SBATCH --output=log/HM450centered.%A.out
-#SBATCH --error=log/HM450centered.%A.err
+#SBATCH --job-name=vbsrHM450centered
+#SBATCH --output=log/vbsrHM450centered.%A.out
+#SBATCH --error=log/vbsrHM450centered.%A.err
 #SBATCH --time=0-2:00:00
 #SBATCH -p andrewg
 #SBATCH --qos=normal
