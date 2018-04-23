@@ -65,6 +65,11 @@ PreprocessRNAseq <- function(rnaseq) {
   rownames(rnaseq.filtered) <- seq(sum(filtered))
   g.geneid <- cbind(as.character(seq(sum(filtered))), geneid[filtered])
   rownames(g.geneid) <- NULL
+  tumor.sample <- sapply(colnames(rnaseq.filtered),
+                                function(x) substr(x, 14, 15) == '01')
+  rnaseq.filtered <- rnaseq.filtered[, tumor.sample]
+  colnames(rnaseq.filtered) <- sapply(colnames(rnaseq.filtered), 
+				function(x) substr(x, 1, 12))
   return(list(g.geneid=g.geneid, rnaseq=rnaseq.filtered))
 }
 
@@ -90,11 +95,16 @@ PreprocessMethylation <- function(methylation, convert2M=F, subsetProbes=NULL) {
   if (convert2M) {
     methylation.filtered <- Beta2M(methylation.filtered, 10)
   }
+  tumor.sample <- sapply(colnames(methylation.filtered), 
+				function(x) substr(x, 14, 15) == '01')
+  methylation.filtered <- methylation.filtered[, tumor.sample]
   colnames(methylation.filtered) <- sapply(colnames(methylation.filtered),
                                            function(x) tolower(substr(x, 1, 12)))
   rownames(methylation.filtered) <- probeid[filtered]
   m.geneid <- cbind(probeid[filtered], geneid[filtered])
   rownames(m.geneid) <- NULL
+  print('The dimension of methylation matrix is')
+  print(dim(methylation.filtered))
   return(list(m.geneid=m.geneid, methylation=methylation.filtered))
 }
 

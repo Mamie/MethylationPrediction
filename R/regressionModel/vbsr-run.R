@@ -22,15 +22,21 @@ load(rnaseq)
 
 if(exists("data.HM27")) {
    methylation = data.HM27
+   hm = 'hm27'
    print('Found data.HM27')
+   rm(data.HM27)
 } else if(exists("data.HM450")) {
    methylation = data.HM450
+   hm = 'hm450'
    print('Found data.HM450')
+   rm(data.HM450)
 } else {
-   stop("Methylation data not found")
+   methylation = HM450.subset
+   hm = 'hm450'
+#   stop("Methylation data not found")
 }
 
-CGI.probes <- read.csv('../../data/promoterRegionProbes/CGICorFdr10.tsv',
+CGI.probes <- read.csv('../../data/promoterRegionProbes/CGI.tsv',
                             sep='\t', header=T, stringsAsFactors=F)
 probe.id <- as.character(CGI.probes[,1])
 subsetProbes <- probe.id
@@ -45,10 +51,10 @@ subset.method <- 'vbsr'
 distance <- 'euclidean'
 method <- 'ward.D2'
 dir.create(cancer, showWarnings=F)
-imagefolder <- paste0('vbsr-', ifelse(convert2M, 'M', 'B'), '-plots/')
+imagefolder <- paste0('vbsr-', hm, ifelse(convert2M, '-M', '-B'), '-plots/')
 dir.create(file.path(cancer, imagefolder), showWarnings=F)
 imagefolder <- paste0(cancer, imagefolder)
-datafolder <- paste0('vbsr-', ifelse(convert2M, 'M', 'B'), '-data/')
+datafolder <- paste0('vbsr-', hm, ifelse(convert2M, '-M', '-B'), '-data/')
 dir.create(file.path(cancer, datafolder), showWarnings=F)
 datafolder <- paste0(cancer, datafolder)
 

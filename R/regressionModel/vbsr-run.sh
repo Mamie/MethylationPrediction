@@ -3,12 +3,12 @@
 #SBATCH --job-name=vbsr
 #SBATCH --output=log/vbsr.%A_%a.out
 #SBATCH --error=log/vbsr.%A_%a.err
-#SBATCH --time=0-00:20:00
-#SBATCH -p andrewg
+#SBATCH --time=0-01:00:00
+#SBATCH -p normal
 #SBATCH --qos=normal
 #SBATCH --nodes=1
 #SBATCH --ntasks=4
-#SBATCH --mem=16000
+#SBATCH --mem-per-cpu=15000
 #SBATCH --mail-type=END,FAIL
 #################
 # Usage: $ sbatch --array=1-2,4%1 sbatch.sh

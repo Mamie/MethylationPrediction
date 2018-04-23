@@ -27,6 +27,7 @@ ht_global_opt(heatmap_column_names_gp = gpar(fontsize = 2),
 #' @param cutoff number of clusters cutoff
 #' @return cluster membership of the probes
 ClusterMethylation <- function(methylation, distance='euclidean', method='ward.D2', cutoff=20) {
+  cutoff = ifelse(cutoff < dim(methylation)[1], cutoff, dim(methylation)[1])
   distances <- dist(methylation, method=distance)
   methylation.hclust <- hclust(distances, method=method)
   cluster <- cutree(methylation.hclust, cutoff)
@@ -168,6 +169,7 @@ RunModel <- function(methylation, rnaseq, imagefolder, datafolder, convert2M=F,
     print(paste('Running model for cluster', i))
     path.model <- paste0(datafolder, '/', base.name, '.RData')
     path.fig <- paste0(imagefolder, '/', base.name, '.eps')
+    tryCatch({
     model <- RegressMethylationOnRNAseq(avemethyl[i, -1], rnaseq, test.idx, method=subset.method)
     if (subset.method=='glmnet') {
         coef <- ExtractNonzeroCoef(model)
@@ -180,9 +182,9 @@ RunModel <- function(methylation, rnaseq, imagefolder, datafolder, convert2M=F,
                   t(data.matrix(avemethyl[i, -1][,-test.idx])), 
                   t(rnaseq[ordering.genes, -test.idx]), 
                   path.fig, center=center, scale=scale)
-    
     save(model, coef, base.name, file=path.model)
     print(paste('Model saved at', path.model))
+    }, error=function(e) {cat("ERROR :",conditionMessage(e), "\n")})
   }
   save(test.idx, clustering, avemethyl, 
        file=paste0(datafolder, '/', 'clusterInfo.RData'))

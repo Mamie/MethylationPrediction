@@ -16,6 +16,6 @@ out.dir = args[2]
 RNAseq <- read.csv(in.file, sep='\t', header=T, stringsAsFactors=F)
 print('Preprocessing mRNA-seq data...')
 RNAseq <- na.omit(RNAseq)
-FormatPatientID <- function(x) substr(tolower(x), 1, 12)
+FormatPatientID <- function(x) tolower(x)
 colnames(RNAseq) <- sapply(colnames(RNAseq), FormatPatientID)
 save(RNAseq, file=paste0(out.dir, '/RNAseq.RData'))
