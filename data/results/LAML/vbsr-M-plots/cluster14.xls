@@ -1,0 +1,47 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	22
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+OUILLETTE_CLL_13Q14_DELETION_DN	60	Genes down-regulated in chronic lymphocytic leukemia (CLL) samples bearing deletions in the 13q14 region.	3	0.0500	3.2E-6	8.03E-3
+JOHNSTONE_PARVB_TARGETS_3_DN	918	Genes down-regulated upon overexpression of PARVB [GeneID=29780] in MDA-MB-231 cells (breast cancer) cultured in 3D Matrigel only.	6	0.0065	3.55E-6	8.03E-3
+ONKEN_UVEAL_MELANOMA_DN	526	Genes down-regulated in uveal melanoma: class 2 vs class 1 tumors.	5	0.0095	4.32E-6	8.03E-3
+IVANOVA_HEMATOPOIESIS_MATURE_CELL	293	Genes in the expression cluster 'MBC Shared': up-regulated in mature blood cell populations from adult bone marrow and fetal liver.	4	0.0137	1.08E-5	1.51E-2
+TOOKER_GEMCITABINE_RESISTANCE_DN	122	Down-regulated genes in Calu3 cells (non-small cell lung cancer, NSCLC) resistant to gemcitabine [PubChem=3461] which became up-regulated in response to bexarotene [PubChem=82146].	3	0.0246	2.71E-5	2.52E-2
+KRIEG_HYPOXIA_NOT_VIA_KDM3A	770	Genes induced under hypoxia independently of KDM3A [GeneID=55818] in RCC4 cells (renal carcinoma) expressing VHL [GeneID=7428].	5	0.0065	2.71E-5	2.52E-2
+CUI_TCF21_TARGETS_2_DN	830	All significantly down-regulated genes in kidney glomeruli isolated from TCF21 [Gene ID=6943] knockout mice.	5	0.0060	3.87E-5	3.08E-2
+PHONG_TNF_RESPONSE_VIA_P38_PARTIAL	160	Genes whose expression changes in Calu-6 cells (lung cancer) by TNF [GeneID=7124] were blocked partially by p38 inhibitor LY479754.	3	0.0187	6.08E-5	4.23E-2
+LIM_MAMMARY_STEM_CELL_UP	489	Genes consistently up-regulated in mammary stem cells both in mouse and human species.	4	0.0082	7.96E-5	4.27E-2
+SWEET_LUNG_CANCER_KRAS_UP	491	Genes up-regulated in the Kras2LA mouse lung cancer model with mutated KRAS [GeneID=3845].	4	0.0081	8.08E-5	4.27E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	OUILLETTE_CLL_13Q14_DELETION_DN	JOHNSTONE_PARVB_TARGETS_3_DN	ONKEN_UVEAL_MELANOMA_DN	IVANOVA_HEMATOPOIESIS_MATURE_CELL	TOOKER_GEMCITABINE_RESISTANCE_DN	KRIEG_HYPOXIA_NOT_VIA_KDM3A	CUI_TCF21_TARGETS_2_DN	PHONG_TNF_RESPONSE_VIA_P38_PARTIAL	LIM_MAMMARY_STEM_CELL_UP	SWEET_LUNG_CANCER_KRAS_UP
+2119	ETV5	ets variant 5	OUILLETTE_CLL_13Q14_DELETION_DN	JOHNSTONE_PARVB_TARGETS_3_DN	ONKEN_UVEAL_MELANOMA_DN						LIM_MAMMARY_STEM_CELL_UP	
+9903	KLHL21	kelch-like 21 (Drosophila)	OUILLETTE_CLL_13Q14_DELETION_DN		ONKEN_UVEAL_MELANOMA_DN					PHONG_TNF_RESPONSE_VIA_P38_PARTIAL	LIM_MAMMARY_STEM_CELL_UP	
+81786	TRIM7	tripartite motif containing 7	OUILLETTE_CLL_13Q14_DELETION_DN									
+440	ASNS	asparagine synthetase (glutamine-hydrolyzing)		JOHNSTONE_PARVB_TARGETS_3_DN		IVANOVA_HEMATOPOIESIS_MATURE_CELL	TOOKER_GEMCITABINE_RESISTANCE_DN					
+27333	GOLIM4	golgi integral membrane protein 4		JOHNSTONE_PARVB_TARGETS_3_DN		IVANOVA_HEMATOPOIESIS_MATURE_CELL					LIM_MAMMARY_STEM_CELL_UP	
+22936	ELL2	elongation factor, RNA polymerase II, 2		JOHNSTONE_PARVB_TARGETS_3_DN				KRIEG_HYPOXIA_NOT_VIA_KDM3A	CUI_TCF21_TARGETS_2_DN			SWEET_LUNG_CANCER_KRAS_UP
+7525	YES1	v-yes-1 Yamaguchi sarcoma viral oncogene homolog 1		JOHNSTONE_PARVB_TARGETS_3_DN					CUI_TCF21_TARGETS_2_DN			
+25821	MTO1	mitochondrial translation optimization 1 homolog (S. cerevisiae)		JOHNSTONE_PARVB_TARGETS_3_DN								
+56034	PDGFC	platelet derived growth factor C			ONKEN_UVEAL_MELANOMA_DN		TOOKER_GEMCITABINE_RESISTANCE_DN	KRIEG_HYPOXIA_NOT_VIA_KDM3A				
+123	PLIN2	perilipin 2			ONKEN_UVEAL_MELANOMA_DN			KRIEG_HYPOXIA_NOT_VIA_KDM3A				SWEET_LUNG_CANCER_KRAS_UP
+25959	KANK2	KN motif and ankyrin repeat domains 2			ONKEN_UVEAL_MELANOMA_DN					PHONG_TNF_RESPONSE_VIA_P38_PARTIAL		
+79888	LPCAT1	lysophosphatidylcholine acyltransferase 1				IVANOVA_HEMATOPOIESIS_MATURE_CELL	TOOKER_GEMCITABINE_RESISTANCE_DN	KRIEG_HYPOXIA_NOT_VIA_KDM3A				SWEET_LUNG_CANCER_KRAS_UP
+7057	THBS1	thrombospondin 1				IVANOVA_HEMATOPOIESIS_MATURE_CELL			CUI_TCF21_TARGETS_2_DN	PHONG_TNF_RESPONSE_VIA_P38_PARTIAL	LIM_MAMMARY_STEM_CELL_UP	SWEET_LUNG_CANCER_KRAS_UP
+5501	PPP1CC	protein phosphatase 1, catalytic subunit, gamma isozyme						KRIEG_HYPOXIA_NOT_VIA_KDM3A				
+55251	PCMTD2	protein-L-isoaspartate (D-aspartate) O-methyltransferase domain containing 2							CUI_TCF21_TARGETS_2_DN			
+9424	KCNK6	potassium channel, subfamily K, member 6							CUI_TCF21_TARGETS_2_DN			
+6272	SORT1	sortilin 1										
+23191	CYFIP1	cytoplasmic FMR1 interacting protein 1										
+387119	C6orf204	chromosome 6 open reading frame 204										
+79056	PRRG4	proline rich Gla (G-carboxyglutamic acid) 4 (transmembrane)										
+138639	PTPDC1	protein tyrosine phosphatase domain containing 1										
+55006	TRMT61B	tRNA methyltransferase 61 homolog B (S. cerevisiae)										

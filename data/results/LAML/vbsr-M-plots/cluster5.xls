@@ -1,0 +1,34 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	4
+# genesets in collections:	5574
+# genes in comparison (n):	15
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+LINDVALL_IMMORTALIZED_BY_TERT_UP	78	Genes up-regulated in BJ cells (foreskin fibroblasts) immortalized by expression of TERT [GeneID=7015].	3	0.0385	2.11E-6	7.35E-3
+CCAWNWWNNNGGC_UNKNOWN	84	Genes having at least one occurence of the highly conserved motif M165 CCAWNWWNNNGGC in the region spanning up to 4 kb around their transcription start sites. The motif does not match any known transcription factor binding site (v7.4 TRANSFAC).	3	0.0357	2.64E-6	7.35E-3
+SMIRNOV_CIRCULATING_ENDOTHELIOCYTES_IN_CANCER_UP	158	Genes up-regulated in circulating endothelial cells (CEC) from cancer patients compared to those from healthy donors.	3	0.0190	1.76E-5	3.27E-2
+HORTON_SREBF_TARGETS	25	Genes up-regulated in liver from mice transgenic for SREBF1 or SREBF2 [GeneID = 6720, 6721] and down-regulated in mice lacking SCAP [GeneID=22937].	2	0.0800	2.97E-5	4.14E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	LINDVALL_IMMORTALIZED_BY_TERT_UP	CCAWNWWNNNGGC_UNKNOWN	SMIRNOV_CIRCULATING_ENDOTHELIOCYTES_IN_CANCER_UP	HORTON_SREBF_TARGETS
+928	CD9	CD9 molecule	LINDVALL_IMMORTALIZED_BY_TERT_UP		SMIRNOV_CIRCULATING_ENDOTHELIOCYTES_IN_CANCER_UP	
+6001	RGS10	regulator of G-protein signaling 10	LINDVALL_IMMORTALIZED_BY_TERT_UP			
+55212	BBS7	Bardet-Biedl syndrome 7	LINDVALL_IMMORTALIZED_BY_TERT_UP			
+517	ATP5G2	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit C2 (subunit 9)		CCAWNWWNNNGGC_UNKNOWN		
+9578	CDC42BPB	CDC42 binding protein kinase beta (DMPK-like)		CCAWNWWNNNGGC_UNKNOWN		
+10289	EIF1B	eukaryotic translation initiation factor 1B		CCAWNWWNNNGGC_UNKNOWN		
+5029	P2RY2	purinergic receptor P2Y, G-protein coupled, 2			SMIRNOV_CIRCULATING_ENDOTHELIOCYTES_IN_CANCER_UP	
+4681	NBL1	neuroblastoma, suppression of tumorigenicity 1			SMIRNOV_CIRCULATING_ENDOTHELIOCYTES_IN_CANCER_UP	
+51478	HSD17B7	hydroxysteroid (17-beta) dehydrogenase 7				HORTON_SREBF_TARGETS
+134429	STARD4	StAR-related lipid transfer (START) domain containing 4				HORTON_SREBF_TARGETS
+84236	RHBDD1	rhomboid domain containing 1				
+170394	PWWP2B	PWWP domain containing 2B				
+7260	TSSC1	tumor suppressing subtransferable candidate 1				
+9184	BUB3	budding uninhibited by benzimidazoles 3 homolog (yeast)				
+126069	ZNF491	zinc finger protein 491				

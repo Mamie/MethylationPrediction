@@ -1,0 +1,58 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	33
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+YAGI_AML_FAB_MARKERS	191	Genes specifically expressed in FAB subtypes M2, M4, M5 and M7 of pediatric AML (acute myeloid leukemia).	5	0.0262	2.54E-7	1.26E-3
+BIOCARTA_MTOR_PATHWAY	23	mTOR Signaling Pathway	3	0.1304	5.92E-7	1.26E-3
+BIOCARTA_EIF4_PATHWAY	24	Regulation of eIF4e and p70 S6 Kinase	3	0.1250	6.76E-7	1.26E-3
+MILI_PSEUDOPODIA_HAPTOTAXIS_DN	668	Transcripts depleted from pseudopodia of NIH/3T3 cells (fibroblast) in response to haptotactic migratory stimulus by fibronectin, FN1 [GeneID=2335].	6	0.0090	7.31E-6	1.02E-2
+REACTOME_TRANSMISSION_ACROSS_CHEMICAL_SYNAPSES	186	Genes involved in Transmission across Chemical Synapses	4	0.0215	9.7E-6	1.08E-2
+HEN1_02	198	Genes having at least one occurence of the transcription factor binding site V$HEN1_02 (v7.4 TRANSFAC) in the regions spanning up to 4 kb around their transcription starting sites.	4	0.0202	1.24E-5	1.15E-2
+CHANG_CORE_SERUM_RESPONSE_DN	209	Down-regulated genes in the canonical gene expression signature of the fibroblast core serum response (CSR) defined by the Stanford group.	4	0.0191	1.53E-5	1.22E-2
+CHEN_METABOLIC_SYNDROM_NETWORK	1210	Genes forming the macrophage-enriched metabolic network (MEMN) claimed to have a causal relationship with the metabolic syndrom traits.	7	0.0058	2.02E-5	1.37E-2
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	10	0.0034	2.67E-5	1.37E-2
+NUYTTEN_NIPP1_TARGETS_DN	848	Genes down-regulated in PC3 cells (prostate cancer) after knockdown of NIPP1 [GeneID=5511] by RNAi.	6	0.0071	2.81E-5	1.37E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	YAGI_AML_FAB_MARKERS	BIOCARTA_MTOR_PATHWAY	BIOCARTA_EIF4_PATHWAY	MILI_PSEUDOPODIA_HAPTOTAXIS_DN	REACTOME_TRANSMISSION_ACROSS_CHEMICAL_SYNAPSES	HEN1_02	CHANG_CORE_SERUM_RESPONSE_DN	CHEN_METABOLIC_SYNDROM_NETWORK	GGGCGGR_SP1_Q6	NUYTTEN_NIPP1_TARGETS_DN
+6309	SC5DL	sterol-C5-desaturase (ERG3 delta-5-desaturase homolog, S. cerevisiae)-like	YAGI_AML_FAB_MARKERS			MILI_PSEUDOPODIA_HAPTOTAXIS_DN						
+10755	GIPC1	GIPC PDZ domain containing family, member 1	YAGI_AML_FAB_MARKERS					HEN1_02				NUYTTEN_NIPP1_TARGETS_DN
+3992	FADS1	fatty acid desaturase 1	YAGI_AML_FAB_MARKERS						CHANG_CORE_SERUM_RESPONSE_DN			
+80228	ORAI2	ORAI calcium release-activated calcium modulator 2	YAGI_AML_FAB_MARKERS									NUYTTEN_NIPP1_TARGETS_DN
+9706	ULK2	unc-51-like kinase 2 (C. elegans)	YAGI_AML_FAB_MARKERS									
+1981	EIF4G1	eukaryotic translation initiation factor 4 gamma, 1		BIOCARTA_MTOR_PATHWAY	BIOCARTA_EIF4_PATHWAY			HEN1_02			GGGCGGR_SP1_Q6	
+5164	PDK2	pyruvate dehydrogenase kinase, isozyme 2		BIOCARTA_MTOR_PATHWAY	BIOCARTA_EIF4_PATHWAY				CHANG_CORE_SERUM_RESPONSE_DN			
+8569	MKNK1	MAP kinase interacting serine/threonine kinase 1		BIOCARTA_MTOR_PATHWAY	BIOCARTA_EIF4_PATHWAY							
+8692	HYAL2	hyaluronoglucosaminidase 2				MILI_PSEUDOPODIA_HAPTOTAXIS_DN		HEN1_02			GGGCGGR_SP1_Q6	
+4891	SLC11A2	solute carrier family 11 (proton-coupled divalent metal ion transporters), member 2				MILI_PSEUDOPODIA_HAPTOTAXIS_DN				CHEN_METABOLIC_SYNDROM_NETWORK	GGGCGGR_SP1_Q6	
+947	CD34	CD34 molecule				MILI_PSEUDOPODIA_HAPTOTAXIS_DN				CHEN_METABOLIC_SYNDROM_NETWORK		
+8826	IQGAP1	IQ motif containing GTPase activating protein 1				MILI_PSEUDOPODIA_HAPTOTAXIS_DN					GGGCGGR_SP1_Q6	
+2734	GLG1	golgi glycoprotein 1				MILI_PSEUDOPODIA_HAPTOTAXIS_DN						
+2906	GRIN2D	glutamate receptor, ionotropic, N-methyl D-aspartate 2D					REACTOME_TRANSMISSION_ACROSS_CHEMICAL_SYNAPSES	HEN1_02				
+84254	CAMKK1	calcium/calmodulin-dependent protein kinase kinase 1, alpha					REACTOME_TRANSMISSION_ACROSS_CHEMICAL_SYNAPSES			CHEN_METABOLIC_SYNDROM_NETWORK	GGGCGGR_SP1_Q6	
+6812	STXBP1	syntaxin binding protein 1					REACTOME_TRANSMISSION_ACROSS_CHEMICAL_SYNAPSES			CHEN_METABOLIC_SYNDROM_NETWORK	GGGCGGR_SP1_Q6	
+2752	GLUL	glutamate-ammonia ligase					REACTOME_TRANSMISSION_ACROSS_CHEMICAL_SYNAPSES					
+25816	TNFAIP8	tumor necrosis factor, alpha-induced protein 8							CHANG_CORE_SERUM_RESPONSE_DN	CHEN_METABOLIC_SYNDROM_NETWORK	GGGCGGR_SP1_Q6	
+819	CAMLG	calcium modulating ligand							CHANG_CORE_SERUM_RESPONSE_DN		GGGCGGR_SP1_Q6	
+10950	BTG3	BTG family, member 3								CHEN_METABOLIC_SYNDROM_NETWORK		NUYTTEN_NIPP1_TARGETS_DN
+51776	ZAK	sterile alpha motif and leucine zipper containing kinase AZK								CHEN_METABOLIC_SYNDROM_NETWORK		
+55466	DNAJA4	DnaJ (Hsp40) homolog, subfamily A, member 4									GGGCGGR_SP1_Q6	
+200942	KLHDC8B	kelch domain containing 8B									GGGCGGR_SP1_Q6	
+162681	C18orf54	chromosome 18 open reading frame 54										NUYTTEN_NIPP1_TARGETS_DN
+51477	ISYNA1	inositol-3-phosphate synthase 1										NUYTTEN_NIPP1_TARGETS_DN
+55179	FAIM	Fas apoptotic inhibitory molecule										NUYTTEN_NIPP1_TARGETS_DN
+3601	IL15RA	interleukin 15 receptor, alpha										
+2672	GFI1	growth factor independent 1 transcription repressor										
+2982	GUCY1A3	guanylate cyclase 1, soluble, alpha 3										
+153733	CCDC112	coiled-coil domain containing 112										
+114327	EFHC1	EF-hand domain (C-terminal) containing 1										
+7251	TSG101	tumor susceptibility gene 101										
+79027	ZNF655	zinc finger protein 655										
