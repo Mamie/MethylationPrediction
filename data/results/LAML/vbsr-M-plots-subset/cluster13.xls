@@ -1,0 +1,40 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	3
+# genesets in collections:	5574
+# genes in comparison (n):	22
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+CCGNMNNTNACG_UNKNOWN	77	Genes having at least one occurence of the highly conserved motif M106 CCGNMNNTNACG in the region spanning up to 4 kb around their transcription start sites. The motif does not match any known transcription factor binding site (v7.4 TRANSFAC).	3	0.0390	6.81E-6	3.69E-2
+RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_UP	338	Genes up-regulated in peripheral blood monocytes by CSF2RB (GM-CSF) and IL4 [GeneID=1437;3565].	4	0.0118	1.89E-5	3.69E-2
+PID_TCR_JNK_PATHWAY	14	JNK signaling in the CD4+ TCR pathway	2	0.1429	1.98E-5	3.69E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	CCGNMNNTNACG_UNKNOWN	RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_UP	PID_TCR_JNK_PATHWAY
+1398	CRK	v-crk sarcoma virus CT10 oncogene homolog (avian)	CCGNMNNTNACG_UNKNOWN		PID_TCR_JNK_PATHWAY
+9374	PPT2	palmitoyl-protein thioesterase 2	CCGNMNNTNACG_UNKNOWN		
+4140	MARK3	MAP/microtubule affinity-regulating kinase 3	CCGNMNNTNACG_UNKNOWN		
+966	CD59	CD59 molecule, complement regulatory protein		RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_UP	
+5052	PRDX1	peroxiredoxin 1		RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_UP	
+23362	PSD3	pleckstrin and Sec7 domain containing 3		RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_UP	
+54477	PLEKHA5	pleckstrin homology domain containing, family A member 5		RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_UP	
+6885	MAP3K7	mitogen-activated protein kinase kinase kinase 7			PID_TCR_JNK_PATHWAY
+27	ABL2	v-abl Abelson murine leukemia viral oncogene homolog 2			
+81537	SGPP1	sphingosine-1-phosphate phosphatase 1			
+1775	DNASE1L2	deoxyribonuclease I-like 2			
+9902	MRC2	mannose receptor, C type 2			
+55103	RALGPS2	Ral GEF with PH domain and SH3 binding motif 2			
+4052	LTBP1	latent transforming growth factor beta binding protein 1			
+6320	CLEC11A	C-type lectin domain family 11, member A			
+22876	INPP5F	inositol polyphosphate-5-phosphatase F			
+430	ASCL2	achaete-scute complex homolog 2 (Drosophila)			
+90701	SEC11C	SEC11 homolog C (S. cerevisiae)			
+6936	C2orf3	chromosome 2 open reading frame 3			
+347902	AMIGO2	adhesion molecule with Ig-like domain 2			
+8970	HIST1H2BJ	histone cluster 1, H2bj			
+653583	PHLDB3	pleckstrin homology-like domain, family B, member 3			

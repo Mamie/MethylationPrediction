@@ -1,0 +1,4 @@
+gene,coef,description
+HDAC11,-0.0898523890729907,histone deacetylase 11 [Source:HGNC Symbol;Acc:HGNC:19086]
+TIAM1,0.0434158448668724,T cell lymphoma invasion and metastasis 1 [Source:HGNC Symbol;Acc:HGNC:11805]
+ZNF518B,-0.0825568612130556,zinc finger protein 518B [Source:HGNC Symbol;Acc:HGNC:29365]
