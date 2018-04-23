@@ -1,0 +1,3 @@
+LAML	/oak/stanford/groups/andrewg/users/szmamie/repos/MethylationPrediction/data/LAML/mRNAseq/LAML.uncv2.mRNAseq_RSEM_normalized_log2.txt	/oak/stanford/groups/andrewg/users/szmamie/repos/MethylationPrediction/data/LAML/processed/RNAseq.RData
+SKCM	/oak/stanford/groups/andrewg/users/szmamie/repos/MethylationPrediction/data/SKCM/mRNAseq/SKCM.uncv2.mRNAseq_RSEM_normalized_log2.txt	/oak/stanford/groups/andrewg/users/szmamie/repos/MethylationPrediction/data/SKCM/processed/RNAseq.RData
+HNSC	/oak/stanford/groups/andrewg/users/szmamie/repos/MethylationPrediction/data/HNSC/mRNAseq/HNSC.uncv2.mRNAseq_RSEM_normalized_log2.txt	/oak/stanford/groups/andrewg/users/szmamie/repos/MethylationPrediction/data/HNSC/processed/RNAseq.RData
