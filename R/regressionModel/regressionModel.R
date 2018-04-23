@@ -159,6 +159,11 @@ RunModel <- function(methylation, rnaseq, imagefolder, datafolder, convert2M=F,
   cluster <- clustering$cluster
   avemethyl <- AverageMethylation(methylation, cluster)
   for (i in seq(cutoff)) {
+    if (sum(cluster==i) == 1) {
+       print(paste('Only 1 probe ends up in cluster', i)) 
+       print('Skipping to the next cluster')
+       next
+    }
     base.name <- paste0('cluster', i)
     print(paste('Running model for cluster', i))
     path.model <- paste0(datafolder, '/', base.name, '.RData')
