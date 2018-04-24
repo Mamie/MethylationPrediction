@@ -33,10 +33,15 @@ methProbes <- data.HM450[, seq(2)]
 save(methProbes, file=paste0(out.dir, 'methylationProbes.RData'))
 rm(columnnames, num.columns, redundant.idx)
 
+print('The orginal data size is')
+print(dim(data.HM450))
 print('Filtering for methylation probes that are NA, chrX or ChrY')
 data.HM450 <- data.HM450 %>%
   filter(!(Chromosome %in% c("X", "Y", NA)))
+print('After removing chromosome X, Y, NA, the size is')
+print(dim(data.HM450))
 missing.rm <- apply(data.HM450[seq(5, dim(data.HM450)[2])], 1, function(x) sum(is.na(x)) > 0)
 data.HM450 <- data.HM450[!missing.rm,]
+print('After removing missing entries, the data size is')
+print(dim(data.HM450))
 save(data.HM450, file=paste0(out.dir, 'HM450.RData'))
-

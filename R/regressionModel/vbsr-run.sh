@@ -31,8 +31,10 @@ resultDir=${resultDir}/${cancer}/
 methylation=$(cat $lookupFile | awk -F"\t" -v taskID=$taskID '(NR == taskID) { print $2 }')
 rnaseq=$(cat $lookupFile | awk -F"\t" -v taskID=$taskID '(NR == taskID) { print $3 }')
 convertToM=$(cat $lookupFile | awk -F"\t" -v taskID=$taskID '(NR == taskID) { print $4 }')
+CGIprobes=$(cat $lookupFile | awk -F"\t" -v taskID=$taskID '(NR == taskID) { print $5 }')
+samplecode=$(cat $lookupFile | awk -F"\t" -v taskID=$taskID '(NR == taskID) { print $6 }')
 
-echo Rscript $script $resultDir $methylation $rnaseq $convertToM >&2
-Rscript $script $resultDir $methylation $rnaseq $convertToM >&2
+echo Rscript $script $resultDir $methylation $rnaseq $convertToM $CGIprobes $samplecode >&2
+Rscript $script $resultDir $methylation $rnaseq $convertToM $CGIprobes $samplecode >&2
 
 echo "[$0 $(date +%Y%m%d-%H%M%S)] [array-end] hostname = $(hostname) SLURM_JOBID = ${SLURM_JOBID}; SLURM_ARRAY_TASK_ID = ${SLURM_ARRAY_TASK_ID}" >&2

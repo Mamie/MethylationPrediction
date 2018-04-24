@@ -56,7 +56,7 @@ ConstructM2GHashMap <- function(m.geneid, g.geneid) {
 #' 
 #' @param rnaseq RNAseq data frame with first column gene id
 #' @return a list with row number-gene id data matrix, and data matrix with only RNAseq level
-PreprocessRNAseq <- function(rnaseq) {
+PreprocessRNAseq <- function(rnaseq, sample.code='01') {
   geneid <- sapply(rnaseq$gene, function(x) strsplit(x, '|', fixed=T)[[1]][1])
   notna <- geneid != '?'
   notduplicated <- !duplicated(geneid)
@@ -66,10 +66,15 @@ PreprocessRNAseq <- function(rnaseq) {
   g.geneid <- cbind(as.character(seq(sum(filtered))), geneid[filtered])
   rownames(g.geneid) <- NULL
   tumor.sample <- sapply(colnames(rnaseq.filtered),
-                                function(x) substr(x, 14, 15) == '01')
+                                function(x) {
+                                 samplecode = substr(x, 14, 15) 
+                                 return(samplecode == sample.code)
+                                 })
   rnaseq.filtered <- rnaseq.filtered[, tumor.sample]
   colnames(rnaseq.filtered) <- sapply(colnames(rnaseq.filtered), 
 				function(x) substr(x, 1, 12))
+  print("The dimension of RNAseq matrix is")
+  print(dim(rnaseq.filtered))
   return(list(g.geneid=g.geneid, rnaseq=rnaseq.filtered))
 }
 
@@ -81,7 +86,7 @@ PreprocessRNAseq <- function(rnaseq) {
 #' @param subsetProbes a character vector of the subset of the probe ids
 #' @return a list with probe id - gene id data matrix and data matrix with only
 #' methylation level
-PreprocessMethylation <- function(methylation, convert2M=F, subsetProbes=NULL) {
+PreprocessMethylation <- function(methylation, convert2M=F, subsetProbes=NULL, sample.code='01') {
   probeid <- methylation$ID
   geneid <- methylation$Gene.Symbol
   if(!is.null(subsetProbes)) {
@@ -93,7 +98,7 @@ PreprocessMethylation <- function(methylation, convert2M=F, subsetProbes=NULL) {
   tumor.sample <- sapply(colnames(methylation), 
 			 function(x) {
                            samplecode = substr(x, 14, 15)
-                           return(samplecode  == '01' | samplecode == '03')
+                           return(samplecode  == sample.code)
                          })
   filtered <- notna & insubset 
   methylation.filtered <- data.matrix(methylation[filtered, tumor.sample])
@@ -117,6 +122,9 @@ PreprocessMethylation <- function(methylation, convert2M=F, subsetProbes=NULL) {
 #' @return a list containing RNAseq and methylation with matching columns
 matchColumns <- function(rnaseq, methylation) {
   intersection <- intersect(colnames(rnaseq), colnames(methylation))
+  print(paste0('The number of overlapping patients are ', length(intersection)))
+  print(length(colnames(rnaseq))==length(unique(colnames(rnaseq))))
+  print(length(colnames(methylation))==length(unique(colnames(methylation))))
   intersection.rnaseq <- sapply(intersection, function(x) which(colnames(rnaseq) %in% x))
   intersection.methylation <- sapply(intersection, function(x) which(colnames(methylation) %in% x))
   list(rnaseq=rnaseq[,intersection.rnaseq], 
@@ -131,9 +139,9 @@ matchColumns <- function(rnaseq, methylation) {
 #' @param subsetProbes a subset of probe id
 #' @return a vector of correlation coefficient between matching pairs of rnaseq 
 #' and methylation probes
-ComputeCorrelation <- function(rnaseq,  methylation, convert2M=F, subsetProbes=NULL) {
-  rnaseq.processed <- PreprocessRNAseq(rnaseq)
-  methylation.processed <- PreprocessMethylation(methylation, convert2M=convert2M, subsetProbes=subsetProbes)
+ComputeCorrelation <- function(rnaseq,  methylation, convert2M=F, subsetProbes=NULL, sample.code='01') {
+  rnaseq.processed <- PreprocessRNAseq(rnaseq, sample.code=sample.code)
+  methylation.processed <- PreprocessMethylation(methylation, convert2M=convert2M, subsetProbes=subsetProbes, sample.code=sample.code)
   hash.map <- ConstructM2GHashMap(methylation.processed$m.geneid, 
                       rnaseq.processed$g.geneid)
   processed <- matchColumns(rnaseq.processed$rnaseq, 

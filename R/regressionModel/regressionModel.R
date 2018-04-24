@@ -140,12 +140,12 @@ ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename, center=F, sc
 #' module network images saved at imagefolder)
 RunModel <- function(methylation, rnaseq, imagefolder, datafolder, convert2M=F,
                      subsetProbes=NULL, distance='euclidean', method='ward.D2', 
-                     cutoff=20, percent.test=0.3, alpha=1, seed=1000, center=F, scale=F, subset.method='glmnet') {
+                     cutoff=20, percent.test=0.3, alpha=1, seed=1000, center=F, scale=F, subset.method='glmnet', sample.code='01') {
   set.seed(seed)
-  rnaseq.processed <- PreprocessRNAseq(rnaseq)
+  rnaseq.processed <- PreprocessRNAseq(rnaseq, sample.code=sample.code)
   rownames(rnaseq.processed$rnaseq) <- rnaseq.processed$g.geneid[,2]
   methylation.processed <- PreprocessMethylation(methylation, convert2M=convert2M,
-                                                 subsetProbes=subsetProbes)
+                                                 subsetProbes=subsetProbes, sample.code=sample.code)
   processed <- matchColumns(rnaseq.processed$rnaseq, 
                             methylation.processed$methylation)
   methylation <- processed$methylation

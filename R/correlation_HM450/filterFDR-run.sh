@@ -4,11 +4,11 @@
 #SBATCH --out=log/filterFDR.%A_%a.out
 #SBATCH --error=log/filterFDR.%A_%a.err
 #SBATCH --time=0-01:00:00
-#SBATCH -p bigmem
+#SBATCH -p normal
 #SBATCH --qos=normal
 #SBATCH --nodes=1
 #SBATCH --ntasks=4
-#SBATCH --mem-per-cpu=100000
+#SBATCH --mem-per-cpu=15000
 #SBATCH --mail-type=END,FAIL
 #################
 # Usage: $ sbatch --array=1-2,4%1 sbatch.sh

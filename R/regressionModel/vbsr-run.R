@@ -8,14 +8,16 @@ source('regressionModel.R')
 source('../correlation_HM450/computeCorrelation.R')
 
 args = commandArgs(trailingOnly=T)
-if (length(args) < 4) {
-  stop('At least four arguments must be supplied.', call.=F)
+if (length(args) < 5) {
+  stop('At least five arguments must be supplied.', call.=F)
 }
 
 cancer = args[1]
 methylation = args[2]
 rnaseq = args[3]
 convert2M = as.numeric(args[4])
+CGIprobes = args[5]
+samplecode = args[6]
 
 load(methylation)
 load(rnaseq)
@@ -36,7 +38,7 @@ if(exists("data.HM27")) {
 #   stop("Methylation data not found")
 }
 
-CGI.probes <- read.csv('../../data/promoterRegionProbes/CGI.tsv',
+CGI.probes <- read.csv(CGIprobes,
                             sep='\t', header=T, stringsAsFactors=F)
 probe.id <- as.character(CGI.probes[,1])
 subsetProbes <- probe.id
@@ -61,5 +63,5 @@ datafolder <- paste0(cancer, datafolder)
 print('Running regression model')
 start.time <- proc.time()
 RunModel(methylation, RNAseq, imagefolder, datafolder, convert2M=convert2M, subsetProbes=subsetProbes, distance=distance, method=method, 
-         cutoff=cutoff, percent.test=percent.test, alpha=alpha, center=center, scale=scale, subset.method=subset.method)
+         cutoff=cutoff, percent.test=percent.test, alpha=alpha, center=center, scale=scale, subset.method=subset.method, sample.code=samplecode)
 print(proc.time() - start.time)
