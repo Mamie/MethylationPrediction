@@ -14,10 +14,13 @@ args = commandArgs(trailingOnly = TRUE)
 if (length(args) == 0) {
   stop('At least two arguments must be supplied', call.=F)
 }
+
 in.file = args[1]
 out.dir = args[2]
 
+print('Reading in the data set...')
 data.HM450 <- read.csv(in.file, sep='\t', header=T, stringsAsFactors=F)
+print('Preprocessing to remove redudant columns...')
 num.columns <- dim(data.HM450)[2]
 redundant.idx <- c(seq(7, num.columns, by=4), seq(8, num.columns, by=4), 
                    seq(9, num.columns, by=4))
@@ -29,6 +32,8 @@ colnames(data.HM450) <- columnnames
 methProbes <- data.HM450[, seq(2)]
 save(methProbes, file=paste0(out.dir, 'methylationProbes.RData'))
 rm(columnnames, num.columns, redundant.idx)
+
+print('Filtering for methylation probes that are NA, chrX or ChrY')
 data.HM450 <- data.HM450 %>%
   filter(!(Chromosome %in% c("X", "Y", NA)))
 missing.rm <- apply(data.HM450[seq(5, dim(data.HM450)[2])], 1, function(x) sum(is.na(x)) > 0)
