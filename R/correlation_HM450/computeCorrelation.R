@@ -90,14 +90,16 @@ PreprocessMethylation <- function(methylation, convert2M=F, subsetProbes=NULL) {
     insubset <- rep(T, length(probeid))
   }
   notna <- !is.na(geneid)
-  filtered <- notna & insubset
-  methylation.filtered <- data.matrix(methylation[filtered, -seq(4)])
+  tumor.sample <- sapply(colnames(methylation), 
+			 function(x) {
+                           samplecode = substr(x, 14, 15)
+                           return(samplecode  == '01' | samplecode == '03')
+                         })
+  filtered <- notna & insubset 
+  methylation.filtered <- data.matrix(methylation[filtered, tumor.sample])
   if (convert2M) {
     methylation.filtered <- Beta2M(methylation.filtered, 10)
   }
-  tumor.sample <- sapply(colnames(methylation.filtered), 
-				function(x) substr(x, 14, 15) == '01')
-  methylation.filtered <- methylation.filtered[, tumor.sample]
   colnames(methylation.filtered) <- sapply(colnames(methylation.filtered),
                                            function(x) tolower(substr(x, 1, 12)))
   rownames(methylation.filtered) <- probeid[filtered]
