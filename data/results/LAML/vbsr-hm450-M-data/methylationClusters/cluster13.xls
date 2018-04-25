@@ -1,0 +1,80 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	55
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	824	Genes with promoters occupied by SMAD2 or SMAD3 [GeneID=4087, 4088] in HaCaT cells (keratinocyte) according to a ChIP-chip analysis.	11	0.0133	3.36E-9	1.43E-5
+ACTGTGA_MIR27A_MIR27B	474	Genes having at least one occurence of the motif ACTGTGA in their 3' untranslated region. The motif represents putative target (that is, seed match) of human mature miRNAs hsa-miR-27a and hsa-miR-27b (v7.1 miRBase).	9	0.0190	5.12E-9	1.43E-5
+MASSARWEH_TAMOXIFEN_RESISTANCE_DN	258	Genes down-regulated in breast cancer tumors (formed by MCF-7 xenografts) resistant to tamoxifen [PubChem=5376].	7	0.0271	2.61E-8	4.85E-5
+NUYTTEN_EZH2_TARGETS_UP	1037	Genes up-regulated in PC3 cells (prostate cancer) after knockdown of EZH2 [GeneID=2146] by RNAi.	11	0.0106	3.54E-8	4.93E-5
+ZHANG_TLX_TARGETS_60HR_UP	293	Genes up-regulated in neural stem cells (NSC) at 60 h after cre-lox knockout of TLX (NR2E1) [GeneID=7101].	7	0.0239	6.23E-8	6.94E-5
+TGCTGAY_UNKNOWN	538	Genes having at least one occurence of the highly conserved motif M92 TGCTGAY in the region spanning up to 4 kb around their transcription start sites. The motif does not match any known transcription factor binding site (v7.4 TRANSFAC).	8	0.0149	2.52E-7	2.19E-4
+MGGAAGTG_GABP_B	757	Genes having at least one occurence of the highly conserved motif M11 MGGAAGTG sites. The motif matches transcription factor binding site V$GABP_B (v7.4 TRANSFAC).	9	0.0119	2.75E-7	2.19E-4
+RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_POORLY_DN	382	Down-regulated genes that vary between HNSCC (head and neck squamous cell carcinoma) groups formed on the basis of their level of pathological differentiation: well vs poorly differentiated tumors.	7	0.0183	3.74E-7	2.6E-4
+RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN	805	Genes down-regulated in poorly differentiated thyroid carcinoma (PDTC) compared to normal thyroid tissue.	9	0.0112	4.6E-7	2.85E-4
+WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D	882	Genes with promoters bound by both PPARG and RXRA [GeneID=5468, 6256] at 8 day time point of adipocyte differentiation of 3T3-L1 cells (preadipocyte).	9	0.0102	9.79E-7	5.46E-4
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	ACTGTGA_MIR27A_MIR27B	MASSARWEH_TAMOXIFEN_RESISTANCE_DN	NUYTTEN_EZH2_TARGETS_UP	ZHANG_TLX_TARGETS_60HR_UP	TGCTGAY_UNKNOWN	MGGAAGTG_GABP_B	RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_POORLY_DN	RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D
+8728	ADAM19	ADAM metallopeptidase domain 19	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	ACTGTGA_MIR27A_MIR27B								
+84617	TUBB6	tubulin, beta 6 class V	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3		MASSARWEH_TAMOXIFEN_RESISTANCE_DN					RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_POORLY_DN		
+6717	SRI	sorcin	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3		MASSARWEH_TAMOXIFEN_RESISTANCE_DN						RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN	
+1026	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3			NUYTTEN_EZH2_TARGETS_UP	ZHANG_TLX_TARGETS_60HR_UP			RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_POORLY_DN		WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D
+6925	TCF4	transcription factor 4	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3			NUYTTEN_EZH2_TARGETS_UP		TGCTGAY_UNKNOWN			RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN	
+29940	DSE	dermatan sulfate epimerase	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3			NUYTTEN_EZH2_TARGETS_UP						
+4054	LTBP3	latent transforming growth factor beta binding protein 3	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3				ZHANG_TLX_TARGETS_60HR_UP				RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D
+1191	CLU	clusterin	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3				ZHANG_TLX_TARGETS_60HR_UP				RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN	
+85027	C5orf62	chromosome 5 open reading frame 62	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					TGCTGAY_UNKNOWN				
+29128	UHRF1	ubiquitin-like with PHD and ring finger domains 1	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3									
+23318	ZCCHC11	zinc finger, CCHC domain containing 11	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3									
+9315	C5orf13	chromosome 5 open reading frame 13		ACTGTGA_MIR27A_MIR27B	MASSARWEH_TAMOXIFEN_RESISTANCE_DN	NUYTTEN_EZH2_TARGETS_UP		TGCTGAY_UNKNOWN				
+6256	RXRA	retinoid X receptor, alpha		ACTGTGA_MIR27A_MIR27B	MASSARWEH_TAMOXIFEN_RESISTANCE_DN							
+81537	SGPP1	sphingosine-1-phosphate phosphatase 1		ACTGTGA_MIR27A_MIR27B		NUYTTEN_EZH2_TARGETS_UP						
+51719	CAB39	calcium binding protein 39		ACTGTGA_MIR27A_MIR27B		NUYTTEN_EZH2_TARGETS_UP						
+29982	NRBF2	nuclear receptor binding factor 2		ACTGTGA_MIR27A_MIR27B					MGGAAGTG_GABP_B	RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_POORLY_DN		
+64859	OBFC2A	oligonucleotide/oligosaccharide-binding fold containing 2A		ACTGTGA_MIR27A_MIR27B						RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_POORLY_DN		WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D
+3662	IRF4	interferon regulatory factor 4		ACTGTGA_MIR27A_MIR27B								
+80267	EDEM3	ER degradation enhancer, mannosidase alpha-like 3		ACTGTGA_MIR27A_MIR27B								
+54910	SEMA4C	sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4C			MASSARWEH_TAMOXIFEN_RESISTANCE_DN			TGCTGAY_UNKNOWN	MGGAAGTG_GABP_B			
+10395	DLC1	deleted in liver cancer 1			MASSARWEH_TAMOXIFEN_RESISTANCE_DN			TGCTGAY_UNKNOWN				WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D
+8900	CCNA1	cyclin A1			MASSARWEH_TAMOXIFEN_RESISTANCE_DN							
+9314	KLF4	Kruppel-like factor 4 (gut)				NUYTTEN_EZH2_TARGETS_UP	ZHANG_TLX_TARGETS_60HR_UP					
+1788	DNMT3A	DNA (cytosine-5-)-methyltransferase 3 alpha				NUYTTEN_EZH2_TARGETS_UP		TGCTGAY_UNKNOWN				
+351	APP	amyloid beta (A4) precursor protein				NUYTTEN_EZH2_TARGETS_UP						
+201164	PLD6	phospholipase D family, member 6				NUYTTEN_EZH2_TARGETS_UP						
+79414	LRFN3	leucine rich repeat and fibronectin type III domain containing 3				NUYTTEN_EZH2_TARGETS_UP						
+2517	FUCA1	fucosidase, alpha-L- 1, tissue					ZHANG_TLX_TARGETS_60HR_UP		MGGAAGTG_GABP_B			
+1471	CST3	cystatin C					ZHANG_TLX_TARGETS_60HR_UP				RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D
+84557	MAP1LC3A	microtubule-associated protein 1 light chain 3 alpha					ZHANG_TLX_TARGETS_60HR_UP					
+7171	TPM4	tropomyosin 4						TGCTGAY_UNKNOWN		RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_POORLY_DN		
+65056	GPBP1	GC-rich promoter binding protein 1						TGCTGAY_UNKNOWN				
+25921	ZDHHC5	zinc finger, DHHC-type containing 5							MGGAAGTG_GABP_B	RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_POORLY_DN		
+124565	SLC38A10	solute carrier family 38, member 10							MGGAAGTG_GABP_B		RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D
+10452	TOMM40	translocase of outer mitochondrial membrane 40 homolog (yeast)							MGGAAGTG_GABP_B			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D
+56181	FAM54B	family with sequence similarity 54, member B							MGGAAGTG_GABP_B			
+2686	GGT7	gamma-glutamyltransferase 7							MGGAAGTG_GABP_B			
+55246	CCDC25	coiled-coil domain containing 25							MGGAAGTG_GABP_B			
+151516	ASPRV1	aspartic peptidase, retroviral-like 1								RICKMAN_TUMOR_DIFFERENTIATED_WELL_VS_POORLY_DN		
+115207	KCTD12	potassium channel tetramerisation domain containing 12									RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN	
+90338	ZNF160	zinc finger protein 160									RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN	
+8706	B3GALNT1	beta-1,3-N-acetylgalactosaminyltransferase 1 (globoside blood group)									RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN	
+51650	MRPS33	mitochondrial ribosomal protein S33										WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D
+55813	UTP6	UTP6, small subunit (SSU) processome component, homolog (yeast)										WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D
+6500	SKP1	S-phase kinase-associated protein 1										
+1981	EIF4G1	eukaryotic translation initiation factor 4 gamma, 1										
+81545	FBXO38	F-box protein 38										
+9682	KDM4A	lysine (K)-specific demethylase 4A										
+2526	FUT4	fucosyltransferase 4 (alpha (1,3) fucosyltransferase, myeloid-specific)										
+7001	PRDX2	peroxiredoxin 2										
+112858	TP53RK	TP53 regulating kinase										
+2647	BLOC1S1	biogenesis of lysosomal organelles complex-1, subunit 1										
+63967	CLSPN	claspin										
+84886	C1orf198	chromosome 1 open reading frame 198										
+55527	FEM1A	fem-1 homolog a (C. elegans)										

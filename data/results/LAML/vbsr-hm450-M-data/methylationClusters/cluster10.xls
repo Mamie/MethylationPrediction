@@ -1,0 +1,140 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	115
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+BLALOCK_ALZHEIMERS_DISEASE_DN	1237	Genes down-regulated in brain from patients with Alzheimer's disease.	22	0.0178	5.01E-13	2.79E-9
+DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	1382	Genes up-regulated in CD34+ [GeneID=947] cells isolated from bone marrow of CML (chronic myelogenous leukemia) patients, compared to those from normal donors.	22	0.0159	4.39E-12	1.22E-8
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	25	0.0127	1.7E-11	3.16E-8
+PEREZ_TP53_TARGETS	1174	Genes up-regulated in the HMEC cells (primary mammary epithelium) upon expression of TP53 [GeneID=7157] off adenoviral vector.	18	0.0153	8.69E-10	1.21E-6
+WANG_LMO4_TARGETS_UP	372	Genes up-regulated in MCF7 cells (breast cancer) engineered to conditionally express LMO4 [GeneID=8543] by a Tet Off system.	10	0.0269	3.76E-8	4.19E-5
+ZHENG_BOUND_BY_FOXP3	491	Genes whose promoters are bound by FOXP3 [GeneID=50943] based an a ChIP-chip analysis.	11	0.0224	4.86E-8	4.51E-5
+CTTTGT_LEF1_Q2	1972	Genes having at least one occurence of the highly conserved motif M13 CTTTGT sites. The motif matches transcription factor binding site V$LEF1_Q2 (v7.4 TRANSFAC).	20	0.0101	9.54E-8	7.6E-5
+CUI_TCF21_TARGETS_2_DN	830	All significantly down-regulated genes in kidney glomeruli isolated from TCF21 [Gene ID=6943] knockout mice.	13	0.0157	1.78E-7	1.24E-4
+ONKEN_UVEAL_MELANOMA_UP	783	Genes up-regulated in uveal melanoma: class 2 vs class 1 tumors.	12	0.0153	6.85E-7	4.24E-4
+BLALOCK_ALZHEIMERS_DISEASE_UP	1691	Genes up-regulated in brain from patients with Alzheimer's disease.	17	0.0101	1.1E-6	6.06E-4
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN	PEREZ_TP53_TARGETS	WANG_LMO4_TARGETS_UP	ZHENG_BOUND_BY_FOXP3	CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN	ONKEN_UVEAL_MELANOMA_UP	BLALOCK_ALZHEIMERS_DISEASE_UP
+23658	LSM5	LSM5 homolog, U6 small nuclear RNA associated (S. cerevisiae)	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN		WANG_LMO4_TARGETS_UP	ZHENG_BOUND_BY_FOXP3				BLALOCK_ALZHEIMERS_DISEASE_UP
+5110	PCMT1	protein-L-isoaspartate (D-aspartate) O-methyltransferase	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN		WANG_LMO4_TARGETS_UP				ONKEN_UVEAL_MELANOMA_UP	
+2235	FECH	ferrochelatase	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		PEREZ_TP53_TARGETS			CTTTGT_LEF1_Q2			
+6622	SNCA	synuclein, alpha (non A4 component of amyloid precursor)	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				ZHENG_BOUND_BY_FOXP3				
+1537	CYC1	cytochrome c-1	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP							ONKEN_UVEAL_MELANOMA_UP	
+996	CDC27	cell division cycle 27 homolog (S. cerevisiae)	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP							ONKEN_UVEAL_MELANOMA_UP	
+27020	NPTN	neuroplastin	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+7485	WRB	tryptophan rich basic protein	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+5997	RGS2	regulator of G-protein signaling 2, 24kDa	BLALOCK_ALZHEIMERS_DISEASE_DN		PILON_KLF1_TARGETS_DN					CUI_TCF21_TARGETS_2_DN		
+51714	SELT	selenoprotein T	BLALOCK_ALZHEIMERS_DISEASE_DN		PILON_KLF1_TARGETS_DN					CUI_TCF21_TARGETS_2_DN		
+7009	TMBIM6	transmembrane BAX inhibitor motif containing 6	BLALOCK_ALZHEIMERS_DISEASE_DN		PILON_KLF1_TARGETS_DN							BLALOCK_ALZHEIMERS_DISEASE_UP
+8514	KCNAB2	potassium voltage-gated channel, shaker-related subfamily, beta member 2	BLALOCK_ALZHEIMERS_DISEASE_DN		PILON_KLF1_TARGETS_DN							
+9760	TOX	thymocyte selection-associated high mobility group box	BLALOCK_ALZHEIMERS_DISEASE_DN			PEREZ_TP53_TARGETS		ZHENG_BOUND_BY_FOXP3				
+64919	BCL11B	B-cell CLL/lymphoma 11B (zinc finger protein)	BLALOCK_ALZHEIMERS_DISEASE_DN				WANG_LMO4_TARGETS_UP	ZHENG_BOUND_BY_FOXP3	CTTTGT_LEF1_Q2			
+10487	CAP1	CAP, adenylate cyclase-associated protein 1 (yeast)	BLALOCK_ALZHEIMERS_DISEASE_DN						CTTTGT_LEF1_Q2			
+6253	RTN2	reticulon 2	BLALOCK_ALZHEIMERS_DISEASE_DN						CTTTGT_LEF1_Q2			
+3939	LDHA	lactate dehydrogenase A	BLALOCK_ALZHEIMERS_DISEASE_DN									
+5478	PPIA	peptidylprolyl isomerase A (cyclophilin A)	BLALOCK_ALZHEIMERS_DISEASE_DN									
+3460	IFNGR2	interferon gamma receptor 2 (interferon gamma transducer 1)	BLALOCK_ALZHEIMERS_DISEASE_DN									
+23507	LRRC8B	leucine rich repeat containing 8 family, member B	BLALOCK_ALZHEIMERS_DISEASE_DN									
+7181	NR2C1	nuclear receptor subfamily 2, group C, member 1	BLALOCK_ALZHEIMERS_DISEASE_DN									
+3692	EIF6	eukaryotic translation initiation factor 6	BLALOCK_ALZHEIMERS_DISEASE_DN									
+8837	CFLAR	CASP8 and FADD-like apoptosis regulator		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN	PEREZ_TP53_TARGETS	WANG_LMO4_TARGETS_UP			CUI_TCF21_TARGETS_2_DN		BLALOCK_ALZHEIMERS_DISEASE_UP
+207	AKT1	v-akt murine thymoma viral oncogene homolog 1		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN		WANG_LMO4_TARGETS_UP					
+6319	SCD	stearoyl-CoA desaturase (delta-9-desaturase)		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN				CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN	ONKEN_UVEAL_MELANOMA_UP	
+4140	MARK3	MAP/microtubule affinity-regulating kinase 3		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN						ONKEN_UVEAL_MELANOMA_UP	BLALOCK_ALZHEIMERS_DISEASE_UP
+4772	NFATC1	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 1		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN							BLALOCK_ALZHEIMERS_DISEASE_UP
+8659	ALDH4A1	aldehyde dehydrogenase 4 family, member A1		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		PEREZ_TP53_TARGETS						
+2799	GNS	glucosamine (N-acetyl)-6-sulfatase		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP							ONKEN_UVEAL_MELANOMA_UP	
+9562	MINPP1	multiple inositol-polyphosphate phosphatase 1		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+6647	SOD1	superoxide dismutase 1, soluble		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+27067	STAU2	staufen, RNA binding protein, homolog 2 (Drosophila)		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+51493	C22orf28	chromosome 22 open reading frame 28		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+7746	ZNF193	zinc finger protein 193		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+25793	FBXO7	F-box protein 7		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+3396	ICT1	immature colon carcinoma transcript 1		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+255488	RNF144B	ring finger protein 144B			PILON_KLF1_TARGETS_DN	PEREZ_TP53_TARGETS	WANG_LMO4_TARGETS_UP					
+2534	FYN	FYN oncogene related to SRC, FGR, YES			PILON_KLF1_TARGETS_DN	PEREZ_TP53_TARGETS		ZHENG_BOUND_BY_FOXP3	CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN		BLALOCK_ALZHEIMERS_DISEASE_UP
+57688	ZSWIM6	zinc finger, SWIM-type containing 6			PILON_KLF1_TARGETS_DN	PEREZ_TP53_TARGETS						
+23678	SGK3	serum/glucocorticoid regulated kinase family, member 3			PILON_KLF1_TARGETS_DN		WANG_LMO4_TARGETS_UP		CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN		
+94081	SFXN1	sideroflexin 1			PILON_KLF1_TARGETS_DN		WANG_LMO4_TARGETS_UP					
+10933	MORF4L1	mortality factor 4 like 1			PILON_KLF1_TARGETS_DN		WANG_LMO4_TARGETS_UP					
+221035	REEP3	receptor accessory protein 3			PILON_KLF1_TARGETS_DN			ZHENG_BOUND_BY_FOXP3	CTTTGT_LEF1_Q2			
+5987	TRIM27	tripartite motif containing 27			PILON_KLF1_TARGETS_DN			ZHENG_BOUND_BY_FOXP3	CTTTGT_LEF1_Q2			
+25939	SAMHD1	SAM domain and HD domain 1			PILON_KLF1_TARGETS_DN			ZHENG_BOUND_BY_FOXP3				
+90701	SEC11C	SEC11 homolog C (S. cerevisiae)			PILON_KLF1_TARGETS_DN				CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN		
+53354	PANK1	pantothenate kinase 1			PILON_KLF1_TARGETS_DN				CTTTGT_LEF1_Q2			
+6840	SVIL	supervillin			PILON_KLF1_TARGETS_DN				CTTTGT_LEF1_Q2			
+51571	FAM49B	family with sequence similarity 49, member B			PILON_KLF1_TARGETS_DN					CUI_TCF21_TARGETS_2_DN	ONKEN_UVEAL_MELANOMA_UP	
+9710	KIAA0355	KIAA0355			PILON_KLF1_TARGETS_DN					CUI_TCF21_TARGETS_2_DN		
+384	ARG2	arginase, type II				PEREZ_TP53_TARGETS	WANG_LMO4_TARGETS_UP					BLALOCK_ALZHEIMERS_DISEASE_UP
+154810	AMOTL1	angiomotin like 1				PEREZ_TP53_TARGETS			CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN		
+9766	KIAA0247	KIAA0247				PEREZ_TP53_TARGETS			CTTTGT_LEF1_Q2			
+59274	MESDC1	mesoderm development candidate 1				PEREZ_TP53_TARGETS			CTTTGT_LEF1_Q2			
+9778	KIAA0232	KIAA0232				PEREZ_TP53_TARGETS					ONKEN_UVEAL_MELANOMA_UP	
+29097	CNIH4	cornichon homolog 4 (Drosophila)				PEREZ_TP53_TARGETS					ONKEN_UVEAL_MELANOMA_UP	
+9371	KIF3B	kinesin family member 3B				PEREZ_TP53_TARGETS						BLALOCK_ALZHEIMERS_DISEASE_UP
+84986	ARHGAP19	Rho GTPase activating protein 19				PEREZ_TP53_TARGETS						
+9249	DHRS3	dehydrogenase/reductase (SDR family) member 3				PEREZ_TP53_TARGETS						
+3090	HIC1	hypermethylated in cancer 1				PEREZ_TP53_TARGETS						
+254427	C10orf47	chromosome 10 open reading frame 47				PEREZ_TP53_TARGETS						
+79668	PARP8	poly (ADP-ribose) polymerase family, member 8						ZHENG_BOUND_BY_FOXP3	CTTTGT_LEF1_Q2			
+785	CACNB4	calcium channel, voltage-dependent, beta 4 subunit						ZHENG_BOUND_BY_FOXP3				
+2322	FLT3	fms-related tyrosine kinase 3						ZHENG_BOUND_BY_FOXP3				
+92	ACVR2A	activin A receptor, type IIA							CTTTGT_LEF1_Q2			
+659	BMPR2	bone morphogenetic protein receptor, type II (serine/threonine kinase)							CTTTGT_LEF1_Q2			
+122060	SLAIN1	SLAIN motif family, member 1							CTTTGT_LEF1_Q2			
+80025	PANK2	pantothenate kinase 2							CTTTGT_LEF1_Q2			
+400451	FAM174B	family with sequence similarity 174, member B								CUI_TCF21_TARGETS_2_DN	ONKEN_UVEAL_MELANOMA_UP	
+10411	RAPGEF3	Rap guanine nucleotide exchange factor (GEF) 3								CUI_TCF21_TARGETS_2_DN		
+253827	MSRB3	methionine sulfoxide reductase B3								CUI_TCF21_TARGETS_2_DN		
+1523	CUX1	cut-like homeobox 1									ONKEN_UVEAL_MELANOMA_UP	BLALOCK_ALZHEIMERS_DISEASE_UP
+23347	SMCHD1	structural maintenance of chromosomes flexible hinge domain containing 1									ONKEN_UVEAL_MELANOMA_UP	
+5610	EIF2AK2	eukaryotic translation initiation factor 2-alpha kinase 2										BLALOCK_ALZHEIMERS_DISEASE_UP
+6452	SH3BP2	SH3-domain binding protein 2										BLALOCK_ALZHEIMERS_DISEASE_UP
+3718	JAK3	Janus kinase 3										BLALOCK_ALZHEIMERS_DISEASE_UP
+4638	MYLK	myosin light chain kinase										BLALOCK_ALZHEIMERS_DISEASE_UP
+25992	SNED1	sushi, nidogen and EGF-like domains 1										BLALOCK_ALZHEIMERS_DISEASE_UP
+55361	PI4K2A	phosphatidylinositol 4-kinase type 2 alpha										BLALOCK_ALZHEIMERS_DISEASE_UP
+54961	SSH3	slingshot homolog 3 (Drosophila)										BLALOCK_ALZHEIMERS_DISEASE_UP
+9601	PDIA4	protein disulfide isomerase family A, member 4										BLALOCK_ALZHEIMERS_DISEASE_UP
+1212	CLTB	clathrin, light chain B										
+847	CAT	catalase										
+1727	CYB5R3	cytochrome b5 reductase 3										
+55324	ABCF3	ATP-binding cassette, sub-family F (GCN20), member 3										
+6923	TCEB2	transcription elongation factor B (SIII), polypeptide 2 (18kDa, elongin B)										
+1973	EIF4A1	eukaryotic translation initiation factor 4A1										
+4751	NEK2	NIMA (never in mitosis gene a)-related kinase 2										
+91351	DDX60L	DEAD (Asp-Glu-Ala-Asp) box polypeptide 60-like										
+160335	TMTC2	transmembrane and tetratricopeptide repeat containing 2										
+55748	CNDP2	CNDP dipeptidase 2 (metallopeptidase M20 family)										
+6455	SH3GL1	SH3-domain GRB2-like 1										
+84552	PARD6G	par-6 partitioning defective 6 homolog gamma (C. elegans)										
+166968	MIER3	mesoderm induction early response 1, family member 3										
+222194	RSBN1L	round spermatid basic protein 1-like										
+55762	ZNF701	zinc finger protein 701										
+117145	THEM4	thioesterase superfamily member 4										
+53834	FGFRL1	fibroblast growth factor receptor-like 1										
+123016	TTC8	tetratricopeptide repeat domain 8										
+11313	LYPLA2	lysophospholipase II										
+119	ADD2	adducin 2 (beta)										
+9681	DEPDC5	DEP domain containing 5										
+1489	CTF1	cardiotrophin 1										
+80024	SLC24A6	solute carrier family 24 (sodium/potassium/calcium exchanger), member 6										
+130340	AP1S3	adaptor-related protein complex 1, sigma 3 subunit										
+140809	SRXN1	sulfiredoxin 1										
+2324	FLT4	fms-related tyrosine kinase 4										
+10073	SNUPN	snurportin 1										
+51020	HDDC2	HD domain containing 2										
+8892	EIF2B2	eukaryotic translation initiation factor 2B, subunit 2 beta, 39kDa										
+90441	ZNF622	zinc finger protein 622										
+147837	ZNF563	zinc finger protein 563										
+117608	ZNF354B	zinc finger protein 354B										
+150709	ANKAR	ankyrin and armadillo repeat containing										
+162962	ZNF836	zinc finger protein 836										

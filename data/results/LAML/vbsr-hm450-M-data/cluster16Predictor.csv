@@ -1,0 +1,5 @@
+gene,coef,description
+C11orf95,0.0969618725551935,chromosome 11 open reading frame 95 [Source:HGNC Symbol;Acc:HGNC:28449]
+C9orf64,-0.204259044641763,chromosome 9 open reading frame 64 [Source:HGNC Symbol;Acc:HGNC:28144]
+LDLRAD2,-0.136338966952657,low density lipoprotein receptor class A domain containing 2 [Source:HGNC Symbol;Acc:HGNC:32071]
+ZNF518B,-0.269775857363251,zinc finger protein 518B [Source:HGNC Symbol;Acc:HGNC:29365]

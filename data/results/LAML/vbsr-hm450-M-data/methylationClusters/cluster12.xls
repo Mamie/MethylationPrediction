@@ -1,0 +1,131 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	106
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+YAGI_AML_WITH_11Q23_REARRANGED	351	Genes specifically expressed in samples from patients with pediatric acute myeloid leukemia (AML) bearing 11q23 rearrangements.	11	0.0313	6.43E-10	3.58E-6
+LINDGREN_BLADDER_CANCER_CLUSTER_2B	392	Genes specifically up-regulated in Cluster IIb of urothelial cell carcinom (UCC) tumors.	10	0.0255	2.8E-8	7.8E-5
+ZHANG_TLX_TARGETS_36HR_UP	221	Genes up-regulated in neural stem cells (NSC) at 36 h after cre-lox knockout of TLX (NR2E1) [GeneID=7101].	8	0.0362	5.07E-8	9.42E-5
+NUYTTEN_EZH2_TARGETS_UP	1037	Genes up-regulated in PC3 cells (prostate cancer) after knockdown of EZH2 [GeneID=2146] by RNAi.	14	0.0135	1.26E-7	1.75E-4
+GARY_CD5_TARGETS_UP	473	Genes up-regulated in Daudi cells (B lymphocytes) stably expressing CD5 [GeneID=921] off a plasmid vector.	10	0.0211	1.6E-7	1.79E-4
+DURCHDEWALD_SKIN_CARCINOGENESIS_DN	264	Genes down-regulated upon skin specific knockout of FOS [GeneID=2353] by cre-lox in the K5-SOS-F mice (express a constitutively active form of SOS1 [GeneID=6654] in the skin).	8	0.0303	1.98E-7	1.84E-4
+YAGI_AML_FAB_MARKERS	191	Genes specifically expressed in FAB subtypes M2, M4, M5 and M7 of pediatric AML (acute myeloid leukemia).	7	0.0366	3.3E-7	2.63E-4
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	18	0.0091	5.95E-7	4.14E-4
+DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	1382	Genes up-regulated in CD34+ [GeneID=947] cells isolated from bone marrow of CML (chronic myelogenous leukemia) patients, compared to those from normal donors.	15	0.0109	6.91E-7	4.28E-4
+MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3	1069	Genes with high-CpG-density promoters (HCP) bearing histone H3 dimethylation at K4 (H3K4me2) and trimethylation at K27 (H3K27me3) in brain.	13	0.0122	1.17E-6	6.44E-4
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	YAGI_AML_WITH_11Q23_REARRANGED	LINDGREN_BLADDER_CANCER_CLUSTER_2B	ZHANG_TLX_TARGETS_36HR_UP	NUYTTEN_EZH2_TARGETS_UP	GARY_CD5_TARGETS_UP	DURCHDEWALD_SKIN_CARCINOGENESIS_DN	YAGI_AML_FAB_MARKERS	PILON_KLF1_TARGETS_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+290	ANPEP	alanyl (membrane) aminopeptidase	YAGI_AML_WITH_11Q23_REARRANGED	LINDGREN_BLADDER_CANCER_CLUSTER_2B		NUYTTEN_EZH2_TARGETS_UP						
+5329	PLAUR	plasminogen activator, urokinase receptor	YAGI_AML_WITH_11Q23_REARRANGED	LINDGREN_BLADDER_CANCER_CLUSTER_2B								
+894	CCND2	cyclin D2	YAGI_AML_WITH_11Q23_REARRANGED		ZHANG_TLX_TARGETS_36HR_UP					PILON_KLF1_TARGETS_DN		
+6509	SLC1A4	solute carrier family 1 (glutamate/neutral amino acid transporter), member 4	YAGI_AML_WITH_11Q23_REARRANGED				GARY_CD5_TARGETS_UP					
+833	CARS	cysteinyl-tRNA synthetase	YAGI_AML_WITH_11Q23_REARRANGED				GARY_CD5_TARGETS_UP					
+4627	MYH9	myosin, heavy chain 9, non-muscle	YAGI_AML_WITH_11Q23_REARRANGED					DURCHDEWALD_SKIN_CARCINOGENESIS_DN				
+231	AKR1B1	aldo-keto reductase family 1, member B1 (aldose reductase)	YAGI_AML_WITH_11Q23_REARRANGED							PILON_KLF1_TARGETS_DN		
+10951	CBX1	chromobox homolog 1	YAGI_AML_WITH_11Q23_REARRANGED								DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+11030	RBPMS	RNA binding protein with multiple splicing	YAGI_AML_WITH_11Q23_REARRANGED									MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+90634	N4BP2L1	NEDD4 binding protein 2-like 1	YAGI_AML_WITH_11Q23_REARRANGED									
+9811	CTIF	CBP80/20-dependent translation initiation factor	YAGI_AML_WITH_11Q23_REARRANGED									
+26524	LATS2	LATS, large tumor suppressor, homolog 2 (Drosophila)		LINDGREN_BLADDER_CANCER_CLUSTER_2B	ZHANG_TLX_TARGETS_36HR_UP							
+25822	DNAJB5	DnaJ (Hsp40) homolog, subfamily B, member 5		LINDGREN_BLADDER_CANCER_CLUSTER_2B	ZHANG_TLX_TARGETS_36HR_UP							
+140885	SIRPA	signal-regulatory protein alpha		LINDGREN_BLADDER_CANCER_CLUSTER_2B	ZHANG_TLX_TARGETS_36HR_UP							
+134429	STARD4	StAR-related lipid transfer (START) domain containing 4		LINDGREN_BLADDER_CANCER_CLUSTER_2B		NUYTTEN_EZH2_TARGETS_UP						
+864	RUNX3	runt-related transcription factor 3		LINDGREN_BLADDER_CANCER_CLUSTER_2B			GARY_CD5_TARGETS_UP					
+4094	MAF	v-maf musculoaponeurotic fibrosarcoma oncogene homolog (avian)		LINDGREN_BLADDER_CANCER_CLUSTER_2B								MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+135	ADORA2A	adenosine A2a receptor		LINDGREN_BLADDER_CANCER_CLUSTER_2B								MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+91582	RPS19BP1	ribosomal protein S19 binding protein 1		LINDGREN_BLADDER_CANCER_CLUSTER_2B								
+23095	KIF1B	kinesin family member 1B			ZHANG_TLX_TARGETS_36HR_UP	NUYTTEN_EZH2_TARGETS_UP		DURCHDEWALD_SKIN_CARCINOGENESIS_DN				
+10140	TOB1	transducer of ERBB2, 1			ZHANG_TLX_TARGETS_36HR_UP							
+26260	FBXO25	F-box protein 25			ZHANG_TLX_TARGETS_36HR_UP							
+5463	POU6F1	POU class 6 homeobox 1			ZHANG_TLX_TARGETS_36HR_UP							
+9454	HOMER3	homer homolog 3 (Drosophila)				NUYTTEN_EZH2_TARGETS_UP		DURCHDEWALD_SKIN_CARCINOGENESIS_DN				
+22837	COBLL1	COBL-like 1				NUYTTEN_EZH2_TARGETS_UP		DURCHDEWALD_SKIN_CARCINOGENESIS_DN				
+55432	YOD1	YOD1 OTU deubiquinating enzyme 1 homolog (S. cerevisiae)				NUYTTEN_EZH2_TARGETS_UP		DURCHDEWALD_SKIN_CARCINOGENESIS_DN				
+6809	STX3	syntaxin 3				NUYTTEN_EZH2_TARGETS_UP				PILON_KLF1_TARGETS_DN		
+2887	GRB10	growth factor receptor-bound protein 10				NUYTTEN_EZH2_TARGETS_UP					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+4232	MEST	mesoderm specific transcript homolog (mouse)				NUYTTEN_EZH2_TARGETS_UP					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+5208	PFKFB2	6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 2				NUYTTEN_EZH2_TARGETS_UP						
+4643	MYO1E	myosin IE				NUYTTEN_EZH2_TARGETS_UP						
+377677	CA13	carbonic anhydrase XIII				NUYTTEN_EZH2_TARGETS_UP						
+151556	GPR155	G protein-coupled receptor 155				NUYTTEN_EZH2_TARGETS_UP						
+3136	HLA-H	major histocompatibility complex, class I, H (pseudogene)				NUYTTEN_EZH2_TARGETS_UP						
+6713	SQLE	squalene epoxidase					GARY_CD5_TARGETS_UP	DURCHDEWALD_SKIN_CARCINOGENESIS_DN	YAGI_AML_FAB_MARKERS		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+6309	SC5DL	sterol-C5-desaturase (ERG3 delta-5-desaturase homolog, S. cerevisiae)-like					GARY_CD5_TARGETS_UP		YAGI_AML_FAB_MARKERS			
+3156	HMGCR	3-hydroxy-3-methylglutaryl-CoA reductase					GARY_CD5_TARGETS_UP				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+29780	PARVB	parvin, beta					GARY_CD5_TARGETS_UP				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+23218	NBEAL2	neurobeachin-like 2					GARY_CD5_TARGETS_UP					
+83862	TMEM120A	transmembrane protein 120A					GARY_CD5_TARGETS_UP					
+89122	TRIM4	tripartite motif containing 4					GARY_CD5_TARGETS_UP					
+10276	NET1	neuroepithelial cell transforming 1						DURCHDEWALD_SKIN_CARCINOGENESIS_DN	YAGI_AML_FAB_MARKERS		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+221184	CPNE2	copine II						DURCHDEWALD_SKIN_CARCINOGENESIS_DN				MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+9917	FAM20B	family with sequence similarity 20, member B							YAGI_AML_FAB_MARKERS	PILON_KLF1_TARGETS_DN		
+7704	ZBTB16	zinc finger and BTB domain containing 16							YAGI_AML_FAB_MARKERS	PILON_KLF1_TARGETS_DN		
+9805	SCRN1	secernin 1							YAGI_AML_FAB_MARKERS			
+80228	ORAI2	ORAI calcium release-activated calcium modulator 2							YAGI_AML_FAB_MARKERS			
+6776	STAT5A	signal transducer and activator of transcription 5A								PILON_KLF1_TARGETS_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+5501	PPP1CC	protein phosphatase 1, catalytic subunit, gamma isozyme								PILON_KLF1_TARGETS_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+51043	ZBTB7B	zinc finger and BTB domain containing 7B								PILON_KLF1_TARGETS_DN		MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+10782	ZNF274	zinc finger protein 274								PILON_KLF1_TARGETS_DN		
+23228	PLCL2	phospholipase C-like 2								PILON_KLF1_TARGETS_DN		
+64784	CRTC3	CREB regulated transcription coactivator 3								PILON_KLF1_TARGETS_DN		
+57621	ZBTB2	zinc finger and BTB domain containing 2								PILON_KLF1_TARGETS_DN		
+9555	H2AFY	H2A histone family, member Y								PILON_KLF1_TARGETS_DN		
+5901	RAN	RAN, member RAS oncogene family								PILON_KLF1_TARGETS_DN		
+23212	RRS1	RRS1 ribosome biogenesis regulator homolog (S. cerevisiae)								PILON_KLF1_TARGETS_DN		
+55743	CHFR	checkpoint with forkhead and ring finger domains								PILON_KLF1_TARGETS_DN		
+79641	ROGDI	rogdi homolog (Drosophila)								PILON_KLF1_TARGETS_DN		
+65123	INTS3	integrator complex subunit 3								PILON_KLF1_TARGETS_DN		
+6430	SRSF5	serine/arginine-rich splicing factor 5									DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+5921	RASA1	RAS p21 protein activator (GTPase activating protein) 1									DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+682	BSG	basigin (Ok blood group)									DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+10450	PPIE	peptidylprolyl isomerase E (cyclophilin E)									DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+2108	ETFA	electron-transfer-flavoprotein, alpha polypeptide									DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+4718	NDUFC2	NADH dehydrogenase (ubiquinone) 1, subcomplex unknown, 2, 14.5kDa									DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	
+84790	TUBA1C	tubulin, alpha 1c										MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+79056	PRRG4	proline rich Gla (G-carboxyglutamic acid) 4 (transmembrane)										MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+55355	HJURP	Holliday junction recognition protein										MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+57447	NDRG2	NDRG family member 2										MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+340485	ACER2	alkaline ceramidase 2										MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+6768	ST14	suppression of tumorigenicity 14 (colon carcinoma)										MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+55194	FAM176B	family with sequence similarity 176, member B										MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3
+9455	HOMER2	homer homolog 2 (Drosophila)										
+388	RHOB	ras homolog gene family, member B										
+23158	TBC1D9	TBC1 domain family, member 9 (with GRAM domain)										
+123606	NIPA1	non imprinted in Prader-Willi/Angelman syndrome 1										
+54463	FAM134B	family with sequence similarity 134, member B										
+51366	UBR5	ubiquitin protein ligase E3 component n-recognin 5										
+84937	ZNRF1	zinc and ring finger 1										
+55174	INTS10	integrator complex subunit 10										
+22924	MAPRE3	microtubule-associated protein, RP/EB family, member 3										
+80150	ASRGL1	asparaginase like 1										
+84260	TCHP	trichoplein, keratin filament binding										
+51750	RTEL1	regulator of telomere elongation helicase 1										
+89848	FCHSD1	FCH and double SH3 domains 1										
+157922	CAMSAP1	calmodulin regulated spectrin-associated protein 1										
+8578	SCARF1	scavenger receptor class F, member 1										
+222236	NAPEPLD	N-acyl phosphatidylethanolamine phospholipase D										
+122553	TRAPPC6B	trafficking protein particle complex 6B										
+196743	PAOX	polyamine oxidase (exo-N4-amino)										
+10336	PCGF3	polycomb group ring finger 3										
+5691	PSMB3	proteasome (prosome, macropain) subunit, beta type, 3										
+113802	HENMT1	HEN1 methyltransferase homolog 1 (Arabidopsis)										
+388536	ZNF790	zinc finger protein 790										
+126119	JOSD2	Josephin domain containing 2										
+54108	CHRAC1	chromatin accessibility complex 1										
+5531	PPP4C	protein phosphatase 4, catalytic subunit										
+153733	CCDC112	coiled-coil domain containing 112										
+286042	FLJ10661	family with sequence similarity 86, member A pseudogene										
+390916	NUDT19	nudix (nucleoside diphosphate linked moiety X)-type motif 19										
+390927	ZNF793	zinc finger protein 793										
+201931	TMEM192	transmembrane protein 192										
+388566	ZNF470	zinc finger protein 470										
+441108	C5orf56	chromosome 5 open reading frame 56										
+7620	ZNF69	zinc finger protein 69										

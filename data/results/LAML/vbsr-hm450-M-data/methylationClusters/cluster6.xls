@@ -1,0 +1,300 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	275
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	69	0.0235	4.09E-23	2.28E-19
+DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	1382	Genes up-regulated in CD34+ [GeneID=947] cells isolated from bone marrow of CML (chronic myelogenous leukemia) patients, compared to those from normal donors.	40	0.0289	1.99E-16	5.56E-13
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	47	0.0238	5.93E-16	1.1E-12
+CAGGTG_E12_Q6	2485	Genes having at least one occurence of the highly conserved motif M12 CAGGTG sites. The motif matches transcription factor binding site V$E12_Q6 (v7.4 TRANSFAC).	48	0.0193	6.84E-13	9.53E-10
+BLALOCK_ALZHEIMERS_DISEASE_DN	1237	Genes down-regulated in brain from patients with Alzheimer's disease.	33	0.0267	9.81E-13	1.09E-9
+NUYTTEN_EZH2_TARGETS_UP	1037	Genes up-regulated in PC3 cells (prostate cancer) after knockdown of EZH2 [GeneID=2146] by RNAi.	30	0.0289	1.53E-12	1.42E-9
+CHEN_METABOLIC_SYNDROM_NETWORK	1210	Genes forming the macrophage-enriched metabolic network (MEMN) claimed to have a causal relationship with the metabolic syndrom traits.	32	0.0264	2.79E-12	2.09E-9
+CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN	663	Genes down-regulated in APL (acute promyeolocytic leukemia) blasts expressing PML-RARA fusion [GeneID=5371;5914] compared to normal promyeloblasts.	24	0.0362	3E-12	2.09E-9
+MULLIGHAN_MLL_SIGNATURE_2_UP	418	The 'MLL signature 2': genes up-regulated in pediatric AML (acute myeloid leukemia) with rearranged MLL [GeneID=4297] compared to the AML cases with intact MLL and NPM1 [GeneID=4869].	19	0.0455	1.27E-11	7.87E-9
+KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP	682	Genes whose expression significantly and positively correlated with oligodendrocyte density in layer VI of BA9 brain region in patients with bipolar disorder.	23	0.0337	3.55E-11	1.98E-8
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN	CAGGTG_E12_Q6	BLALOCK_ALZHEIMERS_DISEASE_DN	NUYTTEN_EZH2_TARGETS_UP	CHEN_METABOLIC_SYNDROM_NETWORK	CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN	MULLIGHAN_MLL_SIGNATURE_2_UP	KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+47	ACLY	ATP citrate lyase	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN	CAGGTG_E12_Q6				CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+10097	ACTR2	ARP2 actin-related protein 2 homolog (yeast)	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN		BLALOCK_ALZHEIMERS_DISEASE_DN			CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN	MULLIGHAN_MLL_SIGNATURE_2_UP	
+10146	G3BP1	GTPase activating protein (SH3 domain) binding protein 1	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN					CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+204	AK2	adenylate kinase 2	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN						MULLIGHAN_MLL_SIGNATURE_2_UP	
+9519	TBPL1	TBP-like 1	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		CAGGTG_E12_Q6	BLALOCK_ALZHEIMERS_DISEASE_DN		CHEN_METABOLIC_SYNDROM_NETWORK			
+2314	FLII	flightless I homolog (Drosophila)	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		CAGGTG_E12_Q6						
+11282	MGAT4B	mannosyl (alpha-1,3-)-glycoprotein beta-1,4-N-acetylglucosaminyltransferase, isozyme B	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		CAGGTG_E12_Q6						
+80762	NDFIP1	Nedd4 family interacting protein 1	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			BLALOCK_ALZHEIMERS_DISEASE_DN					
+375	ARF1	ADP-ribosylation factor 1	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			BLALOCK_ALZHEIMERS_DISEASE_DN					
+10162	LPCAT3	lysophosphatidylcholine acyltransferase 3	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+5685	PSMA4	proteasome (prosome, macropain) subunit, alpha type, 4	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+1662	DDX10	DEAD (Asp-Glu-Ala-Asp) box polypeptide 10	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+1604	CD55	CD55 molecule, decay accelerating factor for complement (Cromer blood group)	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+2057	EPOR	erythropoietin receptor	GGGCGGR_SP1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+102	ADAM10	ADAM metallopeptidase domain 10	GGGCGGR_SP1_Q6		PILON_KLF1_TARGETS_DN	CAGGTG_E12_Q6						
+10130	PDIA6	protein disulfide isomerase family A, member 6	GGGCGGR_SP1_Q6		PILON_KLF1_TARGETS_DN		BLALOCK_ALZHEIMERS_DISEASE_DN			CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+91775	FAM55C	family with sequence similarity 55, member C	GGGCGGR_SP1_Q6		PILON_KLF1_TARGETS_DN			NUYTTEN_EZH2_TARGETS_UP			MULLIGHAN_MLL_SIGNATURE_2_UP	
+9600	PITPNM1	phosphatidylinositol transfer protein, membrane-associated 1	GGGCGGR_SP1_Q6		PILON_KLF1_TARGETS_DN				CHEN_METABOLIC_SYNDROM_NETWORK			
+153830	RNF145	ring finger protein 145	GGGCGGR_SP1_Q6		PILON_KLF1_TARGETS_DN							
+10499	NCOA2	nuclear receptor coactivator 2	GGGCGGR_SP1_Q6		PILON_KLF1_TARGETS_DN							
+116254	C6orf72	chromosome 6 open reading frame 72	GGGCGGR_SP1_Q6		PILON_KLF1_TARGETS_DN							
+93550	ANUBL1	AN1, ubiquitin-like, homolog (Xenopus laevis)	GGGCGGR_SP1_Q6		PILON_KLF1_TARGETS_DN							
+116150	NUS1	nuclear undecaprenyl pyrophosphate synthase 1 homolog (S. cerevisiae)	GGGCGGR_SP1_Q6		PILON_KLF1_TARGETS_DN							
+4900	NRGN	neurogranin (protein kinase C substrate, RC3)	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6	BLALOCK_ALZHEIMERS_DISEASE_DN				MULLIGHAN_MLL_SIGNATURE_2_UP	
+6813	STXBP2	syntaxin binding protein 2	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6			CHEN_METABOLIC_SYNDROM_NETWORK			
+4904	YBX1	Y box binding protein 1	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6				CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+1984	EIF5A	eukaryotic translation initiation factor 5A	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6				CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+2203	FBP1	fructose-1,6-bisphosphatase 1	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6					MULLIGHAN_MLL_SIGNATURE_2_UP	
+3993	LLGL2	lethal giant larvae homolog 2 (Drosophila)	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6						
+129303	TMEM150A	transmembrane protein 150A	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6						
+182	JAG1	jagged 1	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6						
+79729	SH3D21	SH3 domain containing 21	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6						
+23171	GPD1L	glycerol-3-phosphate dehydrogenase 1-like	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6						
+5187	PER1	period homolog 1 (Drosophila)	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6						
+55650	PIGV	phosphatidylinositol glycan anchor biosynthesis, class V	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6						
+3069	HDLBP	high density lipoprotein binding protein	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6						
+23235	SIK2	salt-inducible kinase 2	GGGCGGR_SP1_Q6			CAGGTG_E12_Q6						
+10769	PLK2	polo-like kinase 2	GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_DN	NUYTTEN_EZH2_TARGETS_UP	CHEN_METABOLIC_SYNDROM_NETWORK			
+5250	SLC25A3	solute carrier family 25 (mitochondrial carrier; phosphate carrier), member 3	GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_DN					KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+7917	BAG6	BCL2-associated athanogene 6	GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_DN					KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+4338	MOCS2	molybdenum cofactor synthesis 2	GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_DN					
+10133	OPTN	optineurin	GGGCGGR_SP1_Q6					NUYTTEN_EZH2_TARGETS_UP		CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+4131	MAP1B	microtubule-associated protein 1B	GGGCGGR_SP1_Q6					NUYTTEN_EZH2_TARGETS_UP				
+4502	MT2A	metallothionein 2A	GGGCGGR_SP1_Q6					NUYTTEN_EZH2_TARGETS_UP				
+55640	FLVCR2	feline leukemia virus subgroup C cellular receptor family, member 2	GGGCGGR_SP1_Q6					NUYTTEN_EZH2_TARGETS_UP				
+191	AHCY	adenosylhomocysteinase	GGGCGGR_SP1_Q6						CHEN_METABOLIC_SYNDROM_NETWORK			KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+116985	ARAP1	ArfGAP with RhoGAP domain, ankyrin repeat and PH domain 1	GGGCGGR_SP1_Q6						CHEN_METABOLIC_SYNDROM_NETWORK			
+144165	PRICKLE1	prickle homolog 1 (Drosophila)	GGGCGGR_SP1_Q6						CHEN_METABOLIC_SYNDROM_NETWORK			
+55917	CTTNBP2NL	CTTNBP2 N-terminal like	GGGCGGR_SP1_Q6						CHEN_METABOLIC_SYNDROM_NETWORK			
+83706	FERMT3	fermitin family member 3	GGGCGGR_SP1_Q6						CHEN_METABOLIC_SYNDROM_NETWORK			
+23786	BCL2L13	BCL2-like 13 (apoptosis facilitator)	GGGCGGR_SP1_Q6						CHEN_METABOLIC_SYNDROM_NETWORK			
+51631	LUC7L2	LUC7-like 2 (S. cerevisiae)	GGGCGGR_SP1_Q6							CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+958	CD40	CD40 molecule, TNF receptor superfamily member 5	GGGCGGR_SP1_Q6							CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+11212	PROSC	proline synthetase co-transcribed homolog (bacterial)	GGGCGGR_SP1_Q6								MULLIGHAN_MLL_SIGNATURE_2_UP	
+4898	NRD1	nardilysin (N-arginine dibasic convertase)	GGGCGGR_SP1_Q6									KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+10165	SLC25A13	solute carrier family 25, member 13 (citrin)	GGGCGGR_SP1_Q6									
+83667	SESN2	sestrin 2	GGGCGGR_SP1_Q6									
+4286	MITF	microphthalmia-associated transcription factor	GGGCGGR_SP1_Q6									
+201176	ARHGAP27	Rho GTPase activating protein 27	GGGCGGR_SP1_Q6									
+11328	FKBP9	FK506 binding protein 9, 63 kDa	GGGCGGR_SP1_Q6									
+5499	PPP1CA	protein phosphatase 1, catalytic subunit, alpha isozyme	GGGCGGR_SP1_Q6									
+26036	ZNF451	zinc finger protein 451	GGGCGGR_SP1_Q6									
+3636	INPPL1	inositol polyphosphate phosphatase-like 1	GGGCGGR_SP1_Q6									
+6671	SP4	Sp4 transcription factor	GGGCGGR_SP1_Q6									
+29916	SNX11	sorting nexin 11	GGGCGGR_SP1_Q6									
+163259	DENND2C	DENN/MADD domain containing 2C	GGGCGGR_SP1_Q6									
+220001	VWCE	von Willebrand factor C and EGF domains	GGGCGGR_SP1_Q6									
+90488	C12orf23	chromosome 12 open reading frame 23	GGGCGGR_SP1_Q6									
+83451	ABHD11	abhydrolase domain containing 11	GGGCGGR_SP1_Q6									
+6239	RREB1	ras responsive element binding protein 1		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN	CAGGTG_E12_Q6						
+8428	STK24	serine/threonine kinase 24		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN		BLALOCK_ALZHEIMERS_DISEASE_DN		CHEN_METABOLIC_SYNDROM_NETWORK			KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+8624	PSMG1	proteasome (prosome, macropain) assembly chaperone 1		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN		BLALOCK_ALZHEIMERS_DISEASE_DN					
+1456	CSNK1G3	casein kinase 1, gamma 3		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN		BLALOCK_ALZHEIMERS_DISEASE_DN					
+9111	NMI	N-myc (and STAT) interactor		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN			NUYTTEN_EZH2_TARGETS_UP				
+2776	GNAQ	guanine nucleotide binding protein (G protein), q polypeptide		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN			NUYTTEN_EZH2_TARGETS_UP				
+22800	RRAS2	related RAS viral (r-ras) oncogene homolog 2		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN			NUYTTEN_EZH2_TARGETS_UP				
+23568	ARL2BP	ADP-ribosylation factor-like 2 binding protein		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN			NUYTTEN_EZH2_TARGETS_UP				
+6510	SLC1A5	solute carrier family 1 (neutral amino acid transporter), member 5		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN				CHEN_METABOLIC_SYNDROM_NETWORK			
+11171	STRAP	serine/threonine kinase receptor associated protein		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	PILON_KLF1_TARGETS_DN							
+10653	SPINT2	serine peptidase inhibitor, Kunitz type, 2		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		CAGGTG_E12_Q6	BLALOCK_ALZHEIMERS_DISEASE_DN			CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+2224	FDPS	farnesyl diphosphate synthase		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		CAGGTG_E12_Q6				CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+7384	UQCRC1	ubiquinol-cytochrome c reductase core protein I		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			BLALOCK_ALZHEIMERS_DISEASE_DN			CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN	MULLIGHAN_MLL_SIGNATURE_2_UP	KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+8678	BECN1	beclin 1, autophagy related		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			BLALOCK_ALZHEIMERS_DISEASE_DN					
+5090	PBX3	pre-B-cell leukemia homeobox 3		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				NUYTTEN_EZH2_TARGETS_UP			MULLIGHAN_MLL_SIGNATURE_2_UP	
+6415	SEPW1	selenoprotein W, 1		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				NUYTTEN_EZH2_TARGETS_UP				KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+6648	SOD2	superoxide dismutase 2, mitochondrial		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				NUYTTEN_EZH2_TARGETS_UP				
+10661	KLF1	Kruppel-like factor 1 (erythroid)		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					CHEN_METABOLIC_SYNDROM_NETWORK	CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+526	ATP6V1B2	ATPase, H+ transporting, lysosomal 56/58kDa, V1 subunit B2		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					CHEN_METABOLIC_SYNDROM_NETWORK			KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+8662	EIF3B	eukaryotic translation initiation factor 3, subunit B		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+55556	ENOSF1	enolase superfamily member 1		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+6301	SARS	seryl-tRNA synthetase		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+51164	DCTN4	dynactin 4 (p62)		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+9540	TP53I3	tumor protein p53 inducible protein 3		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+10678	B3GNT2	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 2		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+924	CD7	CD7 molecule		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP								
+9844	ELMO1	engulfment and cell motility 1			PILON_KLF1_TARGETS_DN	CAGGTG_E12_Q6	BLALOCK_ALZHEIMERS_DISEASE_DN					KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+5538	PPT1	palmitoyl-protein thioesterase 1			PILON_KLF1_TARGETS_DN		BLALOCK_ALZHEIMERS_DISEASE_DN				MULLIGHAN_MLL_SIGNATURE_2_UP	
+23039	XPO7	exportin 7			PILON_KLF1_TARGETS_DN		BLALOCK_ALZHEIMERS_DISEASE_DN					KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+10213	PSMD14	proteasome (prosome, macropain) 26S subunit, non-ATPase, 14			PILON_KLF1_TARGETS_DN		BLALOCK_ALZHEIMERS_DISEASE_DN					
+54899	PXK	PX domain containing serine/threonine kinase			PILON_KLF1_TARGETS_DN			NUYTTEN_EZH2_TARGETS_UP				
+23191	CYFIP1	cytoplasmic FMR1 interacting protein 1			PILON_KLF1_TARGETS_DN				CHEN_METABOLIC_SYNDROM_NETWORK			KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+947	CD34	CD34 molecule			PILON_KLF1_TARGETS_DN				CHEN_METABOLIC_SYNDROM_NETWORK			
+65258	MPPE1	metallophosphoesterase 1			PILON_KLF1_TARGETS_DN						MULLIGHAN_MLL_SIGNATURE_2_UP	
+79888	LPCAT1	lysophosphatidylcholine acyltransferase 1			PILON_KLF1_TARGETS_DN							
+221545	C6orf136	chromosome 6 open reading frame 136			PILON_KLF1_TARGETS_DN							
+51015	ISOC1	isochorismatase domain containing 1			PILON_KLF1_TARGETS_DN							
+84928	TMEM209	transmembrane protein 209			PILON_KLF1_TARGETS_DN							
+55829	SELS	selenoprotein S			PILON_KLF1_TARGETS_DN							
+26234	FBXL5	F-box and leucine-rich repeat protein 5			PILON_KLF1_TARGETS_DN							
+79801	SHCBP1	SHC SH2-domain binding protein 1			PILON_KLF1_TARGETS_DN							
+54842	MFSD6	major facilitator superfamily domain containing 6			PILON_KLF1_TARGETS_DN							
+144455	E2F7	E2F transcription factor 7			PILON_KLF1_TARGETS_DN							
+64420	SUSD1	sushi domain containing 1			PILON_KLF1_TARGETS_DN							
+55824	PAG1	phosphoprotein associated with glycosphingolipid microdomains 1			PILON_KLF1_TARGETS_DN							
+23161	SNX13	sorting nexin 13			PILON_KLF1_TARGETS_DN							
+345757	FAM174A	family with sequence similarity 174, member A			PILON_KLF1_TARGETS_DN							
+1352	COX10	COX10 homolog, cytochrome c oxidase assembly protein, heme A: farnesyltransferase (yeast)			PILON_KLF1_TARGETS_DN							
+92241	RCSD1	RCSD domain containing 1			PILON_KLF1_TARGETS_DN							
+399818	METTL10	methyltransferase like 10			PILON_KLF1_TARGETS_DN							
+2185	PTK2B	PTK2B protein tyrosine kinase 2 beta				CAGGTG_E12_Q6	BLALOCK_ALZHEIMERS_DISEASE_DN		CHEN_METABOLIC_SYNDROM_NETWORK		MULLIGHAN_MLL_SIGNATURE_2_UP	
+26297	SERGEF	secretion regulating guanine nucleotide exchange factor				CAGGTG_E12_Q6	BLALOCK_ALZHEIMERS_DISEASE_DN					
+5142	PDE4B	phosphodiesterase 4B, cAMP-specific				CAGGTG_E12_Q6	BLALOCK_ALZHEIMERS_DISEASE_DN					
+26289	AK5	adenylate kinase 5				CAGGTG_E12_Q6	BLALOCK_ALZHEIMERS_DISEASE_DN					
+148932	MOB3C	MOB kinase activator 3C				CAGGTG_E12_Q6		NUYTTEN_EZH2_TARGETS_UP				
+1890	TYMP	thymidine phosphorylase				CAGGTG_E12_Q6		NUYTTEN_EZH2_TARGETS_UP				
+114907	FBXO32	F-box protein 32				CAGGTG_E12_Q6			CHEN_METABOLIC_SYNDROM_NETWORK			
+2519	FUCA2	fucosidase, alpha-L- 2, plasma				CAGGTG_E12_Q6			CHEN_METABOLIC_SYNDROM_NETWORK			
+9679	FAM53B	family with sequence similarity 53, member B				CAGGTG_E12_Q6					MULLIGHAN_MLL_SIGNATURE_2_UP	
+54502	RBM47	RNA binding motif protein 47				CAGGTG_E12_Q6					MULLIGHAN_MLL_SIGNATURE_2_UP	
+10169	SERF2	small EDRK-rich factor 2				CAGGTG_E12_Q6					MULLIGHAN_MLL_SIGNATURE_2_UP	
+57522	SRGAP1	SLIT-ROBO Rho GTPase activating protein 1				CAGGTG_E12_Q6						
+5151	PDE8A	phosphodiesterase 8A				CAGGTG_E12_Q6						
+260425	MAGI3	membrane associated guanylate kinase, WW and PDZ domain containing 3				CAGGTG_E12_Q6						
+81786	TRIM7	tripartite motif containing 7				CAGGTG_E12_Q6						
+156	ADRBK1	adrenergic, beta, receptor kinase 1				CAGGTG_E12_Q6						
+84668	FAM126A	family with sequence similarity 126, member A				CAGGTG_E12_Q6						
+8525	DGKZ	diacylglycerol kinase, zeta				CAGGTG_E12_Q6						
+2256	FGF11	fibroblast growth factor 11				CAGGTG_E12_Q6						
+116988	AGAP3	ArfGAP with GTPase domain, ankyrin repeat and PH domain 3				CAGGTG_E12_Q6						
+10174	SORBS3	sorbin and SH3 domain containing 3				CAGGTG_E12_Q6						
+54733	SLC35F2	solute carrier family 35, member F2				CAGGTG_E12_Q6						
+9372	ZFYVE9	zinc finger, FYVE domain containing 9				CAGGTG_E12_Q6						
+84687	PPP1R9B	protein phosphatase 1, regulatory subunit 9B				CAGGTG_E12_Q6						
+51384	WNT16	wingless-type MMTV integration site family, member 16				CAGGTG_E12_Q6						
+6675	UAP1	UDP-N-acteylglucosamine pyrophosphorylase 1					BLALOCK_ALZHEIMERS_DISEASE_DN	NUYTTEN_EZH2_TARGETS_UP				
+10483	SEC23B	Sec23 homolog B (S. cerevisiae)					BLALOCK_ALZHEIMERS_DISEASE_DN				MULLIGHAN_MLL_SIGNATURE_2_UP	
+23014	FBXO21	F-box protein 21					BLALOCK_ALZHEIMERS_DISEASE_DN					
+1032	CDKN2D	cyclin-dependent kinase inhibitor 2D (p19, inhibits CDK4)					BLALOCK_ALZHEIMERS_DISEASE_DN					
+3298	HSF2	heat shock transcription factor 2					BLALOCK_ALZHEIMERS_DISEASE_DN					
+10575	CCT4	chaperonin containing TCP1, subunit 4 (delta)					BLALOCK_ALZHEIMERS_DISEASE_DN					
+56922	MCCC1	methylcrotonoyl-CoA carboxylase 1 (alpha)					BLALOCK_ALZHEIMERS_DISEASE_DN					
+6390	SDHB	succinate dehydrogenase complex, subunit B, iron sulfur (Ip)					BLALOCK_ALZHEIMERS_DISEASE_DN					
+60682	SMAP1	small ArfGAP 1					BLALOCK_ALZHEIMERS_DISEASE_DN					
+1508	CTSB	cathepsin B						NUYTTEN_EZH2_TARGETS_UP	CHEN_METABOLIC_SYNDROM_NETWORK			
+23461	ABCA5	ATP-binding cassette, sub-family A (ABC1), member 5						NUYTTEN_EZH2_TARGETS_UP	CHEN_METABOLIC_SYNDROM_NETWORK			
+308	ANXA5	annexin A5						NUYTTEN_EZH2_TARGETS_UP	CHEN_METABOLIC_SYNDROM_NETWORK			
+2040	STOM	stomatin						NUYTTEN_EZH2_TARGETS_UP		CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+5621	PRNP	prion protein						NUYTTEN_EZH2_TARGETS_UP				KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+5526	PPP2R5B	protein phosphatase 2, regulatory subunit B', beta						NUYTTEN_EZH2_TARGETS_UP				KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+4482	MSRA	methionine sulfoxide reductase A						NUYTTEN_EZH2_TARGETS_UP				
+54664	TMEM106B	transmembrane protein 106B						NUYTTEN_EZH2_TARGETS_UP				
+6993	DYNLT1	dynein, light chain, Tctex-type 1						NUYTTEN_EZH2_TARGETS_UP				
+25819	CCRN4L	CCR4 carbon catabolite repression 4-like (S. cerevisiae)						NUYTTEN_EZH2_TARGETS_UP				
+10404	PGCP	plasma glutamate carboxypeptidase						NUYTTEN_EZH2_TARGETS_UP				
+64778	FNDC3B	fibronectin type III domain containing 3B						NUYTTEN_EZH2_TARGETS_UP				
+3139	HLA-L	major histocompatibility complex, class I, L, pseudogene						NUYTTEN_EZH2_TARGETS_UP				
+81552	VOPP1	vesicular, overexpressed in cancer, prosurvival protein 1							CHEN_METABOLIC_SYNDROM_NETWORK	CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+9909	DENND4B	DENN/MADD domain containing 4B							CHEN_METABOLIC_SYNDROM_NETWORK			KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+4200	ME2	malic enzyme 2, NAD(+)-dependent, mitochondrial							CHEN_METABOLIC_SYNDROM_NETWORK			
+219	ALDH1B1	aldehyde dehydrogenase 1 family, member B1							CHEN_METABOLIC_SYNDROM_NETWORK			
+83442	SH3BGRL3	SH3 domain binding glutamic acid-rich protein like 3							CHEN_METABOLIC_SYNDROM_NETWORK			
+9619	ABCG1	ATP-binding cassette, sub-family G (WHITE), member 1							CHEN_METABOLIC_SYNDROM_NETWORK			
+79956	ERMP1	endoplasmic reticulum metallopeptidase 1							CHEN_METABOLIC_SYNDROM_NETWORK			
+55248	TMEM206	transmembrane protein 206							CHEN_METABOLIC_SYNDROM_NETWORK			
+112	ADCY6	adenylate cyclase 6							CHEN_METABOLIC_SYNDROM_NETWORK			
+141	ADPRH	ADP-ribosylarginine hydrolase							CHEN_METABOLIC_SYNDROM_NETWORK			
+291	SLC25A4	solute carrier family 25 (mitochondrial carrier; adenine nucleotide translocator), member 4								CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+60	ACTB	actin, beta								CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+22875	ENPP4	ectonucleotide pyrophosphatase/phosphodiesterase 4 (putative)								CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+55862	ECHDC1	enoyl CoA hydratase domain containing 1								CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+8833	GMPS	guanine monphosphate synthetase								CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+140461	ASB8	ankyrin repeat and SOCS box containing 8								CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+28960	DCPS	decapping enzyme, scavenger									MULLIGHAN_MLL_SIGNATURE_2_UP	
+51734	SEPX1	selenoprotein X, 1									MULLIGHAN_MLL_SIGNATURE_2_UP	
+55268	ECHDC2	enoyl CoA hydratase domain containing 2									MULLIGHAN_MLL_SIGNATURE_2_UP	
+3055	HCK	hemopoietic cell kinase									MULLIGHAN_MLL_SIGNATURE_2_UP	
+9920	KBTBD11	kelch repeat and BTB (POZ) domain containing 11										KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+23355	VPS8	vacuolar protein sorting 8 homolog (S. cerevisiae)										KIM_BIPOLAR_DISORDER_OLIGODENDROCYTE_DENSITY_CORR_UP
+6397	SEC14L1	SEC14-like 1 (S. cerevisiae)										
+5337	PLD1	phospholipase D1, phosphatidylcholine-specific										
+84626	KRBA1	KRAB-A domain containing 1										
+11123	RCAN3	RCAN family member 3										
+5049	PAFAH1B2	platelet-activating factor acetylhydrolase 1b, catalytic subunit 2 (30kDa)										
+1105	CHD1	chromodomain helicase DNA binding protein 1										
+23221	RHOBTB2	Rho-related BTB domain containing 2										
+4097	MAFG	v-maf musculoaponeurotic fibrosarcoma oncogene homolog G (avian)										
+9394	HS6ST1	heparan sulfate 6-O-sulfotransferase 1										
+23382	AHCYL2	adenosylhomocysteinase-like 2										
+10539	GLRX3	glutaredoxin 3										
+23155	CLCC1	chloride channel CLIC-like 1										
+79088	ZNF426	zinc finger protein 426										
+3566	IL4R	interleukin 4 receptor										
+25782	RAB3GAP2	RAB3 GTPase activating protein subunit 2 (non-catalytic)										
+92675	DTD1	D-tyrosyl-tRNA deacylase 1 homolog (S. cerevisiae)										
+23762	OSBP2	oxysterol binding protein 2										
+5523	PPP2R3A	protein phosphatase 2, regulatory subunit B'', alpha										
+347902	AMIGO2	adhesion molecule with Ig-like domain 2										
+80221	ACSF2	acyl-CoA synthetase family member 2										
+90333	ZNF468	zinc finger protein 468										
+222166	C7orf41	chromosome 7 open reading frame 41										
+79745	CLIP4	CAP-GLY domain containing linker protein family, member 4										
+51295	ECSIT	ECSIT homolog (Drosophila)										
+25900	IFFO1	intermediate filament family orphan 1										
+387119	C6orf204	chromosome 6 open reading frame 204										
+54	ACP5	acid phosphatase 5, tartrate resistant										
+148789	B3GALNT2	beta-1,3-N-acetylgalactosaminyltransferase 2										
+91661	ZNF765	zinc finger protein 765										
+23265	EXOC7	exocyst complex component 7										
+84034	EMILIN2	elastin microfibril interfacer 2										
+5831	PYCR1	pyrroline-5-carboxylate reductase 1										
+23582	CCNDBP1	cyclin D-type binding-protein 1										
+25943	C20orf194	chromosome 20 open reading frame 194										
+284371	ZNF841	zinc finger protein 841										
+91768	CABLES1	Cdk5 and Abl enzyme substrate 1										
+57478	USP31	ubiquitin specific peptidase 31										
+257364	SNX33	sorting nexin 33										
+255783	PRR24	proline rich 24										
+9751	SNPH	syntaphilin										
+116151	C20orf108	chromosome 20 open reading frame 108										
+55129	ANO10	anoctamin 10										
+130951	C2orf65	chromosome 2 open reading frame 65										
+374868	ATP9B	ATPase, class II, type 9B										
+54998	AURKAIP1	aurora kinase A interacting protein 1										
+54935	DUSP23	dual specificity phosphatase 23										
+63892	THADA	thyroid adenoma associated										
+388962	BOLA3	bolA homolog 3 (E. coli)										
+643155	C5orf43	chromosome 5 open reading frame 43										
+338699	ANKRD42	ankyrin repeat domain 42										
+81614	NIPA2	non imprinted in Prader-Willi/Angelman syndrome 2										
+55093	WDYHV1	WDYHV motif containing 1										
+84224	NBPF3	neuroblastoma breakpoint family, member 3										
+9902	MRC2	mannose receptor, C type 2										
+54549	SDK2	sidekick homolog 2 (chicken)										
+388403	YPEL2	yippee-like 2 (Drosophila)										
+149134	LOC149134	uncharacterized LOC149134										
+7799	PRDM2	PR domain containing 2, with ZNF domain										
+26030	PLEKHG3	pleckstrin homology domain containing, family G (with RhoGef domain) member 3										
+100131187	TSTD1	thiosulfate sulfurtransferase (rhodanese)-like domain containing 1										
+154881	KCTD7	potassium channel tetramerisation domain containing 7										
+64582	GPR135	G protein-coupled receptor 135										
+2100	ESR2	estrogen receptor 2 (ER beta)										
+22997	IGSF9B	immunoglobulin superfamily, member 9B										
+115426	UHRF2	ubiquitin-like with PHD and ring finger domains 2										
+57463	AMIGO1	adhesion molecule with Ig-like domain 1										
+23639	LRRC6	leucine rich repeat containing 6										
+93100	NAPRT1	nicotinate phosphoribosyltransferase domain containing 1										
+79758	DHRS12	dehydrogenase/reductase (SDR family) member 12										
+285315	C3orf33	chromosome 3 open reading frame 33										
+55020	TTC38	tetratricopeptide repeat domain 38										
+147947	ZNF542	zinc finger protein 542										
+259282	BOD1L	biorientation of chromosomes in cell division 1-like										
+55837	EAPP	E2F-associated phosphoprotein										
+57538	ALPK3	alpha-kinase 3										
+5452	POU2F2	POU class 2 homeobox 2										
+91544	UBXN11	UBX domain protein 11										
+196513	DCP1B	DCP1 decapping enzyme homolog B (S. cerevisiae)										
+55225	RAVER2	ribonucleoprotein, PTB-binding 2										
+10569	SLU7	SLU7 splicing factor homolog (S. cerevisiae)										
+133308	SLC9B2	solute carrier family 9, subfamily B (cation proton antiporter 2), member 2										
+55293	UEVLD	UEV and lactate/malate dehyrogenase domains										
+197258	FUK	fucokinase										
+11133	KPTN	kaptin (actin binding protein)										
+1197	CLK2P	CDC-like kinase 2, pseudogene										
+401303	ZNF815	zinc finger protein 815										
+387647	LOC387647	patched domain containing 3 pseudogene										

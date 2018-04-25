@@ -1,0 +1,76 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	51
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+WEI_MYCN_TARGETS_WITH_E_BOX	795	Genes whose promoters contain E-box motifs and whose expression changed in MYCN-3 cells (neuroblastoma) upon induction of MYCN [GeneID=4613].	9	0.0113	2.11E-7	5.97E-4
+REN_ALVEOLAR_RHABDOMYOSARCOMA_DN	408	Genes commonly down-regulated in human alveolar rhabdomyosarcoma (ARMS) and its mouse model overexpressing PAX3-FOXO1 [GeneID=5077;2308] fusion.	7	0.0172	3.42E-7	5.97E-4
+DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	855	Genes down-regulated in fibroblasts expressing mutant forms of ERCC3 [GeneID=2071] after UV irradiation.	9	0.0105	3.87E-7	5.97E-4
+YAGI_AML_WITH_INV_16_TRANSLOCATION	422	Genes specifically expressed in samples from patients with pediatric acute myeloid leukemia (AML) bearing inv(16) translocation.	7	0.0166	4.28E-7	5.97E-4
+LOPEZ_MBD_TARGETS	957	Genes up-regulated in HeLa cells (cervical cancer) after simultaneus knockdown of all three MBD (methyl-CpG binding domain) proteins MeCP2, MBD1 and MBD2 [GeneID=4204;4152;8932] by RNAi.	9	0.0094	9.86E-7	1.1E-3
+ONDER_CDH1_TARGETS_1_DN	169	Genes down-regulated in HMLE cells (mmortalized nontransformed mammary epithelial) by expression of a dominant-negative form of E-cadhedrin (CDH1) [GeneID=999].	5	0.0296	1.3E-6	1.13E-3
+DUTERTRE_ESTRADIOL_RESPONSE_24HR_DN	505	Genes down-regulated in MCF7 cells (breast cancer) at 24 h of estradiol [PubChem=5757] treatment.	7	0.0139	1.42E-6	1.13E-3
+DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	1382	Genes up-regulated in CD34+ [GeneID=947] cells isolated from bone marrow of CML (chronic myelogenous leukemia) patients, compared to those from normal donors.	10	0.0072	2.44E-6	1.7E-3
+IGARASHI_ATF4_TARGETS_DN	90	Genes down-regulated in A549 cells (lung cancer) after knockdown of ATF4 [GeneID=468] by RNAi.	4	0.0444	3.2E-6	1.98E-3
+BRUINS_UVC_RESPONSE_LATE	1137	Late response genes: differentially expressed only 12 h after UV-C irradiation of MEF cells (embryonic fibroblast).	9	0.0079	4.03E-6	2.24E-3
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	WEI_MYCN_TARGETS_WITH_E_BOX	REN_ALVEOLAR_RHABDOMYOSARCOMA_DN	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	YAGI_AML_WITH_INV_16_TRANSLOCATION	LOPEZ_MBD_TARGETS	ONDER_CDH1_TARGETS_1_DN	DUTERTRE_ESTRADIOL_RESPONSE_24HR_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	IGARASHI_ATF4_TARGETS_DN	BRUINS_UVC_RESPONSE_LATE
+4067	LYN	v-yes-1 Yamaguchi sarcoma viral related oncogene homolog	WEI_MYCN_TARGETS_WITH_E_BOX		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	YAGI_AML_WITH_INV_16_TRANSLOCATION				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+3164	NR4A1	nuclear receptor subfamily 4, group A, member 1	WEI_MYCN_TARGETS_WITH_E_BOX			YAGI_AML_WITH_INV_16_TRANSLOCATION	LOPEZ_MBD_TARGETS					
+56655	POLE4	polymerase (DNA-directed), epsilon 4 (p12 subunit)	WEI_MYCN_TARGETS_WITH_E_BOX				LOPEZ_MBD_TARGETS					
+3192	HNRNPU	heterogeneous nuclear ribonucleoprotein U (scaffold attachment factor A)	WEI_MYCN_TARGETS_WITH_E_BOX					ONDER_CDH1_TARGETS_1_DN				
+28231	SLCO4A1	solute carrier organic anion transporter family, member 4A1	WEI_MYCN_TARGETS_WITH_E_BOX							DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+2288	FKBP4	FK506 binding protein 4, 59kDa	WEI_MYCN_TARGETS_WITH_E_BOX							DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+7347	UCHL3	ubiquitin carboxyl-terminal esterase L3 (ubiquitin thiolesterase)	WEI_MYCN_TARGETS_WITH_E_BOX									BRUINS_UVC_RESPONSE_LATE
+9818	NUPL1	nucleoporin like 1	WEI_MYCN_TARGETS_WITH_E_BOX									
+4731	NDUFV3	NADH dehydrogenase (ubiquinone) flavoprotein 3, 10kDa	WEI_MYCN_TARGETS_WITH_E_BOX									
+2131	EXT1	exostosin 1		REN_ALVEOLAR_RHABDOMYOSARCOMA_DN	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN				DUTERTRE_ESTRADIOL_RESPONSE_24HR_DN			BRUINS_UVC_RESPONSE_LATE
+9871	SEC24D	SEC24 family, member D (S. cerevisiae)		REN_ALVEOLAR_RHABDOMYOSARCOMA_DN	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN						IGARASHI_ATF4_TARGETS_DN	
+595	CCND1	cyclin D1		REN_ALVEOLAR_RHABDOMYOSARCOMA_DN	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN							
+9276	COPB2	coatomer protein complex, subunit beta 2 (beta prime)		REN_ALVEOLAR_RHABDOMYOSARCOMA_DN		YAGI_AML_WITH_INV_16_TRANSLOCATION	LOPEZ_MBD_TARGETS			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+10123	ARL4C	ADP-ribosylation factor-like 4C		REN_ALVEOLAR_RHABDOMYOSARCOMA_DN		YAGI_AML_WITH_INV_16_TRANSLOCATION		ONDER_CDH1_TARGETS_1_DN	DUTERTRE_ESTRADIOL_RESPONSE_24HR_DN			
+832	CAPZB	capping protein (actin filament) muscle Z-line, beta		REN_ALVEOLAR_RHABDOMYOSARCOMA_DN			LOPEZ_MBD_TARGETS			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+3964	LGALS8	lectin, galactoside-binding, soluble, 8		REN_ALVEOLAR_RHABDOMYOSARCOMA_DN				ONDER_CDH1_TARGETS_1_DN	DUTERTRE_ESTRADIOL_RESPONSE_24HR_DN			BRUINS_UVC_RESPONSE_LATE
+129642	MBOAT2	membrane bound O-acyltransferase domain containing 2			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN				DUTERTRE_ESTRADIOL_RESPONSE_24HR_DN			
+116984	ARAP2	ArfGAP with RhoGAP domain, ankyrin repeat and PH domain 2			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN				DUTERTRE_ESTRADIOL_RESPONSE_24HR_DN			
+23607	CD2AP	CD2-associated protein			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		BRUINS_UVC_RESPONSE_LATE
+51606	ATP6V1H	ATPase, H+ transporting, lysosomal 50/57kDa, V1 subunit H			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN							BRUINS_UVC_RESPONSE_LATE
+23200	ATP11B	ATPase, class VI, type 11B			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN							
+23759	PPIL2	peptidylprolyl isomerase (cyclophilin)-like 2				YAGI_AML_WITH_INV_16_TRANSLOCATION	LOPEZ_MBD_TARGETS					BRUINS_UVC_RESPONSE_LATE
+10762	NUP50	nucleoporin 50kDa				YAGI_AML_WITH_INV_16_TRANSLOCATION		ONDER_CDH1_TARGETS_1_DN		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+25999	CLIP3	CAP-GLY domain containing linker protein 3				YAGI_AML_WITH_INV_16_TRANSLOCATION						
+143888	KDELC2	KDEL (Lys-Asp-Glu-Leu) containing 2					LOPEZ_MBD_TARGETS					BRUINS_UVC_RESPONSE_LATE
+5164	PDK2	pyruvate dehydrogenase kinase, isozyme 2					LOPEZ_MBD_TARGETS					
+10712	FAM189B	family with sequence similarity 189, member B					LOPEZ_MBD_TARGETS					
+11213	IRAK3	interleukin-1 receptor-associated kinase 3					LOPEZ_MBD_TARGETS					
+7039	TGFA	transforming growth factor, alpha						ONDER_CDH1_TARGETS_1_DN				BRUINS_UVC_RESPONSE_LATE
+8887	TAX1BP1	Tax1 (human T-cell leukemia virus type I) binding protein 1							DUTERTRE_ESTRADIOL_RESPONSE_24HR_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+166929	SGMS2	sphingomyelin synthase 2							DUTERTRE_ESTRADIOL_RESPONSE_24HR_DN		IGARASHI_ATF4_TARGETS_DN	BRUINS_UVC_RESPONSE_LATE
+8645	KCNK5	potassium channel, subfamily K, member 5								DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+23761	PISD	phosphatidylserine decarboxylase								DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+8801	SUCLG2	succinate-CoA ligase, GDP-forming, beta subunit									IGARASHI_ATF4_TARGETS_DN	
+54492	NEURL1B	neuralized homolog 1B (Drosophila)									IGARASHI_ATF4_TARGETS_DN	
+202	AIM1	absent in melanoma 1										
+9700	ESPL1	extra spindle pole bodies homolog 1 (S. cerevisiae)										
+150468	CKAP2L	cytoskeleton associated protein 2-like										
+10008	KCNE3	potassium voltage-gated channel, Isk-related family, member 3										
+284252	KCTD1	potassium channel tetramerisation domain containing 1										
+81846	SBF2	SET binding factor 2										
+81839	VANGL1	vang-like 1 (van gogh, Drosophila)										
+79134	TMEM185B	transmembrane protein 185B										
+401207	C5orf63	chromosome 5 open reading frame 63										
+257194	NEGR1	neuronal growth regulator 1										
+57494	RIMKLB	ribosomal modification protein rimK-like family member B										
+25977	NECAP1	NECAP endocytosis associated 1										
+84525	HOPX	HOP homeobox										
+3274	HRH2	histamine receptor H2										
+84874	ZNF514	zinc finger protein 514										
+29083	GTPBP8	GTP-binding protein 8 (putative)										

@@ -1,0 +1,9 @@
+gene,coef,description
+C5orf43,-0.136959973010519,NA
+C9orf21,-0.0938487009883174,NA
+CHFR,-0.513935758150448,checkpoint with forkhead and ring finger domains [Source:HGNC Symbol;Acc:HGNC:20455]
+CSDA,-0.0632627026166381,NA
+DNASE1L2,0.0316334155267959,deoxyribonuclease 1 like 2 [Source:HGNC Symbol;Acc:HGNC:2958]
+FAM109B,-0.0602428505454062,family with sequence similarity 109 member B [Source:HGNC Symbol;Acc:HGNC:27161]
+TANC2,0.0604569488272159,tetratricopeptide repeat, ankyrin repeat and coiled-coil containing 2 [Source:HGNC Symbol;Acc:HGNC:30212]
+ZNF268,-0.277770213588833,zinc finger protein 268 [Source:HGNC Symbol;Acc:HGNC:13061]
