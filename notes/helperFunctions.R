@@ -44,6 +44,7 @@ ExtractClusterProbes <- function(cluster, geneid, k) {
 #' @return a data frame with gene description from hgnc if available
 MergeHGNCDescription <- function(geneid) {
     genes.info <- getBM(c("hgnc_symbol", "description"), "hgnc_symbol", geneid$gene, mart=ensembl)
+    if (dim(genes.info)[1] == 0) return(NULL)
     geneid %>%
       left_join(genes.info, by=c('gene'='hgnc_symbol'))
 }
@@ -84,13 +85,16 @@ WritePredictorInfo <- function(folder, k) {
         base.name <- paste0('/cluster', i, '.RData')
         path <- paste0(folder, base.name)
         out.path <- paste0(folder, '/cluster', i, 'Predictor.csv')
-        if(file.exists(out.path)) {
+        if(file.exists(path)) {
             load(path)
             if(dim(coef)[1] == 0) {
                 print(paste("No predictor selected for cluster", i))
                 next
             }
-            else WriteCSV(MergeHGNCDescription(coef), out.path)
+            else {
+                merged <- MergeHGNCDescription(coef)
+                if (!is.null(merged)) WriteCSV(merged, out.path)
+            }
         } else {
             next
         }

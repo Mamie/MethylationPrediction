@@ -1,0 +1,36 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	4
+# genesets in collections:	5574
+# genes in comparison (n):	17
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+JAATINEN_HEMATOPOIETIC_STEM_CELL_UP	316	Genes up-regulated in CD133+ [GeneID=8842] cells (hematopoietic stem cells, HSC) compared to the CD133- cells.	4	0.0127	4.86E-6	2.71E-2
+REN_ALVEOLAR_RHABDOMYOSARCOMA_DN	408	Genes commonly down-regulated in human alveolar rhabdomyosarcoma (ARMS) and its mouse model overexpressing PAX3-FOXO1 [GeneID=5077;2308] fusion.	4	0.0098	1.33E-5	3.71E-2
+LIU_PROSTATE_CANCER_DN	481	Genes down-regulated in prostate cancer samples.	4	0.0083	2.53E-5	4.7E-2
+ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY	1839	Genes transiently induced only by the first pulse of EGF [GeneID =1950] in 184A1 cells (mammary epithelium).	6	0.0033	3.44E-5	4.8E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	JAATINEN_HEMATOPOIETIC_STEM_CELL_UP	REN_ALVEOLAR_RHABDOMYOSARCOMA_DN	LIU_PROSTATE_CANCER_DN	ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY
+56034	PDGFC	platelet derived growth factor C	JAATINEN_HEMATOPOIETIC_STEM_CELL_UP	REN_ALVEOLAR_RHABDOMYOSARCOMA_DN	LIU_PROSTATE_CANCER_DN	ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY
+11030	RBPMS	RNA binding protein with multiple splicing	JAATINEN_HEMATOPOIETIC_STEM_CELL_UP		LIU_PROSTATE_CANCER_DN	ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY
+6319	SCD	stearoyl-CoA desaturase (delta-9-desaturase)	JAATINEN_HEMATOPOIETIC_STEM_CELL_UP			ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY
+51237	MZB1	marginal zone B and B1 cell-specific protein	JAATINEN_HEMATOPOIETIC_STEM_CELL_UP			
+9902	MRC2	mannose receptor, C type 2		REN_ALVEOLAR_RHABDOMYOSARCOMA_DN	LIU_PROSTATE_CANCER_DN	ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY
+64834	ELOVL1	ELOVL fatty acid elongase 1		REN_ALVEOLAR_RHABDOMYOSARCOMA_DN		
+25978	CHMP2B	charged multivesicular body protein 2B		REN_ALVEOLAR_RHABDOMYOSARCOMA_DN		
+6867	TACC1	transforming, acidic coiled-coil containing protein 1			LIU_PROSTATE_CANCER_DN	
+79027	ZNF655	zinc finger protein 655				ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY
+2054	STX2	syntaxin 2				ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY
+4140	MARK3	MAP/microtubule affinity-regulating kinase 3				
+8704	B4GALT2	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 2				
+64224	HERPUD2	HERPUD family member 2				
+1962	EHHADH	enoyl-CoA, hydratase/3-hydroxyacyl CoA dehydrogenase				
+5531	PPP4C	protein phosphatase 4, catalytic subunit				
+3185	HNRNPF	heterogeneous nuclear ribonucleoprotein F				
+197258	FUK	fucokinase				

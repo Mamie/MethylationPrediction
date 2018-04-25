@@ -1,0 +1,69 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	44
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_UP	380	Genes up-regulated in luminal-like breast cancer cell lines compared to the basal-like ones.	7	0.0184	7.37E-8	4.11E-4
+BUYTAERT_PHOTODYNAMIC_THERAPY_STRESS_UP	811	Genes up-regulated in T24 (bladder cancer) cells in response to the photodynamic therapy (PDT) stress.	8	0.0099	9.19E-7	1.35E-3
+PARENT_MTOR_SIGNALING_UP	567	Genes up-regulated in HepaRG cells (liver cancer) expressing constituvely active form of MTOR [GeneID=2475].	7	0.0123	1.08E-6	1.35E-3
+AACTTT_UNKNOWN	1890	Genes having at least one occurence of the highly conserved motif M17 AACTTT in the region spanning up to 4 kb around their transcription start sites. The motif does not match any known transcription factor binding site (v7.4 TRANSFAC).	11	0.0058	1.21E-6	1.35E-3
+PID_REG_GR_PATHWAY	82	Glucocorticoid receptor regulatory network	4	0.0488	1.21E-6	1.35E-3
+JOHNSTONE_PARVB_TARGETS_3_UP	430	Genes up-regulated upon overexpression of PARVB [GeneID=29780] in MDA-MB-231 cells (breast cancer) cultured in 3D Matrigel only.	6	0.0140	3.39E-6	2.9E-3
+ZHANG_TLX_TARGETS_UP	108	Genes up-regulated in neural stem cells (NSC) at both 36 h and 60 h after cre-lox knockout of TLX (NR2E1) [GeneID=7101].	4	0.0370	3.64E-6	2.9E-3
+WONG_ADULT_TISSUE_STEM_MODULE	721	The 'adult tissue stem' module: genes coordinately up-regulated in a compendium of adult tissue stem cells.	7	0.0097	5.26E-6	3.66E-3
+LEE_BMP2_TARGETS_UP	745	Genes up-regulated in uterus upon knockout of BMP2 [GeneID=650].	7	0.0094	6.51E-6	4.02E-3
+SWEET_LUNG_CANCER_KRAS_UP	491	Genes up-regulated in the Kras2LA mouse lung cancer model with mutated KRAS [GeneID=3845].	6	0.0122	7.22E-6	4.02E-3
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_UP	BUYTAERT_PHOTODYNAMIC_THERAPY_STRESS_UP	PARENT_MTOR_SIGNALING_UP	AACTTT_UNKNOWN	PID_REG_GR_PATHWAY	JOHNSTONE_PARVB_TARGETS_3_UP	ZHANG_TLX_TARGETS_UP	WONG_ADULT_TISSUE_STEM_MODULE	LEE_BMP2_TARGETS_UP	SWEET_LUNG_CANCER_KRAS_UP
+2288	FKBP4	FK506 binding protein 4, 59kDa	CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_UP	BUYTAERT_PHOTODYNAMIC_THERAPY_STRESS_UP		AACTTT_UNKNOWN	PID_REG_GR_PATHWAY					SWEET_LUNG_CANCER_KRAS_UP
+10140	TOB1	transducer of ERBB2, 1	CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_UP	BUYTAERT_PHOTODYNAMIC_THERAPY_STRESS_UP		AACTTT_UNKNOWN		JOHNSTONE_PARVB_TARGETS_3_UP	ZHANG_TLX_TARGETS_UP	WONG_ADULT_TISSUE_STEM_MODULE		SWEET_LUNG_CANCER_KRAS_UP
+112	ADCY6	adenylate cyclase 6	CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_UP			AACTTT_UNKNOWN				WONG_ADULT_TISSUE_STEM_MODULE	LEE_BMP2_TARGETS_UP	
+7433	VIPR1	vasoactive intestinal peptide receptor 1	CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_UP				PID_REG_GR_PATHWAY	JOHNSTONE_PARVB_TARGETS_3_UP				
+7874	USP7	ubiquitin specific peptidase 7 (herpes virus-associated)	CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_UP									
+124565	SLC38A10	solute carrier family 38, member 10	CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_UP									
+10612	TRIM3	tripartite motif containing 3	CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_UP									
+26503	SLC17A5	solute carrier family 17 (anion/sugar transporter), member 5		BUYTAERT_PHOTODYNAMIC_THERAPY_STRESS_UP	PARENT_MTOR_SIGNALING_UP			JOHNSTONE_PARVB_TARGETS_3_UP			LEE_BMP2_TARGETS_UP	
+23710	GABARAPL1	GABA(A) receptor-associated protein like 1		BUYTAERT_PHOTODYNAMIC_THERAPY_STRESS_UP	PARENT_MTOR_SIGNALING_UP				ZHANG_TLX_TARGETS_UP	WONG_ADULT_TISSUE_STEM_MODULE	LEE_BMP2_TARGETS_UP	
+3162	HMOX1	heme oxygenase (decycling) 1		BUYTAERT_PHOTODYNAMIC_THERAPY_STRESS_UP				JOHNSTONE_PARVB_TARGETS_3_UP				
+5333	PLCD1	phospholipase C, delta 1		BUYTAERT_PHOTODYNAMIC_THERAPY_STRESS_UP					ZHANG_TLX_TARGETS_UP			
+56829	ZC3HAV1	zinc finger CCCH-type, antiviral 1		BUYTAERT_PHOTODYNAMIC_THERAPY_STRESS_UP								
+8661	EIF3A	eukaryotic translation initiation factor 3, subunit A		BUYTAERT_PHOTODYNAMIC_THERAPY_STRESS_UP								
+2734	GLG1	golgi glycoprotein 1			PARENT_MTOR_SIGNALING_UP	AACTTT_UNKNOWN						
+26297	SERGEF	secretion regulating guanine nucleotide exchange factor			PARENT_MTOR_SIGNALING_UP	AACTTT_UNKNOWN						
+10404	PGCP	plasma glutamate carboxypeptidase			PARENT_MTOR_SIGNALING_UP					WONG_ADULT_TISSUE_STEM_MODULE	LEE_BMP2_TARGETS_UP	
+1938	EEF2	eukaryotic translation elongation factor 2			PARENT_MTOR_SIGNALING_UP							SWEET_LUNG_CANCER_KRAS_UP
+51491	NOP16	NOP16 nucleolar protein homolog (yeast)			PARENT_MTOR_SIGNALING_UP							
+10499	NCOA2	nuclear receptor coactivator 2				AACTTT_UNKNOWN	PID_REG_GR_PATHWAY					
+5600	MAPK11	mitogen-activated protein kinase 11				AACTTT_UNKNOWN	PID_REG_GR_PATHWAY					
+3482	IGF2R	insulin-like growth factor 2 receptor				AACTTT_UNKNOWN		JOHNSTONE_PARVB_TARGETS_3_UP		WONG_ADULT_TISSUE_STEM_MODULE	LEE_BMP2_TARGETS_UP	
+4791	NFKB2	nuclear factor of kappa light polypeptide gene enhancer in B-cells 2 (p49/p100)				AACTTT_UNKNOWN			ZHANG_TLX_TARGETS_UP			
+6646	SOAT1	sterol O-acyltransferase 1				AACTTT_UNKNOWN						SWEET_LUNG_CANCER_KRAS_UP
+6431	SRSF6	serine/arginine-rich splicing factor 6				AACTTT_UNKNOWN						SWEET_LUNG_CANCER_KRAS_UP
+89796	NAV1	neuron navigator 1						JOHNSTONE_PARVB_TARGETS_3_UP		WONG_ADULT_TISSUE_STEM_MODULE		
+4092	SMAD7	SMAD family member 7								WONG_ADULT_TISSUE_STEM_MODULE		
+8323	FZD6	frizzled family receptor 6									LEE_BMP2_TARGETS_UP	
+2982	GUCY1A3	guanylate cyclase 1, soluble, alpha 3									LEE_BMP2_TARGETS_UP	
+4253	CTAGE5	CTAGE family, member 5										SWEET_LUNG_CANCER_KRAS_UP
+8836	GGH	gamma-glutamyl hydrolase (conjugase, folylpolygammaglutamyl hydrolase)										
+55884	WSB2	WD repeat and SOCS box containing 2										
+9663	LPIN2	lipin 2										
+116447	TOP1MT	topoisomerase (DNA) I, mitochondrial										
+29957	SLC25A24	solute carrier family 25 (mitochondrial carrier; phosphate carrier), member 24										
+8692	HYAL2	hyaluronoglucosaminidase 2										
+6856	SYPL1	synaptophysin-like 1										
+5272	SERPINB9	serpin peptidase inhibitor, clade B (ovalbumin), member 9										
+84236	RHBDD1	rhomboid domain containing 1										
+23313	KIAA0930	KIAA0930										
+3460	IFNGR2	interferon gamma receptor 2 (interferon gamma transducer 1)										
+84680	ACCS	1-aminocyclopropane-1-carboxylate synthase homolog (Arabidopsis)(non-functional)										
+84267	C9orf64	chromosome 9 open reading frame 64										
+284370	ZNF615	zinc finger protein 615										
+146330	FBXL16	F-box and leucine-rich repeat protein 16										

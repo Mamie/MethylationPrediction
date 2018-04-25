@@ -1,0 +1,24 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	2
+# genesets in collections:	5574
+# genes in comparison (n):	7
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+BIOCARTA_EIF4_PATHWAY	24	Regulation of eIF4e and p70 S6 Kinase	3	0.1250	4.37E-9	2.44E-5
+BIOCARTA_MTOR_PATHWAY	23	mTOR Signaling Pathway	2	0.0870	5.02E-6	1.4E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	BIOCARTA_EIF4_PATHWAY	BIOCARTA_MTOR_PATHWAY
+8569	MKNK1	MAP kinase interacting serine/threonine kinase 1	BIOCARTA_EIF4_PATHWAY	BIOCARTA_MTOR_PATHWAY
+5164	PDK2	pyruvate dehydrogenase kinase, isozyme 2	BIOCARTA_EIF4_PATHWAY	BIOCARTA_MTOR_PATHWAY
+5579	PRKCB	protein kinase C, beta	BIOCARTA_EIF4_PATHWAY	
+5520	PPP2R2A	protein phosphatase 2, regulatory subunit B, alpha		
+84888	SPPL2A	signal peptide peptidase-like 2A		
+54976	C20orf27	chromosome 20 open reading frame 27		
+388536	ZNF790	zinc finger protein 790		

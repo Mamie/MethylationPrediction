@@ -1,0 +1,36 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	3
+# genesets in collections:	5574
+# genes in comparison (n):	18
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GEORGES_TARGETS_OF_MIR192_AND_MIR215	893	Genes down-regulated in HCT116 cells (colon cancer) by expression of MIR192 or MIR215 [GeneID=406967;406997] at 24 h.	5	0.0056	1.9E-5	4.83E-2
+WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_WITH_H4K20ME1_MARK	145	Genes with promoters bound by both PPARG and RXRA [GeneID=5468, 6256] at 8 (but not 0) day time point of adipocyte differentiation of 3T3-L1 cells (preadipocyte) and that were newly modified by H4K20me1.	3	0.0207	2.42E-5	4.83E-2
+KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP	953	Genes up-regulated in HL-60 cells (acute promyelocytic leukemia, APL) after treatment with the aminopeptidase inhibitor tosedostat (CHR-2797) [PubChem=15547703] for 6 h.	5	0.0052	2.6E-5	4.83E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GEORGES_TARGETS_OF_MIR192_AND_MIR215	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_WITH_H4K20ME1_MARK	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP
+23786	BCL2L13	BCL2-like 13 (apoptosis facilitator)	GEORGES_TARGETS_OF_MIR192_AND_MIR215	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_WITH_H4K20ME1_MARK	
+7171	TPM4	tropomyosin 4	GEORGES_TARGETS_OF_MIR192_AND_MIR215		KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP
+121274	ZNF641	zinc finger protein 641	GEORGES_TARGETS_OF_MIR192_AND_MIR215		KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP
+50813	COPS7A	COP9 constitutive photomorphogenic homolog subunit 7A (Arabidopsis)	GEORGES_TARGETS_OF_MIR192_AND_MIR215		
+22876	INPP5F	inositol polyphosphate-5-phosphatase F	GEORGES_TARGETS_OF_MIR192_AND_MIR215		
+10257	ABCC4	ATP-binding cassette, sub-family C (CFTR/MRP), member 4		WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_WITH_H4K20ME1_MARK	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP
+79603	CERS4	ceramide synthase 4		WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_WITH_H4K20ME1_MARK	
+2119	ETV5	ets variant 5			KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP
+11311	VPS45	vacuolar protein sorting 45 homolog (S. cerevisiae)			KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP
+9219	MTA2	metastasis associated 1 family, member 2			
+6884	TAF13	TAF13 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 18kDa			
+51776	ZAK	sterile alpha motif and leucine zipper containing kinase AZK			
+91373	UAP1L1	UDP-N-acteylglucosamine pyrophosphorylase 1-like 1			
+93100	NAPRT1	nicotinate phosphoribosyltransferase domain containing 1			
+113802	HENMT1	HEN1 methyltransferase homolog 1 (Arabidopsis)			
+8970	HIST1H2BJ	histone cluster 1, H2bj			
+55051	C14orf102	chromosome 14 open reading frame 102			
+57539	WDR35	WD repeat domain 35			

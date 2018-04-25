@@ -1,0 +1,174 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	149
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	1781	Genes down-regulated in ME-A cells (breast cancer) undergoing apoptosis in response to doxorubicin [PubChem=31703].	30	0.0168	1.04E-13	3.17E-10
+WANG_LMO4_TARGETS_UP	372	Genes up-regulated in MCF7 cells (breast cancer) engineered to conditionally express LMO4 [GeneID=8543] by a Tet Off system.	16	0.0430	1.14E-13	3.17E-10
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	31	0.0157	2.33E-13	4.32E-10
+NUYTTEN_EZH2_TARGETS_UP	1037	Genes up-regulated in PC3 cells (prostate cancer) after knockdown of EZH2 [GeneID=2146] by RNAi.	20	0.0193	1.98E-10	2.76E-7
+DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	1382	Genes up-regulated in CD34+ [GeneID=947] cells isolated from bone marrow of CML (chronic myelogenous leukemia) patients, compared to those from normal donors.	22	0.0159	8.31E-10	9.26E-7
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	32	0.0109	1.19E-9	1.02E-6
+CACTGTG_MIR128A_MIR128B	337	Genes having at least one occurence of the motif CACTGTG in their 3' untranslated region. The motif represents putative target (that is, seed match) of human mature miRNAs hsa-miR-128a and hsa-miR-128b (v7.1 miRBase).	12	0.0356	1.29E-9	1.02E-6
+CHEN_METABOLIC_SYNDROM_NETWORK	1210	Genes forming the macrophage-enriched metabolic network (MEMN) claimed to have a causal relationship with the metabolic syndrom traits.	20	0.0165	2.78E-9	1.94E-6
+FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	555	Genes up-regulated in kidney biopsies from patients with well functioning kidneys more than 1-year post transplant compared to the biopsies from normal living kidney donors.	14	0.0252	4.37E-9	2.71E-6
+BLALOCK_ALZHEIMERS_DISEASE_UP	1691	Genes up-regulated in brain from patients with Alzheimer's disease.	23	0.0136	6.48E-9	3.61E-6
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	WANG_LMO4_TARGETS_UP	PILON_KLF1_TARGETS_DN	NUYTTEN_EZH2_TARGETS_UP	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	GGGCGGR_SP1_Q6	CACTGTG_MIR128A_MIR128B	CHEN_METABOLIC_SYNDROM_NETWORK	FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	BLALOCK_ALZHEIMERS_DISEASE_UP
+92140	MTDH	metadherin	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	WANG_LMO4_TARGETS_UP	PILON_KLF1_TARGETS_DN				CACTGTG_MIR128A_MIR128B		FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+79888	LPCAT1	lysophosphatidylcholine acyltransferase 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	WANG_LMO4_TARGETS_UP	PILON_KLF1_TARGETS_DN							
+94081	SFXN1	sideroflexin 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	WANG_LMO4_TARGETS_UP	PILON_KLF1_TARGETS_DN							
+4052	LTBP1	latent transforming growth factor beta binding protein 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	WANG_LMO4_TARGETS_UP					CACTGTG_MIR128A_MIR128B	CHEN_METABOLIC_SYNDROM_NETWORK		
+5501	PPP1CC	protein phosphatase 1, catalytic subunit, gamma isozyme	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		CACTGTG_MIR128A_MIR128B			BLALOCK_ALZHEIMERS_DISEASE_UP
+4772	NFATC1	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					BLALOCK_ALZHEIMERS_DISEASE_UP
+28951	TRIB2	tribbles homolog 2 (Drosophila)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN			GGGCGGR_SP1_Q6				
+1656	DDX6	DEAD (Asp-Glu-Ala-Asp) box polypeptide 6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN				CACTGTG_MIR128A_MIR128B			BLALOCK_ALZHEIMERS_DISEASE_UP
+4001	LMNB1	lamin B1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN							BLALOCK_ALZHEIMERS_DISEASE_UP
+5962	RDX	radixin	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN							
+10526	IPO8	importin 8	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN							
+488	ATP2A2	ATPase, Ca++ transporting, cardiac muscle, slow twitch 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			NUYTTEN_EZH2_TARGETS_UP	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+134429	STARD4	StAR-related lipid transfer (START) domain containing 4	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			NUYTTEN_EZH2_TARGETS_UP						
+51706	CYB5R1	cytochrome b5 reductase 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			NUYTTEN_EZH2_TARGETS_UP						
+2107	ETF1	eukaryotic translation termination factor 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+9415	FADS2	fatty acid desaturase 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+55240	STEAP3	STEAP family member 3, metalloreductase	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					GGGCGGR_SP1_Q6	CACTGTG_MIR128A_MIR128B			
+6146	RPL22	ribosomal protein L22	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					GGGCGGR_SP1_Q6			FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+57194	ATP10A	ATPase, class V, type 10A	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					GGGCGGR_SP1_Q6				
+1398	CRK	v-crk sarcoma virus CT10 oncogene homolog (avian)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					GGGCGGR_SP1_Q6				
+10452	TOMM40	translocase of outer mitochondrial membrane 40 homolog (yeast)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					GGGCGGR_SP1_Q6				
+25921	ZDHHC5	zinc finger, DHHC-type containing 5	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					GGGCGGR_SP1_Q6				
+10211	FLOT1	flotillin 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					GGGCGGR_SP1_Q6				
+4200	ME2	malic enzyme 2, NAD(+)-dependent, mitochondrial	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							CHEN_METABOLIC_SYNDROM_NETWORK		
+847	CAT	catalase	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN								FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+11065	UBE2C	ubiquitin-conjugating enzyme E2C	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									BLALOCK_ALZHEIMERS_DISEASE_UP
+27333	GOLIM4	golgi integral membrane protein 4	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									BLALOCK_ALZHEIMERS_DISEASE_UP
+10644	IGF2BP2	insulin-like growth factor 2 mRNA binding protein 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+84706	GPT2	glutamic pyruvate transaminase (alanine aminotransferase) 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+9753	ZSCAN12	zinc finger and SCAN domain containing 12	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+961	CD47	CD47 molecule		WANG_LMO4_TARGETS_UP		NUYTTEN_EZH2_TARGETS_UP	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+4502	MT2A	metallothionein 2A		WANG_LMO4_TARGETS_UP		NUYTTEN_EZH2_TARGETS_UP		GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_UP
+95	ACY1	aminoacylase 1		WANG_LMO4_TARGETS_UP			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	GGGCGGR_SP1_Q6		CHEN_METABOLIC_SYNDROM_NETWORK		
+23761	PISD	phosphatidylserine decarboxylase		WANG_LMO4_TARGETS_UP			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	GGGCGGR_SP1_Q6				
+6744	SSFA2	sperm specific antigen 2		WANG_LMO4_TARGETS_UP			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			CHEN_METABOLIC_SYNDROM_NETWORK		BLALOCK_ALZHEIMERS_DISEASE_UP
+6794	STK11	serine/threonine kinase 11		WANG_LMO4_TARGETS_UP			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					BLALOCK_ALZHEIMERS_DISEASE_UP
+55740	ENAH	enabled homolog (Drosophila)		WANG_LMO4_TARGETS_UP				GGGCGGR_SP1_Q6	CACTGTG_MIR128A_MIR128B	CHEN_METABOLIC_SYNDROM_NETWORK		BLALOCK_ALZHEIMERS_DISEASE_UP
+71	ACTG1	actin, gamma 1		WANG_LMO4_TARGETS_UP						CHEN_METABOLIC_SYNDROM_NETWORK	FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+25782	RAB3GAP2	RAB3 GTPase activating protein subunit 2 (non-catalytic)		WANG_LMO4_TARGETS_UP								
+2752	GLUL	glutamate-ammonia ligase		WANG_LMO4_TARGETS_UP								
+55103	RALGPS2	Ral GEF with PH domain and SH3 binding motif 2		WANG_LMO4_TARGETS_UP								
+122416	ANKRD9	ankyrin repeat domain 9		WANG_LMO4_TARGETS_UP								
+51719	CAB39	calcium binding protein 39			PILON_KLF1_TARGETS_DN	NUYTTEN_EZH2_TARGETS_UP	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+6045	RNF2	ring finger protein 2			PILON_KLF1_TARGETS_DN	NUYTTEN_EZH2_TARGETS_UP		GGGCGGR_SP1_Q6				
+25939	SAMHD1	SAM domain and HD domain 1			PILON_KLF1_TARGETS_DN	NUYTTEN_EZH2_TARGETS_UP				CHEN_METABOLIC_SYNDROM_NETWORK		
+10970	CKAP4	cytoskeleton-associated protein 4			PILON_KLF1_TARGETS_DN	NUYTTEN_EZH2_TARGETS_UP						BLALOCK_ALZHEIMERS_DISEASE_UP
+5525	PPP2R5A	protein phosphatase 2, regulatory subunit B', alpha			PILON_KLF1_TARGETS_DN		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	GGGCGGR_SP1_Q6				
+8826	IQGAP1	IQ motif containing GTPase activating protein 1			PILON_KLF1_TARGETS_DN			GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_UP
+805	CALM2	calmodulin 2 (phosphorylase kinase, delta)			PILON_KLF1_TARGETS_DN			GGGCGGR_SP1_Q6				
+5908	RAP1B	RAP1B, member of RAS oncogene family			PILON_KLF1_TARGETS_DN				CACTGTG_MIR128A_MIR128B		FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+3459	IFNGR1	interferon gamma receptor 1			PILON_KLF1_TARGETS_DN					CHEN_METABOLIC_SYNDROM_NETWORK	FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+54491	FAM105A	family with sequence similarity 105, member A			PILON_KLF1_TARGETS_DN					CHEN_METABOLIC_SYNDROM_NETWORK		
+3663	IRF5	interferon regulatory factor 5			PILON_KLF1_TARGETS_DN					CHEN_METABOLIC_SYNDROM_NETWORK		
+1488	CTBP2	C-terminal binding protein 2			PILON_KLF1_TARGETS_DN							BLALOCK_ALZHEIMERS_DISEASE_UP
+10019	SH2B3	SH2B adaptor protein 3			PILON_KLF1_TARGETS_DN							
+90701	SEC11C	SEC11 homolog C (S. cerevisiae)			PILON_KLF1_TARGETS_DN							
+55824	PAG1	phosphoprotein associated with glycosphingolipid microdomains 1			PILON_KLF1_TARGETS_DN							
+51559	NT5DC3	5'-nucleotidase domain containing 3			PILON_KLF1_TARGETS_DN							
+6653	SORL1	sortilin-related receptor, L(DLR class) A repeats containing			PILON_KLF1_TARGETS_DN							
+92241	RCSD1	RCSD domain containing 1			PILON_KLF1_TARGETS_DN							
+8454	CUL1	cullin 1			PILON_KLF1_TARGETS_DN							
+25821	MTO1	mitochondrial translation optimization 1 homolog (S. cerevisiae)			PILON_KLF1_TARGETS_DN							
+64420	SUSD1	sushi domain containing 1			PILON_KLF1_TARGETS_DN							
+6932	TCF7	transcription factor 7 (T-cell specific, HMG-box)				NUYTTEN_EZH2_TARGETS_UP		GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_UP
+308	ANXA5	annexin A5				NUYTTEN_EZH2_TARGETS_UP				CHEN_METABOLIC_SYNDROM_NETWORK	FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+3988	LIPA	lipase A, lysosomal acid, cholesterol esterase				NUYTTEN_EZH2_TARGETS_UP				CHEN_METABOLIC_SYNDROM_NETWORK		
+140809	SRXN1	sulfiredoxin 1				NUYTTEN_EZH2_TARGETS_UP				CHEN_METABOLIC_SYNDROM_NETWORK		
+8682	PEA15	phosphoprotein enriched in astrocytes 15				NUYTTEN_EZH2_TARGETS_UP				CHEN_METABOLIC_SYNDROM_NETWORK		
+5052	PRDX1	peroxiredoxin 1				NUYTTEN_EZH2_TARGETS_UP						
+5420	PODXL	podocalyxin-like				NUYTTEN_EZH2_TARGETS_UP						
+11274	USP18	ubiquitin specific peptidase 18				NUYTTEN_EZH2_TARGETS_UP						
+9764	KIAA0513	KIAA0513				NUYTTEN_EZH2_TARGETS_UP						
+9903	KLHL21	kelch-like 21 (Drosophila)				NUYTTEN_EZH2_TARGETS_UP						
+80235	PIGZ	phosphatidylinositol glycan anchor biosynthesis, class Z				NUYTTEN_EZH2_TARGETS_UP						
+196	AHR	aryl hydrocarbon receptor					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	GGGCGGR_SP1_Q6			FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+2314	FLII	flightless I homolog (Drosophila)					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_UP
+8645	KCNK5	potassium channel, subfamily K, member 5					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_UP
+4067	LYN	v-yes-1 Yamaguchi sarcoma viral related oncogene homolog					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			CHEN_METABOLIC_SYNDROM_NETWORK		
+6720	SREBF1	sterol regulatory element binding transcription factor 1					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					BLALOCK_ALZHEIMERS_DISEASE_UP
+60485	SAV1	salvador homolog 1 (Drosophila)					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					BLALOCK_ALZHEIMERS_DISEASE_UP
+8706	B3GALNT1	beta-1,3-N-acetylgalactosaminyltransferase 1 (globoside blood group)					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+7251	TSG101	tumor susceptibility gene 101					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+26511	CHIC2	cysteine-rich hydrophobic domain 2					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+6879	TAF7	TAF7 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 55kDa					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+6671	SP4	Sp4 transcription factor						GGGCGGR_SP1_Q6	CACTGTG_MIR128A_MIR128B			
+51247	PAIP2	poly(A) binding protein interacting protein 2						GGGCGGR_SP1_Q6	CACTGTG_MIR128A_MIR128B			
+11000	SLC27A3	solute carrier family 27 (fatty acid transporter), member 3						GGGCGGR_SP1_Q6		CHEN_METABOLIC_SYNDROM_NETWORK		
+11212	PROSC	proline synthetase co-transcribed homolog (bacterial)						GGGCGGR_SP1_Q6			FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+29916	SNX11	sorting nexin 11						GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_UP
+2875	GPT	glutamic-pyruvate transaminase (alanine aminotransferase)						GGGCGGR_SP1_Q6				
+8925	HERC1	hect (homologous to the E6-AP (UBE3A) carboxyl terminus) domain and RCC1 (CHC1)-like domain (RLD) 1						GGGCGGR_SP1_Q6				
+84766	EFCAB4B	EF-hand calcium binding domain 4B						GGGCGGR_SP1_Q6				
+117177	RAB3IP	RAB3A interacting protein (rabin3)						GGGCGGR_SP1_Q6				
+440	ASNS	asparagine synthetase (glutamine-hydrolyzing)						GGGCGGR_SP1_Q6				
+200942	KLHDC8B	kelch domain containing 8B						GGGCGGR_SP1_Q6				
+83547	RILP	Rab interacting lysosomal protein						GGGCGGR_SP1_Q6				
+109	ADCY3	adenylate cyclase 3							CACTGTG_MIR128A_MIR128B			BLALOCK_ALZHEIMERS_DISEASE_UP
+83699	SH3BGRL2	SH3 domain binding glutamic acid-rich protein like 2							CACTGTG_MIR128A_MIR128B			
+157638	FAM84B	family with sequence similarity 84, member B							CACTGTG_MIR128A_MIR128B			
+5479	PPIB	peptidylprolyl isomerase B (cyclophilin B)								CHEN_METABOLIC_SYNDROM_NETWORK	FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+2643	GCH1	GTP cyclohydrolase 1								CHEN_METABOLIC_SYNDROM_NETWORK	FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+5732	PTGER2	prostaglandin E receptor 2 (subtype EP2), 53kDa								CHEN_METABOLIC_SYNDROM_NETWORK		
+23498	HAAO	3-hydroxyanthranilate 3,4-dioxygenase								CHEN_METABOLIC_SYNDROM_NETWORK		
+205	AK4	adenylate kinase 4									FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	
+10755	GIPC1	GIPC PDZ domain containing family, member 1										BLALOCK_ALZHEIMERS_DISEASE_UP
+54961	SSH3	slingshot homolog 3 (Drosophila)										BLALOCK_ALZHEIMERS_DISEASE_UP
+9603	NFE2L3	nuclear factor (erythroid-derived 2)-like 3										BLALOCK_ALZHEIMERS_DISEASE_UP
+23362	PSD3	pleckstrin and Sec7 domain containing 3										
+51460	SFMBT1	Scm-like with four mbt domains 1										
+1952	CELSR2	cadherin, EGF LAG seven-pass G-type receptor 2 (flamingo homolog, Drosophila)										
+891	CCNB1	cyclin B1										
+79885	HDAC11	histone deacetylase 11										
+55733	HHAT	hedgehog acyltransferase										
+9645	MICAL2	microtubule associated monoxygenase, calponin and LIM domain containing 2										
+81786	TRIM7	tripartite motif containing 7										
+51255	RNF181	ring finger protein 181										
+1795	DOCK3	dedicator of cytokinesis 3										
+9806	SPOCK2	sparc/osteonectin, cwcv and kazal-like domains proteoglycan (testican) 2										
+9254	CACNA2D2	calcium channel, voltage-dependent, alpha 2/delta subunit 2										
+79837	PIP4K2C	phosphatidylinositol-5-phosphate 4-kinase, type II, gamma										
+79665	DHX40	DEAH (Asp-Glu-Ala-His) box polypeptide 40										
+2767	GNA11	guanine nucleotide binding protein (G protein), alpha 11 (Gq class)										
+653583	PHLDB3	pleckstrin homology-like domain, family B, member 3										
+3566	IL4R	interleukin 4 receptor										
+4773	NFATC2	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 2										
+90441	ZNF622	zinc finger protein 622										
+131870	NUDT16	nudix (nucleoside diphosphate linked moiety X)-type motif 16										
+8321	FZD1	frizzled family receptor 1										
+9094	UNC119	unc-119 homolog (C. elegans)										
+64324	NSD1	nuclear receptor binding SET domain protein 1										
+2906	GRIN2D	glutamate receptor, ionotropic, N-methyl D-aspartate 2D										
+51710	ZNF44	zinc finger protein 44										
+25999	CLIP3	CAP-GLY domain containing linker protein 3										
+6320	CLEC11A	C-type lectin domain family 11, member A										
+56655	POLE4	polymerase (DNA-directed), epsilon 4 (p12 subunit)										
+84946	LTV1	LTV1 homolog (S. cerevisiae)										
+1844	DUSP2	dual specificity phosphatase 2										
+5523	PPP2R3A	protein phosphatase 2, regulatory subunit B'', alpha										
+80025	PANK2	pantothenate kinase 2										
+138639	PTPDC1	protein tyrosine phosphatase domain containing 1										
+2672	GFI1	growth factor independent 1 transcription repressor										
+7001	PRDX2	peroxiredoxin 2										
+120227	CYP2R1	cytochrome P450, family 2, subfamily R, polypeptide 1										
+387119	C6orf204	chromosome 6 open reading frame 204										
+83694	RPS6KL1	ribosomal protein S6 kinase-like 1										
+117608	ZNF354B	zinc finger protein 354B										
+389114	ZNF662	zinc finger protein 662										
+84765	ZNF577	zinc finger protein 577										
+10316	NMUR1	neuromedin U receptor 1										
