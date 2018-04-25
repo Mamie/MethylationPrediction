@@ -1,0 +1,218 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	193
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+SCGGAAGY_ELK1_02	1199	Genes having at least one occurence of the highly conserved motif M3 SCGGAAGY sites. The motif matches transcription factor binding site V$ELK1_02 (v7.4 TRANSFAC).	26	0.0217	9.18E-12	5.11E-8
+KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	1278	Genes up-regulated in TC71 and EWS502 cells (Ewing's sarcoma) by EWSR1-FLI1  [GeneID=2130;2314] as inferred from RNAi knockdown of this fusion protein.	24	0.0188	1.09E-9	2.33E-6
+WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D	882	Genes with promoters bound by both PPARG and RXRA [GeneID=5468, 6256] at 8 day time point of adipocyte differentiation of 3T3-L1 cells (preadipocyte).	20	0.0227	1.26E-9	2.33E-6
+TGCGCANK_UNKNOWN	545	Genes having at least one occurence of the highly conserved motif M22 TGCGCANK in the region spanning up to 4 kb around their transcription start sites. The motif does not match any known transcription factor binding site (v7.4 TRANSFAC).	16	0.0294	1.68E-9	2.33E-6
+NUYTTEN_EZH2_TARGETS_DN	1024	Genes down-regulated in PC3 cells (prostate cancer) after knockdown of EZH2 [GeneID=2146] by RNAi.	21	0.0205	2.81E-9	2.79E-6
+BLALOCK_ALZHEIMERS_DISEASE_DN	1237	Genes down-regulated in brain from patients with Alzheimer's disease.	23	0.0186	3E-9	2.79E-6
+HORIUCHI_WTAP_TARGETS_DN	310	Genes down-regulated in primary endothelial cells (HUVEC) after knockdown of WTAP [GeneID=9589] by RNAi.	12	0.0387	9.52E-9	7.58E-6
+SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP	479	Genes up-regulated in lymphoblastoid cells from the European population compared to those from the Asian population.	14	0.0292	1.91E-8	1.33E-5
+PUJANA_BRCA1_PCC_NETWORK	1652	Genes constituting the BRCA1-PCC network of transcripts whose expression positively correlated (Pearson correlation coefficient, PCC >= 0.4) with that of BRCA1 [GeneID=672] across a compendium of normal tissues.	25	0.0151	3.45E-8	2.14E-5
+LEE_BMP2_TARGETS_DN	882	Genes down-regulated in uterus upon knockout of BMP2 [GeneID=650].	18	0.0204	4.35E-8	2.42E-5
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	SCGGAAGY_ELK1_02	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D	TGCGCANK_UNKNOWN	NUYTTEN_EZH2_TARGETS_DN	BLALOCK_ALZHEIMERS_DISEASE_DN	HORIUCHI_WTAP_TARGETS_DN	SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP	PUJANA_BRCA1_PCC_NETWORK	LEE_BMP2_TARGETS_DN
+55165	CEP55	centrosomal protein 55kDa	SCGGAAGY_ELK1_02	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			NUYTTEN_EZH2_TARGETS_DN		HORIUCHI_WTAP_TARGETS_DN			
+9631	NUP155	nucleoporin 155kDa	SCGGAAGY_ELK1_02	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			NUYTTEN_EZH2_TARGETS_DN				PUJANA_BRCA1_PCC_NETWORK	LEE_BMP2_TARGETS_DN
+10197	PSME3	proteasome (prosome, macropain) activator subunit 3 (PA28 gamma; Ki)	SCGGAAGY_ELK1_02	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP				BLALOCK_ALZHEIMERS_DISEASE_DN				LEE_BMP2_TARGETS_DN
+51065	RPS27L	ribosomal protein S27-like	SCGGAAGY_ELK1_02	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP		
+113246	C12orf57	chromosome 12 open reading frame 57	SCGGAAGY_ELK1_02		WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D		NUYTTEN_EZH2_TARGETS_DN		HORIUCHI_WTAP_TARGETS_DN			
+2597	GAPDH	glyceraldehyde-3-phosphate dehydrogenase	SCGGAAGY_ELK1_02		WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D			BLALOCK_ALZHEIMERS_DISEASE_DN			PUJANA_BRCA1_PCC_NETWORK	
+6143	RPL19	ribosomal protein L19	SCGGAAGY_ELK1_02			TGCGCANK_UNKNOWN				SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP	PUJANA_BRCA1_PCC_NETWORK	
+2672	GFI1	growth factor independent 1 transcription repressor	SCGGAAGY_ELK1_02			TGCGCANK_UNKNOWN					PUJANA_BRCA1_PCC_NETWORK	
+23099	ZBTB43	zinc finger and BTB domain containing 43	SCGGAAGY_ELK1_02			TGCGCANK_UNKNOWN						
+10445	MCRS1	microspherule protein 1	SCGGAAGY_ELK1_02			TGCGCANK_UNKNOWN						
+140461	ASB8	ankyrin repeat and SOCS box containing 8	SCGGAAGY_ELK1_02			TGCGCANK_UNKNOWN						
+80774	LIMD2	LIM domain containing 2	SCGGAAGY_ELK1_02				NUYTTEN_EZH2_TARGETS_DN					
+10745	PHTF1	putative homeodomain transcription factor 1	SCGGAAGY_ELK1_02					BLALOCK_ALZHEIMERS_DISEASE_DN				
+27243	CHMP2A	charged multivesicular body protein 2A	SCGGAAGY_ELK1_02					BLALOCK_ALZHEIMERS_DISEASE_DN				
+6189	RPS3A	ribosomal protein S3A	SCGGAAGY_ELK1_02								PUJANA_BRCA1_PCC_NETWORK	
+55164	SHQ1	SHQ1 homolog (S. cerevisiae)	SCGGAAGY_ELK1_02									LEE_BMP2_TARGETS_DN
+26959	HBP1	HMG-box transcription factor 1	SCGGAAGY_ELK1_02									
+178	AGL	amylo-alpha-1, 6-glucosidase, 4-alpha-glucanotransferase	SCGGAAGY_ELK1_02									
+23332	CLASP1	cytoplasmic linker associated protein 1	SCGGAAGY_ELK1_02									
+84171	LOXL4	lysyl oxidase-like 4	SCGGAAGY_ELK1_02									
+221785	ZNF498	zinc finger protein 498	SCGGAAGY_ELK1_02									
+64777	RMND5B	required for meiotic nuclear division 5 homolog B (S. cerevisiae)	SCGGAAGY_ELK1_02									
+144097	C11orf84	chromosome 11 open reading frame 84	SCGGAAGY_ELK1_02									
+747	DAGLA	diacylglycerol lipase, alpha	SCGGAAGY_ELK1_02									
+84669	USP32	ubiquitin specific peptidase 32	SCGGAAGY_ELK1_02									
+9753	ZSCAN12	zinc finger and SCAN domain containing 12	SCGGAAGY_ELK1_02									
+29979	UBQLN1	ubiquilin 1		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D							LEE_BMP2_TARGETS_DN
+1528	CYB5A	cytochrome b5 type A (microsomal)		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D							
+84967	LSM10	LSM10, U7 small nuclear RNA associated		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D							
+6426	SRSF1	serine/arginine-rich splicing factor 1		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		TGCGCANK_UNKNOWN					PUJANA_BRCA1_PCC_NETWORK	LEE_BMP2_TARGETS_DN
+11083	DIDO1	death inducer-obliterator 1		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			NUYTTEN_EZH2_TARGETS_DN				PUJANA_BRCA1_PCC_NETWORK	
+51015	ISOC1	isochorismatase domain containing 1		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			NUYTTEN_EZH2_TARGETS_DN					
+55159	RFWD3	ring finger and WD repeat domain 3		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			NUYTTEN_EZH2_TARGETS_DN					
+55653	BCAS4	breast carcinoma amplified sequence 4		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			NUYTTEN_EZH2_TARGETS_DN					
+128	ADH5	alcohol dehydrogenase 5 (class III), chi polypeptide		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP				BLALOCK_ALZHEIMERS_DISEASE_DN				
+6240	RRM1	ribonucleotide reductase M1		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP					HORIUCHI_WTAP_TARGETS_DN	SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP	PUJANA_BRCA1_PCC_NETWORK	LEE_BMP2_TARGETS_DN
+3832	KIF11	kinesin family member 11		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP					HORIUCHI_WTAP_TARGETS_DN		PUJANA_BRCA1_PCC_NETWORK	
+51642	MRPL48	mitochondrial ribosomal protein L48		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP					HORIUCHI_WTAP_TARGETS_DN			
+55300	PI4K2B	phosphatidylinositol 4-kinase type 2 beta		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP					HORIUCHI_WTAP_TARGETS_DN			
+6917	TCEA1	transcription elongation factor A (SII), 1		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP	PUJANA_BRCA1_PCC_NETWORK	
+6566	SLC16A1	solute carrier family 16, member 1 (monocarboxylic acid transporter 1)		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP							PUJANA_BRCA1_PCC_NETWORK	LEE_BMP2_TARGETS_DN
+51633	OTUD6B	OTU domain containing 6B		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP								LEE_BMP2_TARGETS_DN
+57608	KIAA1462	KIAA1462		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP								LEE_BMP2_TARGETS_DN
+64426	SUDS3	suppressor of defective silencing 3 homolog (S. cerevisiae)		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP								
+10721	POLQ	polymerase (DNA directed), theta		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP								
+147495	APCDD1	adenomatosis polyposis coli down-regulated 1		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP								
+10113	PREB	prolactin regulatory element binding			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D	TGCGCANK_UNKNOWN	NUYTTEN_EZH2_TARGETS_DN					
+83658	DYNLRB1	dynein, light chain, roadblock-type 1			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D	TGCGCANK_UNKNOWN		BLALOCK_ALZHEIMERS_DISEASE_DN				
+3014	H2AFX	H2A histone family, member X			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D		NUYTTEN_EZH2_TARGETS_DN		HORIUCHI_WTAP_TARGETS_DN	SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP	PUJANA_BRCA1_PCC_NETWORK	
+5468	PPARG	peroxisome proliferator-activated receptor gamma			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D		NUYTTEN_EZH2_TARGETS_DN					
+8079	MLF2	myeloid leukemia factor 2			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D			BLALOCK_ALZHEIMERS_DISEASE_DN		SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP		
+6049	RNF6	ring finger protein (C3H2C3 type) 6			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D			BLALOCK_ALZHEIMERS_DISEASE_DN			PUJANA_BRCA1_PCC_NETWORK	
+7905	REEP5	receptor accessory protein 5			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D			BLALOCK_ALZHEIMERS_DISEASE_DN				
+8148	TAF15	TAF15 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 68kDa			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D					SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP		
+9943	OXSR1	oxidative-stress responsive 1			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D						PUJANA_BRCA1_PCC_NETWORK	
+5463	POU6F1	POU class 6 homeobox 1			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D						PUJANA_BRCA1_PCC_NETWORK	
+137964	AGPAT6	1-acylglycerol-3-phosphate O-acyltransferase 6 (lysophosphatidic acid acyltransferase, zeta)			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D							
+51108	METTL9	methyltransferase like 9			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D							
+2247	FGF2	fibroblast growth factor 2 (basic)			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D							
+56994	CHPT1	choline phosphotransferase 1			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D							
+3619	INCENP	inner centromere protein antigens 135/155kDa			WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D							
+1164	CKS2	CDC28 protein kinase regulatory subunit 2				TGCGCANK_UNKNOWN		BLALOCK_ALZHEIMERS_DISEASE_DN	HORIUCHI_WTAP_TARGETS_DN	SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP	PUJANA_BRCA1_PCC_NETWORK	
+9202	ZMYM4	zinc finger, MYM-type 4				TGCGCANK_UNKNOWN		BLALOCK_ALZHEIMERS_DISEASE_DN				
+25999	CLIP3	CAP-GLY domain containing linker protein 3				TGCGCANK_UNKNOWN		BLALOCK_ALZHEIMERS_DISEASE_DN				
+7311	UBA52	ubiquitin A-52 residue ribosomal protein fusion product 1				TGCGCANK_UNKNOWN						
+10162	LPCAT3	lysophosphatidylcholine acyltransferase 3				TGCGCANK_UNKNOWN						
+10482	NXF1	nuclear RNA export factor 1				TGCGCANK_UNKNOWN						
+29803	REPIN1	replication initiator 1				TGCGCANK_UNKNOWN						
+7392	USF2	upstream transcription factor 2, c-fos interacting				TGCGCANK_UNKNOWN						
+528	ATP6V1C1	ATPase, H+ transporting, lysosomal 42kDa, V1 subunit C1					NUYTTEN_EZH2_TARGETS_DN	BLALOCK_ALZHEIMERS_DISEASE_DN				
+54503	ZDHHC13	zinc finger, DHHC-type containing 13					NUYTTEN_EZH2_TARGETS_DN			SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP		LEE_BMP2_TARGETS_DN
+2644	GCHFR	GTP cyclohydrolase I feedback regulator					NUYTTEN_EZH2_TARGETS_DN			SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP		
+7329	UBE2I	ubiquitin-conjugating enzyme E2I					NUYTTEN_EZH2_TARGETS_DN				PUJANA_BRCA1_PCC_NETWORK	
+55110	MAGOHB	mago-nashi homolog B (Drosophila)					NUYTTEN_EZH2_TARGETS_DN					
+127262	TPRG1L	tumor protein p63 regulated 1-like					NUYTTEN_EZH2_TARGETS_DN					
+79712	GTDC1	glycosyltransferase-like domain containing 1					NUYTTEN_EZH2_TARGETS_DN					
+23300	ATMIN	ATM interactor					NUYTTEN_EZH2_TARGETS_DN					
+55778	ZNF839	zinc finger protein 839					NUYTTEN_EZH2_TARGETS_DN					
+79612	NAA16	N(alpha)-acetyltransferase 16, NatA auxiliary subunit					NUYTTEN_EZH2_TARGETS_DN					
+3939	LDHA	lactate dehydrogenase A						BLALOCK_ALZHEIMERS_DISEASE_DN	HORIUCHI_WTAP_TARGETS_DN		PUJANA_BRCA1_PCC_NETWORK	LEE_BMP2_TARGETS_DN
+2048	EPHB2	EPH receptor B2						BLALOCK_ALZHEIMERS_DISEASE_DN				LEE_BMP2_TARGETS_DN
+27042	DIEXF	digestive organ expansion factor homolog (zebrafish)						BLALOCK_ALZHEIMERS_DISEASE_DN				LEE_BMP2_TARGETS_DN
+7360	UGP2	UDP-glucose pyrophosphorylase 2						BLALOCK_ALZHEIMERS_DISEASE_DN				
+9750	FAM65B	family with sequence similarity 65, member B						BLALOCK_ALZHEIMERS_DISEASE_DN				
+5573	PRKAR1A	protein kinase, cAMP-dependent, regulatory, type I, alpha (tissue specific extinguisher 1)						BLALOCK_ALZHEIMERS_DISEASE_DN				
+23412	COMMD3	COMM domain containing 3						BLALOCK_ALZHEIMERS_DISEASE_DN				
+7251	TSG101	tumor susceptibility gene 101						BLALOCK_ALZHEIMERS_DISEASE_DN				
+84525	HOPX	HOP homeobox						BLALOCK_ALZHEIMERS_DISEASE_DN				
+23507	LRRC8B	leucine rich repeat containing 8 family, member B						BLALOCK_ALZHEIMERS_DISEASE_DN				
+4673	NAP1L1	nucleosome assembly protein 1-like 1							HORIUCHI_WTAP_TARGETS_DN	SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP	PUJANA_BRCA1_PCC_NETWORK	
+8534	CHST1	carbohydrate (keratan sulfate Gal-6) sulfotransferase 1							HORIUCHI_WTAP_TARGETS_DN			
+200916	RPL22L1	ribosomal protein L22-like 1							HORIUCHI_WTAP_TARGETS_DN			
+7988	ZNF212	zinc finger protein 212								SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP		
+5311	PKD2	polycystic kidney disease 2 (autosomal dominant)								SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP		
+54344	DPM3	dolichyl-phosphate mannosyltransferase polypeptide 3								SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_UP		
+8665	EIF3F	eukaryotic translation initiation factor 3, subunit F									PUJANA_BRCA1_PCC_NETWORK	
+3662	IRF4	interferon regulatory factor 4									PUJANA_BRCA1_PCC_NETWORK	
+8482	SEMA7A	semaphorin 7A, GPI membrane anchor (John Milton Hagen blood group)									PUJANA_BRCA1_PCC_NETWORK	
+9567	GTPBP1	GTP binding protein 1									PUJANA_BRCA1_PCC_NETWORK	
+375035	SFT2D2	SFT2 domain containing 2									PUJANA_BRCA1_PCC_NETWORK	
+8526	DGKE	diacylglycerol kinase, epsilon 64kDa									PUJANA_BRCA1_PCC_NETWORK	
+134430	WDR36	WD repeat domain 36										LEE_BMP2_TARGETS_DN
+81621	KAZALD1	Kazal-type serine peptidase inhibitor domain 1										LEE_BMP2_TARGETS_DN
+9093	DNAJA3	DnaJ (Hsp40) homolog, subfamily A, member 3										LEE_BMP2_TARGETS_DN
+51095	TRNT1	tRNA nucleotidyl transferase, CCA-adding, 1										LEE_BMP2_TARGETS_DN
+3984	LIMK1	LIM domain kinase 1										LEE_BMP2_TARGETS_DN
+23201	FAM168A	family with sequence similarity 168, member A										
+117143	TADA1	transcriptional adaptor 1										
+29894	CPSF1	cleavage and polyadenylation specific factor 1, 160kDa										
+55970	GNG12	guanine nucleotide binding protein (G protein), gamma 12										
+59339	PLEKHA2	pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 2										
+7702	ZNF143	zinc finger protein 143										
+9860	LRIG2	leucine-rich repeats and immunoglobulin-like domains 2										
+57688	ZSWIM6	zinc finger, SWIM-type containing 6										
+50485	SMARCAL1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a-like 1										
+90809	TMEM55B	transmembrane protein 55B										
+25957	PNISR	PNN-interacting serine/arginine-rich protein										
+55677	IWS1	IWS1 homolog (S. cerevisiae)										
+163859	C1orf55	chromosome 1 open reading frame 55										
+389	RHOC	ras homolog gene family, member C										
+4854	NOTCH3	notch 3										
+7586	ZKSCAN1	zinc finger with KRAB and SCAN domains 1										
+823	CAPN1	calpain 1, (mu/I) large subunit										
+57473	ZNF512B	zinc finger protein 512B										
+129642	MBOAT2	membrane bound O-acyltransferase domain containing 2										
+79616	CCNJL	cyclin J-like										
+93185	IGSF8	immunoglobulin superfamily, member 8										
+55020	TTC38	tetratricopeptide repeat domain 38										
+391	RHOG	ras homolog gene family, member G (rho G)										
+10654	PMVK	phosphomevalonate kinase										
+348327	ZNF530	zinc finger protein 530										
+51385	ZNF589	zinc finger protein 589										
+90317	ZNF616	zinc finger protein 616										
+7700	ZNF141	zinc finger protein 141										
+253639	ZNF620	zinc finger protein 620										
+9091	PIGQ	phosphatidylinositol glycan anchor biosynthesis, class Q										
+1390	CREM	cAMP responsive element modulator										
+10516	FBLN5	fibulin 5										
+221154	EFHA1	EF-hand domain family, member A1										
+9811	CTIF	CBP80/20-dependent translation initiation factor										
+8642	DCHS1	dachsous 1 (Drosophila)										
+9322	TRIP10	thyroid hormone receptor interactor 10										
+143	PARP4	poly (ADP-ribose) polymerase family, member 4										
+24144	TFIP11	tuftelin interacting protein 11										
+1844	DUSP2	dual specificity phosphatase 2										
+55374	TMCO6	transmembrane and coiled-coil domains 6										
+22936	ELL2	elongation factor, RNA polymerase II, 2										
+285527	FRYL	FRY-like										
+54765	TRIM44	tripartite motif containing 44										
+5204	PFDN5	prefoldin subunit 5										
+3680	ITGA9	integrin, alpha 9										
+11226	GALNT6	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 6 (GalNAc-T6)										
+51307	FAM53C	family with sequence similarity 53, member C										
+51106	TFB1M	transcription factor B1, mitochondrial										
+147011	PROCA1	protein interacting with cyclin A1										
+112858	TP53RK	TP53 regulating kinase										
+64326	RFWD2	ring finger and WD repeat domain 2										
+56900	TMEM167B	transmembrane protein 167B										
+23376	UFL1	UFM1-specific ligase 1										
+221037	JMJD1C	jumonji domain containing 1C										
+286336	FAM78A	family with sequence similarity 78, member A										
+55007	FAM118A	family with sequence similarity 118, member A										
+253260	RICTOR	RPTOR independent companion of MTOR, complex 2										
+9686	VGLL4	vestigial like 4 (Drosophila)										
+118812	MORN4	MORN repeat containing 4										
+6487	ST3GAL3	ST3 beta-galactoside alpha-2,3-sialyltransferase 3										
+64837	KLC2	kinesin light chain 2										
+28966	SNX24	sorting nexin 24										
+257019	FRMD3	FERM domain containing 3										
+3566	IL4R	interleukin 4 receptor										
+51058	ZNF691	zinc finger protein 691										
+3993	LLGL2	lethal giant larvae homolog 2 (Drosophila)										
+2593	GAMT	guanidinoacetate N-methyltransferase										
+583	BBS2	Bardet-Biedl syndrome 2										
+57449	PLEKHG5	pleckstrin homology domain containing, family G (with RhoGef domain) member 5										
+10998	SLC27A5	solute carrier family 27 (fatty acid transporter), member 5										
+162073	ITPRIPL2	inositol 1,4,5-trisphosphate receptor interacting protein-like 2										
+166614	DCLK2	doublecortin-like kinase 2										
+92126	DSEL	dermatan sulfate epimerase-like										
+84957	RELT	RELT tumor necrosis factor receptor										
+66004	LYNX1	Ly6/neurotoxin 1										
+50853	VILL	villin-like										
+55214	LEPREL1	leprecan-like 1										
+57140	RNPEPL1	arginyl aminopeptidase (aminopeptidase B)-like 1										
+84179	MFSD7	major facilitator superfamily domain containing 7										
+55009	C19orf24	chromosome 19 open reading frame 24										
+79633	FAT4	FAT tumor suppressor homolog 4 (Drosophila)										
+65998	C11orf95	chromosome 11 open reading frame 95										
+93109	TMEM44	transmembrane protein 44										
+7675	ZNF121	zinc finger protein 121										
+83987	CCDC8	coiled-coil domain containing 8										
+347862	PDDC1	Parkinson disease 7 domain containing 1										
+55083	KIF26B	kinesin family member 26B										

@@ -1,0 +1,147 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	122
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	30	0.0102	1.19E-10	6.61E-7
+GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	1781	Genes down-regulated in ME-A cells (breast cancer) undergoing apoptosis in response to doxorubicin [PubChem=31703].	23	0.0129	3.03E-10	8.44E-7
+GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN	1080	Genes down-regulated during differentiation of Oli-Neu cells (oligodendroglial precursor) in response to PD174265 [PubChem=4709].	18	0.0167	6.26E-10	1.16E-6
+GGGAGGRR_MAZ_Q6	2274	Genes having at least one occurence of the highly conserved motif M24 GGGAGGRR sites. The motif matches transcription factor binding site V$MAZ_Q6 (v7.4 TRANSFAC).	24	0.0106	6.32E-9	7.01E-6
+CAGGTG_E12_Q6	2485	Genes having at least one occurence of the highly conserved motif M12 CAGGTG sites. The motif matches transcription factor binding site V$E12_Q6 (v7.4 TRANSFAC).	25	0.0101	7.52E-9	7.01E-6
+GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	975	Expressed genes (FPKM>1) associated with high-confidence PAX3-FOXO1 sites with enhancers in primary tumors and cell lines, restricted to those within topological domain boundaries	16	0.0164	7.55E-9	7.01E-6
+RCGCANGCGY_NRF1_Q6	918	Genes having at least one occurence of the highly conserved motif M1 RCGCANGCGY sites. The motif matches transcription factor binding site V$NRF1_Q6 (v7.4 TRANSFAC).	15	0.0163	2.43E-8	1.94E-5
+DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	1382	Genes up-regulated in CD34+ [GeneID=947] cells isolated from bone marrow of CML (chronic myelogenous leukemia) patients, compared to those from normal donors.	18	0.0130	2.83E-8	1.97E-5
+LIN_MELANOMA_COPY_NUMBER_UP	73	Candidate genes in significant regions of chromosomal copy number gains in a panel of melanoma samples.	6	0.0822	4.55E-8	2.82E-5
+PILON_KLF1_TARGETS_UP	504	Genes up-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	11	0.0218	1.16E-7	6.28E-5
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN	GGGAGGRR_MAZ_Q6	CAGGTG_E12_Q6	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	RCGCANGCGY_NRF1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	LIN_MELANOMA_COPY_NUMBER_UP	PILON_KLF1_TARGETS_UP
+7227	TRPS1	trichorhinophalangeal syndrome I	GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6	CAGGTG_E12_Q6					
+26528	DAZAP1	DAZ associated protein 1	GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6			RCGCANGCGY_NRF1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+7474	WNT5A	wingless-type MMTV integration site family, member 5A	GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6			RCGCANGCGY_NRF1_Q6			
+322	APBB1	amyloid beta (A4) precursor protein-binding, family B, member 1 (Fe65)	GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6						
+5875	RABGGTA	Rab geranylgeranyltransferase, alpha subunit	GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6						
+6721	SREBF2	sterol regulatory element binding transcription factor 2	GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			CAGGTG_E12_Q6			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+387338	NSUN4	NOP2/Sun domain family, member 4	GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN								
+10124	ARL4A	ADP-ribosylation factor-like 4A	GGGCGGR_SP1_Q6		GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN		CAGGTG_E12_Q6				LIN_MELANOMA_COPY_NUMBER_UP	
+26229	B3GAT3	beta-1,3-glucuronyltransferase 3 (glucuronosyltransferase I)	GGGCGGR_SP1_Q6		GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN							
+54790	TET2	tet methylcytosine dioxygenase 2	GGGCGGR_SP1_Q6		GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN							
+4066	LYL1	lymphoblastic leukemia derived sequence 1	GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6	CAGGTG_E12_Q6					
+9572	NR1D1	nuclear receptor subfamily 1, group D, member 1	GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6			RCGCANGCGY_NRF1_Q6			
+5598	MAPK7	mitogen-activated protein kinase 7	GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6			RCGCANGCGY_NRF1_Q6			
+4286	MITF	microphthalmia-associated transcription factor	GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6					LIN_MELANOMA_COPY_NUMBER_UP	
+1937	EEF1G	eukaryotic translation elongation factor 1 gamma	GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6						
+84181	CHD6	chromodomain helicase DNA binding protein 6	GGGCGGR_SP1_Q6				CAGGTG_E12_Q6	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+9929	JOSD1	Josephin domain containing 1	GGGCGGR_SP1_Q6				CAGGTG_E12_Q6					
+57727	NCOA5	nuclear receptor coactivator 5	GGGCGGR_SP1_Q6				CAGGTG_E12_Q6					
+23171	GPD1L	glycerol-3-phosphate dehydrogenase 1-like	GGGCGGR_SP1_Q6				CAGGTG_E12_Q6					
+10265	IRX5	iroquois homeobox 5	GGGCGGR_SP1_Q6				CAGGTG_E12_Q6					
+84969	TOX2	TOX high mobility group box family member 2	GGGCGGR_SP1_Q6				CAGGTG_E12_Q6					
+7158	TP53BP1	tumor protein p53 binding protein 1	GGGCGGR_SP1_Q6				CAGGTG_E12_Q6					
+23126	POGZ	pogo transposable element with ZNF domain	GGGCGGR_SP1_Q6					GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS			LIN_MELANOMA_COPY_NUMBER_UP	
+3300	DNAJB2	DnaJ (Hsp40) homolog, subfamily B, member 2	GGGCGGR_SP1_Q6									PILON_KLF1_TARGETS_UP
+2475	MTOR	mechanistic target of rapamycin (serine/threonine kinase)	GGGCGGR_SP1_Q6									
+116254	C6orf72	chromosome 6 open reading frame 72	GGGCGGR_SP1_Q6									
+8572	PDLIM4	PDZ and LIM domain 4	GGGCGGR_SP1_Q6									
+55223	TRIM62	tripartite motif containing 62	GGGCGGR_SP1_Q6									
+165055	CCDC138	coiled-coil domain containing 138	GGGCGGR_SP1_Q6									
+51735	RAPGEF6	Rap guanine nucleotide exchange factor (GEF) 6	GGGCGGR_SP1_Q6									
+84230	LRRC8C	leucine rich repeat containing 8 family, member C		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN	GGGAGGRR_MAZ_Q6	CAGGTG_E12_Q6					
+10449	ACAA2	acetyl-CoA acyltransferase 2		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN		CAGGTG_E12_Q6			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+7204	TRIO	triple functional domain (PTPRF interacting)		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS			LIN_MELANOMA_COPY_NUMBER_UP	PILON_KLF1_TARGETS_UP
+4668	NAGA	N-acetylgalactosaminidase, alpha-		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN						LIN_MELANOMA_COPY_NUMBER_UP	
+29957	SLC25A24	solute carrier family 25 (mitochondrial carrier; phosphate carrier), member 24		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN							
+5163	PDK1	pyruvate dehydrogenase kinase, isozyme 1		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN							
+6093	ROCK1	Rho-associated, coiled-coil containing protein kinase 1		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6	CAGGTG_E12_Q6					
+9455	HOMER2	homer homolog 2 (Drosophila)		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6						
+4076	CAPRIN1	cell cycle associated protein 1		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			CAGGTG_E12_Q6	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+6598	SMARCB1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	RCGCANGCGY_NRF1_Q6			
+3344	FOXN2	forkhead box N2		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+4733	DRG1	developmentally regulated GTP binding protein 1		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					RCGCANGCGY_NRF1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+167153	PAPD4	PAP associated domain containing 4		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					RCGCANGCGY_NRF1_Q6			PILON_KLF1_TARGETS_UP
+84878	ZBTB45	zinc finger and BTB domain containing 45		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN								
+79736	C17orf42	chromosome 17 open reading frame 42		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN								
+6497	SKI	v-ski sarcoma viral oncogene homolog (avian)		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN								
+23208	SYT11	synaptotagmin XI			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN	GGGAGGRR_MAZ_Q6	CAGGTG_E12_Q6					
+5911	RAP2A	RAP2A, member of RAS oncogene family			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN	GGGAGGRR_MAZ_Q6						
+745	C11orf9	chromosome 11 open reading frame 9			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN	GGGAGGRR_MAZ_Q6						
+7837	PXDN	peroxidasin homolog (Drosophila)			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				PILON_KLF1_TARGETS_UP
+6461	SHB	Src homology 2 domain containing adaptor protein B			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+11052	CPSF6	cleavage and polyadenylation specific factor 6, 68kDa			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+63027	SLC22A23	solute carrier family 22, member 23			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN							PILON_KLF1_TARGETS_UP
+30818	KCNIP3	Kv channel interacting protein 3, calsenilin			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN							
+26267	FBXO10	F-box protein 10			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN							
+3516	RBPJ	recombination signal binding protein for immunoglobulin kappa J region				GGGAGGRR_MAZ_Q6	CAGGTG_E12_Q6	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+56963	RGMA	RGM domain family, member A				GGGAGGRR_MAZ_Q6	CAGGTG_E12_Q6	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+10263	CDK2AP2	cyclin-dependent kinase 2 associated protein 2				GGGAGGRR_MAZ_Q6	CAGGTG_E12_Q6					
+1879	EBF1	early B-cell factor 1				GGGAGGRR_MAZ_Q6	CAGGTG_E12_Q6					
+4149	MAX	MYC associated factor X				GGGAGGRR_MAZ_Q6			RCGCANGCGY_NRF1_Q6			
+9969	MED13	mediator complex subunit 13				GGGAGGRR_MAZ_Q6				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		PILON_KLF1_TARGETS_UP
+388272	C16orf87	chromosome 16 open reading frame 87				GGGAGGRR_MAZ_Q6						
+55288	RHOT1	ras homolog gene family, member T1				GGGAGGRR_MAZ_Q6						
+10653	SPINT2	serine peptidase inhibitor, Kunitz type, 2					CAGGTG_E12_Q6		RCGCANGCGY_NRF1_Q6	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+5034	P4HB	prolyl 4-hydroxylase, beta polypeptide					CAGGTG_E12_Q6					
+130872	AHSA2	AHA1, activator of heat shock 90kDa protein ATPase homolog 2 (yeast)					CAGGTG_E12_Q6					
+5587	PRKD1	protein kinase D1					CAGGTG_E12_Q6					
+83464	APH1B	anterior pharynx defective 1 homolog B (C. elegans)					CAGGTG_E12_Q6					
+10455	ECI2	enoyl-CoA delta isomerase 2						GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	LIN_MELANOMA_COPY_NUMBER_UP	
+5983	RFC3	replication factor C (activator 1) 3, 38kDa						GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+10867	TSPAN9	tetraspanin 9						GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				PILON_KLF1_TARGETS_UP
+55690	PACS1	phosphofurin acidic cluster sorting protein 1						GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+23216	TBC1D1	TBC1 (tre-2/USP6, BUB2, cdc16) domain family, member 1						GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+51125	GOLGA7	golgin A7						GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+23248	RPRD2	regulation of nuclear pre-mRNA domain containing 2							RCGCANGCGY_NRF1_Q6			
+203260	CCDC107	coiled-coil domain containing 107							RCGCANGCGY_NRF1_Q6			
+84522	JAGN1	jagunal homolog 1 (Drosophila)							RCGCANGCGY_NRF1_Q6			
+56965	PARP6	poly (ADP-ribose) polymerase family, member 6							RCGCANGCGY_NRF1_Q6			
+23081	KDM4C	lysine (K)-specific demethylase 4C							RCGCANGCGY_NRF1_Q6			
+79882	ZC3H14	zinc finger CCCH-type containing 14							RCGCANGCGY_NRF1_Q6			
+55353	LAPTM4B	lysosomal protein transmembrane 4 beta								DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+8560	DEGS1	degenerative spermatocyte homolog 1, lipid desaturase (Drosophila)								DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+9538	EI24	etoposide induced 2.4 mRNA								DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+29780	PARVB	parvin, beta								DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+10671	DCTN6	dynactin 6								DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+9188	DDX21	DEAD (Asp-Glu-Ala-Asp) box polypeptide 21								DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+26511	CHIC2	cysteine-rich hydrophobic domain 2								DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		
+26268	FBXO9	F-box protein 9										PILON_KLF1_TARGETS_UP
+2324	FLT4	fms-related tyrosine kinase 4										PILON_KLF1_TARGETS_UP
+2335	FN1	fibronectin 1										PILON_KLF1_TARGETS_UP
+51193	ZNF639	zinc finger protein 639										PILON_KLF1_TARGETS_UP
+955	ENTPD6	ectonucleoside triphosphate diphosphohydrolase 6 (putative)										
+10542	HBXIP	hepatitis B virus x interacting protein										
+9909	DENND4B	DENN/MADD domain containing 4B										
+92999	ZBTB47	zinc finger and BTB domain containing 47										
+83742	MARVELD1	MARVEL domain containing 1										
+8874	ARHGEF7	Rho guanine nucleotide exchange factor (GEF) 7										
+440193	CCDC88C	coiled-coil domain containing 88C										
+64859	OBFC2A	oligonucleotide/oligosaccharide-binding fold containing 2A										
+54148	MRPL39	mitochondrial ribosomal protein L39										
+79809	TTC21B	tetratricopeptide repeat domain 21B										
+10365	KLF2	Kruppel-like factor 2 (lung)										
+55766	H2AFJ	H2A histone family, member J										
+84282	RNF135	ring finger protein 135										
+84293	C10orf58	chromosome 10 open reading frame 58										
+9473	C1orf38	chromosome 1 open reading frame 38										
+23207	PLEKHM2	pleckstrin homology domain containing, family M (with RUN domain) member 2										
+27341	RRP7A	ribosomal RNA processing 7 homolog A (S. cerevisiae)										
+144983	HNRNPA1L2	heterogeneous nuclear ribonucleoprotein A1-like 2										
+5909	RAP1GAP	RAP1 GTPase activating protein										
+55635	DEPDC1	DEP domain containing 1										
+389677	RBM12B	RNA binding motif protein 12B										
+84991	RBM17	RNA binding motif protein 17										
+131870	NUDT16	nudix (nucleoside diphosphate linked moiety X)-type motif 16										
+259173	ALS2CL	ALS2 C-terminal like										
+221120	ALKBH3	alkB, alkylation repair homolog 3 (E. coli)										
+127700	OSCP1	organic solute carrier partner 1										
+5881	RAC3	ras-related C3 botulinum toxin substrate 3 (rho family, small GTP binding protein Rac3)										
+25870	SUMF2	sulfatase modifying factor 2										
+197258	FUK	fucokinase										
+401884	MGC57346	uncharacterized LOC401884										
+138649	ANKRD19P	ankyrin repeat domain 19, pseudogene										

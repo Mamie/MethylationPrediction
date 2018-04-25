@@ -1,0 +1,13 @@
+gene,coef,description
+ACOT4,-0.0597074190988097,acyl-CoA thioesterase 4 [Source:HGNC Symbol;Acc:HGNC:19748]
+C19orf63,-0.10046939760355,NA
+DFNA5,-0.0702922170087388,NA
+FBXL16,0.0632188033832616,F-box and leucine rich repeat protein 16 [Source:HGNC Symbol;Acc:HGNC:14150]
+IFT46,0.144531264659695,intraflagellar transport 46 [Source:HGNC Symbol;Acc:HGNC:26146]
+PPT1,0.213978942840464,palmitoyl-protein thioesterase 1 [Source:HGNC Symbol;Acc:HGNC:9325]
+RINL,-0.10132054013196,Ras and Rab interactor like [Source:HGNC Symbol;Acc:HGNC:24795]
+SERPINB9,-0.0501401532978697,serpin family B member 9 [Source:HGNC Symbol;Acc:HGNC:8955]
+TMEM42,-0.137292335985661,transmembrane protein 42 [Source:HGNC Symbol;Acc:HGNC:28444]
+UBE2E3,-0.184391900645528,ubiquitin conjugating enzyme E2 E3 [Source:HGNC Symbol;Acc:HGNC:12479]
+ZNF518B,-0.0866242977214877,zinc finger protein 518B [Source:HGNC Symbol;Acc:HGNC:29365]
+ZNF532,-0.0979427638093951,zinc finger protein 532 [Source:HGNC Symbol;Acc:HGNC:30940]

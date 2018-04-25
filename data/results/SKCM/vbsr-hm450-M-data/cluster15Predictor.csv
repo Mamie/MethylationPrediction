@@ -1,0 +1,11 @@
+gene,coef,description
+ADM,-0.0557097250242253,adrenomedullin [Source:HGNC Symbol;Acc:HGNC:259]
+ANK2,0.0658471526129583,ankyrin 2 [Source:HGNC Symbol;Acc:HGNC:493]
+AVEN,0.0838390310248634,apoptosis and caspase activation inhibitor [Source:HGNC Symbol;Acc:HGNC:13509]
+B3GALNT1,-0.048057530337445,beta-1,3-N-acetylgalactosaminyltransferase 1 (globoside blood group) [Source:HGNC Symbol;Acc:HGNC:918]
+COL11A2,-0.0217684665772113,collagen type XI alpha 2 chain [Source:HGNC Symbol;Acc:HGNC:2187]
+DNALI1,-0.0356784955219903,dynein axonemal light intermediate chain 1 [Source:HGNC Symbol;Acc:HGNC:14353]
+HCG11,-0.0444157391371616,HLA complex group 11 (non-protein coding) [Source:HGNC Symbol;Acc:HGNC:17707]
+MGC70857,-0.0899045149525755,NA
+NCF4,0.155714794924177,neutrophil cytosolic factor 4 [Source:HGNC Symbol;Acc:HGNC:7662]
+PDZD4,0.0351863020569204,PDZ domain containing 4 [Source:HGNC Symbol;Acc:HGNC:21167]
