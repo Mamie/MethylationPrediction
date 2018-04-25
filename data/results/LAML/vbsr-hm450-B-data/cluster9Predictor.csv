@@ -1,0 +1,5 @@
+gene,coef,description
+AHR,-0.0145759026370746,aryl hydrocarbon receptor [Source:HGNC Symbol;Acc:HGNC:348]
+C1orf59,-0.0301932452729069,NA
+CYB5R1,-0.0672847084734835,cytochrome b5 reductase 1 [Source:HGNC Symbol;Acc:HGNC:13397]
+MCTP2,-0.0215846997951274,multiple C2 and transmembrane domain containing 2 [Source:HGNC Symbol;Acc:HGNC:25636]

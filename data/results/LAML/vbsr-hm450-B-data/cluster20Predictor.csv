@@ -1,0 +1,4 @@
+gene,coef,description
+MANEAL,0.0294073505788867,mannosidase endo-alpha like [Source:HGNC Symbol;Acc:HGNC:26452]
+MAP1LC3A,-0.0244094625292599,microtubule associated protein 1 light chain 3 alpha [Source:HGNC Symbol;Acc:HGNC:6838]
+SPRY1,0.00553573462308888,sprouty RTK signaling antagonist 1 [Source:HGNC Symbol;Acc:HGNC:11269]

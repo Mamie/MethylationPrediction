@@ -1,0 +1,91 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	66
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D	882	Genes with promoters bound by both PPARG and RXRA [GeneID=5468, 6256] at 8 day time point of adipocyte differentiation of 3T3-L1 cells (preadipocyte).	10	0.0113	5.15E-7	2.87E-3
+TTGTTT_FOXO4_01	2061	Genes having at least one occurence of the highly conserved motif M60 TTGTTT sites. The motif matches transcription factor binding site V$FOXO4_01 (v7.4 TRANSFAC).	13	0.0063	6.31E-6	1.76E-2
+SANSOM_APC_TARGETS_DN	366	Top genes down-regulated at day 5 of Cre-Lox induced APC [GeneID=324] knockout in the intestine.	6	0.0164	1.49E-5	2.26E-2
+MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3	1069	Genes with high-CpG-density promoters (HCP) bearing histone H3 dimethylation at K4 (H3K4me2) and trimethylation at K27 (H3K27me3) in brain.	9	0.0084	2.17E-5	2.26E-2
+BERENJENO_TRANSFORMED_BY_RHOA_DN	394	Genes down-regulated in NIH3T3 cells (fibroblasts) transformed by  expression of contitutively active (Q63L) form of RHOA [GeneID=387] off plasmid vector.	6	0.0152	2.25E-5	2.26E-2
+CUI_TCF21_TARGETS_2_DN	830	All significantly down-regulated genes in kidney glomeruli isolated from TCF21 [Gene ID=6943] knockout mice.	8	0.0096	2.5E-5	2.26E-2
+ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP	863	Genes up-regulated in liver tumor compared to the normal adjacent tissue.	8	0.0093	3.29E-5	2.26E-2
+KEGG_AMINO_SUGAR_AND_NUCLEOTIDE_SUGAR_METABOLISM	44	Amino sugar and nucleotide sugar metabolism	3	0.0682	3.59E-5	2.26E-2
+GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	1781	Genes down-regulated in ME-A cells (breast cancer) undergoing apoptosis in response to doxorubicin [PubChem=31703].	11	0.0062	4.34E-5	2.26E-2
+MCCLUNG_DELTA_FOSB_TARGETS_8WK	47	Genes up-regulated in the nucleus accumbens (a major reward center in brain) 8 weeks after induction of deltaFosB, a FOSB [GeneID=2354] splice variant.	3	0.0638	4.38E-5	2.26E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D	TTGTTT_FOXO4_01	SANSOM_APC_TARGETS_DN	MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3	BERENJENO_TRANSFORMED_BY_RHOA_DN	CUI_TCF21_TARGETS_2_DN	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP	KEGG_AMINO_SUGAR_AND_NUCLEOTIDE_SUGAR_METABOLISM	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	MCCLUNG_DELTA_FOSB_TARGETS_8WK
+51366	UBR5	ubiquitin protein ligase E3 component n-recognin 5	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D	TTGTTT_FOXO4_01							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	
+55355	HJURP	Holliday junction recognition protein	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D			MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3						
+26608	TBL2	transducin (beta)-like 2	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D						ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	
+84967	LSM10	LSM10, U7 small nuclear RNA associated	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D						ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP			
+5351	PLOD1	procollagen-lysine, 2-oxoglutarate 5-dioxygenase 1	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D									
+2108	ETFA	electron-transfer-flavoprotein, alpha polypeptide	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D									
+4718	NDUFC2	NADH dehydrogenase (ubiquinone) 1, subcomplex unknown, 2, 14.5kDa	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D									
+682	BSG	basigin (Ok blood group)	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D									
+27163	NAAA	N-acylethanolamine acid amidase	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D									
+83862	TMEM120A	transmembrane protein 120A	WAKABAYASHI_ADIPOGENESIS_PPARG_RXRA_BOUND_8D									
+10791	VAMP5	vesicle-associated membrane protein 5 (myobrevin)		TTGTTT_FOXO4_01	SANSOM_APC_TARGETS_DN	MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3		CUI_TCF21_TARGETS_2_DN	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP			
+4259	MGST3	microsomal glutathione S-transferase 3		TTGTTT_FOXO4_01	SANSOM_APC_TARGETS_DN		BERENJENO_TRANSFORMED_BY_RHOA_DN		ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	
+140885	SIRPA	signal-regulatory protein alpha		TTGTTT_FOXO4_01	SANSOM_APC_TARGETS_DN			CUI_TCF21_TARGETS_2_DN				
+4015	LOX	lysyl oxidase		TTGTTT_FOXO4_01		MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3	BERENJENO_TRANSFORMED_BY_RHOA_DN				GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	
+4643	MYO1E	myosin IE		TTGTTT_FOXO4_01				CUI_TCF21_TARGETS_2_DN			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	
+23022	PALLD	palladin, cytoskeletal associated protein		TTGTTT_FOXO4_01				CUI_TCF21_TARGETS_2_DN				
+9455	HOMER2	homer homolog 2 (Drosophila)		TTGTTT_FOXO4_01							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	
+25813	SAMM50	sorting and assembly machinery component 50 homolog (S. cerevisiae)		TTGTTT_FOXO4_01								
+25788	RAD54B	RAD54 homolog B (S. cerevisiae)		TTGTTT_FOXO4_01								
+64324	NSD1	nuclear receptor binding SET domain protein 1		TTGTTT_FOXO4_01								
+388	RHOB	ras homolog gene family, member B		TTGTTT_FOXO4_01								
+153733	CCDC112	coiled-coil domain containing 112		TTGTTT_FOXO4_01								
+5360	PLTP	phospholipid transfer protein			SANSOM_APC_TARGETS_DN	MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3	BERENJENO_TRANSFORMED_BY_RHOA_DN					
+10007	GNPDA1	glucosamine-6-phosphate deaminase 1			SANSOM_APC_TARGETS_DN		BERENJENO_TRANSFORMED_BY_RHOA_DN			KEGG_AMINO_SUGAR_AND_NUCLEOTIDE_SUGAR_METABOLISM		
+22924	MAPRE3	microtubule-associated protein, RP/EB family, member 3			SANSOM_APC_TARGETS_DN		BERENJENO_TRANSFORMED_BY_RHOA_DN					
+340485	ACER2	alkaline ceramidase 2				MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3		CUI_TCF21_TARGETS_2_DN				
+84790	TUBA1C	tubulin, alpha 1c				MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3			ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP			
+135	ADORA2A	adenosine A2a receptor				MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3						MCCLUNG_DELTA_FOSB_TARGETS_8WK
+79658	ARHGAP10	Rho GTPase activating protein 10				MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3						
+221184	CPNE2	copine II				MEISSNER_BRAIN_HCP_WITH_H3K4ME3_AND_H3K27ME3						
+55577	NAGK	N-acetylglucosamine kinase					BERENJENO_TRANSFORMED_BY_RHOA_DN			KEGG_AMINO_SUGAR_AND_NUCLEOTIDE_SUGAR_METABOLISM	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	
+23095	KIF1B	kinesin family member 1B						CUI_TCF21_TARGETS_2_DN			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	MCCLUNG_DELTA_FOSB_TARGETS_8WK
+131583	FAM43A	family with sequence similarity 43, member A						CUI_TCF21_TARGETS_2_DN				
+26524	LATS2	LATS, large tumor suppressor, homolog 2 (Drosophila)						CUI_TCF21_TARGETS_2_DN				
+5525	PPP2R5A	protein phosphatase 2, regulatory subunit B', alpha							ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP			
+55967	NDUFA12	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 12							ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP			
+84260	TCHP	trichoplein, keratin filament binding							ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP			
+3098	HK1	hexokinase 1								KEGG_AMINO_SUGAR_AND_NUCLEOTIDE_SUGAR_METABOLISM		
+10951	CBX1	chromobox homolog 1									GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	
+388536	ZNF790	zinc finger protein 790									GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	
+7566	ZNF18	zinc finger protein 18									GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	
+25822	DNAJB5	DnaJ (Hsp40) homolog, subfamily B, member 5										MCCLUNG_DELTA_FOSB_TARGETS_8WK
+64943	NT5DC2	5'-nucleotidase domain containing 2										
+5691	PSMB3	proteasome (prosome, macropain) subunit, beta type, 3										
+23228	PLCL2	phospholipase C-like 2										
+95	ACY1	aminoacylase 1										
+5901	RAN	RAN, member RAS oncogene family										
+93010	B3GNT7	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 7										
+5531	PPP4C	protein phosphatase 4, catalytic subunit										
+79789	CLMN	calmin (calponin-like, transmembrane)										
+5921	RASA1	RAS p21 protein activator (GTPase activating protein) 1										
+51750	RTEL1	regulator of telomere elongation helicase 1										
+326624	RAB37	RAB37, member RAS oncogene family										
+23218	NBEAL2	neurobeachin-like 2										
+399979	SNX19	sorting nexin 19										
+113802	HENMT1	HEN1 methyltransferase homolog 1 (Arabidopsis)										
+90634	N4BP2L1	NEDD4 binding protein 2-like 1										
+388566	ZNF470	zinc finger protein 470										
+284459	HKR1	HKR1, GLI-Kruppel zinc finger family member										
+137392	FAM92A1	family with sequence similarity 92, member A1										
+157922	CAMSAP1	calmodulin regulated spectrin-associated protein 1										
+84937	ZNRF1	zinc and ring finger 1										
+26040	SETBP1	SET binding protein 1										
+201931	TMEM192	transmembrane protein 192										
+57827	C6orf47	chromosome 6 open reading frame 47										
+284047	CCDC144B	coiled-coil domain containing 144B (pseudogene)										

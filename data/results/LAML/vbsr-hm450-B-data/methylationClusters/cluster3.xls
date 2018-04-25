@@ -1,0 +1,103 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	78
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GRYDER_PAX3FOXO1_TOP_ENHANCERS	432	Expressed genes (FPKM>1) associated with super-high-confidence PAX3-FOXO1 sites with highly-recurrent enhancers in primary tumors and cell lines, restricted to those within topological domain boundaries	9	0.0208	5.42E-8	3.02E-4
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	19	0.0065	3.38E-7	9.41E-4
+BOYLAN_MULTIPLE_MYELOMA_C_UP	47	Genes up-regulated in group C of tumors arising from overexpression of BCL2L1 and MYC [GeneID=598;4609] in plasma cells.	4	0.0851	1.3E-6	2.41E-3
+KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP	953	Genes up-regulated in HL-60 cells (acute promyelocytic leukemia, APL) after treatment with the aminopeptidase inhibitor tosedostat (CHR-2797) [PubChem=15547703] for 6 h.	10	0.0105	4.94E-6	6.72E-3
+GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	975	Expressed genes (FPKM>1) associated with high-confidence PAX3-FOXO1 sites with enhancers in primary tumors and cell lines, restricted to those within topological domain boundaries	10	0.0103	6.03E-6	6.72E-3
+KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_UP	783	Genes up-regulated in HL-60 cells (acute promyelocytic leukemia, APL) after treatment with the aminopeptidase inhibitor tosedostat (CHR-2797) [PubChem=15547703] for 24 h.	9	0.0115	7.39E-6	6.86E-3
+AGGGCCA_MIR328	80	Genes having at least one occurence of the motif AGGGCCA in their 3' untranslated region. The motif represents putative target (that is, seed match) of human mature miRNA hsa-miR-328 (v7.1 miRBase).	4	0.0500	1.1E-5	8.77E-3
+ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY	1839	Genes transiently induced only by the first pulse of EGF [GeneID =1950] in 184A1 cells (mammary epithelium).	13	0.0071	1.26E-5	8.77E-3
+CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_4	307	The 'group 4 set' of genes associated with acquired endocrine therapy resistance in breast tumors expressing ESR1 but not ERBB2 [GeneID=2099;2064].	6	0.0195	1.45E-5	8.99E-3
+DANG_BOUND_BY_MYC	1103	Genes whose promoters are bound by MYC [GeneID=4609], according to MYC Target Gene Database.	10	0.0091	1.75E-5	9.75E-3
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GRYDER_PAX3FOXO1_TOP_ENHANCERS	GGGCGGR_SP1_Q6	BOYLAN_MULTIPLE_MYELOMA_C_UP	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_UP	AGGGCCA_MIR328	ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_4	DANG_BOUND_BY_MYC
+7534	YWHAZ	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, zeta polypeptide	GRYDER_PAX3FOXO1_TOP_ENHANCERS	GGGCGGR_SP1_Q6			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS		AGGGCCA_MIR328			
+4330	MN1	meningioma (disrupted in balanced translocation) 1	GRYDER_PAX3FOXO1_TOP_ENHANCERS	GGGCGGR_SP1_Q6			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS			ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY		
+5932	RBBP8	retinoblastoma binding protein 8	GRYDER_PAX3FOXO1_TOP_ENHANCERS	GGGCGGR_SP1_Q6			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_4	DANG_BOUND_BY_MYC
+54927	CHCHD3	coiled-coil-helix-coiled-coil-helix domain containing 3	GRYDER_PAX3FOXO1_TOP_ENHANCERS	GGGCGGR_SP1_Q6			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS					
+23092	ARHGAP26	Rho GTPase activating protein 26	GRYDER_PAX3FOXO1_TOP_ENHANCERS	GGGCGGR_SP1_Q6			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS					
+79660	PPP1R3B	protein phosphatase 1, regulatory subunit 3B	GRYDER_PAX3FOXO1_TOP_ENHANCERS	GGGCGGR_SP1_Q6			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS					
+10618	TGOLN2	trans-golgi network protein 2	GRYDER_PAX3FOXO1_TOP_ENHANCERS				GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS					
+167227	DCP2	DCP2 decapping enzyme homolog (S. cerevisiae)	GRYDER_PAX3FOXO1_TOP_ENHANCERS				GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS					
+51126	NAA20	N(alpha)-acetyltransferase 20, NatB catalytic subunit	GRYDER_PAX3FOXO1_TOP_ENHANCERS				GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS					
+116113	FOXP4	forkhead box P4		GGGCGGR_SP1_Q6	BOYLAN_MULTIPLE_MYELOMA_C_UP							
+23764	MAFF	v-maf musculoaponeurotic fibrosarcoma oncogene homolog F (avian)		GGGCGGR_SP1_Q6		KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_UP				DANG_BOUND_BY_MYC
+1389	CREBL2	cAMP responsive element binding protein-like 2		GGGCGGR_SP1_Q6		KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_UP				DANG_BOUND_BY_MYC
+56886	UGGT1	UDP-glucose glycoprotein glucosyltransferase 1		GGGCGGR_SP1_Q6		KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_UP				
+387882	C12orf75	chromosome 12 open reading frame 75		GGGCGGR_SP1_Q6						ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_4	
+64598	MOSPD3	motile sperm domain containing 3		GGGCGGR_SP1_Q6						ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY		
+5372	PMM1	phosphomannomutase 1		GGGCGGR_SP1_Q6								
+6932	TCF7	transcription factor 7 (T-cell specific, HMG-box)		GGGCGGR_SP1_Q6								
+7343	UBTF	upstream binding transcription factor, RNA polymerase I		GGGCGGR_SP1_Q6								
+2969	GTF2I	general transcription factor IIi		GGGCGGR_SP1_Q6								
+5184	PEPD	peptidase D		GGGCGGR_SP1_Q6								
+10873	ME3	malic enzyme 3, NADP(+)-dependent, mitochondrial		GGGCGGR_SP1_Q6								
+81876	RAB1B	RAB1B, member RAS oncogene family		GGGCGGR_SP1_Q6								
+2054	STX2	syntaxin 2			BOYLAN_MULTIPLE_MYELOMA_C_UP					ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY		
+55604	LRRC16A	leucine rich repeat containing 16A			BOYLAN_MULTIPLE_MYELOMA_C_UP					ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY		
+83541	FAM110A	family with sequence similarity 110, member A			BOYLAN_MULTIPLE_MYELOMA_C_UP							
+4783	NFIL3	nuclear factor, interleukin 3 regulated				KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_UP		ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY		DANG_BOUND_BY_MYC
+9620	CELSR1	cadherin, EGF LAG seven-pass G-type receptor 1 (flamingo homolog, Drosophila)				KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_UP		ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY		
+29957	SLC25A24	solute carrier family 25 (mitochondrial carrier; phosphate carrier), member 24				KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_UP			CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_4	
+6443	SGCB	sarcoglycan, beta (43kDa dystrophin-associated glycoprotein)				KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_UP				
+54863	C9orf167	chromosome 9 open reading frame 167				KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_UP				
+120227	CYP2R1	cytochrome P450, family 2, subfamily R, polypeptide 1				KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_UP				
+6875	TAF4B	TAF4b RNA polymerase II, TATA box binding protein (TBP)-associated factor, 105kDa				KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP				ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY		
+6484	ST3GAL4	ST3 beta-galactoside alpha-2,3-sialyltransferase 4					GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS					
+8204	NRIP1	nuclear receptor interacting protein 1							AGGGCCA_MIR328		CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_4	
+9706	ULK2	unc-51-like kinase 2 (C. elegans)							AGGGCCA_MIR328			
+6487	ST3GAL3	ST3 beta-galactoside alpha-2,3-sialyltransferase 3							AGGGCCA_MIR328			
+8411	EEA1	early endosome antigen 1								ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY		DANG_BOUND_BY_MYC
+23654	PLXNB2	plexin B2								ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY		
+147040	KCTD11	potassium channel tetramerisation domain containing 11								ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY		
+6604	SMARCD3	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 3								ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY		
+8797	TNFRSF10A	tumor necrosis factor receptor superfamily, member 10a								ZWANG_TRANSIENTLY_UP_BY_1ST_EGF_PULSE_ONLY		
+6717	SRI	sorcin									CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_4	DANG_BOUND_BY_MYC
+150678	MYEOV2	myeloma overexpressed 2									CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_4	
+51776	ZAK	sterile alpha motif and leucine zipper containing kinase AZK										DANG_BOUND_BY_MYC
+5713	PSMD7	proteasome (prosome, macropain) 26S subunit, non-ATPase, 7										DANG_BOUND_BY_MYC
+10728	PTGES3	prostaglandin E synthase 3 (cytosolic)										DANG_BOUND_BY_MYC
+7978	MTERF	mitochondrial transcription termination factor										DANG_BOUND_BY_MYC
+10999	SLC27A4	solute carrier family 27 (fatty acid transporter), member 4										
+3034	HAL	histidine ammonia-lyase										
+6891	TAP2	transporter 2, ATP-binding cassette, sub-family B (MDR/TAP)										
+2672	GFI1	growth factor independent 1 transcription repressor										
+283349	RASSF3	Ras association (RalGDS/AF-6) domain family member 3										
+3337	DNAJB1	DnaJ (Hsp40) homolog, subfamily B, member 1										
+55364	IMPACT	Impact homolog (mouse)										
+400916	CHCHD10	coiled-coil-helix-coiled-coil-helix domain containing 10										
+94097	SFXN5	sideroflexin 5										
+6596	HLTF	helicase-like transcription factor										
+9397	NMT2	N-myristoyltransferase 2										
+9603	NFE2L3	nuclear factor (erythroid-derived 2)-like 3										
+79885	HDAC11	histone deacetylase 11										
+51522	TMEM14C	transmembrane protein 14C										
+51710	ZNF44	zinc finger protein 44										
+103910	MYL12B	myosin, light chain 12B, regulatory										
+9912	ARHGAP44	Rho GTPase activating protein 44										
+24149	ZNF318	zinc finger protein 318										
+64332	NFKBIZ	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, zeta										
+55663	ZNF446	zinc finger protein 446										
+57095	PITHD1	PITH (C-terminal proteasome-interacting domain of thioredoxin-like) domain containing 1										
+128866	CHMP4B	charged multivesicular body protein 4B										
+9701	PPP6R2	protein phosphatase 6, regulatory subunit 2										
+284023	LOC284023	uncharacterized LOC284023										
+23043	TNIK	TRAF2 and NCK interacting kinase										
+51177	PLEKHO1	pleckstrin homology domain containing, family O member 1										
+133383	C5orf35	chromosome 5 open reading frame 35										
+57182	ANKRD50	ankyrin repeat domain 50										
+84259	DCUN1D5	DCN1, defective in cullin neddylation 1, domain containing 5 (S. cerevisiae)										
+81543	LRRC3	leucine rich repeat containing 3										
+84622	ZNF594	zinc finger protein 594										

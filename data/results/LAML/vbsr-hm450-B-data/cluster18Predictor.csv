@@ -1,0 +1,5 @@
+gene,coef,description
+CBX1,-0.0153105109320424,chromobox 1 [Source:HGNC Symbol;Acc:HGNC:1551]
+FAM109B,-0.0094052160044721,family with sequence similarity 109 member B [Source:HGNC Symbol;Acc:HGNC:27161]
+MYO15A,-0.0097913156242425,myosin XVA [Source:HGNC Symbol;Acc:HGNC:7594]
+ZNF518B,-0.00890831144861192,zinc finger protein 518B [Source:HGNC Symbol;Acc:HGNC:29365]
