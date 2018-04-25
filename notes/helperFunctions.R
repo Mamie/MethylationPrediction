@@ -84,11 +84,15 @@ WritePredictorInfo <- function(folder, k) {
         base.name <- paste0('/cluster', i, '.RData')
         path <- paste0(folder, base.name)
         out.path <- paste0(folder, '/cluster', i, 'Predictor.csv')
-        load(path)
-        if(dim(coef)[1] == 0) {
-            print(paste("No predictor selected for cluster", i))
+        if(file.exists(out.path)) {
+            load(path)
+            if(dim(coef)[1] == 0) {
+                print(paste("No predictor selected for cluster", i))
+                next
+            }
+            else WriteCSV(MergeHGNCDescription(coef), out.path)
+        } else {
             next
         }
-        else WriteCSV(MergeHGNCDescription(coef), out.path)
     }
 }

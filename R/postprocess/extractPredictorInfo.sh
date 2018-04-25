@@ -18,8 +18,8 @@ set -beEu -o pipefail
 #module load R
 
 scriptDir="/Users/wangmeng/Documents/Research/Gentles/repos/MethylationPrediction/R/postprocess" #"/oak/stanford/groups/andrewg/users/szmamie/repos/MethylationPrediction/R/postprocess/"
-script=${scriptDir}/extractClusterInfo.R
-lookupFile=${scriptDir}/extractClusterInfo-list.tsv
+script=${scriptDir}/extractPredictorInfo.R
+lookupFile=${scriptDir}/extractPredictorInfo-list.tsv
 
 for taskID in 1 2 3 4 5 6 7 8  #${SLURM_ARRAY_TASK_ID}
 do
@@ -30,11 +30,10 @@ do
 
     cancer=$(cat $lookupFile | awk -F"\t" -v taskID=$taskID '(NR == taskID) { print $1 }')
     data=$(cat $lookupFile | awk -F"\t" -v taskID=$taskID '(NR == taskID) { print $2 }')
-    methylationProbes=$(cat $lookupFile | awk -F"\t" -v taskID=$taskID '(NR == taskID) { print $3 }')
 
     echo $cancer 
-    echo Rscript $script $data $methylationProbes 
-    Rscript $script $data $methylationProbes
+    echo Rscript $script $data 
+    Rscript $script $data
 
     echo "[$0 $(date +%Y%m%d-%H%M%S)] [array-end] hostname = $(hostname) SLURM_JOBID = ${SLURM_JOBID}; SLURM_ARRAY_TASK_ID = ${SLURM_ARRAY_TASK_ID}" >&2
 done

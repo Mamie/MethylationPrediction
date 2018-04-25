@@ -17,4 +17,4 @@ print(paste0('Loading ', clusterInfo, '...'))
 load(clusterInfo)
 
 dir.create(file.path(dataFolder, 'methylationClusters'), showWarnings=F)
-WriteClusterInfor(clustering$cluster, methProbes, file.path(dataFolder, 'methylationClusters'))
+WriteClusterInfo(clustering$cluster, methProbes, file.path(dataFolder, 'methylationClusters'))
