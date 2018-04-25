@@ -1,0 +1,11 @@
+gene,coef,description
+BOLA1,-0.0118492376208939,bolA family member 1 [Source:HGNC Symbol;Acc:HGNC:24263]
+ID4,-0.00820812891692357,inhibitor of DNA binding 4, HLH protein [Source:HGNC Symbol;Acc:HGNC:5363]
+MANEAL,0.000137020924305464,mannosidase endo-alpha like [Source:HGNC Symbol;Acc:HGNC:26452]
+MYEF2,-0.00635259036485669,myelin expression factor 2 [Source:HGNC Symbol;Acc:HGNC:17940]
+NUDT11,-0.00725348449518501,nudix hydrolase 11 [Source:HGNC Symbol;Acc:HGNC:18011]
+PLBD1,-0.0162031681835235,phospholipase B domain containing 1 [Source:HGNC Symbol;Acc:HGNC:26215]
+RASGEF1A,-0.00861447456737348,RasGEF domain family member 1A [Source:HGNC Symbol;Acc:HGNC:24246]
+RHEBL1,0.0120247008609465,RHEB like 1 [Source:HGNC Symbol;Acc:HGNC:21166]
+TMEM8A,-0.0240796679507649,transmembrane protein 8A [Source:HGNC Symbol;Acc:HGNC:17205]
+ZNF525,-0.00828875993070127,zinc finger protein 525 [Source:HGNC Symbol;Acc:HGNC:29423]

@@ -1,0 +1,16 @@
+gene,coef,description
+APOBEC3F,0.0151852967464017,apolipoprotein B mRNA editing enzyme catalytic subunit 3F [Source:HGNC Symbol;Acc:HGNC:17356]
+CES8,0.00484685218380787,NA
+DAP,-0.0107320650148374,death associated protein [Source:HGNC Symbol;Acc:HGNC:2672]
+DLL1,0.0111927333365061,delta like canonical Notch ligand 1 [Source:HGNC Symbol;Acc:HGNC:2908]
+EPHX3,-0.00526124745496391,epoxide hydrolase 3 [Source:HGNC Symbol;Acc:HGNC:23760]
+FGD2,0.0140990139052752,FYVE, RhoGEF and PH domain containing 2 [Source:HGNC Symbol;Acc:HGNC:3664]
+GLB1L,-0.00685953205932286,galactosidase beta 1 like [Source:HGNC Symbol;Acc:HGNC:28129]
+RAC2,0.00852901517390117,Rac family small GTPase 2 [Source:HGNC Symbol;Acc:HGNC:9802]
+RAVER2,-0.00822225203214732,ribonucleoprotein, PTB binding 2 [Source:HGNC Symbol;Acc:HGNC:25577]
+RIMS3,0.00413270696834772,regulating synaptic membrane exocytosis 3 [Source:HGNC Symbol;Acc:HGNC:21292]
+RNFT2,-0.00470181547457723,ring finger protein, transmembrane 2 [Source:HGNC Symbol;Acc:HGNC:25905]
+SLC16A5,-0.0132162994512783,solute carrier family 16 member 5 [Source:HGNC Symbol;Acc:HGNC:10926]
+SLC39A10,-0.0069121296124454,solute carrier family 39 member 10 [Source:HGNC Symbol;Acc:HGNC:20861]
+SPN,0.00668226582428682,sialophorin [Source:HGNC Symbol;Acc:HGNC:11249]
+TFAP2E,-0.00500947234465348,transcription factor AP-2 epsilon [Source:HGNC Symbol;Acc:HGNC:30774]
