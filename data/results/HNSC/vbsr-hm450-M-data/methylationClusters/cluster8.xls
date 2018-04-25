@@ -1,0 +1,452 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	427
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	1781	Genes down-regulated in ME-A cells (breast cancer) undergoing apoptosis in response to doxorubicin [PubChem=31703].	78	0.0438	2.3E-30	1.28E-26
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	96	0.0327	1.28E-27	3.58E-24
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	68	0.0345	1.07E-20	2E-17
+DODD_NASOPHARYNGEAL_CARCINOMA_DN	1375	Genes down-regulated in nasopharyngeal carcinoma (NPC) compared to the normal tissue.	55	0.0400	1.17E-19	1.63E-16
+DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	855	Genes down-regulated in fibroblasts expressing mutant forms of ERCC3 [GeneID=2071] after UV irradiation.	43	0.0503	3.97E-19	4.43E-16
+BLALOCK_ALZHEIMERS_DISEASE_DN	1237	Genes down-regulated in brain from patients with Alzheimer's disease.	50	0.0404	4.04E-18	3.75E-15
+DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	1382	Genes up-regulated in CD34+ [GeneID=947] cells isolated from bone marrow of CML (chronic myelogenous leukemia) patients, compared to those from normal donors.	52	0.0376	1.66E-17	1.32E-14
+CTTTGT_LEF1_Q2	1972	Genes having at least one occurence of the highly conserved motif M13 CTTTGT sites. The motif matches transcription factor binding site V$LEF1_Q2 (v7.4 TRANSFAC).	59	0.0299	3.07E-15	1.92E-12
+GGGAGGRR_MAZ_Q6	2274	Genes having at least one occurence of the highly conserved motif M24 GGGAGGRR sites. The motif matches transcription factor binding site V$MAZ_Q6 (v7.4 TRANSFAC).	64	0.0281	3.1E-15	1.92E-12
+GATTGGY_NFY_Q6_01	1160	Genes having at least one occurence of the highly conserved motif M5 GATTGGY sites. The motif matches transcription factor binding site V$NFY_Q6_01 (v7.4 TRANSFAC).	44	0.0379	4.51E-15	2.51E-12
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+1615	DARS	aspartyl-tRNA synthetase	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN		BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		GGGAGGRR_MAZ_Q6	
+83879	CDCA7	cell division cycle associated 7	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+2932	GSK3B	glycogen synthase kinase 3 beta	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+3480	IGF1R	insulin-like growth factor 1 receptor	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+56889	TM9SF3	transmembrane 9 superfamily member 3	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			GATTGGY_NFY_Q6_01
+84661	DPY30	dpy-30 homolog (C. elegans)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN							
+25923	ATL3	atlastin GTPase 3	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN							
+10165	SLC25A13	solute carrier family 25, member 13 (citrin)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+29107	NXT1	NTF2-like export factor 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+1457	CSNK2A1	casein kinase 2, alpha 1 polypeptide	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+23085	ERC1	ELKS/RAB6-interacting/CAST family member 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+7534	YWHAZ	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, zeta polypeptide	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+84445	LZTS2	leucine zipper, putative tumor suppressor 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6						CTTTGT_LEF1_Q2		
+140465	MYL6B	myosin, light chain 6B, alkali, smooth muscle and non-muscle	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6						CTTTGT_LEF1_Q2		
+1108	CHD4	chromodomain helicase DNA binding protein 4	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6							GGGAGGRR_MAZ_Q6	
+2260	FGFR1	fibroblast growth factor receptor 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6							GGGAGGRR_MAZ_Q6	
+5727	PTCH1	patched 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6								GATTGGY_NFY_Q6_01
+905	CCNT2	cyclin T2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6								
+7371	UCK2	uridine-cytidine kinase 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+51088	KLHL5	kelch-like 5 (Drosophila)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN				CTTTGT_LEF1_Q2		
+23397	NCAPH	non-SMC condensin I complex, subunit H	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN						GATTGGY_NFY_Q6_01
+64418	TMEM168	transmembrane protein 168	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+4507	MTAP	methylthioadenosine phosphorylase	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+23039	XPO7	exportin 7	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN			BLALOCK_ALZHEIMERS_DISEASE_DN		CTTTGT_LEF1_Q2		
+51123	ZNF706	zinc finger protein 706	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN			BLALOCK_ALZHEIMERS_DISEASE_DN				
+1656	DDX6	DEAD (Asp-Glu-Ala-Asp) box polypeptide 6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN						GGGAGGRR_MAZ_Q6	
+2113	ETS1	v-ets erythroblastosis virus E26 oncogene homolog 1 (avian)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN							
+10447	FAM3C	family with sequence similarity 3, member C	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN							
+5877	RABIF	RAB interacting factor	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN							
+996	CDC27	cell division cycle 27 homolog (S. cerevisiae)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			DODD_NASOPHARYNGEAL_CARCINOMA_DN	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+23394	ADNP	activity-dependent neuroprotector homeobox	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			DODD_NASOPHARYNGEAL_CARCINOMA_DN	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			CTTTGT_LEF1_Q2		
+4848	CNOT2	CCR4-NOT transcription complex, subunit 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			DODD_NASOPHARYNGEAL_CARCINOMA_DN	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+10944	C11orf58	chromosome 11 open reading frame 58	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			DODD_NASOPHARYNGEAL_CARCINOMA_DN		BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+7107	GPR137B	G protein-coupled receptor 137B	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			DODD_NASOPHARYNGEAL_CARCINOMA_DN				CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+203068	TUBB	tubulin, beta class I	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			DODD_NASOPHARYNGEAL_CARCINOMA_DN				CTTTGT_LEF1_Q2		
+857	CAV1	caveolin 1, caveolae protein, 22kDa	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+91433	RCCD1	RCC1 domain containing 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+5095	PCCA	propionyl CoA carboxylase, alpha polypeptide	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+9584	RBM39	RNA binding motif protein 39	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		GGGAGGRR_MAZ_Q6	
+667	DST	dystonin	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+9748	SLK	STE20-like kinase	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+9512	PMPCB	peptidase (mitochondrial processing) beta	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+6309	SC5DL	sterol-C5-desaturase (ERG3 delta-5-desaturase homolog, S. cerevisiae)-like	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					BLALOCK_ALZHEIMERS_DISEASE_DN				GATTGGY_NFY_Q6_01
+1717	DHCR7	7-dehydrocholesterol reductase	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					BLALOCK_ALZHEIMERS_DISEASE_DN				
+23269	MGA	MAX gene associated	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					BLALOCK_ALZHEIMERS_DISEASE_DN				
+6508	SLC4A3	solute carrier family 4, anion exchanger, member 3	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					BLALOCK_ALZHEIMERS_DISEASE_DN				
+5612	PRKRIR	protein-kinase, interferon-inducible double stranded RNA dependent inhibitor, repressor of (P58 repressor)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	CTTTGT_LEF1_Q2		
+1798	DPAGT1	dolichyl-phosphate (UDP-N-acetylglucosamine) N-acetylglucosaminephosphotransferase 1 (GlcNAc-1-P transferase)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		GGGAGGRR_MAZ_Q6	
+8106	PABPN1	poly(A) binding protein, nuclear 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			GATTGGY_NFY_Q6_01
+2764	GMFB	glia maturation factor, beta	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+5832	ALDH18A1	aldehyde dehydrogenase 18 family, member A1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+10449	ACAA2	acetyl-CoA acyltransferase 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+9238	TBRG4	transforming growth factor beta regulator 4	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+51122	COMMD2	COMM domain containing 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							CTTTGT_LEF1_Q2		
+6993	DYNLT1	dynein, light chain, Tctex-type 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							CTTTGT_LEF1_Q2		
+79733	E2F8	E2F transcription factor 8	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN								GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+64856	VWA1	von Willebrand factor A domain containing 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN								GGGAGGRR_MAZ_Q6	
+54664	TMEM106B	transmembrane protein 106B	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN								GGGAGGRR_MAZ_Q6	
+4728	NDUFS8	NADH dehydrogenase (ubiquinone) Fe-S protein 8, 23kDa (NADH-coenzyme Q reductase)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									GATTGGY_NFY_Q6_01
+9063	PIAS2	protein inhibitor of activated STAT, 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+10914	PAPOLA	poly(A) polymerase alpha	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+5894	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+284252	KCTD1	potassium channel tetramerisation domain containing 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+57541	ZNF398	zinc finger protein 398	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+57396	CLK4	CDC-like kinase 4	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+89978	ATPBD4	ATP binding domain 4	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+57226	LYRM2	LYR motif containing 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+26011	ODZ4	odz, odd Oz/ten-m homolog 4 (Drosophila)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+122953	JDP2	Jun dimerization protein 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+5609	MAP2K7	mitogen-activated protein kinase kinase 7	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+80895	ILKAP	integrin-linked kinase-associated serine/threonine phosphatase	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+2535	FZD2	frizzled family receptor 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+50808	AK3	adenylate kinase 3	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+79033	ERI3	ERI1 exoribonuclease family member 3	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+338657	CCDC84	coiled-coil domain containing 84	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+118672	PSTK	phosphoseryl-tRNA kinase	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+987	LRBA	LPS-responsive vesicle trafficking, beach and anchor containing	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+57231	SNX14	sorting nexin 14	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+813	CALU	calumenin		GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			GATTGGY_NFY_Q6_01
+6045	RNF2	ring finger protein 2		GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN				GGGAGGRR_MAZ_Q6	
+6683	SPAST	spastin		GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+801	CALM1	calmodulin 1 (phosphorylase kinase, delta)		GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN			BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+7529	YWHAB	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide		GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN			BLALOCK_ALZHEIMERS_DISEASE_DN			GGGAGGRR_MAZ_Q6	
+10130	PDIA6	protein disulfide isomerase family A, member 6		GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN			BLALOCK_ALZHEIMERS_DISEASE_DN				
+8726	EED	embryonic ectoderm development		GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN						GGGAGGRR_MAZ_Q6	
+406	ARNTL	aryl hydrocarbon receptor nuclear translocator-like		GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN							GATTGGY_NFY_Q6_01
+55761	TTC17	tetratricopeptide repeat domain 17		GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN							
+6612	SUMO3	SMT3 suppressor of mif two 3 homolog 3 (S. cerevisiae)		GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN							
+117143	TADA1	transcriptional adaptor 1		GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN							
+5955	RCN2	reticulocalbin 2, EF-hand calcium binding domain		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN		BLALOCK_ALZHEIMERS_DISEASE_DN		CTTTGT_LEF1_Q2		
+6613	SUMO2	SMT3 suppressor of mif two 3 homolog 2 (S. cerevisiae)		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN		BLALOCK_ALZHEIMERS_DISEASE_DN				
+8324	FZD7	frizzled family receptor 7		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+642	BLMH	bleomycin hydrolase		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+23197	FAF2	Fas associated factor family member 2		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN					GGGAGGRR_MAZ_Q6	
+10478	SLC25A17	solute carrier family 25 (mitochondrial carrier; peroxisomal membrane protein, 34kDa), member 17		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN						GATTGGY_NFY_Q6_01
+5433	POLR2D	polymerase (RNA) II (DNA directed) polypeptide D		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+195828	ZNF367	zinc finger protein 367		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+8030	CCDC6	coiled-coil domain containing 6		GGGCGGR_SP1_Q6			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		GGGAGGRR_MAZ_Q6	
+5870	RAB6A	RAB6A, member RAS oncogene family		GGGCGGR_SP1_Q6			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BLALOCK_ALZHEIMERS_DISEASE_DN		CTTTGT_LEF1_Q2		GATTGGY_NFY_Q6_01
+55818	KDM3A	lysine (K)-specific demethylase 3A		GGGCGGR_SP1_Q6			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+10313	RTN3	reticulon 3		GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+7342	UBP1	upstream binding protein 1 (LBP-1a)		GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			GATTGGY_NFY_Q6_01
+94239	H2AFV	H2A histone family, member V		GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+7917	BAG6	BCL2-associated athanogene 6		GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_DN		CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+1824	DSC2	desmocollin 2		GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_DN				
+10525	HYOU1	hypoxia up-regulated 1		GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_DN				
+4338	MOCS2	molybdenum cofactor synthesis 2		GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_DN				
+10873	ME3	malic enzyme 3, NADP(+)-dependent, mitochondrial		GGGCGGR_SP1_Q6				BLALOCK_ALZHEIMERS_DISEASE_DN				
+7343	UBTF	upstream binding transcription factor, RNA polymerase I		GGGCGGR_SP1_Q6					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+56890	MDM1	Mdm1 nuclear protein homolog (mouse)		GGGCGGR_SP1_Q6					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	CTTTGT_LEF1_Q2		
+1154	CISH	cytokine inducible SH2-containing protein		GGGCGGR_SP1_Q6					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			GATTGGY_NFY_Q6_01
+10629	TAF6L	TAF6-like RNA polymerase II, p300/CBP-associated factor (PCAF)-associated factor, 65kDa		GGGCGGR_SP1_Q6					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			GATTGGY_NFY_Q6_01
+8065	CUL5	cullin 5		GGGCGGR_SP1_Q6					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+8501	SLC43A1	solute carrier family 43, member 1		GGGCGGR_SP1_Q6					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+149076	ZNF362	zinc finger protein 362		GGGCGGR_SP1_Q6						CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+51804	SIX4	SIX homeobox 4		GGGCGGR_SP1_Q6						CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+63935	PCIF1	PDX1 C-terminal inhibiting factor 1		GGGCGGR_SP1_Q6						CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+5916	RARG	retinoic acid receptor, gamma		GGGCGGR_SP1_Q6						CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+1849	DUSP7	dual specificity phosphatase 7		GGGCGGR_SP1_Q6						CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+399664	MEX3D	mex-3 homolog D (C. elegans)		GGGCGGR_SP1_Q6						CTTTGT_LEF1_Q2		
+124222	PAQR4	progestin and adipoQ receptor family member IV		GGGCGGR_SP1_Q6						CTTTGT_LEF1_Q2		
+79047	KCTD15	potassium channel tetramerisation domain containing 15		GGGCGGR_SP1_Q6						CTTTGT_LEF1_Q2		
+8522	GAS7	growth arrest-specific 7		GGGCGGR_SP1_Q6						CTTTGT_LEF1_Q2		
+3658	IREB2	iron-responsive element binding protein 2		GGGCGGR_SP1_Q6						CTTTGT_LEF1_Q2		
+11100	HNRNPUL1	heterogeneous nuclear ribonucleoprotein U-like 1		GGGCGGR_SP1_Q6							GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+153222	C5orf41	chromosome 5 open reading frame 41		GGGCGGR_SP1_Q6							GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+26986	PABPC1	poly(A) binding protein, cytoplasmic 1		GGGCGGR_SP1_Q6							GGGAGGRR_MAZ_Q6	
+56681	SAR1A	SAR1 homolog A (S. cerevisiae)		GGGCGGR_SP1_Q6							GGGAGGRR_MAZ_Q6	
+5094	PCBP2	poly(rC) binding protein 2		GGGCGGR_SP1_Q6							GGGAGGRR_MAZ_Q6	
+41	ACCN2	amiloride-sensitive cation channel 2, neuronal		GGGCGGR_SP1_Q6							GGGAGGRR_MAZ_Q6	
+11345	GABARAPL2	GABA(A) receptor-associated protein-like 2		GGGCGGR_SP1_Q6							GGGAGGRR_MAZ_Q6	
+151050	C2orf67	chromosome 2 open reading frame 67		GGGCGGR_SP1_Q6							GGGAGGRR_MAZ_Q6	
+7855	FZD5	frizzled family receptor 5		GGGCGGR_SP1_Q6							GGGAGGRR_MAZ_Q6	
+8492	PRSS12	protease, serine, 12 (neurotrypsin, motopsin)		GGGCGGR_SP1_Q6							GGGAGGRR_MAZ_Q6	
+958	CD40	CD40 molecule, TNF receptor superfamily member 5		GGGCGGR_SP1_Q6								GATTGGY_NFY_Q6_01
+84669	USP32	ubiquitin specific peptidase 32		GGGCGGR_SP1_Q6								GATTGGY_NFY_Q6_01
+64598	MOSPD3	motile sperm domain containing 3		GGGCGGR_SP1_Q6								GATTGGY_NFY_Q6_01
+54704	PDP1	pyruvate dehyrogenase phosphatase catalytic subunit 1		GGGCGGR_SP1_Q6								GATTGGY_NFY_Q6_01
+23177	CEP68	centrosomal protein 68kDa		GGGCGGR_SP1_Q6								
+8711	TNK1	tyrosine kinase, non-receptor, 1		GGGCGGR_SP1_Q6								
+57819	LSM2	LSM2 homolog, U6 small nuclear RNA associated (S. cerevisiae)		GGGCGGR_SP1_Q6								
+8322	FZD4	frizzled family receptor 4		GGGCGGR_SP1_Q6								
+4012	LNPEP	leucyl/cystinyl aminopeptidase		GGGCGGR_SP1_Q6								
+5565	PRKAB2	protein kinase, AMP-activated, beta 2 non-catalytic subunit		GGGCGGR_SP1_Q6								
+5252	PHF1	PHD finger protein 1		GGGCGGR_SP1_Q6								
+11124	FAF1	Fas (TNFRSF6) associated factor 1		GGGCGGR_SP1_Q6								
+6525	SMTN	smoothelin		GGGCGGR_SP1_Q6								
+51650	MRPS33	mitochondrial ribosomal protein S33		GGGCGGR_SP1_Q6								
+81876	RAB1B	RAB1B, member RAS oncogene family		GGGCGGR_SP1_Q6								
+2201	FBN2	fibrillin 2		GGGCGGR_SP1_Q6								
+27165	GLS2	glutaminase 2 (liver, mitochondrial)		GGGCGGR_SP1_Q6								
+55614	KIF16B	kinesin family member 16B		GGGCGGR_SP1_Q6								
+9317	PTER	phosphotriesterase related		GGGCGGR_SP1_Q6								
+91010	FMNL3	formin-like 3		GGGCGGR_SP1_Q6								
+201232	SLC16A13	solute carrier family 16, member 13 (monocarboxylic acid transporter 13)		GGGCGGR_SP1_Q6								
+7376	NR1H2	nuclear receptor subfamily 1, group H, member 2		GGGCGGR_SP1_Q6								
+3475	IFRD1	interferon-related developmental regulator 1			PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+10138	YAF2	YY1 associated factor 2			PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+10776	ARPP19	cAMP-regulated phosphoprotein, 19kDa			PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN		BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+6009	RHEB	Ras homolog enriched in brain			PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN		BLALOCK_ALZHEIMERS_DISEASE_DN				
+2120	ETV6	ets variant 6			PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN				CTTTGT_LEF1_Q2		
+8208	CHAF1B	chromatin assembly factor 1, subunit B (p60)			PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+11157	LSM6	LSM6 homolog, U6 small nuclear RNA associated (S. cerevisiae)			PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+55165	CEP55	centrosomal protein 55kDa			PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+10069	RWDD2B	RWD domain containing 2B			PILON_KLF1_TARGETS_DN	DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+57498	KIDINS220	kinase D-interacting substrate, 220kDa			PILON_KLF1_TARGETS_DN		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BLALOCK_ALZHEIMERS_DISEASE_DN				
+4140	MARK3	MAP/microtubule affinity-regulating kinase 3			PILON_KLF1_TARGETS_DN		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+7159	TP53BP2	tumor protein p53 binding protein, 2			PILON_KLF1_TARGETS_DN		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+23077	MYCBP2	MYC binding protein 2			PILON_KLF1_TARGETS_DN		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					GATTGGY_NFY_Q6_01
+8672	EIF4G3	eukaryotic translation initiation factor 4 gamma, 3			PILON_KLF1_TARGETS_DN		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+65123	INTS3	integrator complex subunit 3			PILON_KLF1_TARGETS_DN		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+5504	PPP1R2	protein phosphatase 1, regulatory (inhibitor) subunit 2			PILON_KLF1_TARGETS_DN			BLALOCK_ALZHEIMERS_DISEASE_DN				
+23173	METAP1	methionyl aminopeptidase 1			PILON_KLF1_TARGETS_DN			BLALOCK_ALZHEIMERS_DISEASE_DN				
+9861	PSMD6	proteasome (prosome, macropain) 26S subunit, non-ATPase, 6			PILON_KLF1_TARGETS_DN			BLALOCK_ALZHEIMERS_DISEASE_DN				
+10949	HNRNPA0	heterogeneous nuclear ribonucleoprotein A0			PILON_KLF1_TARGETS_DN				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+54407	SLC38A2	solute carrier family 38, member 2			PILON_KLF1_TARGETS_DN				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	CTTTGT_LEF1_Q2		
+9200	PTPLA	protein tyrosine phosphatase-like (proline instead of catalytic arginine), member A			PILON_KLF1_TARGETS_DN				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		GGGAGGRR_MAZ_Q6	
+29766	TMOD3	tropomodulin 3 (ubiquitous)			PILON_KLF1_TARGETS_DN				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+84068	SLC10A7	solute carrier family 10 (sodium/bile acid cotransporter family), member 7			PILON_KLF1_TARGETS_DN					CTTTGT_LEF1_Q2		
+2308	FOXO1	forkhead box O1			PILON_KLF1_TARGETS_DN						GGGAGGRR_MAZ_Q6	
+231	AKR1B1	aldo-keto reductase family 1, member B1 (aldose reductase)			PILON_KLF1_TARGETS_DN							GATTGGY_NFY_Q6_01
+23379	KIAA0947	KIAA0947			PILON_KLF1_TARGETS_DN							
+3613	IMPA2	inositol(myo)-1(or 4)-monophosphatase 2			PILON_KLF1_TARGETS_DN							
+399818	METTL10	methyltransferase like 10			PILON_KLF1_TARGETS_DN							
+9860	LRIG2	leucine-rich repeats and immunoglobulin-like domains 2			PILON_KLF1_TARGETS_DN							
+54881	TEX10	testis expressed 10			PILON_KLF1_TARGETS_DN							
+80856	KIAA1715	KIAA1715			PILON_KLF1_TARGETS_DN							
+57026	PDXP	pyridoxal (pyridoxine, vitamin B6) phosphatase			PILON_KLF1_TARGETS_DN							
+280636	C11orf31	chromosome 11 open reading frame 31			PILON_KLF1_TARGETS_DN							
+51639	SF3B14	splicing factor 3B, 14 kDa subunit			PILON_KLF1_TARGETS_DN							
+25852	ARMC8	armadillo repeat containing 8			PILON_KLF1_TARGETS_DN							
+169200	TMEM64	transmembrane protein 64			PILON_KLF1_TARGETS_DN							
+1820	ARID3A	AT rich interactive domain 3A (BRIGHT-like)			PILON_KLF1_TARGETS_DN							
+55739	CARKD	carbohydrate kinase domain containing			PILON_KLF1_TARGETS_DN							
+30837	SOCS7	suppressor of cytokine signaling 7			PILON_KLF1_TARGETS_DN							
+54165	DCUN1D1	DCN1, defective in cullin neddylation 1, domain containing 1 (S. cerevisiae)				DODD_NASOPHARYNGEAL_CARCINOMA_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+10535	RNASEH2A	ribonuclease H2, subunit A				DODD_NASOPHARYNGEAL_CARCINOMA_DN						GATTGGY_NFY_Q6_01
+116028	RMI2	RMI2, RecQ mediated genome instability 2, homolog (S. cerevisiae)				DODD_NASOPHARYNGEAL_CARCINOMA_DN						GATTGGY_NFY_Q6_01
+91574	C12orf65	chromosome 12 open reading frame 65				DODD_NASOPHARYNGEAL_CARCINOMA_DN						GATTGGY_NFY_Q6_01
+5936	RBM4	RNA binding motif protein 4				DODD_NASOPHARYNGEAL_CARCINOMA_DN						GATTGGY_NFY_Q6_01
+23306	TMEM194A	transmembrane protein 194A				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+6875	TAF4B	TAF4b RNA polymerase II, TATA box binding protein (TBP)-associated factor, 105kDa				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+157697	ERICH1	glutamate-rich 1				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+29028	ATAD2	ATPase family, AAA domain containing 2				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+29097	CNIH4	cornichon homolog 4 (Drosophila)				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+148789	B3GALNT2	beta-1,3-N-acetylgalactosaminyltransferase 2				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+26586	CKAP2	cytoskeleton associated protein 2				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+51659	GINS2	GINS complex subunit 2 (Psf2 homolog)				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+54955	C1orf109	chromosome 1 open reading frame 109				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+441024	MTHFD2L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2-like				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+23586	DDX58	DEAD (Asp-Glu-Ala-Asp) box polypeptide 58				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+137682	C8orf38	chromosome 8 open reading frame 38				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+79966	SCD5	stearoyl-CoA desaturase 5				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+149175	MANEAL	mannosidase, endo-alpha-like				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+85358	SHANK3	SH3 and multiple ankyrin repeat domains 3				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+90874	ZNF697	zinc finger protein 697				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+9821	RB1CC1	RB1-inducible coiled-coil 1					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BLALOCK_ALZHEIMERS_DISEASE_DN		CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+115	ADCY9	adenylate cyclase 9					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BLALOCK_ALZHEIMERS_DISEASE_DN				
+9943	OXSR1	oxidative-stress responsive 1					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+27067	STAU2	staufen, RNA binding protein, homolog 2 (Drosophila)					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+10611	PDLIM5	PDZ and LIM domain 5					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+595	CCND1	cyclin D1					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+8412	BCAR3	breast cancer anti-estrogen resistance 3					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+1846	DUSP4	dual specificity phosphatase 4					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+5523	PPP2R3A	protein phosphatase 2, regulatory subunit B'', alpha					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			CTTTGT_LEF1_Q2		
+54454	ATAD2B	ATPase family, AAA domain containing 2B					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+9867	PJA2	praja ring finger 2					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+2770	GNAI1	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 1					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+10512	SEMA3C	sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3C					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+5797	PTPRM	protein tyrosine phosphatase, receptor type, M					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+51460	SFMBT1	Scm-like with four mbt domains 1					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+9811	CTIF	CBP80/20-dependent translation initiation factor					DACOSTA_UV_RESPONSE_VIA_ERCC3_DN					
+25804	LSM4	LSM4 homolog, U6 small nuclear RNA associated (S. cerevisiae)						BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+966	CD59	CD59 molecule, complement regulatory protein						BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+7485	WRB	tryptophan rich basic protein						BLALOCK_ALZHEIMERS_DISEASE_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+567	B2M	beta-2-microglobulin						BLALOCK_ALZHEIMERS_DISEASE_DN		CTTTGT_LEF1_Q2		GATTGGY_NFY_Q6_01
+4233	MET	met proto-oncogene (hepatocyte growth factor receptor)						BLALOCK_ALZHEIMERS_DISEASE_DN		CTTTGT_LEF1_Q2		
+25999	CLIP3	CAP-GLY domain containing linker protein 3						BLALOCK_ALZHEIMERS_DISEASE_DN			GGGAGGRR_MAZ_Q6	
+10302	SNAPC5	small nuclear RNA activating complex, polypeptide 5, 19kDa						BLALOCK_ALZHEIMERS_DISEASE_DN				
+9445	ITM2B	integral membrane protein 2B						BLALOCK_ALZHEIMERS_DISEASE_DN				
+29967	LRP12	low density lipoprotein receptor-related protein 12						BLALOCK_ALZHEIMERS_DISEASE_DN				
+84525	HOPX	HOP homeobox						BLALOCK_ALZHEIMERS_DISEASE_DN				
+2039	EPB49	erythrocyte membrane protein band 4.9 (dematin)						BLALOCK_ALZHEIMERS_DISEASE_DN				
+26002	MOXD1	monooxygenase, DBH-like 1						BLALOCK_ALZHEIMERS_DISEASE_DN				
+9296	ATP6V1F	ATPase, H+ transporting, lysosomal 14kDa, V1 subunit F						BLALOCK_ALZHEIMERS_DISEASE_DN				
+8659	ALDH4A1	aldehyde dehydrogenase 4 family, member A1							DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+10762	NUP50	nucleoporin 50kDa							DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+10523	CHERP	calcium homeostasis endoplasmic reticulum protein							DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+272	AMPD3	adenosine monophosphate deaminase 3							DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+5264	PHYH	phytanoyl-CoA 2-hydroxylase							DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+9416	DDX23	DEAD (Asp-Glu-Ala-Asp) box polypeptide 23							DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+5434	POLR2E	polymerase (RNA) II (DNA directed) polypeptide E, 25kDa							DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			
+25946	ZNF385A	zinc finger protein 385A								CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+51599	LSR	lipolysis stimulated lipoprotein receptor								CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+57645	POGK	pogo transposable element with KRAB domain								CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+1454	CSNK1E	casein kinase 1, epsilon								CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+56999	ADAMTS9	ADAM metallopeptidase with thrombospondin type 1 motif, 9								CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+6304	SATB1	SATB homeobox 1								CTTTGT_LEF1_Q2	GGGAGGRR_MAZ_Q6	
+9181	ARHGEF2	Rho/Rac guanine nucleotide exchange factor (GEF) 2								CTTTGT_LEF1_Q2		
+4783	NFIL3	nuclear factor, interleukin 3 regulated								CTTTGT_LEF1_Q2		
+2810	SFN	stratifin								CTTTGT_LEF1_Q2		
+146059	CDAN1	congenital dyserythropoietic anemia, type I								CTTTGT_LEF1_Q2		
+1822	ATN1	atrophin 1								CTTTGT_LEF1_Q2		
+81792	ADAMTS12	ADAM metallopeptidase with thrombospondin type 1 motif, 12								CTTTGT_LEF1_Q2		
+376267	RAB15	RAB15, member RAS onocogene family								CTTTGT_LEF1_Q2		
+10509	SEMA4B	sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4B								CTTTGT_LEF1_Q2		
+283987	C17orf28	chromosome 17 open reading frame 28								CTTTGT_LEF1_Q2		
+10263	CDK2AP2	cyclin-dependent kinase 2 associated protein 2									GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+587	BCAT2	branched chain amino-acid transaminase 2, mitochondrial									GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+5869	RAB5B	RAB5B, member RAS oncogene family									GGGAGGRR_MAZ_Q6	GATTGGY_NFY_Q6_01
+51526	C20orf111	chromosome 20 open reading frame 111									GGGAGGRR_MAZ_Q6	
+29923	C7orf68	chromosome 7 open reading frame 68									GGGAGGRR_MAZ_Q6	
+10743	RAI1	retinoic acid induced 1									GGGAGGRR_MAZ_Q6	
+84302	C9orf125	chromosome 9 open reading frame 125									GGGAGGRR_MAZ_Q6	
+7068	THRB	thyroid hormone receptor, beta (erythroblastic leukemia viral (v-erb-a) oncogene homolog 2, avian)									GGGAGGRR_MAZ_Q6	
+610	HCN2	hyperpolarization activated cyclic nucleotide-gated potassium channel 2									GGGAGGRR_MAZ_Q6	
+6400	SEL1L	sel-1 suppressor of lin-12-like (C. elegans)										GATTGGY_NFY_Q6_01
+29920	PYCR2	pyrroline-5-carboxylate reductase family, member 2										GATTGGY_NFY_Q6_01
+54828	BCAS3	breast carcinoma amplified sequence 3										GATTGGY_NFY_Q6_01
+2232	FDXR	ferredoxin reductase										GATTGGY_NFY_Q6_01
+8139	GAN	gigaxonin										GATTGGY_NFY_Q6_01
+80298	MTERFD3	MTERF domain containing 3										GATTGGY_NFY_Q6_01
+9135	RABEP1	rabaptin, RAB GTPase binding effector protein 1										
+30836	DNTTIP2	deoxynucleotidyltransferase, terminal, interacting protein 2										
+4666	NACA	nascent polypeptide-associated complex alpha subunit										
+27341	RRP7A	ribosomal RNA processing 7 homolog A (S. cerevisiae)										
+3422	IDI1	isopentenyl-diphosphate delta isomerase 1										
+26284	ERAL1	Era G-protein-like 1 (E. coli)										
+10614	HEXIM1	hexamethylene bis-acetamide inducible 1										
+2882	GPX7	glutathione peroxidase 7										
+192683	SCAMP5	secretory carrier membrane protein 5										
+643641	ZNF862	zinc finger protein 862										
+55652	SLC48A1	solute carrier family 48 (heme transporter), member 1										
+29015	SLC43A3	solute carrier family 43, member 3										
+874	CBR3	carbonyl reductase 3										
+92912	UBE2Q2	ubiquitin-conjugating enzyme E2Q family member 2										
+54940	OCIAD1	OCIA domain containing 1										
+162461	TMEM92	transmembrane protein 92										
+285237	C3orf38	chromosome 3 open reading frame 38										
+9656	MDC1	mediator of DNA-damage checkpoint 1										
+55971	BAIAP2L1	BAI1-associated protein 2-like 1										
+114569	MAL2	mal, T-cell differentiation protein 2 (gene/pseudogene)										
+83742	MARVELD1	MARVEL domain containing 1										
+84910	TMEM87B	transmembrane protein 87B										
+63925	ZNF335	zinc finger protein 335										
+6548	SLC9A1	solute carrier family 9 (sodium/hydrogen exchanger), member 1										
+55199	FAM86C1	family with sequence similarity 86, member C1										
+1039	CDR2	cerebellar degeneration-related protein 2, 62kDa										
+54930	HAUS4	HAUS augmin-like complex, subunit 4										
+284307	ZIK1	zinc finger protein interacting with K protein 1 homolog (mouse)										
+118424	UBE2J2	ubiquitin-conjugating enzyme E2, J2										
+5290	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide										
+3269	HRH1	histamine receptor H1										
+54850	FBXL12	F-box and leucine-rich repeat protein 12										
+27	ABL2	v-abl Abelson murine leukemia viral oncogene homolog 2										
+125488	TTC39C	tetratricopeptide repeat domain 39C										
+162966	ZNF600	zinc finger protein 600										
+114299	PALM2	paralemmin 2										
+1466	CSRP2	cysteine and glycine-rich protein 2										
+55076	TMEM45A	transmembrane protein 45A										
+4351	MPI	mannose phosphate isomerase										
+55571	C2orf29	chromosome 2 open reading frame 29										
+85379	KIAA1671	KIAA1671										
+54502	RBM47	RNA binding motif protein 47										
+10404	PGCP	plasma glutamate carboxypeptidase										
+84886	C1orf198	chromosome 1 open reading frame 198										
+79603	CERS4	ceramide synthase 4										
+85451	UNK	unkempt homolog (Drosophila)										
+51100	SH3GLB1	SH3-domain GRB2-like endophilin B1										
+283229	EFCAB4A	EF-hand calcium binding domain 4A										
+83549	UCK1	uridine-cytidine kinase 1										
+116039	OSR2	odd-skipped related 2 (Drosophila)										
+441478	NRARP	NOTCH-regulated ankyrin repeat protein										
+7225	TRPC6	transient receptor potential cation channel, subfamily C, member 6										
+83860	TAF3	TAF3 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 140kDa										
+1953	MEGF6	multiple EGF-like-domains 6										
+80336	PABPC1L	poly(A) binding protein, cytoplasmic 1-like										
+3691	ITGB4	integrin, beta 4										
+375790	AGRN	agrin										
+7559	ZNF12	zinc finger protein 12										
+9023	CH25H	cholesterol 25-hydroxylase										
+9113	LATS1	LATS, large tumor suppressor, homolog 1 (Drosophila)										
+2063	NR2F6	nuclear receptor subfamily 2, group F, member 6										
+5681	PSKH1	protein serine kinase H1										
+129080	EMID1	EMI domain containing 1										
+25792	CIZ1	CDKN1A interacting zinc finger protein 1										
+10536	LEPREL2	leprecan-like 2										
+11315	PARK7	parkinson protein 7										
+55527	FEM1A	fem-1 homolog a (C. elegans)										
+29995	LMCD1	LIM and cysteine-rich domains 1										
+57722	IGDCC4	immunoglobulin superfamily, DCC subclass, member 4										
+5979	RET	ret proto-oncogene										
+147991	DPY19L3	dpy-19-like 3 (C. elegans)										
+9781	RNF144A	ring finger protein 144A										
+6477	SIAH1	seven in absentia homolog 1 (Drosophila)										
+6330	SCN4B	sodium channel, voltage-gated, type IV, beta										
+9663	LPIN2	lipin 2										
+7673	ZNF222	zinc finger protein 222										
+220929	ZNF438	zinc finger protein 438										
+196394	AMN1	antagonist of mitotic exit network 1 homolog (S. cerevisiae)										
+54516	MTRF1L	mitochondrial translational release factor 1-like										
+25809	TTLL1	tubulin tyrosine ligase-like family, member 1										
+7571	ZNF23	zinc finger protein 23 (KOX 16)										
+57579	FAM135A	family with sequence similarity 135, member A										
+55659	ZNF416	zinc finger protein 416										
+285362	SUMF1	sulfatase modifying factor 1										
+9849	ZNF518A	zinc finger protein 518A										
+118813	ZFYVE27	zinc finger, FYVE domain containing 27										
+85459	KIAA1731	KIAA1731										
+23207	PLEKHM2	pleckstrin homology domain containing, family M (with RUN domain) member 2										
+2982	GUCY1A3	guanylate cyclase 1, soluble, alpha 3										
+54903	MKS1	Meckel syndrome, type 1										
+84221	C21orf56	chromosome 21 open reading frame 56										
+84464	SLX4	SLX4 structure-specific endonuclease subunit homolog (S. cerevisiae)										
+2047	EPHB1	EPH receptor B1										
+51530	ZC3HC1	zinc finger, C3HC-type containing 1										
+22979	EFR3B	EFR3 homolog B (S. cerevisiae)										
+647087	C7orf73	chromosome 7 open reading frame 73										
+80071	CCDC15	coiled-coil domain containing 15										
+4920	ROR2	receptor tyrosine kinase-like orphan receptor 2										
+23265	EXOC7	exocyst complex component 7										
+27079	RPUSD2	RNA pseudouridylate synthase domain containing 2										
+5836	PYGL	phosphorylase, glycogen, liver										
+810	CALML3	calmodulin-like 3										
+55898	UNC45A	unc-45 homolog A (C. elegans)										
+83636	C19orf12	chromosome 19 open reading frame 12										
+126374	WTIP	Wilms tumor 1 interacting protein										
+8666	EIF3G	eukaryotic translation initiation factor 3, subunit G										
+57494	RIMKLB	ribosomal modification protein rimK-like family member B										
+440400	RNASEK	ribonuclease, RNase K										
+5028	P2RY1	purinergic receptor P2Y, G-protein coupled, 1										
+8794	TNFRSF10C	tumor necrosis factor receptor superfamily, member 10c, decoy without an intracellular domain										
+163050	ZNF564	zinc finger protein 564										
+4636	MYL5	myosin, light chain 5, regulatory										
+90850	ZNF598	zinc finger protein 598										
+84622	ZNF594	zinc finger protein 594										
+26240	FAM50B	family with sequence similarity 50, member B										
+56897	WRNIP1	Werner helicase interacting protein 1										
+79671	NLRX1	NLR family member X1										
+7161	TP73	tumor protein p73										
+145748	LYSMD4	LysM, putative peptidoglycan-binding, domain containing 4										
+4255	MGMT	O-6-methylguanine-DNA methyltransferase										
+57106	NAT14	N-acetyltransferase 14 (GCN5-related, putative)										
+135154	C6orf57	chromosome 6 open reading frame 57										
+79903	NAA60	N(alpha)-acetyltransferase 60, NatF catalytic subunit										
+79175	ZNF343	zinc finger protein 343										
+84874	ZNF514	zinc finger protein 514										
+29062	WDR91	WD repeat domain 91										
+134285	TMEM171	transmembrane protein 171										
+50853	VILL	villin-like										
+389432	SAMD5	sterile alpha motif domain containing 5										
+373863	DND1	dead end homolog 1 (zebrafish)										
+64900	LPIN3	lipin 3										
+285074	LOC285074	anaphase promoting complex subunit 1 pseudogene										
+23132	RAD54L2	RAD54-like 2 (S. cerevisiae)										
+93343	FAM125A	family with sequence similarity 125, member A										
+11133	KPTN	kaptin (actin binding protein)										
+79924	ADM2	adrenomedullin 2										
+54581	SCAND2	SCAN domain containing 2 pseudogene										
+100271722	LOC100271722	uncharacterized LOC100271722										
+138649	ANKRD19P	ankyrin repeat domain 19, pseudogene										
+90987	ZNF251	zinc finger protein 251										
+203062	TSNARE1	t-SNARE domain containing 1										
+162962	ZNF836	zinc finger protein 836										
+389333	C5orf65	chromosome 5 open reading frame 65										
+645332	FAM86C2P	family with sequence similarity 86, member A pseudogene										
+653113	FAM86FP	family with sequence similarity 86, member A pseudogene										
