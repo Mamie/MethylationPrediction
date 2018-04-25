@@ -1,0 +1,38 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	4
+# genesets in collections:	5574
+# genes in comparison (n):	19
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+CHICAS_RB1_TARGETS_SENESCENT	572	Genes up-regulated in senescent IMR90 cells (fibroblast) after knockdown of RB1 [GeneID=5925] by RNAi.	5	0.0087	2.95E-6	1.65E-2
+HATADA_METHYLATED_IN_LUNG_CANCER_UP	390	Genes with hypermethylated DNA in lung cancer samples.	4	0.0103	1.79E-5	3.78E-2
+PEDERSEN_METASTASIS_BY_ERBB2_ISOFORM_7	403	Genes regulated in MCF7 cells (breast cancer) by expression of the truncated (611-CTF) form of ERBB2 [GeneID=2064] at 60 h time point.	4	0.0099	2.03E-5	3.78E-2
+CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_DN	455	Genes down-regulated in luminal-like breast cancer cell lines compared to the basal-like ones.	4	0.0088	3.27E-5	4.55E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	CHICAS_RB1_TARGETS_SENESCENT	HATADA_METHYLATED_IN_LUNG_CANCER_UP	PEDERSEN_METASTASIS_BY_ERBB2_ISOFORM_7	CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_DN
+26018	LRIG1	leucine-rich repeats and immunoglobulin-like domains 1	CHICAS_RB1_TARGETS_SENESCENT	HATADA_METHYLATED_IN_LUNG_CANCER_UP	PEDERSEN_METASTASIS_BY_ERBB2_ISOFORM_7	
+10950	BTG3	BTG family, member 3	CHICAS_RB1_TARGETS_SENESCENT	HATADA_METHYLATED_IN_LUNG_CANCER_UP		CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_DN
+57580	PREX1	phosphatidylinositol-3,4,5-trisphosphate-dependent Rac exchange factor 1	CHICAS_RB1_TARGETS_SENESCENT		PEDERSEN_METASTASIS_BY_ERBB2_ISOFORM_7	
+23231	SEL1L3	sel-1 suppressor of lin-12-like 3 (C. elegans)	CHICAS_RB1_TARGETS_SENESCENT			CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_DN
+55013	CCDC109B	coiled-coil domain containing 109B	CHICAS_RB1_TARGETS_SENESCENT			
+284119	PTRF	polymerase I and transcript release factor		HATADA_METHYLATED_IN_LUNG_CANCER_UP	PEDERSEN_METASTASIS_BY_ERBB2_ISOFORM_7	CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_DN
+83742	MARVELD1	MARVEL domain containing 1		HATADA_METHYLATED_IN_LUNG_CANCER_UP		
+10477	UBE2E3	ubiquitin-conjugating enzyme E2E 3			PEDERSEN_METASTASIS_BY_ERBB2_ISOFORM_7	CHARAFE_BREAST_CANCER_LUMINAL_VS_BASAL_DN
+11059	WWP1	WW domain containing E3 ubiquitin protein ligase 1				
+116151	C20orf108	chromosome 20 open reading frame 108				
+6596	HLTF	helicase-like transcription factor				
+6885	MAP3K7	mitogen-activated protein kinase kinase kinase 7				
+64780	MICAL1	microtubule associated monoxygenase, calponin and LIM domain containing 1				
+9424	KCNK6	potassium channel, subfamily K, member 6				
+54790	TET2	tet methylcytosine dioxygenase 2				
+55174	INTS10	integrator complex subunit 10				
+7260	TSSC1	tumor suppressing subtransferable candidate 1				
+55212	BBS7	Bardet-Biedl syndrome 7				
+90338	ZNF160	zinc finger protein 160				

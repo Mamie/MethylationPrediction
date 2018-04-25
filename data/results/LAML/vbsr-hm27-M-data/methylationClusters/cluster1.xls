@@ -1,0 +1,51 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	26
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+ROME_INSULIN_TARGETS_IN_MUSCLE_UP	442	Genes up-regulated by 3 h of euglycemic hyperinsulinemic clamp in the vastus lateralis muscle of healthy lean subjects.	5	0.0113	4.48E-6	2.07E-2
+GEORGES_TARGETS_OF_MIR192_AND_MIR215	893	Genes down-regulated in HCT116 cells (colon cancer) by expression of MIR192 or MIR215 [GeneID=406967;406997] at 24 h.	6	0.0067	8.74E-6	2.07E-2
+MARTINEZ_RB1_TARGETS_DN	543	Genes down-regulated in mice with skin specific knockout of RB1 [GeneID=5925] by Cre-lox.	5	0.0092	1.21E-5	2.07E-2
+GRAESSMANN_RESPONSE_TO_MC_AND_SERUM_DEPRIVATION_DN	84	Genes down-regulated in ME-A cells (breast cancer, sensitive to apoptotic stimuli) upon serum deprivation for 22 hr in the presence of medium concentrate (MC) from ME-C cells (breast cancer, resistant to apoptotic stimuli).	3	0.0357	1.49E-5	2.07E-2
+GTGACGY_E4F1_Q6	658	Genes having at least one occurence of the highly conserved motif M20 GTGACGY sites. The motif matches transcription factor binding site V$E4F1_Q6 (v7.4 TRANSFAC).	5	0.0076	3.04E-5	3.39E-2
+MARSON_BOUND_BY_FOXP3_UNSTIMULATED	1229	Genes with promoters bound by FOXP3 [GeneID=50943] in unstimulated hybridoma cells.	6	0.0049	5.26E-5	3.82E-2
+CTTTGA_LEF1_Q2	1232	Genes having at least one occurence of the highly conserved motif M73 CTTTGA sites. The motif matches transcription factor binding site V$LEF1_Q2 (v7.4 TRANSFAC).	6	0.0049	5.33E-5	3.82E-2
+LEE_BMP2_TARGETS_UP	745	Genes up-regulated in uterus upon knockout of BMP2 [GeneID=650].	5	0.0067	5.48E-5	3.82E-2
+GOZGIT_ESR1_TARGETS_DN	781	Genes down-regulated in TMX2-28 cells (breast cancer) which do not express ESR1 [GeneID=2099]) compared to the parental MCF7 cells which do.	5	0.0064	6.85E-5	3.97E-2
+AAGCACA_MIR218	398	Genes having at least one occurence of the motif AAGCACA in their 3' untranslated region. The motif represents putative target (that is, seed match) of human mature miRNA hsa-miR-218 (v7.1 miRBase).	4	0.0101	7.12E-5	3.97E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	ROME_INSULIN_TARGETS_IN_MUSCLE_UP	GEORGES_TARGETS_OF_MIR192_AND_MIR215	MARTINEZ_RB1_TARGETS_DN	GRAESSMANN_RESPONSE_TO_MC_AND_SERUM_DEPRIVATION_DN	GTGACGY_E4F1_Q6	MARSON_BOUND_BY_FOXP3_UNSTIMULATED	CTTTGA_LEF1_Q2	LEE_BMP2_TARGETS_UP	GOZGIT_ESR1_TARGETS_DN	AAGCACA_MIR218
+123036	TC2N	tandem C2 domains, nuclear	ROME_INSULIN_TARGETS_IN_MUSCLE_UP		MARTINEZ_RB1_TARGETS_DN						GOZGIT_ESR1_TARGETS_DN	
+3646	EIF3E	eukaryotic translation initiation factor 3, subunit E	ROME_INSULIN_TARGETS_IN_MUSCLE_UP		MARTINEZ_RB1_TARGETS_DN							
+51776	ZAK	sterile alpha motif and leucine zipper containing kinase AZK	ROME_INSULIN_TARGETS_IN_MUSCLE_UP					MARSON_BOUND_BY_FOXP3_UNSTIMULATED	CTTTGA_LEF1_Q2			
+58528	RRAGD	Ras-related GTP binding D	ROME_INSULIN_TARGETS_IN_MUSCLE_UP						CTTTGA_LEF1_Q2	LEE_BMP2_TARGETS_UP		
+5066	PAM	peptidylglycine alpha-amidating monooxygenase	ROME_INSULIN_TARGETS_IN_MUSCLE_UP						CTTTGA_LEF1_Q2	LEE_BMP2_TARGETS_UP		
+8324	FZD7	frizzled family receptor 7		GEORGES_TARGETS_OF_MIR192_AND_MIR215	MARTINEZ_RB1_TARGETS_DN			MARSON_BOUND_BY_FOXP3_UNSTIMULATED	CTTTGA_LEF1_Q2	LEE_BMP2_TARGETS_UP		
+3038	HAS3	hyaluronan synthase 3		GEORGES_TARGETS_OF_MIR192_AND_MIR215	MARTINEZ_RB1_TARGETS_DN				CTTTGA_LEF1_Q2			AAGCACA_MIR218
+7804	LRP8	low density lipoprotein receptor-related protein 8, apolipoprotein e receptor		GEORGES_TARGETS_OF_MIR192_AND_MIR215			GTGACGY_E4F1_Q6		CTTTGA_LEF1_Q2			
+81537	SGPP1	sphingosine-1-phosphate phosphatase 1		GEORGES_TARGETS_OF_MIR192_AND_MIR215				MARSON_BOUND_BY_FOXP3_UNSTIMULATED				
+121274	ZNF641	zinc finger protein 641		GEORGES_TARGETS_OF_MIR192_AND_MIR215							GOZGIT_ESR1_TARGETS_DN	
+23786	BCL2L13	BCL2-like 13 (apoptosis facilitator)		GEORGES_TARGETS_OF_MIR192_AND_MIR215								
+84271	POLDIP3	polymerase (DNA-directed), delta interacting protein 3			MARTINEZ_RB1_TARGETS_DN		GTGACGY_E4F1_Q6					
+8569	MKNK1	MAP kinase interacting serine/threonine kinase 1				GRAESSMANN_RESPONSE_TO_MC_AND_SERUM_DEPRIVATION_DN		MARSON_BOUND_BY_FOXP3_UNSTIMULATED				AAGCACA_MIR218
+55748	CNDP2	CNDP dipeptidase 2 (metallopeptidase M20 family)				GRAESSMANN_RESPONSE_TO_MC_AND_SERUM_DEPRIVATION_DN				LEE_BMP2_TARGETS_UP		
+10411	RAPGEF3	Rap guanine nucleotide exchange factor (GEF) 3				GRAESSMANN_RESPONSE_TO_MC_AND_SERUM_DEPRIVATION_DN						
+5520	PPP2R2A	protein phosphatase 2, regulatory subunit B, alpha					GTGACGY_E4F1_Q6	MARSON_BOUND_BY_FOXP3_UNSTIMULATED				AAGCACA_MIR218
+7328	UBE2H	ubiquitin-conjugating enzyme E2H					GTGACGY_E4F1_Q6	MARSON_BOUND_BY_FOXP3_UNSTIMULATED				AAGCACA_MIR218
+55466	DNAJA4	DnaJ (Hsp40) homolog, subfamily A, member 4					GTGACGY_E4F1_Q6				GOZGIT_ESR1_TARGETS_DN	
+91373	UAP1L1	UDP-N-acteylglucosamine pyrophosphorylase 1-like 1								LEE_BMP2_TARGETS_UP	GOZGIT_ESR1_TARGETS_DN	
+785	CACNB4	calcium channel, voltage-dependent, beta 4 subunit									GOZGIT_ESR1_TARGETS_DN	
+84254	CAMKK1	calcium/calmodulin-dependent protein kinase kinase 1, alpha										
+158160	HSD17B7P2	hydroxysteroid (17-beta) dehydrogenase 7 pseudogene 2										
+23576	DDAH1	dimethylarginine dimethylaminohydrolase 1										
+59338	PLEKHA1	pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 1										
+196483	FAM86A	family with sequence similarity 86, member A										
+10172	ZNF256	zinc finger protein 256										
