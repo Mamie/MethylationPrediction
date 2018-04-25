@@ -1,0 +1,12 @@
+gene,coef,description
+ADM,-0.0122269500469361,adrenomedullin [Source:HGNC Symbol;Acc:HGNC:259]
+B3GALNT1,-0.00906110004153247,beta-1,3-N-acetylgalactosaminyltransferase 1 (globoside blood group) [Source:HGNC Symbol;Acc:HGNC:918]
+C19orf40,-0.0015976319605731,NA
+CTSH,0.0146448390112888,cathepsin H [Source:HGNC Symbol;Acc:HGNC:2535]
+DNALI1,-0.00796362167882758,dynein axonemal light intermediate chain 1 [Source:HGNC Symbol;Acc:HGNC:14353]
+FLJ36031,0.0243127817735597,NA
+GPR160,0.0207435585209928,G protein-coupled receptor 160 [Source:HGNC Symbol;Acc:HGNC:23693]
+HCG11,-0.0127810126200409,HLA complex group 11 (non-protein coding) [Source:HGNC Symbol;Acc:HGNC:17707]
+KRT18,-0.00714969917839916,keratin 18 [Source:HGNC Symbol;Acc:HGNC:6430]
+LSG1,-0.00134764398233162,large 60S subunit nuclear export GTPase 1 [Source:HGNC Symbol;Acc:HGNC:25652]
+RALGDS,0.000751744356862913,ral guanine nucleotide dissociation stimulator [Source:HGNC Symbol;Acc:HGNC:9842]

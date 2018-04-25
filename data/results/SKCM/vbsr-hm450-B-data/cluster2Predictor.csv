@@ -1,0 +1,10 @@
+gene,coef,description
+ADM,-0.0112169994282589,adrenomedullin [Source:HGNC Symbol;Acc:HGNC:259]
+ANKLE1,-0.00914020342771887,ankyrin repeat and LEM domain containing 1 [Source:HGNC Symbol;Acc:HGNC:26812]
+ARMCX2,-0.010455702391804,armadillo repeat containing, X-linked 2 [Source:HGNC Symbol;Acc:HGNC:16869]
+DNALI1,-0.00675167147036084,dynein axonemal light intermediate chain 1 [Source:HGNC Symbol;Acc:HGNC:14353]
+EFNB3,0.0125243923071541,ephrin B3 [Source:HGNC Symbol;Acc:HGNC:3228]
+EFS,-0.00694895861526782,embryonal Fyn-associated substrate [Source:HGNC Symbol;Acc:HGNC:16898]
+LY6G5C,-0.0112546065066379,lymphocyte antigen 6 family member G5C [Source:HGNC Symbol;Acc:HGNC:13932]
+SUSD1,-0.0185180485619396,sushi domain containing 1 [Source:HGNC Symbol;Acc:HGNC:25413]
+ZNF518B,-0.0176880452507547,zinc finger protein 518B [Source:HGNC Symbol;Acc:HGNC:29365]

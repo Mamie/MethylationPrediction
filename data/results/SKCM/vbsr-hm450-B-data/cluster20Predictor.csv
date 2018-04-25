@@ -1,0 +1,7 @@
+gene,coef,description
+BCL7A,0.0181629422523979,BCL tumor suppressor 7A [Source:HGNC Symbol;Acc:HGNC:1004]
+EFNB3,0.00886020508724342,ephrin B3 [Source:HGNC Symbol;Acc:HGNC:3228]
+MALL,-0.0117281029043575,mal, T cell differentiation protein like [Source:HGNC Symbol;Acc:HGNC:6818]
+MED6,-0.0505566576299773,mediator complex subunit 6 [Source:HGNC Symbol;Acc:HGNC:19970]
+RASGRP2,-0.0140532196843739,RAS guanyl releasing protein 2 [Source:HGNC Symbol;Acc:HGNC:9879]
+SLC38A5,-0.0143621600336743,solute carrier family 38 member 5 [Source:HGNC Symbol;Acc:HGNC:18070]

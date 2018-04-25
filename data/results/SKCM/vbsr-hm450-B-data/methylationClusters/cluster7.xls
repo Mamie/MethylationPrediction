@@ -1,0 +1,340 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	315
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	64	0.0325	1.96E-25	1.09E-21
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	75	0.0255	1.72E-23	4.8E-20
+GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	1781	Genes down-regulated in ME-A cells (breast cancer) undergoing apoptosis in response to doxorubicin [PubChem=31703].	53	0.0298	2.15E-19	3.99E-16
+DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	1382	Genes up-regulated in CD34+ [GeneID=947] cells isolated from bone marrow of CML (chronic myelogenous leukemia) patients, compared to those from normal donors.	44	0.0318	2.99E-17	4.16E-14
+GGGAGGRR_MAZ_Q6	2274	Genes having at least one occurence of the highly conserved motif M24 GGGAGGRR sites. The motif matches transcription factor binding site V$MAZ_Q6 (v7.4 TRANSFAC).	56	0.0246	8.45E-17	9.42E-14
+CTTTGT_LEF1_Q2	1972	Genes having at least one occurence of the highly conserved motif M13 CTTTGT sites. The motif matches transcription factor binding site V$LEF1_Q2 (v7.4 TRANSFAC).	50	0.0254	1.55E-15	1.44E-12
+CUI_TCF21_TARGETS_2_DN	830	All significantly down-regulated genes in kidney glomeruli isolated from TCF21 [Gene ID=6943] knockout mice.	32	0.0386	4.85E-15	3.86E-12
+MGGAAGTG_GABP_B	757	Genes having at least one occurence of the highly conserved motif M11 MGGAAGTG sites. The motif matches transcription factor binding site V$GABP_B (v7.4 TRANSFAC).	30	0.0396	1.77E-14	1.23E-11
+ONKEN_UVEAL_MELANOMA_UP	783	Genes up-regulated in uveal melanoma: class 2 vs class 1 tumors.	29	0.0370	2.67E-13	1.65E-10
+GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP	1142	Genes up-regulated in ME-A cells (breast cancer) undergoing apoptosis in response to doxorubicin [PubChem=31703].	34	0.0298	1.02E-12	5.66E-10
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN	MGGAAGTG_GABP_B	ONKEN_UVEAL_MELANOMA_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+4609	MYC	v-myc myelocytomatosis viral oncogene homolog (avian)	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	GGGAGGRR_MAZ_Q6					
+1975	EIF4B	eukaryotic translation initiation factor 4B	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+83879	CDCA7	cell division cycle associated 7	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+5899	RALB	v-ral simian leukemia viral oncogene homolog B (ras related; GTP binding protein)	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			CUI_TCF21_TARGETS_2_DN	MGGAAGTG_GABP_B		
+4122	MAN2A2	mannosidase, alpha, class 2A, member 2	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					ONKEN_UVEAL_MELANOMA_UP	
+7431	VIM	vimentin	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN			
+79647	AKIRIN1	akirin 1	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN			
+154807	VKORC1L1	vitamin K epoxide reductase complex, subunit 1-like 1	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2				
+4215	MAP3K3	mitogen-activated protein kinase kinase kinase 3	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6		CUI_TCF21_TARGETS_2_DN			
+90933	TRIM41	tripartite motif containing 41	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6			MGGAAGTG_GABP_B		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+7529	YWHAB	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta polypeptide	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6			MGGAAGTG_GABP_B		
+9368	SLC9A3R1	solute carrier family 9 (sodium/hydrogen exchanger), member 3 regulator 1	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6			MGGAAGTG_GABP_B		
+26273	FBXO3	F-box protein 3	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6					CUI_TCF21_TARGETS_2_DN			
+3087	HHEX	hematopoietically expressed homeobox	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6					CUI_TCF21_TARGETS_2_DN			
+201595	STT3B	STT3, subunit of the oligosaccharyltransferase complex, homolog B (S. cerevisiae)	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6								
+55718	POLR3E	polymerase (RNA) III (DNA directed) polypeptide E (80kD)	PILON_KLF1_TARGETS_DN	GGGCGGR_SP1_Q6								
+60481	ELOVL5	ELOVL fatty acid elongase 5	PILON_KLF1_TARGETS_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				MGGAAGTG_GABP_B		
+65108	MARCKSL1	MARCKS-like 1	PILON_KLF1_TARGETS_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+6733	SRPK2	SRSF protein kinase 2	PILON_KLF1_TARGETS_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+1656	DDX6	DEAD (Asp-Glu-Ala-Asp) box polypeptide 6	PILON_KLF1_TARGETS_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6					
+6431	SRSF6	serine/arginine-rich splicing factor 6	PILON_KLF1_TARGETS_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6					
+6949	TCOF1	Treacher Collins-Franceschetti syndrome 1	PILON_KLF1_TARGETS_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			CTTTGT_LEF1_Q2		MGGAAGTG_GABP_B		
+10933	MORF4L1	mortality factor 4 like 1	PILON_KLF1_TARGETS_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+114883	OSBPL9	oxysterol binding protein-like 9	PILON_KLF1_TARGETS_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+84233	TMEM126A	transmembrane protein 126A	PILON_KLF1_TARGETS_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+116064	LRRC58	leucine rich repeat containing 58	PILON_KLF1_TARGETS_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+23682	RAB38	RAB38, member RAS oncogene family	PILON_KLF1_TARGETS_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	GGGAGGRR_MAZ_Q6					
+8837	CFLAR	CASP8 and FADD-like apoptosis regulator	PILON_KLF1_TARGETS_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			CUI_TCF21_TARGETS_2_DN			
+5019	OXCT1	3-oxoacid CoA transferase 1	PILON_KLF1_TARGETS_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					ONKEN_UVEAL_MELANOMA_UP	
+23367	LARP1	La ribonucleoprotein domain family, member 1	PILON_KLF1_TARGETS_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					ONKEN_UVEAL_MELANOMA_UP	
+9111	NMI	N-myc (and STAT) interactor	PILON_KLF1_TARGETS_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+8803	SUCLA2	succinate-CoA ligase, ADP-forming, beta subunit	PILON_KLF1_TARGETS_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+830	CAPZA2	capping protein (actin filament) muscle Z-line, alpha 2	PILON_KLF1_TARGETS_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+4528	MTIF2	mitochondrial translational initiation factor 2	PILON_KLF1_TARGETS_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+9276	COPB2	coatomer protein complex, subunit beta 2 (beta prime)	PILON_KLF1_TARGETS_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+23568	ARL2BP	ADP-ribosylation factor-like 2 binding protein	PILON_KLF1_TARGETS_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+51199	NIN	ninein (GSK3B interacting protein)	PILON_KLF1_TARGETS_DN				GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2				
+894	CCND2	cyclin D2	PILON_KLF1_TARGETS_DN				GGGAGGRR_MAZ_Q6				ONKEN_UVEAL_MELANOMA_UP	
+51496	CTDSPL2	CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase like 2	PILON_KLF1_TARGETS_DN				GGGAGGRR_MAZ_Q6					
+11033	ADAP1	ArfGAP with dual PH domains 1	PILON_KLF1_TARGETS_DN				GGGAGGRR_MAZ_Q6					
+152100	CMC1	COX assembly mitochondrial protein homolog (S. cerevisiae)	PILON_KLF1_TARGETS_DN				GGGAGGRR_MAZ_Q6					
+10129	FRY	furry homolog (Drosophila)	PILON_KLF1_TARGETS_DN					CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN		ONKEN_UVEAL_MELANOMA_UP	
+55608	ANKRD10	ankyrin repeat domain 10	PILON_KLF1_TARGETS_DN					CTTTGT_LEF1_Q2			ONKEN_UVEAL_MELANOMA_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+26136	TES	testis derived transcript (3 LIM domains)	PILON_KLF1_TARGETS_DN					CTTTGT_LEF1_Q2				
+25978	CHMP2B	charged multivesicular body protein 2B	PILON_KLF1_TARGETS_DN					CTTTGT_LEF1_Q2				
+359948	IRF2BP2	interferon regulatory factor 2 binding protein 2	PILON_KLF1_TARGETS_DN						CUI_TCF21_TARGETS_2_DN			
+2820	GPD2	glycerol-3-phosphate dehydrogenase 2 (mitochondrial)	PILON_KLF1_TARGETS_DN						CUI_TCF21_TARGETS_2_DN			
+2992	GYG1	glycogenin 1	PILON_KLF1_TARGETS_DN						CUI_TCF21_TARGETS_2_DN			
+23592	LEMD3	LEM domain containing 3	PILON_KLF1_TARGETS_DN						CUI_TCF21_TARGETS_2_DN			
+10184	LHFPL2	lipoma HMGIC fusion partner-like 2	PILON_KLF1_TARGETS_DN								ONKEN_UVEAL_MELANOMA_UP	
+54149	C21orf91	chromosome 21 open reading frame 91	PILON_KLF1_TARGETS_DN									GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+9446	GSTO1	glutathione S-transferase omega 1	PILON_KLF1_TARGETS_DN									GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+317649	EIF4E3	eukaryotic translation initiation factor 4E family member 3	PILON_KLF1_TARGETS_DN									GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+55829	SELS	selenoprotein S	PILON_KLF1_TARGETS_DN									GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+55743	CHFR	checkpoint with forkhead and ring finger domains	PILON_KLF1_TARGETS_DN									
+10782	ZNF274	zinc finger protein 274	PILON_KLF1_TARGETS_DN									
+103910	MYL12B	myosin, light chain 12B, regulatory	PILON_KLF1_TARGETS_DN									
+375346	TMEM110	transmembrane protein 110	PILON_KLF1_TARGETS_DN									
+9861	PSMD6	proteasome (prosome, macropain) 26S subunit, non-ATPase, 6	PILON_KLF1_TARGETS_DN									
+79847	TMEM180	transmembrane protein 180	PILON_KLF1_TARGETS_DN									
+10069	RWDD2B	RWD domain containing 2B	PILON_KLF1_TARGETS_DN									
+58509	C19orf29	chromosome 19 open reading frame 29	PILON_KLF1_TARGETS_DN									
+150223	YDJC	YdjC homolog (bacterial)	PILON_KLF1_TARGETS_DN									
+57585	CRAMP1L	Crm, cramped-like (Drosophila)	PILON_KLF1_TARGETS_DN									
+8835	SOCS2	suppressor of cytokine signaling 2		GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	GGGAGGRR_MAZ_Q6				ONKEN_UVEAL_MELANOMA_UP	
+132	ADK	adenosine kinase		GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+7520	XRCC5	X-ray repair complementing defective repair in Chinese hamster cells 5 (double-strand-break rejoining)		GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+23788	MTCH2	mitochondrial carrier 2		GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+9817	KEAP1	kelch-like ECH-associated protein 1		GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+3980	LIG3	ligase III, DNA, ATP-dependent		GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6					GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+53916	RAB4B	RAB4B, member RAS oncogene family		GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					MGGAAGTG_GABP_B		
+85007	AGXT2L2	alanine-glyoxylate aminotransferase 2-like 2		GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+10469	TIMM44	translocase of inner mitochondrial membrane 44 homolog (yeast)		GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+2768	GNA12	guanine nucleotide binding protein (G protein) alpha 12		GGGCGGR_SP1_Q6	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+1981	EIF4G1	eukaryotic translation initiation factor 4 gamma, 1		GGGCGGR_SP1_Q6		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2				
+4947	OAZ2	ornithine decarboxylase antizyme 2		GGGCGGR_SP1_Q6		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		CTTTGT_LEF1_Q2				
+8467	SMARCA5	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 5		GGGCGGR_SP1_Q6		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					ONKEN_UVEAL_MELANOMA_UP	
+3185	HNRNPF	heterogeneous nuclear ribonucleoprotein F		GGGCGGR_SP1_Q6		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+84458	LCOR	ligand dependent nuclear receptor corepressor		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN	MGGAAGTG_GABP_B		
+1915	EEF1A1	eukaryotic translation elongation factor 1 alpha 1		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2				
+3790	KCNS3	potassium voltage-gated channel, delayed-rectifier, subfamily S, member 3		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2				
+407975	MIR17HG	miR-17-92 cluster host gene (non-protein coding)		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2				
+9632	SEC24C	SEC24 family, member C (S. cerevisiae)		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6			MGGAAGTG_GABP_B		
+8295	TRRAP	transformation/transcription domain-associated protein		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6				ONKEN_UVEAL_MELANOMA_UP	
+23047	PDS5B	PDS5, regulator of cohesion maintenance, homolog B (S. cerevisiae)		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6					
+5298	PI4KB	phosphatidylinositol 4-kinase, catalytic, beta		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6					
+7169	TPM2	tropomyosin 2 (beta)		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6					
+80273	GRPEL1	GrpE-like 1, mitochondrial (E. coli)		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6					
+51195	RAPGEFL1	Rap guanine nucleotide exchange factor (GEF)-like 1		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6					
+79365	BHLHE41	basic helix-loop-helix family, member e41		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6					
+60509	AGBL5	ATP/GTP binding protein-like 5		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6					
+79085	SLC25A23	solute carrier family 25 (mitochondrial carrier; phosphate carrier), member 23		GGGCGGR_SP1_Q6			GGGAGGRR_MAZ_Q6					
+5209	PFKFB3	6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 3		GGGCGGR_SP1_Q6				CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN		ONKEN_UVEAL_MELANOMA_UP	
+5870	RAB6A	RAB6A, member RAS oncogene family		GGGCGGR_SP1_Q6				CTTTGT_LEF1_Q2				
+1827	RCAN1	regulator of calcineurin 1		GGGCGGR_SP1_Q6					CUI_TCF21_TARGETS_2_DN		ONKEN_UVEAL_MELANOMA_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+23092	ARHGAP26	Rho GTPase activating protein 26		GGGCGGR_SP1_Q6					CUI_TCF21_TARGETS_2_DN			
+7056	THBD	thrombomodulin		GGGCGGR_SP1_Q6					CUI_TCF21_TARGETS_2_DN			
+3688	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)		GGGCGGR_SP1_Q6					CUI_TCF21_TARGETS_2_DN			
+54704	PDP1	pyruvate dehyrogenase phosphatase catalytic subunit 1		GGGCGGR_SP1_Q6					CUI_TCF21_TARGETS_2_DN			
+6167	RPL37	ribosomal protein L37		GGGCGGR_SP1_Q6						MGGAAGTG_GABP_B		
+10207	INADL	InaD-like (Drosophila)		GGGCGGR_SP1_Q6						MGGAAGTG_GABP_B		
+4502	MT2A	metallothionein 2A		GGGCGGR_SP1_Q6							ONKEN_UVEAL_MELANOMA_UP	
+4925	NUCB2	nucleobindin 2		GGGCGGR_SP1_Q6							ONKEN_UVEAL_MELANOMA_UP	
+9869	SETDB1	SET domain, bifurcated 1		GGGCGGR_SP1_Q6							ONKEN_UVEAL_MELANOMA_UP	
+23456	ABCB10	ATP-binding cassette, sub-family B (MDR/TAP), member 10		GGGCGGR_SP1_Q6								GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+25829	TMEM184B	transmembrane protein 184B		GGGCGGR_SP1_Q6								GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+4240	MFGE8	milk fat globule-EGF factor 8 protein		GGGCGGR_SP1_Q6								GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+117178	SSX2IP	synovial sarcoma, X breakpoint 2 interacting protein		GGGCGGR_SP1_Q6								GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+195828	ZNF367	zinc finger protein 367		GGGCGGR_SP1_Q6								
+23770	FKBP8	FK506 binding protein 8, 38kDa		GGGCGGR_SP1_Q6								
+28232	SLCO3A1	solute carrier organic anion transporter family, member 3A1		GGGCGGR_SP1_Q6								
+1836	SLC26A2	solute carrier family 26 (sulfate transporter), member 2		GGGCGGR_SP1_Q6								
+9741	LAPTM4A	lysosomal protein transmembrane 4 alpha		GGGCGGR_SP1_Q6								
+6813	STXBP2	syntaxin binding protein 2		GGGCGGR_SP1_Q6								
+64744	SMAP2	small ArfGAP2		GGGCGGR_SP1_Q6								
+55466	DNAJA4	DnaJ (Hsp40) homolog, subfamily A, member 4		GGGCGGR_SP1_Q6								
+6843	VAMP1	vesicle-associated membrane protein 1 (synaptobrevin 1)		GGGCGGR_SP1_Q6								
+118	ADD1	adducin 1 (alpha)		GGGCGGR_SP1_Q6								
+29890	RBM15B	RNA binding motif protein 15B		GGGCGGR_SP1_Q6								
+2627	GATA6	GATA binding protein 6		GGGCGGR_SP1_Q6								
+284086	NEK8	NIMA (never in mitosis gene a)- related kinase 8		GGGCGGR_SP1_Q6								
+132321	C4orf33	chromosome 4 open reading frame 33		GGGCGGR_SP1_Q6								
+127829	ARL8A	ADP-ribosylation factor-like 8A		GGGCGGR_SP1_Q6								
+3796	KIF2A	kinesin heavy chain member 2A			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		CTTTGT_LEF1_Q2				
+11222	MRPL3	mitochondrial ribosomal protein L3			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				MGGAAGTG_GABP_B		
+246243	RNASEH1	ribonuclease H1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+10451	VAV3	vav 3 guanine nucleotide exchange factor			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+81839	VANGL1	vang-like 1 (van gogh, Drosophila)			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN			
+6171	RPL41	ribosomal protein L41			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2		MGGAAGTG_GABP_B		
+1105	CHD1	chromodomain helicase DNA binding protein 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2				
+23371	TENC1	tensin like C1 domain containing phosphatase (tensin 2)			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6		CUI_TCF21_TARGETS_2_DN	MGGAAGTG_GABP_B		
+112464	PRKCDBP	protein kinase C, delta binding protein			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6				ONKEN_UVEAL_MELANOMA_UP	
+226	ALDOA	aldolase A, fructose-bisphosphate			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		GGGAGGRR_MAZ_Q6					
+56916	SMARCAD1	SWI/SNF-related, matrix-associated actin-dependent regulator of chromatin, subfamily a, containing DEAD/H box 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			CTTTGT_LEF1_Q2				GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+113174	SAAL1	serum amyloid A-like 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			CTTTGT_LEF1_Q2				
+51194	IPO11	importin 11			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			CTTTGT_LEF1_Q2				
+56829	ZC3HAV1	zinc finger CCCH-type, antiviral 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				CUI_TCF21_TARGETS_2_DN			
+79724	ZNF768	zinc finger protein 768			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					MGGAAGTG_GABP_B		
+4752	NEK3	NIMA (never in mitosis gene a)-related kinase 3			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN						ONKEN_UVEAL_MELANOMA_UP	
+1687	DFNA5	deafness, autosomal dominant 5			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+11065	UBE2C	ubiquitin-conjugating enzyme E2C			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+25914	RTTN	rotatin			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+6397	SEC14L1	SEC14-like 1 (S. cerevisiae)			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+9382	COG1	component of oligomeric golgi complex 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+80824	DUSP16	dual specificity phosphatase 16			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+54808	DYM	dymeclin			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+84792	C7orf70	chromosome 7 open reading frame 70			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+55915	LANCL2	LanC lantibiotic synthetase component C-like 2 (bacterial)			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+10322	SMYD5	SMYD family member 5			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+79774	GRTP1	growth hormone regulated TBC protein 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+54529	ASNSD1	asparagine synthetase domain containing 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+25798	BRI3	brain protein I3			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+55604	LRRC16A	leucine rich repeat containing 16A			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+1024	CDK8	cyclin-dependent kinase 8				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	GGGAGGRR_MAZ_Q6			MGGAAGTG_GABP_B		
+5352	PLOD2	procollagen-lysine, 2-oxoglutarate 5-dioxygenase 2				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN			
+1152	CKB	creatine kinase, brain				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		CTTTGT_LEF1_Q2				
+23588	KLHDC2	kelch domain containing 2				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		CTTTGT_LEF1_Q2				
+56034	PDGFC	platelet derived growth factor C				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		CTTTGT_LEF1_Q2				
+262	AMD1	adenosylmethionine decarboxylase 1				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				MGGAAGTG_GABP_B		
+6277	S100A6	S100 calcium binding protein A6				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					ONKEN_UVEAL_MELANOMA_UP	
+7052	TGM2	transglutaminase 2 (C polypeptide, protein-glutamine-gamma-glutamyltransferase)				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+55973	BCAP29	B-cell receptor-associated protein 29				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+84364	ARFGAP2	ADP-ribosylation factor GTPase activating protein 2				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+10311	DSCR3	Down syndrome critical region gene 3				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+27101	CACYBP	calcyclin binding protein				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+9352	TXNL1	thioredoxin-like 1				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+6624	FSCN1	fascin homolog 1, actin-bundling protein (Strongylocentrotus purpuratus)				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						
+51599	LSR	lipolysis stimulated lipoprotein receptor					GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2		MGGAAGTG_GABP_B		
+9821	RB1CC1	RB1-inducible coiled-coil 1					GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2			ONKEN_UVEAL_MELANOMA_UP	
+2242	FES	feline sarcoma oncogene					GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2				
+2906	GRIN2D	glutamate receptor, ionotropic, N-methyl D-aspartate 2D					GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2				
+285971	ZNF775	zinc finger protein 775					GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2				
+133584	EGFLAM	EGF-like, fibronectin type III and laminin G domains					GGGAGGRR_MAZ_Q6	CTTTGT_LEF1_Q2				
+587	BCAT2	branched chain amino-acid transaminase 2, mitochondrial					GGGAGGRR_MAZ_Q6			MGGAAGTG_GABP_B		
+90427	BMF	Bcl2 modifying factor					GGGAGGRR_MAZ_Q6			MGGAAGTG_GABP_B		
+51278	IER5	immediate early response 5					GGGAGGRR_MAZ_Q6				ONKEN_UVEAL_MELANOMA_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+11072	DUSP14	dual specificity phosphatase 14					GGGAGGRR_MAZ_Q6				ONKEN_UVEAL_MELANOMA_UP	
+1263	PLK3	polo-like kinase 3					GGGAGGRR_MAZ_Q6					GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+26168	SENP3	SUMO1/sentrin/SMT3 specific peptidase 3					GGGAGGRR_MAZ_Q6					
+7025	NR2F1	nuclear receptor subfamily 2, group F, member 1					GGGAGGRR_MAZ_Q6					
+29123	ANKRD11	ankyrin repeat domain 11					GGGAGGRR_MAZ_Q6					
+5261	PHKG2	phosphorylase kinase, gamma 2 (testis)					GGGAGGRR_MAZ_Q6					
+7014	TERF2	telomeric repeat binding factor 2					GGGAGGRR_MAZ_Q6					
+1028	CDKN1C	cyclin-dependent kinase inhibitor 1C (p57, Kip2)						CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN			
+8556	CDC14A	CDC14 cell division cycle 14 homolog A (S. cerevisiae)						CTTTGT_LEF1_Q2	CUI_TCF21_TARGETS_2_DN			
+83541	FAM110A	family with sequence similarity 110, member A						CTTTGT_LEF1_Q2		MGGAAGTG_GABP_B		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+55909	BIN3	bridging integrator 3						CTTTGT_LEF1_Q2		MGGAAGTG_GABP_B		
+5217	PFN2	profilin 2						CTTTGT_LEF1_Q2			ONKEN_UVEAL_MELANOMA_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+4054	LTBP3	latent transforming growth factor beta binding protein 3						CTTTGT_LEF1_Q2				
+26040	SETBP1	SET binding protein 1						CTTTGT_LEF1_Q2				
+9181	ARHGEF2	Rho/Rac guanine nucleotide exchange factor (GEF) 2						CTTTGT_LEF1_Q2				
+23266	LPHN2	latrophilin 2						CTTTGT_LEF1_Q2				
+146059	CDAN1	congenital dyserythropoietic anemia, type I						CTTTGT_LEF1_Q2				
+9586	CREB5	cAMP responsive element binding protein 5						CTTTGT_LEF1_Q2				
+27065	D4S234E	DNA segment on chromosome 4 (unique) 234 expressed sequence						CTTTGT_LEF1_Q2				
+9885	OSBPL2	oxysterol binding protein-like 2						CTTTGT_LEF1_Q2				
+22846	VASH1	vasohibin 1						CTTTGT_LEF1_Q2				
+84056	KATNAL1	katanin p60 subunit A-like 1						CTTTGT_LEF1_Q2				
+4037	LRP3	low density lipoprotein receptor-related protein 3						CTTTGT_LEF1_Q2				
+23299	BICD2	bicaudal D homolog 2 (Drosophila)							CUI_TCF21_TARGETS_2_DN		ONKEN_UVEAL_MELANOMA_UP	
+25851	TECPR1	tectonin beta-propeller repeat containing 1							CUI_TCF21_TARGETS_2_DN			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+131583	FAM43A	family with sequence similarity 43, member A							CUI_TCF21_TARGETS_2_DN			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+9911	TMCC2	transmembrane and coiled-coil domain family 2							CUI_TCF21_TARGETS_2_DN			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+4811	NID1	nidogen 1							CUI_TCF21_TARGETS_2_DN			
+55652	SLC48A1	solute carrier family 48 (heme transporter), member 1							CUI_TCF21_TARGETS_2_DN			
+639	PRDM1	PR domain containing 1, with ZNF domain							CUI_TCF21_TARGETS_2_DN			
+55757	UGGT2	UDP-glucose glycoprotein glucosyltransferase 2								MGGAAGTG_GABP_B	ONKEN_UVEAL_MELANOMA_UP	
+23644	EDC4	enhancer of mRNA decapping 4								MGGAAGTG_GABP_B		
+79074	C2orf49	chromosome 2 open reading frame 49								MGGAAGTG_GABP_B		
+144108	SPTY2D1	SPT2, Suppressor of Ty, domain containing 1 (S. cerevisiae)								MGGAAGTG_GABP_B		
+7571	ZNF23	zinc finger protein 23 (KOX 16)								MGGAAGTG_GABP_B		
+55696	RBM22	RNA binding motif protein 22								MGGAAGTG_GABP_B		
+22879	MON1B	MON1 homolog B (yeast)								MGGAAGTG_GABP_B		
+5051	PAFAH2	platelet-activating factor acetylhydrolase 2, 40kDa								MGGAAGTG_GABP_B		
+8733	GPAA1	glycosylphosphatidylinositol anchor attachment protein 1 homolog (yeast)									ONKEN_UVEAL_MELANOMA_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+51586	MED15	mediator complex subunit 15									ONKEN_UVEAL_MELANOMA_UP	
+10109	ARPC2	actin related protein 2/3 complex, subunit 2, 34kDa									ONKEN_UVEAL_MELANOMA_UP	
+55270	NUDT15	nudix (nucleoside diphosphate linked moiety X)-type motif 15									ONKEN_UVEAL_MELANOMA_UP	
+9578	CDC42BPB	CDC42 binding protein kinase beta (DMPK-like)									ONKEN_UVEAL_MELANOMA_UP	
+4053	LTBP2	latent transforming growth factor beta binding protein 2										GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+27090	ST6GALNAC4	ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 4										GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+3801	KIFC3	kinesin family member C3										GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+28976	ACAD9	acyl-CoA dehydrogenase family, member 9										GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+23589	CARHSP1	calcium regulated heat stable protein 1, 24kDa										GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+285203	C3orf64	chromosome 3 open reading frame 64										GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+84275	SLC25A33	solute carrier family 25, member 33										GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+644096	SDHAF1	succinate dehydrogenase complex assembly factor 1										GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+83443	SF3B5	splicing factor 3b, subunit 5, 10kDa										GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_UP
+55617	TASP1	taspase, threonine aspartase, 1										
+5300	PIN1	peptidylprolyl cis/trans isomerase, NIMA-interacting 1										
+54675	CRLS1	cardiolipin synthase 1										
+162993	ZNF846	zinc finger protein 846										
+8558	CDK10	cyclin-dependent kinase 10										
+8021	NUP214	nucleoporin 214kDa										
+79778	MICALL2	MICAL-like 2										
+5982	RFC2	replication factor C (activator 1) 2, 40kDa										
+6635	SNRPE	small nuclear ribonucleoprotein polypeptide E										
+9052	GPRC5A	G protein-coupled receptor, family C, group 5, member A										
+23318	ZCCHC11	zinc finger, CCHC domain containing 11										
+196483	FAM86A	family with sequence similarity 86, member A										
+308	ANXA5	annexin A5										
+3955	LFNG	LFNG O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase										
+55316	RSAD1	radical S-adenosyl methionine domain containing 1										
+135114	HINT3	histidine triad nucleotide binding protein 3										
+10036	CHAF1A	chromatin assembly factor 1, subunit A (p150)										
+54930	HAUS4	HAUS augmin-like complex, subunit 4										
+91574	C12orf65	chromosome 12 open reading frame 65										
+57646	USP28	ubiquitin specific peptidase 28										
+26098	C10orf137	chromosome 10 open reading frame 137										
+5272	SERPINB9	serpin peptidase inhibitor, clade B (ovalbumin), member 9										
+123920	CMTM3	CKLF-like MARVEL transmembrane domain containing 3										
+84164	ASCC2	activating signal cointegrator 1 complex subunit 2										
+51149	C5orf45	chromosome 5 open reading frame 45										
+149986	LSM14B	LSM14B, SCD6 homolog B (S. cerevisiae)										
+22835	ZFP30	zinc finger protein 30 homolog (mouse)										
+56922	MCCC1	methylcrotonoyl-CoA carboxylase 1 (alpha)										
+738	C11orf2	chromosome 11 open reading frame 2										
+5603	MAPK13	mitogen-activated protein kinase 13										
+647087	C7orf73	chromosome 7 open reading frame 73										
+162989	DEDD2	death effector domain containing 2										
+728568	C12orf73	chromosome 12 open reading frame 73										
+115708	TRMT61A	tRNA methyltransferase 61 homolog A (S. cerevisiae)										
+55733	HHAT	hedgehog acyltransferase										
+389677	RBM12B	RNA binding motif protein 12B										
+148189	LOC148189	uncharacterized LOC148189										
+23558	WBP2	WW domain binding protein 2										
+8744	TNFSF9	tumor necrosis factor (ligand) superfamily, member 9										
+26090	ABHD12	abhydrolase domain containing 12										
+80232	WDR26	WD repeat domain 26										
+874	CBR3	carbonyl reductase 3										
+54955	C1orf109	chromosome 1 open reading frame 109										
+121642	ALKBH2	alkB, alkylation repair homolog 2 (E. coli)										
+132001	TAMM41	TAM41, mitochondrial translocator assembly and maintenance protein, homolog (S. cerevisiae)										
+127703	C1orf216	chromosome 1 open reading frame 216										
+374378	GALNTL4	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase-like 4										
+1307	COL16A1	collagen, type XVI, alpha 1										
+79829	NAA40	N(alpha)-acetyltransferase 40, NatD catalytic subunit, homolog (S. cerevisiae)										
+4320	MMP11	matrix metallopeptidase 11 (stromelysin 3)										
+56927	GPR108	G protein-coupled receptor 108										
+23586	DDX58	DEAD (Asp-Glu-Ala-Asp) box polypeptide 58										
+9139	CBFA2T2	core-binding factor, runt domain, alpha subunit 2; translocated to, 2										
+5157	PDGFRL	platelet-derived growth factor receptor-like										
+9907	KIAA0415	KIAA0415										
+84259	DCUN1D5	DCN1, defective in cullin neddylation 1, domain containing 5 (S. cerevisiae)										
+7373	COL14A1	collagen, type XIV, alpha 1										
+22889	KIAA0907	KIAA0907										
+113612	CYP2U1	cytochrome P450, family 2, subfamily U, polypeptide 1										
+56121	PCDHB15	protocadherin beta 15										
+25873	RPL36	ribosomal protein L36										
+27183	VPS4A	vacuolar protein sorting 4 homolog A (S. cerevisiae)										
+55225	RAVER2	ribonucleoprotein, PTB-binding 2										
+85360	SYDE1	synapse defective 1, Rho GTPase, homolog 1 (C. elegans)										
+1962	EHHADH	enoyl-CoA, hydratase/3-hydroxyacyl CoA dehydrogenase										
+23408	SIRT5	sirtuin 5										
+399979	SNX19	sorting nexin 19										
+401647	GOLGA7B	golgin A7 family, member B										
+157657	C8orf37	chromosome 8 open reading frame 37										
+283635	FAM177A1	family with sequence similarity 177, member A1										
+57623	ZFAT	zinc finger and AT hook domain containing										
+925	CD8A	CD8a molecule										
+8916	HERC3	hect domain and RLD 3										
+55846	ITFG2	integrin alpha FG-GAP repeat containing 2										
+259173	ALS2CL	ALS2 C-terminal like										
+55773	TBC1D23	TBC1 domain family, member 23										
+51700	CYB5R2	cytochrome b5 reductase 2										
+135154	C6orf57	chromosome 6 open reading frame 57										
+25989	ULK3	unc-51-like kinase 3 (C. elegans)										
+79648	MCPH1	microcephalin 1										
+100131211	TMEM194B	transmembrane protein 194B										
+57494	RIMKLB	ribosomal modification protein rimK-like family member B										
+374443	LOC374443	CLR pseudogene										
+145748	LYSMD4	LysM, putative peptidoglycan-binding, domain containing 4										
+128308	MRPL55	mitochondrial ribosomal protein L55										
+84498	FAM120B	family with sequence similarity 120B										
+7620	ZNF69	zinc finger protein 69										

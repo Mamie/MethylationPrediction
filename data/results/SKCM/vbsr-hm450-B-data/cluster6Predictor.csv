@@ -1,0 +1,10 @@
+gene,coef,description
+ADM,-0.0120049143086385,adrenomedullin [Source:HGNC Symbol;Acc:HGNC:259]
+CTHRC1,-0.0100883829550304,collagen triple helix repeat containing 1 [Source:HGNC Symbol;Acc:HGNC:18831]
+CXCL16,0.0249289676645336,C-X-C motif chemokine ligand 16 [Source:HGNC Symbol;Acc:HGNC:16642]
+DNALI1,-0.010890462802467,dynein axonemal light intermediate chain 1 [Source:HGNC Symbol;Acc:HGNC:14353]
+ME1,-0.0138569646831809,malic enzyme 1 [Source:HGNC Symbol;Acc:HGNC:6983]
+OSBPL3,0.0129274289065717,oxysterol binding protein like 3 [Source:HGNC Symbol;Acc:HGNC:16370]
+PLCD1,-0.00141839982112546,phospholipase C delta 1 [Source:HGNC Symbol;Acc:HGNC:9060]
+PPP1R3D,-0.00297905217300512,protein phosphatase 1 regulatory subunit 3D [Source:HGNC Symbol;Acc:HGNC:9294]
+RASAL3,0.0138483279284584,RAS protein activator like 3 [Source:HGNC Symbol;Acc:HGNC:26129]

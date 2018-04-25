@@ -1,0 +1,9 @@
+gene,coef,description
+B3GALNT1,-0.00218796498272805,beta-1,3-N-acetylgalactosaminyltransferase 1 (globoside blood group) [Source:HGNC Symbol;Acc:HGNC:918]
+DNALI1,-0.00473291445053706,dynein axonemal light intermediate chain 1 [Source:HGNC Symbol;Acc:HGNC:14353]
+FLJ36031,0.00684089979130414,NA
+GLIPR2,0.00247189803023957,GLI pathogenesis related 2 [Source:HGNC Symbol;Acc:HGNC:18007]
+GPR160,0.0113600751300795,G protein-coupled receptor 160 [Source:HGNC Symbol;Acc:HGNC:23693]
+HCG11,-0.00762831452152291,HLA complex group 11 (non-protein coding) [Source:HGNC Symbol;Acc:HGNC:17707]
+KRT18,-0.0029293031258755,keratin 18 [Source:HGNC Symbol;Acc:HGNC:6430]
+PTAFR,0.00423326396208247,platelet activating factor receptor [Source:HGNC Symbol;Acc:HGNC:9582]
