@@ -97,6 +97,20 @@
 \section{Introduction}
 
 \section{Methods}
+\begin{figure}[h]
+\includegraphics[width=0.5\textwidth]{../figs/flowChart}
+\caption{\textbf{Pipeline}}
+\end{figure}
+\subsection{data preprocessing}
+TCGA Level 3 mRNAseq and DNA methylation data (HumanMethylation450 arrays) was downloaded from Broad TCGA GDAC site for LAML, SKCM and HNSC. mRNAseq probes with missing values were removed. We queried the GO terms (molecular function and biological process) based on the HUGO symbol of the probes and kept only probes that contain keywords related to transcription and methylation as our feature matrix.   
+
+Methylation array data was filtered to remove probes that are on chromosome X and Y and have missing values. Probes with UCSC RefGene group annotation as TSS 1500 and located within UCSC CpG island annotation were selected. The correlation between the Beta value of filtered methylation probes and RSEM level of the corresponding genes in mRNAseq data were computed and significant methylation probes was filtered with FDR adjusted p-value (FDR < 0.1) of 0.05. The resulting probes were clustered using hierarchical clustering with euclidean distance using Ward's method. 20 clusters were set as the cutoff for assigning cluster membership. The average methylation level within the cluster of each patient was computed as the response vector. 
+
+\subsection{variational Bayesian spike regression}
+variational Bayesian spike regression (VBSR) \cite{logsdon2012novel} is a Bayesian approximation of best subset selection. We used VBSR to select subset of informative mRNAseq probes that best explain the observed pattern of methylation level across patients out of all possible subset. VBSR approaches the problem by using a variational Bayes approximation that probabilistically models the inclusion of any probes in the regression model. The p-value on the estimated value of penalized regression coefficient were computed and significant probes were extracted at FDR adjusted p-value (FDR < 0.1) of 0.05. R package \texttt{vbsr} was used. 
+
+\subsection{Geneset analysis of methylation clusters}
+The enrichment of biological processes in each methylation clusters were examined by comparing to pre-defined genesets on MSigDB by hypergeometric test. 
 
 \section{Results}
 

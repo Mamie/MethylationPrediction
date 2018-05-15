@@ -123,7 +123,7 @@
      inkscape:cx="334.06334"
      inkscape:cy="-5.176352"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g903"
      showgrid="false"
      inkscape:window-width="1440"
      inkscape:window-height="878"
@@ -277,15 +277,39 @@
              xml:space="preserve"
              id="flowRoot901"
              style="font-style:normal;font-weight:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-             transform="matrix(0.26458333,0,0,0.26458333,-0.04835124,2.3731915)"><flowRegion
+             transform="matrix(0.26458333,0,0,0.26458333,-0.04835124,1.3148581)"><flowRegion
                id="flowRegion895"><rect
                  id="rect893"
                  width="139.0636"
                  height="58.251408"
                  x="104.71951"
                  y="80.716057" /></flowRegion><flowPara
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Helvetica;-inkscape-font-specification:Helvetica;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-               id="flowPara899">hierarchical clustering</flowPara></flowRoot>        </g>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;font-family:Helvetica;-inkscape-font-specification:Helvetica;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+               id="flowPara899">hclust</flowPara><flowPara
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Helvetica;-inkscape-font-specification:Helvetica;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+               id="flowPara3041">average methylation level with clusters </flowPara></flowRoot>          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             x="7.5617867"
+             y="-3.0012364"
+             id="text3045"><tspan
+               sodipodi:role="line"
+               id="tspan3043"
+               x="7.5617867"
+               y="-3.0012364"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.26458332">features</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             x="29.92432"
+             y="15.842315"
+             id="text3049"><tspan
+               sodipodi:role="line"
+               id="tspan3047"
+               x="29.92432"
+               y="15.842315"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.26458332">response</tspan></text>
+        </g>
       </g>
       <g
          transform="translate(16.073776,-99.721997)"
