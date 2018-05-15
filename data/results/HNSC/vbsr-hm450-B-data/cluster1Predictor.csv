@@ -1,0 +1,9 @@
+gene,coef,description
+ACAA2,-0.0098075062769883,acetyl-CoA acyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:83]
+C4orf32,0.00747425977478492,NA
+CHCHD7,-0.00914160643866408,coiled-coil-helix-coiled-coil-helix domain containing 7 [Source:HGNC Symbol;Acc:HGNC:28314]
+GMPR2,0.00102248300249126,guanosine monophosphate reductase 2 [Source:HGNC Symbol;Acc:HGNC:4377]
+GNGT2,0.00753482162015088,G protein subunit gamma transducin 2 [Source:HGNC Symbol;Acc:HGNC:4412]
+IFT27,0.0103829100044273,intraflagellar transport 27 [Source:HGNC Symbol;Acc:HGNC:18626]
+LOC650368,-0.0112104300527727,NA
+SIRPA,0.00647841648412062,signal regulatory protein alpha [Source:HGNC Symbol;Acc:HGNC:9662]

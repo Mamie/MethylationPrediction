@@ -1,0 +1,318 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	293
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	67	0.0228	4E-20	2.23E-16
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	50	0.0254	7.51E-17	2.09E-13
+BLALOCK_ALZHEIMERS_DISEASE_UP	1691	Genes up-regulated in brain from patients with Alzheimer's disease.	45	0.0266	5.64E-16	1.05E-12
+KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	1278	Genes up-regulated in TC71 and EWS502 cells (Ewing's sarcoma) by EWSR1-FLI1  [GeneID=2130;2314] as inferred from RNAi knockdown of this fusion protein.	38	0.0297	4.21E-15	5.86E-12
+KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	824	Genes with promoters occupied by SMAD2 or SMAD3 [GeneID=4087, 4088] in HaCaT cells (keratinocyte) according to a ChIP-chip analysis.	30	0.0364	2.33E-14	2.59E-11
+PEREZ_TP53_TARGETS	1174	Genes up-regulated in the HMEC cells (primary mammary epithelium) upon expression of TP53 [GeneID=7157] off adenoviral vector.	33	0.0281	1.41E-12	1.18E-9
+TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497	601	Genes having at least one occurence of the motif TGCTGCT in their 3' untranslated region. The motif represents putative target (that is, seed match) of human mature miRNAs hsa-miR-15a, hsa-miR-16, hsa-miR-15b, hsa-miR-195, hsa-miR-424 and hsa-miR-497 (v7.1 miRBase).	24	0.0399	1.48E-12	1.18E-9
+BRUINS_UVC_RESPONSE_LATE	1137	Late response genes: differentially expressed only 12 h after UV-C irradiation of MEF cells (embryonic fibroblast).	31	0.0273	1.52E-11	1.02E-8
+GGGAGGRR_MAZ_Q6	2274	Genes having at least one occurence of the highly conserved motif M24 GGGAGGRR sites. The motif matches transcription factor binding site V$MAZ_Q6 (v7.4 TRANSFAC).	45	0.0198	1.65E-11	1.02E-8
+RTAAACA_FREAC2_01	919	Genes having at least one occurence of the highly conserved motif M36 RTAAACA sites. The motif matches transcription factor binding site V$FREAC2_01 (v7.4 TRANSFAC).	27	0.0294	6.48E-11	3.61E-8
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN	BLALOCK_ALZHEIMERS_DISEASE_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	PEREZ_TP53_TARGETS	TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497	BRUINS_UVC_RESPONSE_LATE	GGGAGGRR_MAZ_Q6	RTAAACA_FREAC2_01
+10766	TOB2	transducer of ERBB2, 2	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN	BLALOCK_ALZHEIMERS_DISEASE_UP						GGGAGGRR_MAZ_Q6	
+26135	SERBP1	SERPINE1 mRNA binding protein 1	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			
+6885	MAP3K7	mitogen-activated protein kinase kinase kinase 7	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP				BRUINS_UVC_RESPONSE_LATE		
+10146	G3BP1	GTPase activating protein (SH3 domain) binding protein 1	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+51167	CYB5R4	cytochrome b5 reductase 4	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+51523	CXXC5	CXXC finger protein 5	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN			KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	PEREZ_TP53_TARGETS			GGGAGGRR_MAZ_Q6	RTAAACA_FREAC2_01
+11193	WBP4	WW domain binding protein 4 (formin binding protein 21)	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN			KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3				GGGAGGRR_MAZ_Q6	RTAAACA_FREAC2_01
+7023	TFAP4	transcription factor AP-4 (activating enhancer binding protein 4)	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN					TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497		GGGAGGRR_MAZ_Q6	RTAAACA_FREAC2_01
+31	ACACA	acetyl-CoA carboxylase alpha	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN					TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			
+84661	DPY30	dpy-30 homolog (C. elegans)	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN						BRUINS_UVC_RESPONSE_LATE		
+3927	LASP1	LIM and SH3 protein 1	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN							GGGAGGRR_MAZ_Q6	RTAAACA_FREAC2_01
+22838	RNF44	ring finger protein 44	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN							GGGAGGRR_MAZ_Q6	
+7358	UGDH	UDP-glucose 6-dehydrogenase	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN								
+116150	NUS1	nuclear undecaprenyl pyrophosphate synthase 1 homolog (S. cerevisiae)	GGGCGGR_SP1_Q6	PILON_KLF1_TARGETS_DN								
+4150	MAZ	MYC-associated zinc finger protein (purine-binding transcription factor)	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+7262	PHLDA2	pleckstrin homology-like domain, family A, member 2	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+2969	GTF2I	general transcription factor IIi	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+116985	ARAP1	ArfGAP with RhoGAP domain, ankyrin repeat and PH domain 1	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP			PEREZ_TP53_TARGETS			GGGAGGRR_MAZ_Q6	
+6446	SGK1	serum/glucocorticoid regulated kinase 1	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP				TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			
+30008	EFEMP2	EGF containing fibulin-like extracellular matrix protein 2	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP					BRUINS_UVC_RESPONSE_LATE	GGGAGGRR_MAZ_Q6	
+10235	RASGRP2	RAS guanyl releasing protein 2 (calcium and DAG-regulated)	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP						GGGAGGRR_MAZ_Q6	
+994	CDC25B	cell division cycle 25 homolog B (S. pombe)	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP							
+8732	RNGTT	RNA guanylyltransferase and 5'-phosphatase	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP							
+29916	SNX11	sorting nexin 11	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP							
+7041	TGFB1I1	transforming growth factor beta 1 induced transcript 1	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP							
+10276	NET1	neuroepithelial cell transforming 1	GGGCGGR_SP1_Q6			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+84296	GINS4	GINS complex subunit 4 (Sld5 homolog)	GGGCGGR_SP1_Q6			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PEREZ_TP53_TARGETS		BRUINS_UVC_RESPONSE_LATE		
+6729	SRP54	signal recognition particle 54kDa	GGGCGGR_SP1_Q6			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+25929	GEMIN5	gem (nuclear organelle) associated protein 5	GGGCGGR_SP1_Q6			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+2131	EXT1	exostosin 1	GGGCGGR_SP1_Q6				KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3			BRUINS_UVC_RESPONSE_LATE		RTAAACA_FREAC2_01
+8061	FOSL1	FOS-like antigen 1	GGGCGGR_SP1_Q6				KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3				GGGAGGRR_MAZ_Q6	
+7534	YWHAZ	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, zeta polypeptide	GGGCGGR_SP1_Q6				KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3				GGGAGGRR_MAZ_Q6	
+5208	PFKFB2	6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 2	GGGCGGR_SP1_Q6				KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+162979	ZNF296	zinc finger protein 296	GGGCGGR_SP1_Q6					PEREZ_TP53_TARGETS				
+79684	C11orf61	chromosome 11 open reading frame 61	GGGCGGR_SP1_Q6					PEREZ_TP53_TARGETS				
+26036	ZNF451	zinc finger protein 451	GGGCGGR_SP1_Q6					PEREZ_TP53_TARGETS				
+116113	FOXP4	forkhead box P4	GGGCGGR_SP1_Q6					PEREZ_TP53_TARGETS				
+153222	C5orf41	chromosome 5 open reading frame 41	GGGCGGR_SP1_Q6						TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497		GGGAGGRR_MAZ_Q6	RTAAACA_FREAC2_01
+11198	SUPT16H	suppressor of Ty 16 homolog (S. cerevisiae)	GGGCGGR_SP1_Q6						TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497		GGGAGGRR_MAZ_Q6	
+10435	CDC42EP2	CDC42 effector protein (Rho GTPase binding) 2	GGGCGGR_SP1_Q6						TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497		GGGAGGRR_MAZ_Q6	
+8851	CDK5R1	cyclin-dependent kinase 5, regulatory subunit 1 (p35)	GGGCGGR_SP1_Q6						TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			
+84926	SPRYD3	SPRY domain containing 3	GGGCGGR_SP1_Q6						TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			
+1277	COL1A1	collagen, type I, alpha 1	GGGCGGR_SP1_Q6							BRUINS_UVC_RESPONSE_LATE	GGGAGGRR_MAZ_Q6	
+59271	C21orf63	chromosome 21 open reading frame 63	GGGCGGR_SP1_Q6							BRUINS_UVC_RESPONSE_LATE	GGGAGGRR_MAZ_Q6	
+83943	IMMP2L	IMP2 inner mitochondrial membrane peptidase-like (S. cerevisiae)	GGGCGGR_SP1_Q6							BRUINS_UVC_RESPONSE_LATE		RTAAACA_FREAC2_01
+9694	TTC35	tetratricopeptide repeat domain 35	GGGCGGR_SP1_Q6							BRUINS_UVC_RESPONSE_LATE		
+55809	TRERF1	transcriptional regulating factor 1	GGGCGGR_SP1_Q6								GGGAGGRR_MAZ_Q6	RTAAACA_FREAC2_01
+5094	PCBP2	poly(rC) binding protein 2	GGGCGGR_SP1_Q6								GGGAGGRR_MAZ_Q6	
+2118	ETV4	ets variant 4	GGGCGGR_SP1_Q6								GGGAGGRR_MAZ_Q6	
+4957	ODF2	outer dense fiber of sperm tails 2	GGGCGGR_SP1_Q6								GGGAGGRR_MAZ_Q6	
+22893	BAHD1	bromo adjacent homology domain containing 1	GGGCGGR_SP1_Q6								GGGAGGRR_MAZ_Q6	
+84312	BRMS1L	breast cancer metastasis-suppressor 1-like	GGGCGGR_SP1_Q6								GGGAGGRR_MAZ_Q6	
+56904	SH3GLB2	SH3-domain GRB2-like endophilin B2	GGGCGGR_SP1_Q6									RTAAACA_FREAC2_01
+8613	PPAP2B	phosphatidic acid phosphatase type 2B	GGGCGGR_SP1_Q6									RTAAACA_FREAC2_01
+81577	GFOD2	glucose-fructose oxidoreductase domain containing 2	GGGCGGR_SP1_Q6									
+22839	DLGAP4	discs, large (Drosophila) homolog-associated protein 4	GGGCGGR_SP1_Q6									
+622	BDH1	3-hydroxybutyrate dehydrogenase, type 1	GGGCGGR_SP1_Q6									
+1847	DUSP5	dual specificity phosphatase 5	GGGCGGR_SP1_Q6									
+2203	FBP1	fructose-1,6-bisphosphatase 1	GGGCGGR_SP1_Q6									
+26580	BSCL2	Berardinelli-Seip congenital lipodystrophy 2 (seipin)	GGGCGGR_SP1_Q6									
+11022	TDRKH	tudor and KH domain containing	GGGCGGR_SP1_Q6									
+10525	HYOU1	hypoxia up-regulated 1	GGGCGGR_SP1_Q6									
+55683	KIAA1310	KIAA1310	GGGCGGR_SP1_Q6									
+5970	RELA	v-rel reticuloendotheliosis viral oncogene homolog A (avian)	GGGCGGR_SP1_Q6									
+6608	SMO	smoothened, frizzled family receptor	GGGCGGR_SP1_Q6									
+9409	PEX16	peroxisomal biogenesis factor 16	GGGCGGR_SP1_Q6									
+27106	ARRDC2	arrestin domain containing 2	GGGCGGR_SP1_Q6									
+988	CDC5L	CDC5 cell division cycle 5-like (S. pombe)		PILON_KLF1_TARGETS_DN	BLALOCK_ALZHEIMERS_DISEASE_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+23471	TRAM1	translocation associated membrane protein 1		PILON_KLF1_TARGETS_DN	BLALOCK_ALZHEIMERS_DISEASE_UP		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3		TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497	BRUINS_UVC_RESPONSE_LATE		
+25948	KBTBD2	kelch repeat and BTB (POZ) domain containing 2		PILON_KLF1_TARGETS_DN	BLALOCK_ALZHEIMERS_DISEASE_UP		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3		TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			RTAAACA_FREAC2_01
+2308	FOXO1	forkhead box O1		PILON_KLF1_TARGETS_DN	BLALOCK_ALZHEIMERS_DISEASE_UP						GGGAGGRR_MAZ_Q6	RTAAACA_FREAC2_01
+5037	PEBP1	phosphatidylethanolamine binding protein 1		PILON_KLF1_TARGETS_DN	BLALOCK_ALZHEIMERS_DISEASE_UP							
+3398	ID2	inhibitor of DNA binding 2, dominant negative helix-loop-helix protein		PILON_KLF1_TARGETS_DN		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PEREZ_TP53_TARGETS				RTAAACA_FREAC2_01
+79666	PLEKHF2	pleckstrin homology domain containing, family F (with FYVE domain) member 2		PILON_KLF1_TARGETS_DN		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+10713	USP39	ubiquitin specific peptidase 39		PILON_KLF1_TARGETS_DN		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+2665	GDI2	GDP dissociation inhibitor 2		PILON_KLF1_TARGETS_DN		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+80005	DOCK5	dedicator of cytokinesis 5		PILON_KLF1_TARGETS_DN			KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					RTAAACA_FREAC2_01
+378938	MALAT1	metastasis associated lung adenocarcinoma transcript 1 (non-protein coding)		PILON_KLF1_TARGETS_DN			KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+10982	MAPRE2	microtubule-associated protein, RP/EB family, member 2		PILON_KLF1_TARGETS_DN			KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+255488	RNF144B	ring finger protein 144B		PILON_KLF1_TARGETS_DN				PEREZ_TP53_TARGETS	TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			
+79158	GNPTAB	N-acetylglucosamine-1-phosphate transferase, alpha and beta subunits		PILON_KLF1_TARGETS_DN				PEREZ_TP53_TARGETS				
+23151	GRAMD4	GRAM domain containing 4		PILON_KLF1_TARGETS_DN				PEREZ_TP53_TARGETS				
+9392	TGFBRAP1	transforming growth factor, beta receptor associated protein 1		PILON_KLF1_TARGETS_DN				PEREZ_TP53_TARGETS				
+5518	PPP2R1A	protein phosphatase 2, regulatory subunit A, alpha		PILON_KLF1_TARGETS_DN					TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			
+29775	CARD10	caspase recruitment domain family, member 10		PILON_KLF1_TARGETS_DN					TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			
+23173	METAP1	methionyl aminopeptidase 1		PILON_KLF1_TARGETS_DN						BRUINS_UVC_RESPONSE_LATE		
+7074	TIAM1	T-cell lymphoma invasion and metastasis 1		PILON_KLF1_TARGETS_DN								RTAAACA_FREAC2_01
+55813	UTP6	UTP6, small subunit (SSU) processome component, homolog (yeast)		PILON_KLF1_TARGETS_DN								
+10427	SEC24B	SEC24 family, member B (S. cerevisiae)		PILON_KLF1_TARGETS_DN								
+23214	XPO6	exportin 6		PILON_KLF1_TARGETS_DN								
+55347	ABHD10	abhydrolase domain containing 10		PILON_KLF1_TARGETS_DN								
+80119	PIF1	PIF1 5'-to-3' DNA helicase homolog (S. cerevisiae)		PILON_KLF1_TARGETS_DN								
+3676	ITGA4	integrin, alpha 4 (antigen CD49D, alpha 4 subunit of VLA-4 receptor)		PILON_KLF1_TARGETS_DN								
+6342	SCP2	sterol carrier protein 2		PILON_KLF1_TARGETS_DN								
+9559	VPS26A	vacuolar protein sorting 26 homolog A (S. pombe)		PILON_KLF1_TARGETS_DN								
+84294	UTP23	UTP23, small subunit (SSU) processome component, homolog (yeast)		PILON_KLF1_TARGETS_DN								
+55421	C17orf85	chromosome 17 open reading frame 85		PILON_KLF1_TARGETS_DN								
+11035	RIPK3	receptor-interacting serine-threonine kinase 3		PILON_KLF1_TARGETS_DN								
+25934	NIPSNAP3A	nipsnap homolog 3A (C. elegans)		PILON_KLF1_TARGETS_DN								
+23220	DTX4	deltex homolog 4 (Drosophila)		PILON_KLF1_TARGETS_DN								
+91012	CERS5	ceramide synthase 5		PILON_KLF1_TARGETS_DN								
+9742	IFT140	intraflagellar transport 140 homolog (Chlamydomonas)		PILON_KLF1_TARGETS_DN								
+100113407	TMEM170B	transmembrane protein 170B		PILON_KLF1_TARGETS_DN								
+57007	CXCR7	chemokine (C-X-C motif) receptor 7			BLALOCK_ALZHEIMERS_DISEASE_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PEREZ_TP53_TARGETS				
+7270	TTF1	transcription termination factor, RNA polymerase I			BLALOCK_ALZHEIMERS_DISEASE_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+23541	SEC14L2	SEC14-like 2 (S. cerevisiae)			BLALOCK_ALZHEIMERS_DISEASE_UP		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3				GGGAGGRR_MAZ_Q6	
+8140	SLC7A5	solute carrier family 7 (amino acid transporter light chain, L system), member 5			BLALOCK_ALZHEIMERS_DISEASE_UP		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+23336	SYNM	synemin, intermediate filament protein			BLALOCK_ALZHEIMERS_DISEASE_UP			PEREZ_TP53_TARGETS				
+29965	C16orf5	chromosome 16 open reading frame 5			BLALOCK_ALZHEIMERS_DISEASE_UP			PEREZ_TP53_TARGETS				
+4147	MATN2	matrilin 2			BLALOCK_ALZHEIMERS_DISEASE_UP					BRUINS_UVC_RESPONSE_LATE		RTAAACA_FREAC2_01
+51611	DPH5	DPH5 homolog (S. cerevisiae)			BLALOCK_ALZHEIMERS_DISEASE_UP					BRUINS_UVC_RESPONSE_LATE		
+55930	MYO5C	myosin VC			BLALOCK_ALZHEIMERS_DISEASE_UP					BRUINS_UVC_RESPONSE_LATE		
+27295	PDLIM3	PDZ and LIM domain 3			BLALOCK_ALZHEIMERS_DISEASE_UP						GGGAGGRR_MAZ_Q6	RTAAACA_FREAC2_01
+51755	CDK12	cyclin-dependent kinase 12			BLALOCK_ALZHEIMERS_DISEASE_UP						GGGAGGRR_MAZ_Q6	
+3399	ID3	inhibitor of DNA binding 3, dominant negative helix-loop-helix protein			BLALOCK_ALZHEIMERS_DISEASE_UP						GGGAGGRR_MAZ_Q6	
+10608	MXD4	MAX dimerization protein 4			BLALOCK_ALZHEIMERS_DISEASE_UP							RTAAACA_FREAC2_01
+55361	PI4K2A	phosphatidylinositol 4-kinase type 2 alpha			BLALOCK_ALZHEIMERS_DISEASE_UP							RTAAACA_FREAC2_01
+64783	RBM15	RNA binding motif protein 15			BLALOCK_ALZHEIMERS_DISEASE_UP							
+1508	CTSB	cathepsin B			BLALOCK_ALZHEIMERS_DISEASE_UP							
+3671	ISLR	immunoglobulin superfamily containing leucine-rich repeat			BLALOCK_ALZHEIMERS_DISEASE_UP							
+7374	UNG	uracil-DNA glycosylase			BLALOCK_ALZHEIMERS_DISEASE_UP							
+9984	THOC1	THO complex 1			BLALOCK_ALZHEIMERS_DISEASE_UP							
+55556	ENOSF1	enolase superfamily member 1			BLALOCK_ALZHEIMERS_DISEASE_UP							
+463	ZFHX3	zinc finger homeobox 3			BLALOCK_ALZHEIMERS_DISEASE_UP							
+29072	SETD2	SET domain containing 2			BLALOCK_ALZHEIMERS_DISEASE_UP							
+9601	PDIA4	protein disulfide isomerase family A, member 4			BLALOCK_ALZHEIMERS_DISEASE_UP							
+1723	DHODH	dihydroorotate dehydrogenase (quinone)			BLALOCK_ALZHEIMERS_DISEASE_UP							
+7297	TYK2	tyrosine kinase 2			BLALOCK_ALZHEIMERS_DISEASE_UP							
+6915	TBXA2R	thromboxane A2 receptor			BLALOCK_ALZHEIMERS_DISEASE_UP							
+80022	MYO15B	myosin XVB pseudogene			BLALOCK_ALZHEIMERS_DISEASE_UP							
+26152	ZNF337	zinc finger protein 337			BLALOCK_ALZHEIMERS_DISEASE_UP							
+2023	ENO1	enolase 1, (alpha)				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+9656	MDC1	mediator of DNA-damage checkpoint 1				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+79899	PRR5L	proline rich 5 like				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PEREZ_TP53_TARGETS		BRUINS_UVC_RESPONSE_LATE		
+51105	PHF20L1	PHD finger protein 20-like 1				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497		GGGAGGRR_MAZ_Q6	
+4171	MCM2	minichromosome maintenance complex component 2				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP				BRUINS_UVC_RESPONSE_LATE		
+51002	TPRKB	TP53RK binding protein				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP				BRUINS_UVC_RESPONSE_LATE		
+9126	SMC3	structural maintenance of chromosomes 3				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP					GGGAGGRR_MAZ_Q6	
+54968	TMEM70	transmembrane protein 70				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+55355	HJURP	Holliday junction recognition protein				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+146909	KIF18B	kinesin family member 18B				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+891	CCNB1	cyclin B1				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+24147	FJX1	four jointed box 1 (Drosophila)				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+1876	E2F6	E2F transcription factor 6				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+55632	G2E3	G2/M-phase specific E3 ubiquitin protein ligase				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+8444	DYRK3	dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 3				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+6675	UAP1	UDP-N-acteylglucosamine pyrophosphorylase 1				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+7485	WRB	tryptophan rich basic protein				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+388610	TRNP1	TMF1-regulated nuclear protein 1				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+54913	RPP25	ribonuclease P/MRP 25kDa subunit				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+10302	SNAPC5	small nuclear RNA activating complex, polypeptide 5, 19kDa				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+54887	UHRF1BP1	UHRF1 binding protein 1				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+80746	TSEN2	tRNA splicing endonuclease 2 homolog (S. cerevisiae)				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						
+4092	SMAD7	SMAD family member 7					KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	PEREZ_TP53_TARGETS	TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			
+154810	AMOTL1	angiomotin like 1					KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	PEREZ_TP53_TARGETS			GGGAGGRR_MAZ_Q6	
+5621	PRNP	prion protein					KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3			BRUINS_UVC_RESPONSE_LATE		
+135228	CD109	CD109 molecule					KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3				GGGAGGRR_MAZ_Q6	RTAAACA_FREAC2_01
+85027	C5orf62	chromosome 5 open reading frame 62					KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+5315	PKM2	pyruvate kinase, muscle					KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+8887	TAX1BP1	Tax1 (human T-cell leukemia virus type I) binding protein 1					KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+23327	NEDD4L	neural precursor cell expressed, developmentally down-regulated 4-like					KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+10457	GPNMB	glycoprotein (transmembrane) nmb					KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+80149	ZC3H12A	zinc finger CCCH-type containing 12A					KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+126321	C19orf28	chromosome 19 open reading frame 28					KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+55199	FAM86C1	family with sequence similarity 86, member C1					KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					
+154	ADRB2	adrenergic, beta-2-, receptor, surface						PEREZ_TP53_TARGETS	TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497	BRUINS_UVC_RESPONSE_LATE		
+125488	TTC39C	tetratricopeptide repeat domain 39C						PEREZ_TP53_TARGETS		BRUINS_UVC_RESPONSE_LATE		
+26053	AUTS2	autism susceptibility candidate 2						PEREZ_TP53_TARGETS			GGGAGGRR_MAZ_Q6	
+8038	ADAM12	ADAM metallopeptidase domain 12						PEREZ_TP53_TARGETS				RTAAACA_FREAC2_01
+113263	GLCCI1	glucocorticoid induced transcript 1						PEREZ_TP53_TARGETS				
+26256	CABYR	calcium binding tyrosine-(Y)-phosphorylation regulated						PEREZ_TP53_TARGETS				
+3607	FOXK2	forkhead box K2						PEREZ_TP53_TARGETS				
+143282	FGFBP3	fibroblast growth factor binding protein 3						PEREZ_TP53_TARGETS				
+389362	PSMG4	proteasome (prosome, macropain) assembly chaperone 4						PEREZ_TP53_TARGETS				
+2055	CLN8	ceroid-lipofuscinosis, neuronal 8 (epilepsy, progressive with mental retardation)						PEREZ_TP53_TARGETS				
+4135	MAP6	microtubule-associated protein 6						PEREZ_TP53_TARGETS				
+79929	MAP6D1	MAP6 domain containing 1						PEREZ_TP53_TARGETS				
+84329	HVCN1	hydrogen voltage-gated channel 1						PEREZ_TP53_TARGETS				
+26032	SUSD5	sushi domain containing 5						PEREZ_TP53_TARGETS				
+90333	ZNF468	zinc finger protein 468						PEREZ_TP53_TARGETS				
+2550	GABBR1	gamma-aminobutyric acid (GABA) B receptor, 1							TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497		GGGAGGRR_MAZ_Q6	
+4050	LTB	lymphotoxin beta (TNF superfamily, member 3)							TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			RTAAACA_FREAC2_01
+55605	KIF21A	kinesin family member 21A							TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			RTAAACA_FREAC2_01
+6477	SIAH1	seven in absentia homolog 1 (Drosophila)							TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			
+94097	SFXN5	sideroflexin 5							TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			
+11215	AKAP11	A kinase (PRKA) anchor protein 11							TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			
+192670	EIF2C4	eukaryotic translation initiation factor 2C, 4							TGCTGCT_MIR15A_MIR16_MIR15B_MIR195_MIR424_MIR497			
+10140	TOB1	transducer of ERBB2, 1								BRUINS_UVC_RESPONSE_LATE	GGGAGGRR_MAZ_Q6	RTAAACA_FREAC2_01
+10605	PAIP1	poly(A) binding protein interacting protein 1								BRUINS_UVC_RESPONSE_LATE		
+10007	GNPDA1	glucosamine-6-phosphate deaminase 1								BRUINS_UVC_RESPONSE_LATE		
+55339	WDR33	WD repeat domain 33								BRUINS_UVC_RESPONSE_LATE		
+10627	MYL12A	myosin, light chain 12A, regulatory, non-sarcomeric								BRUINS_UVC_RESPONSE_LATE		
+55902	ACSS2	acyl-CoA synthetase short-chain family member 2								BRUINS_UVC_RESPONSE_LATE		
+9415	FADS2	fatty acid desaturase 2								BRUINS_UVC_RESPONSE_LATE		
+54858	PGPEP1	pyroglutamyl-peptidase I								BRUINS_UVC_RESPONSE_LATE		
+55647	RAB20	RAB20, member RAS oncogene family								BRUINS_UVC_RESPONSE_LATE		
+4482	MSRA	methionine sulfoxide reductase A								BRUINS_UVC_RESPONSE_LATE		
+56683	C21orf59	chromosome 21 open reading frame 59								BRUINS_UVC_RESPONSE_LATE		
+4763	NF1	neurofibromin 1									GGGAGGRR_MAZ_Q6	RTAAACA_FREAC2_01
+7328	UBE2H	ubiquitin-conjugating enzyme E2H									GGGAGGRR_MAZ_Q6	RTAAACA_FREAC2_01
+1649	DDIT3	DNA-damage-inducible transcript 3									GGGAGGRR_MAZ_Q6	
+3667	IRS1	insulin receptor substrate 1									GGGAGGRR_MAZ_Q6	
+6482	ST3GAL1	ST3 beta-galactoside alpha-2,3-sialyltransferase 1									GGGAGGRR_MAZ_Q6	
+9294	S1PR2	sphingosine-1-phosphate receptor 2									GGGAGGRR_MAZ_Q6	
+752	FMNL1	formin-like 1									GGGAGGRR_MAZ_Q6	
+22801	ITGA11	integrin, alpha 11									GGGAGGRR_MAZ_Q6	
+23704	KCNE4	potassium voltage-gated channel, Isk-related family, member 4									GGGAGGRR_MAZ_Q6	
+3932	LCK	lymphocyte-specific protein tyrosine kinase									GGGAGGRR_MAZ_Q6	
+6604	SMARCD3	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 3									GGGAGGRR_MAZ_Q6	
+9372	ZFYVE9	zinc finger, FYVE domain containing 9										RTAAACA_FREAC2_01
+1371	CPOX	coproporphyrinogen oxidase										
+4940	OAS3	2'-5'-oligoadenylate synthetase 3, 100kDa										
+100	ADA	adenosine deaminase										
+51092	SIDT2	SID1 transmembrane family, member 2										
+80765	STARD5	StAR-related lipid transfer (START) domain containing 5										
+7016	TESK1	testis-specific kinase 1										
+54978	C2orf18	chromosome 2 open reading frame 18										
+115399	LRRC56	leucine rich repeat containing 56										
+222236	NAPEPLD	N-acyl phosphatidylethanolamine phospholipase D										
+51663	ZFR	zinc finger RNA binding protein										
+55615	PRR5	proline rich 5 (renal)										
+192669	EIF2C3	eukaryotic translation initiation factor 2C, 3										
+56005	C19orf10	chromosome 19 open reading frame 10										
+2317	FLNB	filamin B, beta										
+201229	C17orf108	chromosome 17 open reading frame 108										
+51460	SFMBT1	Scm-like with four mbt domains 1										
+200845	KCTD6	potassium channel tetramerisation domain containing 6										
+79982	DNAJB14	DnaJ (Hsp40) homolog, subfamily B, member 14										
+51100	SH3GLB1	SH3-domain GRB2-like endophilin B1										
+79811	SLTM	SAFB-like, transcription modulator										
+999	CDH1	cadherin 1, type 1, E-cadherin (epithelial)										
+57699	CPNE5	copine V										
+9826	ARHGEF11	Rho guanine nucleotide exchange factor (GEF) 11										
+1666	DECR1	2,4-dienoyl CoA reductase 1, mitochondrial										
+4493	MT1E	metallothionein 1E										
+25900	IFFO1	intermediate filament family orphan 1										
+5515	PPP2CA	protein phosphatase 2, catalytic subunit, alpha isozyme										
+2181	ACSL3	acyl-CoA synthetase long-chain family member 3										
+3831	KLC1	kinesin light chain 1										
+10293	TRAIP	TRAF interacting protein										
+129787	TMEM18	transmembrane protein 18										
+26225	ARL5A	ADP-ribosylation factor-like 5A										
+93974	ATPIF1	ATPase inhibitory factor 1										
+6001	RGS10	regulator of G-protein signaling 10										
+2982	GUCY1A3	guanylate cyclase 1, soluble, alpha 3										
+79754	ASB13	ankyrin repeat and SOCS box containing 13										
+57597	BAHCC1	BAH domain and coiled-coil containing 1										
+6182	MRPL12	mitochondrial ribosomal protein L12										
+56975	FAM20C	family with sequence similarity 20, member C										
+10618	TGOLN2	trans-golgi network protein 2										
+51435	SCARA3	scavenger receptor class A, member 3										
+57504	MTA3	metastasis associated 1 family, member 3										
+51293	CD320	CD320 molecule										
+22852	ANKRD26	ankyrin repeat domain 26										
+165215	FAM171B	family with sequence similarity 171, member B										
+3038	HAS3	hyaluronan synthase 3										
+57228	SMAGP	small cell adhesion glycoprotein										
+96459	FNIP1	folliculin interacting protein 1										
+5866	RAB3IL1	RAB3A interacting protein (rabin3)-like 1										
+1742	DLG4	discs, large homolog 4 (Drosophila)										
+6390	SDHB	succinate dehydrogenase complex, subunit B, iron sulfur (Ip)										
+282969	C10orf125	chromosome 10 open reading frame 125										
+387032	ZKSCAN4	zinc finger with KRAB and SCAN domains 4										
+83640	FAM103A1	family with sequence similarity 103, member A1										
+55748	CNDP2	CNDP dipeptidase 2 (metallopeptidase M20 family)										
+26224	FBXL3	F-box and leucine-rich repeat protein 3										
+57480	PLEKHG1	pleckstrin homology domain containing, family G (with RhoGef domain) member 1										
+55246	CCDC25	coiled-coil domain containing 25										
+23660	ZKSCAN5	zinc finger with KRAB and SCAN domains 5										
+6923	TCEB2	transcription elongation factor B (SIII), polypeptide 2 (18kDa, elongin B)										
+79738	BBS10	Bardet-Biedl syndrome 10										
+126295	ZNF57	zinc finger protein 57										
+285636	C5orf51	chromosome 5 open reading frame 51										
+84236	RHBDD1	rhomboid domain containing 1										
+84247	LDOC1L	leucine zipper, down-regulated in cancer 1-like										
+1346	COX7A1	cytochrome c oxidase subunit VIIa polypeptide 1 (muscle)										
+6154	RPL26	ribosomal protein L26										
+54776	PPP1R12C	protein phosphatase 1, regulatory subunit 12C										
+2987	GUK1	guanylate kinase 1										
+158471	PRUNE2	prune homolog 2 (Drosophila)										
+55812	SPATA7	spermatogenesis associated 7										
+144717	FAM109A	family with sequence similarity 109, member A										
+85460	ZNF518B	zinc finger protein 518B										
+79029	SPATA5L1	spermatogenesis associated 5-like 1										
+84787	SUV420H2	suppressor of variegation 4-20 homolog 2 (Drosophila)										
+8771	TNFRSF6B	tumor necrosis factor receptor superfamily, member 6b, decoy										
+200035	NUDT17	nudix (nucleoside diphosphate linked moiety X)-type motif 17										
+284023	LOC284023	uncharacterized LOC284023										
+388569	ZNF324B	zinc finger protein 324B										
+400322	HERC2P2	hect domain and RLD 2 pseudogene 2										
+339559	ZNF642	zinc finger protein 642										
+339318	ZNF181	zinc finger protein 181										
+653113	FAM86FP	family with sequence similarity 86, member A pseudogene										

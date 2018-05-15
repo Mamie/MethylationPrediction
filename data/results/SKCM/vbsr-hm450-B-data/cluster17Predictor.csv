@@ -1,0 +1,7 @@
+gene,coef,description
+AKNA,0.04334677115038,AT-hook transcription factor [Source:HGNC Symbol;Acc:HGNC:24108]
+ARL4C,0.0238613440238088,ADP ribosylation factor like GTPase 4C [Source:HGNC Symbol;Acc:HGNC:698]
+B3GALNT1,-0.0132868413323429,beta-1,3-N-acetylgalactosaminyltransferase 1 (globoside blood group) [Source:HGNC Symbol;Acc:HGNC:918]
+GPR160,0.028241349967767,G protein-coupled receptor 160 [Source:HGNC Symbol;Acc:HGNC:23693]
+HCG11,-0.0113431093295069,HLA complex group 11 (non-protein coding) [Source:HGNC Symbol;Acc:HGNC:17707]
+ZNF696,-0.0350652268613808,zinc finger protein 696 [Source:HGNC Symbol;Acc:HGNC:25872]

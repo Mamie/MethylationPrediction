@@ -1,0 +1,26 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	1
+# genesets in collections:	5574
+# genes in comparison (n):	10
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	6	0.0030	1.12E-6	6.25E-3
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	PILON_KLF1_TARGETS_DN
+8428	STK24	serine/threonine kinase 24	PILON_KLF1_TARGETS_DN
+1456	CSNK1G3	casein kinase 1, gamma 3	PILON_KLF1_TARGETS_DN
+29968	PSAT1	phosphoserine aminotransferase 1	PILON_KLF1_TARGETS_DN
+6584	SLC22A5	solute carrier family 22 (organic cation/carnitine transporter), member 5	PILON_KLF1_TARGETS_DN
+6850	SYK	spleen tyrosine kinase	PILON_KLF1_TARGETS_DN
+221294	NT5DC1	5'-nucleotidase domain containing 1	PILON_KLF1_TARGETS_DN
+80762	NDFIP1	Nedd4 family interacting protein 1	
+4232	MEST	mesoderm specific transcript homolog (mouse)	
+377677	CA13	carbonic anhydrase XIII	
+51478	HSD17B7	hydroxysteroid (17-beta) dehydrogenase 7	

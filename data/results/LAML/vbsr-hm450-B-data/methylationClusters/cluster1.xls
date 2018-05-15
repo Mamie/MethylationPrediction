@@ -1,0 +1,177 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	152
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5	482	The 'group 5 set' of genes associated with acquired endocrine therapy resistance in breast tumors expressing ESR1 but not ERBB2 [GeneID=2099;2064].	16	0.0332	7.78E-12	3.67E-8
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	29	0.0147	1.32E-11	3.67E-8
+KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	1278	Genes up-regulated in TC71 and EWS502 cells (Ewing's sarcoma) by EWSR1-FLI1  [GeneID=2130;2314] as inferred from RNAi knockdown of this fusion protein.	23	0.0180	4.54E-11	8.44E-8
+GARY_CD5_TARGETS_UP	473	Genes up-regulated in Daudi cells (B lymphocytes) stably expressing CD5 [GeneID=921] off a plasmid vector.	14	0.0296	7.39E-10	1.03E-6
+HAN_SATB1_TARGETS_DN	442	Genes down-regulated in MDA-MB-231 cells (breast cancer) after knockdown of SATB1 [GeneID=6304] by RNAi.	13	0.0294	3.3E-9	3.68E-6
+WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN	374	Genes down-regulated in RS4;11 cells (MLL, mixed lineage leukemia) in response to SB216763 [PubChem=176158], an inhibitor of GSK3B [GeneID=2932].	12	0.0321	5.19E-9	4.82E-6
+YAGI_AML_WITH_11Q23_REARRANGED	351	Genes specifically expressed in samples from patients with pediatric acute myeloid leukemia (AML) bearing 11q23 rearrangements.	11	0.0313	2.93E-8	2.33E-5
+CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP	450	Genes up-regulated in luminal-like breast cancer cell lines compared to the mesenchymal-like ones.	12	0.0267	3.97E-8	2.62E-5
+LEE_BMP2_TARGETS_DN	882	Genes down-regulated in uterus upon knockout of BMP2 [GeneID=650].	16	0.0181	4.48E-8	2.62E-5
+KRIEG_HYPOXIA_NOT_VIA_KDM3A	770	Genes induced under hypoxia independently of KDM3A [GeneID=55818] in RCC4 cells (renal carcinoma) expressing VHL [GeneID=7428].	15	0.0195	4.83E-8	2.62E-5
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5	PILON_KLF1_TARGETS_DN	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	GARY_CD5_TARGETS_UP	HAN_SATB1_TARGETS_DN	WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN	YAGI_AML_WITH_11Q23_REARRANGED	CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP	LEE_BMP2_TARGETS_DN	KRIEG_HYPOXIA_NOT_VIA_KDM3A
+6867	TACC1	transforming, acidic coiled-coil containing protein 1	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5	PILON_KLF1_TARGETS_DN	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP				YAGI_AML_WITH_11Q23_REARRANGED			KRIEG_HYPOXIA_NOT_VIA_KDM3A
+57153	SLC44A2	solute carrier family 44, member 2	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5	PILON_KLF1_TARGETS_DN		GARY_CD5_TARGETS_UP				CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP		
+55743	CHFR	checkpoint with forkhead and ring finger domains	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5	PILON_KLF1_TARGETS_DN								
+10276	NET1	neuroepithelial cell transforming 1	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP							
+2887	GRB10	growth factor receptor-bound protein 10	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP							
+6309	SC5DL	sterol-C5-desaturase (ERG3 delta-5-desaturase homolog, S. cerevisiae)-like	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5			GARY_CD5_TARGETS_UP	HAN_SATB1_TARGETS_DN					
+23180	RFTN1	raftlin, lipid raft linker 1	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5					WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN				
+408	ARRB1	arrestin, beta 1	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5					WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN				
+4627	MYH9	myosin, heavy chain 9, non-muscle	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5						YAGI_AML_WITH_11Q23_REARRANGED			KRIEG_HYPOXIA_NOT_VIA_KDM3A
+79837	PIP4K2C	phosphatidylinositol-5-phosphate 4-kinase, type II, gamma	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5							CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP		
+10388	SYCP2	synaptonemal complex protein 2	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5							CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP		
+55219	TMEM57	transmembrane protein 57	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5									
+22837	COBLL1	COBL-like 1	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5									
+157638	FAM84B	family with sequence similarity 84, member B	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5									
+84918	LRP11	low density lipoprotein receptor-related protein 11	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5									
+26260	FBXO25	F-box protein 25	CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_5									
+3182	HNRNPAB	heterogeneous nuclear ribonucleoprotein A/B		PILON_KLF1_TARGETS_DN	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN			LEE_BMP2_TARGETS_DN	
+894	CCND2	cyclin D2		PILON_KLF1_TARGETS_DN	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP				YAGI_AML_WITH_11Q23_REARRANGED			
+23212	RRS1	RRS1 ribosome biogenesis regulator homolog (S. cerevisiae)		PILON_KLF1_TARGETS_DN	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						LEE_BMP2_TARGETS_DN	
+6653	SORL1	sortilin-related receptor, L(DLR class) A repeats containing		PILON_KLF1_TARGETS_DN		GARY_CD5_TARGETS_UP	HAN_SATB1_TARGETS_DN			CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP		
+6809	STX3	syntaxin 3		PILON_KLF1_TARGETS_DN			HAN_SATB1_TARGETS_DN					
+4005	LMO2	LIM domain only 2 (rhombotin-like 1)		PILON_KLF1_TARGETS_DN				WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN				
+231	AKR1B1	aldo-keto reductase family 1, member B1 (aldose reductase)		PILON_KLF1_TARGETS_DN					YAGI_AML_WITH_11Q23_REARRANGED		LEE_BMP2_TARGETS_DN	
+51043	ZBTB7B	zinc finger and BTB domain containing 7B		PILON_KLF1_TARGETS_DN						CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP		
+22928	SEPHS2	selenophosphate synthetase 2		PILON_KLF1_TARGETS_DN						CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP		
+79641	ROGDI	rogdi homolog (Drosophila)		PILON_KLF1_TARGETS_DN						CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP		
+83440	ADPGK	ADP-dependent glucokinase		PILON_KLF1_TARGETS_DN							LEE_BMP2_TARGETS_DN	
+23358	USP24	ubiquitin specific peptidase 24		PILON_KLF1_TARGETS_DN							LEE_BMP2_TARGETS_DN	
+5501	PPP1CC	protein phosphatase 1, catalytic subunit, gamma isozyme		PILON_KLF1_TARGETS_DN								KRIEG_HYPOXIA_NOT_VIA_KDM3A
+25948	KBTBD2	kelch repeat and BTB (POZ) domain containing 2		PILON_KLF1_TARGETS_DN								
+6776	STAT5A	signal transducer and activator of transcription 5A		PILON_KLF1_TARGETS_DN								
+10782	ZNF274	zinc finger protein 274		PILON_KLF1_TARGETS_DN								
+7704	ZBTB16	zinc finger and BTB domain containing 16		PILON_KLF1_TARGETS_DN								
+9917	FAM20B	family with sequence similarity 20, member B		PILON_KLF1_TARGETS_DN								
+3417	IDH1	isocitrate dehydrogenase 1 (NADP+), soluble		PILON_KLF1_TARGETS_DN								
+6603	SMARCD2	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 2		PILON_KLF1_TARGETS_DN								
+6856	SYPL1	synaptophysin-like 1		PILON_KLF1_TARGETS_DN								
+9555	H2AFY	H2A histone family, member Y		PILON_KLF1_TARGETS_DN								
+57621	ZBTB2	zinc finger and BTB domain containing 2		PILON_KLF1_TARGETS_DN								
+1488	CTBP2	C-terminal binding protein 2		PILON_KLF1_TARGETS_DN								
+65123	INTS3	integrator complex subunit 3		PILON_KLF1_TARGETS_DN								
+64784	CRTC3	CREB regulated transcription coactivator 3		PILON_KLF1_TARGETS_DN								
+6713	SQLE	squalene epoxidase			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	GARY_CD5_TARGETS_UP	HAN_SATB1_TARGETS_DN	WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN			LEE_BMP2_TARGETS_DN	
+6509	SLC1A4	solute carrier family 1 (glutamate/neutral amino acid transporter), member 4			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	GARY_CD5_TARGETS_UP		WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN	YAGI_AML_WITH_11Q23_REARRANGED			
+440	ASNS	asparagine synthetase (glutamine-hydrolyzing)			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	GARY_CD5_TARGETS_UP					LEE_BMP2_TARGETS_DN	
+79892	MCMBP	minichromosome maintenance complex binding protein			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		HAN_SATB1_TARGETS_DN					
+9156	EXO1	exonuclease 1			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN			LEE_BMP2_TARGETS_DN	
+7804	LRP8	low density lipoprotein receptor-related protein 8, apolipoprotein e receptor			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN				
+5329	PLAUR	plasminogen activator, urokinase receptor			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP				YAGI_AML_WITH_11Q23_REARRANGED			
+5464	PPA1	pyrophosphatase (inorganic) 1			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						LEE_BMP2_TARGETS_DN	
+81831	NETO2	neuropilin (NRP) and tolloid (TLL)-like 2			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						LEE_BMP2_TARGETS_DN	
+51012	SLMO2	slowmo homolog 2 (Drosophila)			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP						LEE_BMP2_TARGETS_DN	
+123606	NIPA1	non imprinted in Prader-Willi/Angelman syndrome 1			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP							KRIEG_HYPOXIA_NOT_VIA_KDM3A
+54890	ALKBH5	alkB, alkylation repair homolog 5 (E. coli)			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP							KRIEG_HYPOXIA_NOT_VIA_KDM3A
+80150	ASRGL1	asparaginase like 1			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP							
+377677	CA13	carbonic anhydrase XIII			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP							
+55103	RALGPS2	Ral GEF with PH domain and SH3 binding motif 2			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP							
+117177	RAB3IP	RAB3A interacting protein (rabin3)			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP							
+1659	DHX8	DEAH (Asp-Glu-Ala-His) box polypeptide 8			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP							
+3156	HMGCR	3-hydroxy-3-methylglutaryl-CoA reductase				GARY_CD5_TARGETS_UP	HAN_SATB1_TARGETS_DN				LEE_BMP2_TARGETS_DN	
+1717	DHCR7	7-dehydrocholesterol reductase				GARY_CD5_TARGETS_UP		WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN	YAGI_AML_WITH_11Q23_REARRANGED			
+833	CARS	cysteinyl-tRNA synthetase				GARY_CD5_TARGETS_UP			YAGI_AML_WITH_11Q23_REARRANGED			
+89122	TRIM4	tripartite motif containing 4				GARY_CD5_TARGETS_UP						
+864	RUNX3	runt-related transcription factor 3				GARY_CD5_TARGETS_UP						
+29780	PARVB	parvin, beta				GARY_CD5_TARGETS_UP						
+2771	GNAI2	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 2				GARY_CD5_TARGETS_UP						
+3932	LCK	lymphocyte-specific protein tyrosine kinase				GARY_CD5_TARGETS_UP						
+39	ACAT2	acetyl-CoA acetyltransferase 2					HAN_SATB1_TARGETS_DN	WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN				KRIEG_HYPOXIA_NOT_VIA_KDM3A
+1407	CRY1	cryptochrome 1 (photolyase-like)					HAN_SATB1_TARGETS_DN				LEE_BMP2_TARGETS_DN	
+54463	FAM134B	family with sequence similarity 134, member B					HAN_SATB1_TARGETS_DN					KRIEG_HYPOXIA_NOT_VIA_KDM3A
+85377	MICALL1	MICAL-like 1					HAN_SATB1_TARGETS_DN					
+4700	NDUFA6	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 6, 14kDa					HAN_SATB1_TARGETS_DN					
+79685	SAP30L	SAP30-like					HAN_SATB1_TARGETS_DN					
+2022	ENG	endoglin					HAN_SATB1_TARGETS_DN					
+9415	FADS2	fatty acid desaturase 2						WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN				KRIEG_HYPOXIA_NOT_VIA_KDM3A
+51477	ISYNA1	inositol-3-phosphate synthase 1						WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_DN				
+5052	PRDX1	peroxiredoxin 1							YAGI_AML_WITH_11Q23_REARRANGED			
+290	ANPEP	alanyl (membrane) aminopeptidase							YAGI_AML_WITH_11Q23_REARRANGED			
+9811	CTIF	CBP80/20-dependent translation initiation factor							YAGI_AML_WITH_11Q23_REARRANGED			
+10612	TRIM3	tripartite motif containing 3								CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP		
+79056	PRRG4	proline rich Gla (G-carboxyglutamic acid) 4 (transmembrane)								CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP		
+10140	TOB1	transducer of ERBB2, 1								CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP		
+10207	INADL	InaD-like (Drosophila)								CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP		
+6768	ST14	suppression of tumorigenicity 14 (colon carcinoma)								CHARAFE_BREAST_CANCER_LUMINAL_VS_MESENCHYMAL_UP		
+56342	PPAN	peter pan homolog (Drosophila)									LEE_BMP2_TARGETS_DN	
+25894	PLEKHG4	pleckstrin homology domain containing, family G (with RhoGef domain) member 4									LEE_BMP2_TARGETS_DN	
+29967	LRP12	low density lipoprotein receptor-related protein 12									LEE_BMP2_TARGETS_DN	
+203068	TUBB	tubulin, beta class I										KRIEG_HYPOXIA_NOT_VIA_KDM3A
+22992	KDM2A	lysine (K)-specific demethylase 2A										KRIEG_HYPOXIA_NOT_VIA_KDM3A
+7791	ZYX	zyxin										KRIEG_HYPOXIA_NOT_VIA_KDM3A
+71	ACTG1	actin, gamma 1										KRIEG_HYPOXIA_NOT_VIA_KDM3A
+64866	CDCP1	CUB domain containing protein 1										KRIEG_HYPOXIA_NOT_VIA_KDM3A
+23361	ZNF629	zinc finger protein 629										KRIEG_HYPOXIA_NOT_VIA_KDM3A
+54108	CHRAC1	chromatin accessibility complex 1										KRIEG_HYPOXIA_NOT_VIA_KDM3A
+9805	SCRN1	secernin 1										
+9050	PSTPIP2	proline-serine-threonine phosphatase interacting protein 2										
+80315	CPEB4	cytoplasmic polyadenylation element binding protein 4										
+55432	YOD1	YOD1 OTU deubiquinating enzyme 1 homolog (S. cerevisiae)										
+56829	ZC3HAV1	zinc finger CCCH-type, antiviral 1										
+10450	PPIE	peptidylprolyl isomerase E (cyclophilin E)										
+9416	DDX23	DEAD (Asp-Glu-Ala-Asp) box polypeptide 23										
+9454	HOMER3	homer homolog 3 (Drosophila)										
+4094	MAF	v-maf musculoaponeurotic fibrosarcoma oncogene homolog (avian)										
+23158	TBC1D9	TBC1 domain family, member 9 (with GRAM domain)										
+57447	NDRG2	NDRG family member 2										
+162	AP1B1	adaptor-related protein complex 1, beta 1 subunit										
+4232	MEST	mesoderm specific transcript homolog (mouse)										
+6430	SRSF5	serine/arginine-rich splicing factor 5										
+80228	ORAI2	ORAI calcium release-activated calcium modulator 2										
+151556	GPR155	G protein-coupled receptor 155										
+3136	HLA-H	major histocompatibility complex, class I, H (pseudogene)										
+55128	TRIM68	tripartite motif containing 68										
+2354	FOSB	FBJ murine osteosarcoma viral oncogene homolog B										
+55194	FAM176B	family with sequence similarity 176, member B										
+55212	BBS7	Bardet-Biedl syndrome 7										
+122553	TRAPPC6B	trafficking protein particle complex 6B										
+1145	CHRNE	cholinergic receptor, nicotinic, epsilon										
+8578	SCARF1	scavenger receptor class F, member 1										
+89848	FCHSD1	FCH and double SH3 domains 1										
+285598	ARL10	ADP-ribosylation factor-like 10										
+10336	PCGF3	polycomb group ring finger 3										
+64847	SPATA20	spermatogenesis associated 20										
+1535	CYBA	cytochrome b-245, alpha polypeptide										
+196483	FAM86A	family with sequence similarity 86, member A										
+430	ASCL2	achaete-scute complex homolog 2 (Drosophila)										
+286042	FLJ10661	family with sequence similarity 86, member A pseudogene										
+154791	C7orf55	chromosome 7 open reading frame 55										
+91120	ZNF682	zinc finger protein 682										
+84954	MPND	MPN domain containing										
+222236	NAPEPLD	N-acyl phosphatidylethanolamine phospholipase D										
+63908	NAPB	N-ethylmaleimide-sensitive factor attachment protein, beta										
+55561	CDC42BPG	CDC42 binding protein kinase gamma (DMPK-like)										
+284309	ZNF776	zinc finger protein 776										
+647087	C7orf73	chromosome 7 open reading frame 73										
+55174	INTS10	integrator complex subunit 10										
+28976	ACAD9	acyl-CoA dehydrogenase family, member 9										
+91582	RPS19BP1	ribosomal protein S19 binding protein 1										
+83861	RSPH3	radial spoke 3 homolog (Chlamydomonas)										
+5463	POU6F1	POU class 6 homeobox 1										
+3954	LETM1	leucine zipper-EF-hand containing transmembrane protein 1										
+79178	THTPA	thiamine triphosphatase										
+390916	NUDT19	nudix (nucleoside diphosphate linked moiety X)-type motif 19										
+3038	HAS3	hyaluronan synthase 3										
+23269	MGA	MAX gene associated										
+126119	JOSD2	Josephin domain containing 2										
+196743	PAOX	polyamine oxidase (exo-N4-amino)										
+653583	PHLDB3	pleckstrin homology-like domain, family B, member 3										
+200312	RNF215	ring finger protein 215										
+729533	FAM72A	family with sequence similarity 72, member A										
+390927	ZNF793	zinc finger protein 793										
+441108	C5orf56	chromosome 5 open reading frame 56										
+7620	ZNF69	zinc finger protein 69										

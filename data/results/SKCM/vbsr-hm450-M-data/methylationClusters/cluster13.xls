@@ -1,0 +1,235 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	210
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	51	0.0173	7.88E-17	4.39E-13
+WEI_MYCN_TARGETS_WITH_E_BOX	795	Genes whose promoters contain E-box motifs and whose expression changed in MYCN-3 cells (neuroblastoma) upon induction of MYCN [GeneID=4613].	25	0.0314	5.03E-14	1.4E-10
+BLALOCK_ALZHEIMERS_DISEASE_UP	1691	Genes up-regulated in brain from patients with Alzheimer's disease.	35	0.0207	8.02E-14	1.49E-10
+PUJANA_ATM_PCC_NETWORK	1442	Genes constituting the ATM-PCC network of transcripts whose expression positively correlated (Pearson correlation coefficient, PCC >= 0.4) with that of ATM [GeneID=472] across a compendium of normal tissues.	31	0.0215	9.42E-13	1.31E-9
+PUJANA_BRCA1_PCC_NETWORK	1652	Genes constituting the BRCA1-PCC network of transcripts whose expression positively correlated (Pearson correlation coefficient, PCC >= 0.4) with that of BRCA1 [GeneID=672] across a compendium of normal tissues.	33	0.0200	1.18E-12	1.31E-9
+GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	1781	Genes down-regulated in ME-A cells (breast cancer) undergoing apoptosis in response to doxorubicin [PubChem=31703].	34	0.0191	1.79E-12	1.67E-9
+KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	1278	Genes up-regulated in TC71 and EWS502 cells (Ewing's sarcoma) by EWSR1-FLI1  [GeneID=2130;2314] as inferred from RNAi knockdown of this fusion protein.	28	0.0219	8.5E-12	6.77E-9
+CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN	663	Genes down-regulated in APL (acute promyeolocytic leukemia) blasts expressing PML-RARA fusion [GeneID=5371;5914] compared to normal promyeloblasts.	20	0.0302	4.04E-11	2.81E-8
+KRIEG_HYPOXIA_NOT_VIA_KDM3A	770	Genes induced under hypoxia independently of KDM3A [GeneID=55818] in RCC4 cells (renal carcinoma) expressing VHL [GeneID=7428].	21	0.0273	8.18E-11	5.07E-8
+GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN	1080	Genes down-regulated during differentiation of Oli-Neu cells (oligodendroglial precursor) in response to PD174265 [PubChem=4709].	24	0.0222	2.21E-10	1.23E-7
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GGGCGGR_SP1_Q6	WEI_MYCN_TARGETS_WITH_E_BOX	BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN	KRIEG_HYPOXIA_NOT_VIA_KDM3A	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+79077	DCTPP1	dCTP pyrophosphatase 1	GGGCGGR_SP1_Q6	WEI_MYCN_TARGETS_WITH_E_BOX				GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+533	ATP6V0B	ATPase, H+ transporting, lysosomal 21kDa, V0 subunit b	GGGCGGR_SP1_Q6	WEI_MYCN_TARGETS_WITH_E_BOX								
+8692	HYAL2	hyaluronoglucosaminidase 2	GGGCGGR_SP1_Q6	WEI_MYCN_TARGETS_WITH_E_BOX								
+55320	MIS18BP1	MIS18 binding protein 1	GGGCGGR_SP1_Q6	WEI_MYCN_TARGETS_WITH_E_BOX								
+23034	SAMD4A	sterile alpha motif domain containing 4A	GGGCGGR_SP1_Q6	WEI_MYCN_TARGETS_WITH_E_BOX								
+8914	TIMELESS	timeless homolog (Drosophila)	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+6223	RPS19	ribosomal protein S19	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+6513	SLC2A1	solute carrier family 2 (facilitated glucose transporter), member 1	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK					KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+51631	LUC7L2	LUC7-like 2 (S. cerevisiae)	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+81539	SLC38A1	solute carrier family 38, member 1	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP					CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN	KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+9209	LRRFIP2	leucine rich repeat (in FLII) interacting protein 2	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP					CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+8660	IRS2	insulin receptor substrate 2	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP						KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+11031	RAB31	RAB31, member RAS oncogene family	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP							
+688	KLF5	Kruppel-like factor 5 (intestinal)	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP							
+2201	FBN2	fibrillin 2	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP							
+9463	PICK1	protein interacting with PRKCA 1	GGGCGGR_SP1_Q6		BLALOCK_ALZHEIMERS_DISEASE_UP							
+102	ADAM10	ADAM metallopeptidase domain 10	GGGCGGR_SP1_Q6			PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+7174	TPP2	tripeptidyl peptidase II	GGGCGGR_SP1_Q6			PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK					GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+2321	FLT1	fms-related tyrosine kinase 1 (vascular endothelial growth factor/vascular permeability factor receptor)	GGGCGGR_SP1_Q6			PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK					
+6228	RPS23	ribosomal protein S23	GGGCGGR_SP1_Q6			PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK					
+23240	KIAA0922	KIAA0922	GGGCGGR_SP1_Q6			PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK					
+6251	RSU1	Ras suppressor protein 1	GGGCGGR_SP1_Q6			PUJANA_ATM_PCC_NETWORK						
+1108	CHD4	chromodomain helicase DNA binding protein 4	GGGCGGR_SP1_Q6				PUJANA_BRCA1_PCC_NETWORK	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+23607	CD2AP	CD2-associated protein	GGGCGGR_SP1_Q6				PUJANA_BRCA1_PCC_NETWORK	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+51322	WAC	WW domain containing adaptor with coiled-coil	GGGCGGR_SP1_Q6					GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			KRIEG_HYPOXIA_NOT_VIA_KDM3A	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+9180	OSMR	oncostatin M receptor	GGGCGGR_SP1_Q6					GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+8491	MAP4K3	mitogen-activated protein kinase kinase kinase kinase 3	GGGCGGR_SP1_Q6					GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+5567	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	GGGCGGR_SP1_Q6					GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+339366	ADAMTSL5	ADAMTS-like 5	GGGCGGR_SP1_Q6					GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+3326	HSP90AB1	heat shock protein 90kDa alpha (cytosolic), class B member 1	GGGCGGR_SP1_Q6						KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+7026	NR2F2	nuclear receptor subfamily 2, group F, member 2	GGGCGGR_SP1_Q6						KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+5861	RAB1A	RAB1A, member RAS oncogene family	GGGCGGR_SP1_Q6						KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+57333	RCN3	reticulocalbin 3, EF-hand calcium binding domain	GGGCGGR_SP1_Q6						KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+79850	FAM57A	family with sequence similarity 57, member A	GGGCGGR_SP1_Q6							CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN	KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+10130	PDIA6	protein disulfide isomerase family A, member 6	GGGCGGR_SP1_Q6							CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+160897	GPR180	G protein-coupled receptor 180	GGGCGGR_SP1_Q6									GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+2950	GSTP1	glutathione S-transferase pi 1	GGGCGGR_SP1_Q6									
+55761	TTC17	tetratricopeptide repeat domain 17	GGGCGGR_SP1_Q6									
+56929	FEM1C	fem-1 homolog c (C. elegans)	GGGCGGR_SP1_Q6									
+51271	UBAP1	ubiquitin associated protein 1	GGGCGGR_SP1_Q6									
+5586	PKN2	protein kinase N2	GGGCGGR_SP1_Q6									
+64834	ELOVL1	ELOVL fatty acid elongase 1	GGGCGGR_SP1_Q6									
+27095	TRAPPC3	trafficking protein particle complex 3	GGGCGGR_SP1_Q6									
+51669	TMEM66	transmembrane protein 66	GGGCGGR_SP1_Q6									
+2354	FOSB	FBJ murine osteosarcoma viral oncogene homolog B	GGGCGGR_SP1_Q6									
+152002	XXYLT1	xyloside xylosyltransferase 1	GGGCGGR_SP1_Q6									
+55113	XKR8	XK, Kell blood group complex subunit-related family, member 8	GGGCGGR_SP1_Q6									
+128240	APOA1BP	apolipoprotein A-I binding protein	GGGCGGR_SP1_Q6									
+10401	PIAS3	protein inhibitor of activated STAT, 3	GGGCGGR_SP1_Q6									
+11057	ABHD2	abhydrolase domain containing 2	GGGCGGR_SP1_Q6									
+158160	HSD17B7P2	hydroxysteroid (17-beta) dehydrogenase 7 pseudogene 2	GGGCGGR_SP1_Q6									
+4953	ODC1	ornithine decarboxylase 1		WEI_MYCN_TARGETS_WITH_E_BOX	BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK			CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+2887	GRB10	growth factor receptor-bound protein 10		WEI_MYCN_TARGETS_WITH_E_BOX	BLALOCK_ALZHEIMERS_DISEASE_UP				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+1613	DAPK3	death-associated protein kinase 3		WEI_MYCN_TARGETS_WITH_E_BOX	BLALOCK_ALZHEIMERS_DISEASE_UP						KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+124583	CANT1	calcium activated nucleotidase 1		WEI_MYCN_TARGETS_WITH_E_BOX	BLALOCK_ALZHEIMERS_DISEASE_UP							
+9570	GOSR2	golgi SNAP receptor complex member 2		WEI_MYCN_TARGETS_WITH_E_BOX	BLALOCK_ALZHEIMERS_DISEASE_UP							
+3192	HNRNPU	heterogeneous nuclear ribonucleoprotein U (scaffold attachment factor A)		WEI_MYCN_TARGETS_WITH_E_BOX			PUJANA_BRCA1_PCC_NETWORK	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+6241	RRM2	ribonucleotide reductase M2		WEI_MYCN_TARGETS_WITH_E_BOX			PUJANA_BRCA1_PCC_NETWORK		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+6921	TCEB1	transcription elongation factor B (SIII), polypeptide 1 (15kDa, elongin C)		WEI_MYCN_TARGETS_WITH_E_BOX			PUJANA_BRCA1_PCC_NETWORK		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+29088	MRPL15	mitochondrial ribosomal protein L15		WEI_MYCN_TARGETS_WITH_E_BOX				GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+51805	COQ3	coenzyme Q3 homolog, methyltransferase (S. cerevisiae)		WEI_MYCN_TARGETS_WITH_E_BOX				GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+401505	TOMM5	translocase of outer mitochondrial membrane 5 homolog (yeast)		WEI_MYCN_TARGETS_WITH_E_BOX				GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+516	ATP5G1	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit C1 (subunit 9)		WEI_MYCN_TARGETS_WITH_E_BOX				GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+84617	TUBB6	tubulin, beta 6 class V		WEI_MYCN_TARGETS_WITH_E_BOX					KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+54908	CCDC99	coiled-coil domain containing 99		WEI_MYCN_TARGETS_WITH_E_BOX					KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+85476	GFM1	G elongation factor, mitochondrial 1		WEI_MYCN_TARGETS_WITH_E_BOX					KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+25825	BACE2	beta-site APP-cleaving enzyme 2		WEI_MYCN_TARGETS_WITH_E_BOX						CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN	KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+3304	HSPA1B	heat shock 70kDa protein 1B		WEI_MYCN_TARGETS_WITH_E_BOX								GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+6884	TAF13	TAF13 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 18kDa		WEI_MYCN_TARGETS_WITH_E_BOX								GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+55781	RIOK2	RIO kinase 2 (yeast)		WEI_MYCN_TARGETS_WITH_E_BOX								
+92259	MRPS36	mitochondrial ribosomal protein S36		WEI_MYCN_TARGETS_WITH_E_BOX								
+8073	PTP4A2	protein tyrosine phosphatase type IVA, member 2			BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK				KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+8899	PRPF4B	PRP4 pre-mRNA processing factor 4 homolog B (yeast)			BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK					
+3992	FADS1	fatty acid desaturase 1			BLALOCK_ALZHEIMERS_DISEASE_UP		PUJANA_BRCA1_PCC_NETWORK	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+4236	MFAP1	microfibrillar-associated protein 1			BLALOCK_ALZHEIMERS_DISEASE_UP		PUJANA_BRCA1_PCC_NETWORK					
+10217	CTDSPL	CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase-like			BLALOCK_ALZHEIMERS_DISEASE_UP			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+81554	WBSCR16	Williams-Beuren syndrome chromosome region 16			BLALOCK_ALZHEIMERS_DISEASE_UP			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+7494	XBP1	X-box binding protein 1			BLALOCK_ALZHEIMERS_DISEASE_UP			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+55114	ARHGAP17	Rho GTPase activating protein 17			BLALOCK_ALZHEIMERS_DISEASE_UP				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+9985	REC8	REC8 homolog (yeast)			BLALOCK_ALZHEIMERS_DISEASE_UP						KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+9267	CYTH1	cytohesin 1			BLALOCK_ALZHEIMERS_DISEASE_UP							GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+6168	RPL37A	ribosomal protein L37a			BLALOCK_ALZHEIMERS_DISEASE_UP							
+109	ADCY3	adenylate cyclase 3			BLALOCK_ALZHEIMERS_DISEASE_UP							
+7637	ZNF84	zinc finger protein 84			BLALOCK_ALZHEIMERS_DISEASE_UP							
+842	CASP9	caspase 9, apoptosis-related cysteine peptidase			BLALOCK_ALZHEIMERS_DISEASE_UP							
+1942	EFNA1	ephrin-A1			BLALOCK_ALZHEIMERS_DISEASE_UP							
+54961	SSH3	slingshot homolog 3 (Drosophila)			BLALOCK_ALZHEIMERS_DISEASE_UP							
+22796	COG2	component of oligomeric golgi complex 2			BLALOCK_ALZHEIMERS_DISEASE_UP							
+56999	ADAMTS9	ADAM metallopeptidase with thrombospondin type 1 motif, 9			BLALOCK_ALZHEIMERS_DISEASE_UP							
+11094	C9orf7	chromosome 9 open reading frame 7			BLALOCK_ALZHEIMERS_DISEASE_UP							
+4288	MKI67	antigen identified by monoclonal antibody Ki-67				PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+7913	DEK	DEK oncogene				PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+899	CCNF	cyclin F				PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+7086	TKT	transketolase				PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+10480	EIF3M	eukaryotic translation initiation factor 3, subunit M				PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+22821	RASA3	RAS p21 protein activator 3				PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK				KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+631	BFSP1	beaded filament structural protein 1, filensin				PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK				KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+5293	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide				PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK					
+8728	ADAM19	ADAM metallopeptidase domain 19				PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK					
+5908	RAP1B	RAP1B, member of RAS oncogene family				PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK					
+6194	RPS6	ribosomal protein S6				PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK					
+9337	CNOT8	CCR4-NOT transcription complex, subunit 8				PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK					
+7554	ZNF8	zinc finger protein 8				PUJANA_ATM_PCC_NETWORK	PUJANA_BRCA1_PCC_NETWORK					
+4188	MDFI	MyoD family inhibitor				PUJANA_ATM_PCC_NETWORK		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+9681	DEPDC5	DEP domain containing 5				PUJANA_ATM_PCC_NETWORK				CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+9679	FAM53B	family with sequence similarity 53, member B				PUJANA_ATM_PCC_NETWORK					KRIEG_HYPOXIA_NOT_VIA_KDM3A	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+320	APBA1	amyloid beta (A4) precursor protein-binding, family A, member 1				PUJANA_ATM_PCC_NETWORK						GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+23228	PLCL2	phospholipase C-like 2				PUJANA_ATM_PCC_NETWORK						
+284323	ZNF780A	zinc finger protein 780A				PUJANA_ATM_PCC_NETWORK						
+140890	SREK1	splicing regulatory glutamine/lysine-rich protein 1					PUJANA_BRCA1_PCC_NETWORK	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+900	CCNG1	cyclin G1					PUJANA_BRCA1_PCC_NETWORK				KRIEG_HYPOXIA_NOT_VIA_KDM3A	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+57212	TP73-AS1	TP73 antisense RNA 1 (non-protein coding)					PUJANA_BRCA1_PCC_NETWORK					
+10160	FARP1	FERM, RhoGEF (ARHGEF) and pleckstrin domain protein 1 (chondrocyte-derived)						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+9557	CHD1L	chromodomain helicase DNA binding protein 1-like						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+116068	LYSMD3	LysM, putative peptidoglycan-binding, domain containing 3						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+55119	PRPF38B	PRP38 pre-mRNA processing factor 38 (yeast) domain containing B						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+5590	PRKCZ	protein kinase C, zeta						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+26297	SERGEF	secretion regulating guanine nucleotide exchange factor						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+9865	TRIL	TLR4 interactor with leucine-rich repeats						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+4728	NDUFS8	NADH dehydrogenase (ubiquinone) Fe-S protein 8, 23kDa (NADH-coenzyme Q reductase)						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+84288	EFCAB2	EF-hand calcium binding domain 2						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				
+3337	DNAJB1	DnaJ (Hsp40) homolog, subfamily B, member 1							KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+875	CBS	cystathionine-beta-synthase							KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+163081	ZNF567	zinc finger protein 567							KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+4804	NGFR	nerve growth factor receptor							KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+10008	KCNE3	potassium voltage-gated channel, Isk-related family, member 3							KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+91607	SLFN11	schlafen family member 11							KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+22847	ZNF507	zinc finger protein 507							KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+7629	ZNF76	zinc finger protein 76							KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+23576	DDAH1	dimethylarginine dimethylaminohydrolase 1								CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+11098	PRSS23	protease, serine, 23								CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+1522	CTSZ	cathepsin Z								CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		
+22856	CHSY1	chondroitin sulfate synthase 1									KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+4783	NFIL3	nuclear factor, interleukin 3 regulated									KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+8974	P4HA2	prolyl 4-hydroxylase, alpha polypeptide II									KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+9265	CYTH3	cytohesin 3									KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+84973	SNHG7	small nucleolar RNA host gene 7 (non-protein coding)									KRIEG_HYPOXIA_NOT_VIA_KDM3A	
+26010	SPATS2L	spermatogenesis associated, serine-rich 2-like										GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+84959	UBASH3B	ubiquitin associated and SH3 domain containing B										GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+6443	SGCB	sarcoglycan, beta (43kDa dystrophin-associated glycoprotein)										GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+7430	EZR	ezrin										GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+132864	CPEB2	cytoplasmic polyadenylation element binding protein 2										GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+23302	WSCD1	WSC domain containing 1										GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+8997	KALRN	kalirin, RhoGEF kinase										GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+5152	PDE9A	phosphodiesterase 9A										GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+149603	RNF187	ring finger protein 187										GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+115557	ARHGEF25	Rho guanine nucleotide exchange factor (GEF) 25										GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN
+4162	MCAM	melanoma cell adhesion molecule										
+53827	FXYD5	FXYD domain containing ion transport regulator 5										
+4016	LOXL1	lysyl oxidase-like 1										
+5997	RGS2	regulator of G-protein signaling 2, 24kDa										
+2022	ENG	endoglin										
+8525	DGKZ	diacylglycerol kinase, zeta										
+4681	NBL1	neuroblastoma, suppression of tumorigenicity 1										
+23077	MYCBP2	MYC binding protein 2										
+1397	CRIP2	cysteine-rich protein 2										
+5531	PPP4C	protein phosphatase 4, catalytic subunit										
+64762	FAM59A	family with sequence similarity 59, member A										
+27352	SGSM3	small G protein signaling modulator 3										
+56006	SMG9	smg-9 homolog, nonsense mediated mRNA decay factor (C. elegans)										
+64343	AZI2	5-azacytidine induced 2										
+54850	FBXL12	F-box and leucine-rich repeat protein 12										
+29108	PYCARD	PYD and CARD domain containing										
+514	ATP5E	ATP synthase, H+ transporting, mitochondrial F1 complex, epsilon subunit										
+54940	OCIAD1	OCIA domain containing 1										
+5550	PREP	prolyl endopeptidase										
+23431	AP4E1	adaptor-related protein complex 4, epsilon 1 subunit										
+643155	C5orf43	chromosome 5 open reading frame 43										
+440423	SUZ12P	suppressor of zeste 12 homolog pseudogene										
+6578	SLCO2A1	solute carrier organic anion transporter family, member 2A1										
+84687	PPP1R9B	protein phosphatase 1, regulatory subunit 9B										
+5739	PTGIR	prostaglandin I2 (prostacyclin) receptor (IP)										
+10509	SEMA4B	sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4B										
+5064	PALM	paralemmin										
+285761	DCBLD1	discoidin, CUB and LCCL domain containing 1										
+130271	PLEKHH2	pleckstrin homology domain containing, family H (with MyTH4 domain) member 2										
+64747	MFSD1	major facilitator superfamily domain containing 1										
+57181	SLC39A10	solute carrier family 39 (zinc transporter), member 10										
+864	RUNX3	runt-related transcription factor 3										
+10472	ZNF238	zinc finger protein 238										
+114932	MRFAP1L1	Morf4 family associated protein 1-like 1										
+375387	LRRC33	leucine rich repeat containing 33										
+79415	C17orf62	chromosome 17 open reading frame 62										
+59341	TRPV4	transient receptor potential cation channel, subfamily V, member 4										
+63941	NECAB3	N-terminal EF-hand calcium binding protein 3										
+283464	GXYLT1	glucoside xylosyltransferase 1										
+85013	TMEM128	transmembrane protein 128										
+3487	IGFBP4	insulin-like growth factor binding protein 4										
+159371	SLC35G1	solute carrier family 35, member G1										
+113444	C1orf212	chromosome 1 open reading frame 212										
+57088	PLSCR4	phospholipid scramblase 4										
+114879	OSBPL5	oxysterol binding protein-like 5										
+51710	ZNF44	zinc finger protein 44										
+117608	ZNF354B	zinc finger protein 354B										
+57684	ZBTB26	zinc finger and BTB domain containing 26										
+163126	EID2	EP300 interacting inhibitor of differentiation 2										
+51295	ECSIT	ECSIT homolog (Drosophila)										
+286042	FLJ10661	family with sequence similarity 86, member A pseudogene										
+2972	BRF1	BRF1 homolog, subunit of RNA polymerase III transcription initiation factor IIIB (S. cerevisiae)										
+83886	PRSS27	protease, serine 27										
+55527	FEM1A	fem-1 homolog a (C. elegans)										
+84681	HINT2	histidine triad nucleotide binding protein 2										
+84256	FLYWCH1	FLYWCH-type zinc finger 1										
+7579	ZSCAN20	zinc finger and SCAN domain containing 20										
+150368	FAM109B	family with sequence similarity 109, member B										
+85449	KIAA1755	KIAA1755										
+348110	C15orf38	chromosome 15 open reading frame 38										
+727800	RNF208	ring finger protein 208										
+100128822	LOC100128822	uncharacterized LOC100128822										
+729234	LOC729234	fumarylacetoacetate hydrolase domain containing 2 pseudogene										

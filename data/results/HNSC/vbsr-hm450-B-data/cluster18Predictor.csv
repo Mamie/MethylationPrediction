@@ -1,0 +1,13 @@
+gene,coef,description
+ABAT,-0.00641753575509442,4-aminobutyrate aminotransferase [Source:HGNC Symbol;Acc:HGNC:23]
+ACAA2,-0.0148692218664773,acetyl-CoA acyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:83]
+BAIAP3,-0.01058804725299,BAI1 associated protein 3 [Source:HGNC Symbol;Acc:HGNC:948]
+EVI5L,0.0136160873181346,ecotropic viral integration site 5 like [Source:HGNC Symbol;Acc:HGNC:30464]
+GAA,0.00843275394975756,glucosidase alpha, acid [Source:HGNC Symbol;Acc:HGNC:4065]
+GRIN2D,-0.000536890800340672,glutamate ionotropic receptor NMDA type subunit 2D [Source:HGNC Symbol;Acc:HGNC:4588]
+HAVCR2,0.0129453517135873,hepatitis A virus cellular receptor 2 [Source:HGNC Symbol;Acc:HGNC:18437]
+IER3,-0.000277337304721823,immediate early response 3 [Source:HGNC Symbol;Acc:HGNC:5392]
+RAC2,0.0167172111533419,Rac family small GTPase 2 [Source:HGNC Symbol;Acc:HGNC:9802]
+RENBP,-0.0151608406298674,renin binding protein [Source:HGNC Symbol;Acc:HGNC:9959]
+RNF31,0.00083443846312628,ring finger protein 31 [Source:HGNC Symbol;Acc:HGNC:16031]
+TNNT1,0.00351102197673347,troponin T1, slow skeletal type [Source:HGNC Symbol;Acc:HGNC:11948]

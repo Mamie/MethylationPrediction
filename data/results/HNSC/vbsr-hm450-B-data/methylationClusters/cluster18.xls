@@ -1,0 +1,145 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	120
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	33	0.0112	4.97E-13	2.77E-9
+TGACCTY_ERR1_Q2	1043	Genes having at least one occurence of the highly conserved motif M25 TGACCTY sites. The motif matches transcription factor binding site V$ERR1_Q2 (v7.4 TRANSFAC).	18	0.0173	2.73E-10	7.61E-7
+GROSS_HYPOXIA_VIA_ELK3_UP	209	Genes up-regulated in SEND cells (skin endothelium) at hypoxia with ELK3 [GeneID=2004] knockdown by RNAi.	9	0.0431	4.73E-9	8.75E-6
+ENK_UV_RESPONSE_KERATINOCYTE_DN	485	Genes down-regulated in NHEK cells (normal epidermal keratinocytes) after UVB irradiation.	12	0.0247	6.28E-9	8.75E-6
+MGGAAGTG_GABP_B	757	Genes having at least one occurence of the highly conserved motif M11 MGGAAGTG sites. The motif matches transcription factor binding site V$GABP_B (v7.4 TRANSFAC).	14	0.0185	1.29E-8	1.44E-5
+BLALOCK_ALZHEIMERS_DISEASE_UP	1691	Genes up-regulated in brain from patients with Alzheimer's disease.	20	0.0118	1.63E-8	1.51E-5
+PUJANA_ATM_PCC_NETWORK	1442	Genes constituting the ATM-PCC network of transcripts whose expression positively correlated (Pearson correlation coefficient, PCC >= 0.4) with that of ATM [GeneID=472] across a compendium of normal tissues.	18	0.0125	4.12E-8	3.28E-5
+DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	855	Genes down-regulated in fibroblasts expressing mutant forms of ERCC3 [GeneID=2071] after UV irradiation.	14	0.0164	5.81E-8	4.05E-5
+RODRIGUES_NTN1_TARGETS_DN	158	Genes down-regulated in HCT8/S11 cells (colon cancer) engineered to stably express NTN1 [GeneID=1630] off a plasmid vector.	7	0.0443	2.13E-7	1.32E-4
+FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP	555	Genes up-regulated in kidney biopsies from patients with well functioning kidneys more than 1-year post transplant compared to the biopsies from normal living kidney donors.	11	0.0198	2.56E-7	1.43E-4
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GGGCGGR_SP1_Q6	TGACCTY_ERR1_Q2	GROSS_HYPOXIA_VIA_ELK3_UP	ENK_UV_RESPONSE_KERATINOCYTE_DN	MGGAAGTG_GABP_B	BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	RODRIGUES_NTN1_TARGETS_DN	FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP
+604	BCL6	B-cell CLL/lymphoma 6	GGGCGGR_SP1_Q6	TGACCTY_ERR1_Q2		ENK_UV_RESPONSE_KERATINOCYTE_DN		BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK			
+4286	MITF	microphthalmia-associated transcription factor	GGGCGGR_SP1_Q6	TGACCTY_ERR1_Q2			MGGAAGTG_GABP_B	BLALOCK_ALZHEIMERS_DISEASE_UP		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		
+9043	SPAG9	sperm associated antigen 9	GGGCGGR_SP1_Q6	TGACCTY_ERR1_Q2				BLALOCK_ALZHEIMERS_DISEASE_UP		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	RODRIGUES_NTN1_TARGETS_DN	
+6666	SOX12	SRY (sex determining region Y)-box 12	GGGCGGR_SP1_Q6	TGACCTY_ERR1_Q2				BLALOCK_ALZHEIMERS_DISEASE_UP				
+498	ATP5A1	ATP synthase, H+ transporting, mitochondrial F1 complex, alpha subunit 1, cardiac muscle	GGGCGGR_SP1_Q6	TGACCTY_ERR1_Q2					PUJANA_ATM_PCC_NETWORK			
+1364	CLDN4	claudin 4	GGGCGGR_SP1_Q6	TGACCTY_ERR1_Q2							RODRIGUES_NTN1_TARGETS_DN	
+140885	SIRPA	signal-regulatory protein alpha	GGGCGGR_SP1_Q6	TGACCTY_ERR1_Q2								
+7169	TPM2	tropomyosin 2 (beta)	GGGCGGR_SP1_Q6	TGACCTY_ERR1_Q2								
+467	ATF3	activating transcription factor 3	GGGCGGR_SP1_Q6	TGACCTY_ERR1_Q2								
+865	CBFB	core-binding factor, beta subunit	GGGCGGR_SP1_Q6		GROSS_HYPOXIA_VIA_ELK3_UP		MGGAAGTG_GABP_B	BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		
+10270	AKAP8	A kinase (PRKA) anchor protein 8	GGGCGGR_SP1_Q6		GROSS_HYPOXIA_VIA_ELK3_UP							
+10097	ACTR2	ARP2 actin-related protein 2 homolog (yeast)	GGGCGGR_SP1_Q6			ENK_UV_RESPONSE_KERATINOCYTE_DN			PUJANA_ATM_PCC_NETWORK			FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP
+4850	CNOT4	CCR4-NOT transcription complex, subunit 4	GGGCGGR_SP1_Q6			ENK_UV_RESPONSE_KERATINOCYTE_DN				DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	RODRIGUES_NTN1_TARGETS_DN	
+27020	NPTN	neuroplastin	GGGCGGR_SP1_Q6			ENK_UV_RESPONSE_KERATINOCYTE_DN						FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP
+3005	H1F0	H1 histone family, member 0	GGGCGGR_SP1_Q6			ENK_UV_RESPONSE_KERATINOCYTE_DN						
+58190	CTDSP1	CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase 1	GGGCGGR_SP1_Q6				MGGAAGTG_GABP_B	BLALOCK_ALZHEIMERS_DISEASE_UP				
+2321	FLT1	fms-related tyrosine kinase 1 (vascular endothelial growth factor/vascular permeability factor receptor)	GGGCGGR_SP1_Q6				MGGAAGTG_GABP_B		PUJANA_ATM_PCC_NETWORK			
+83590	TMUB1	transmembrane and ubiquitin-like domain containing 1	GGGCGGR_SP1_Q6				MGGAAGTG_GABP_B					
+64834	ELOVL1	ELOVL fatty acid elongase 1	GGGCGGR_SP1_Q6				MGGAAGTG_GABP_B					
+10444	ZER1	zer-1 homolog (C. elegans)	GGGCGGR_SP1_Q6				MGGAAGTG_GABP_B					
+4582	MUC1	mucin 1, cell surface associated	GGGCGGR_SP1_Q6					BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK			
+6662	SOX9	SRY (sex determining region Y)-box 9	GGGCGGR_SP1_Q6					BLALOCK_ALZHEIMERS_DISEASE_UP		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	RODRIGUES_NTN1_TARGETS_DN	
+57147	SCYL3	SCY1-like 3 (S. cerevisiae)	GGGCGGR_SP1_Q6						PUJANA_ATM_PCC_NETWORK			
+23075	SWAP70	SWAP switching B-cell complex 70kDa subunit	GGGCGGR_SP1_Q6							DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP
+23190	UBXN4	UBX domain protein 4	GGGCGGR_SP1_Q6									FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP
+29924	EPN1	epsin 1	GGGCGGR_SP1_Q6									
+4925	NUCB2	nucleobindin 2	GGGCGGR_SP1_Q6									
+79365	BHLHE41	basic helix-loop-helix family, member e41	GGGCGGR_SP1_Q6									
+84312	BRMS1L	breast cancer metastasis-suppressor 1-like	GGGCGGR_SP1_Q6									
+84280	BTBD10	BTB (POZ) domain containing 10	GGGCGGR_SP1_Q6									
+5977	DPF2	D4, zinc and double PHD fingers family 2	GGGCGGR_SP1_Q6									
+203228	C9orf72	chromosome 9 open reading frame 72	GGGCGGR_SP1_Q6									
+1801	DPH1	DPH1 homolog (S. cerevisiae)	GGGCGGR_SP1_Q6									
+10311	DSCR3	Down syndrome critical region gene 3		TGACCTY_ERR1_Q2		ENK_UV_RESPONSE_KERATINOCYTE_DN						
+8621	CDK13	cyclin-dependent kinase 13		TGACCTY_ERR1_Q2			MGGAAGTG_GABP_B	BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	RODRIGUES_NTN1_TARGETS_DN	FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP
+84364	ARFGAP2	ADP-ribosylation factor GTPase activating protein 2		TGACCTY_ERR1_Q2				BLALOCK_ALZHEIMERS_DISEASE_UP				
+3977	LIFR	leukemia inhibitory factor receptor alpha		TGACCTY_ERR1_Q2				BLALOCK_ALZHEIMERS_DISEASE_UP				
+6196	RPS6KA2	ribosomal protein S6 kinase, 90kDa, polypeptide 2		TGACCTY_ERR1_Q2						DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		
+25932	CLIC4	chloride intracellular channel 4		TGACCTY_ERR1_Q2								
+81579	PLA2G12A	phospholipase A2, group XIIA		TGACCTY_ERR1_Q2								
+6536	SLC6A9	solute carrier family 6 (neurotransmitter transporter, glycine), member 9		TGACCTY_ERR1_Q2								
+290	ANPEP	alanyl (membrane) aminopeptidase		TGACCTY_ERR1_Q2								
+4673	NAP1L1	nucleosome assembly protein 1-like 1			GROSS_HYPOXIA_VIA_ELK3_UP			BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK			FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP
+11073	TOPBP1	topoisomerase (DNA) II binding protein 1			GROSS_HYPOXIA_VIA_ELK3_UP				PUJANA_ATM_PCC_NETWORK	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		
+10376	TUBA1B	tubulin, alpha 1b			GROSS_HYPOXIA_VIA_ELK3_UP							FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP
+9563	H6PD	hexose-6-phosphate dehydrogenase (glucose 1-dehydrogenase)			GROSS_HYPOXIA_VIA_ELK3_UP							
+10560	SLC19A2	solute carrier family 19 (thiamine transporter), member 2			GROSS_HYPOXIA_VIA_ELK3_UP							
+2487	FRZB	frizzled-related protein			GROSS_HYPOXIA_VIA_ELK3_UP							
+29952	DPP7	dipeptidyl-peptidase 7			GROSS_HYPOXIA_VIA_ELK3_UP							
+81542	TMX1	thioredoxin-related transmembrane protein 1				ENK_UV_RESPONSE_KERATINOCYTE_DN	MGGAAGTG_GABP_B		PUJANA_ATM_PCC_NETWORK			FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP
+178	AGL	amylo-alpha-1, 6-glucosidase, 4-alpha-glucanotransferase				ENK_UV_RESPONSE_KERATINOCYTE_DN	MGGAAGTG_GABP_B					FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP
+54765	TRIM44	tripartite motif containing 44				ENK_UV_RESPONSE_KERATINOCYTE_DN		BLALOCK_ALZHEIMERS_DISEASE_UP		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP
+9638	FEZ1	fasciculation and elongation protein zeta 1 (zygin I)				ENK_UV_RESPONSE_KERATINOCYTE_DN		BLALOCK_ALZHEIMERS_DISEASE_UP				
+8454	CUL1	cullin 1				ENK_UV_RESPONSE_KERATINOCYTE_DN				DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		
+4217	MAP3K5	mitogen-activated protein kinase kinase kinase 5				ENK_UV_RESPONSE_KERATINOCYTE_DN						
+1024	CDK8	cyclin-dependent kinase 8					MGGAAGTG_GABP_B			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		
+7738	ZNF184	zinc finger protein 184					MGGAAGTG_GABP_B					
+2686	GGT7	gamma-glutamyltransferase 7					MGGAAGTG_GABP_B					
+9406	ZRANB2	zinc finger, RAN-binding domain containing 2					MGGAAGTG_GABP_B					
+4790	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1						BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		
+29893	PSMC3IP	PSMC3 interacting protein						BLALOCK_ALZHEIMERS_DISEASE_UP	PUJANA_ATM_PCC_NETWORK			
+3418	IDH2	isocitrate dehydrogenase 2 (NADP+), mitochondrial						BLALOCK_ALZHEIMERS_DISEASE_UP				
+10023	FRAT1	frequently rearranged in advanced T-cell lymphomas						BLALOCK_ALZHEIMERS_DISEASE_UP				
+23114	NFASC	neurofascin						BLALOCK_ALZHEIMERS_DISEASE_UP				
+2948	GSTM4	glutathione S-transferase mu 4						BLALOCK_ALZHEIMERS_DISEASE_UP				
+261734	NPHP4	nephronophthisis 4							PUJANA_ATM_PCC_NETWORK			
+81611	ANP32E	acidic (leucine-rich) nuclear phosphoprotein 32 family, member E							PUJANA_ATM_PCC_NETWORK			
+23432	GPR161	G protein-coupled receptor 161							PUJANA_ATM_PCC_NETWORK			
+7086	TKT	transketolase							PUJANA_ATM_PCC_NETWORK			
+27315	PGAP2	post-GPI attachment to proteins 2							PUJANA_ATM_PCC_NETWORK			
+5783	PTPN13	protein tyrosine phosphatase, non-receptor type 13 (APO-1/CD95 (Fas)-associated phosphatase)								DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		
+3784	KCNQ1	potassium voltage-gated channel, KQT-like subfamily, member 1									RODRIGUES_NTN1_TARGETS_DN	
+161882	ZFPM1	zinc finger protein, multitype 1									RODRIGUES_NTN1_TARGETS_DN	
+1781	DYNC1I2	dynein, cytoplasmic 1, intermediate chain 2										FLECHNER_BIOPSY_KIDNEY_TRANSPLANT_OK_VS_DONOR_UP
+55272	IMP3	IMP3, U3 small nucleolar ribonucleoprotein, homolog (yeast)										
+64400	AKTIP	AKT interacting protein										
+11108	PRDM4	PR domain containing 4										
+63898	SH2D4A	SH2 domain containing 4A										
+55778	ZNF839	zinc finger protein 839										
+2009	EML1	echinoderm microtubule associated protein like 1										
+2582	GALE	UDP-galactose-4-epimerase										
+5083	PAX9	paired box 9										
+90701	SEC11C	SEC11 homolog C (S. cerevisiae)										
+65263	PYCRL	pyrroline-5-carboxylate reductase-like										
+22983	MAST1	microtubule associated serine/threonine kinase 1										
+79035	OBFC2B	oligonucleotide/oligosaccharide-binding fold containing 2B										
+55084	SOBP	sine oculis binding protein homolog (Drosophila)										
+375449	MAST4	microtubule associated serine/threonine kinase family member 4										
+80012	PHC3	polyhomeotic homolog 3 (Drosophila)										
+55168	MRPS18A	mitochondrial ribosomal protein S18A										
+64110	MAGEF1	melanoma antigen family F, 1										
+8775	NAPA	N-ethylmaleimide-sensitive factor attachment protein, alpha										
+27065	D4S234E	DNA segment on chromosome 4 (unique) 234 expressed sequence										
+84678	KDM2B	lysine (K)-specific demethylase 2B										
+84168	ANTXR1	anthrax toxin receptor 1										
+1195	CLK1	CDC-like kinase 1										
+8425	LTBP4	latent transforming growth factor beta binding protein 4										
+54148	MRPL39	mitochondrial ribosomal protein L39										
+84310	C7orf50	chromosome 7 open reading frame 50										
+147947	ZNF542	zinc finger protein 542										
+80149	ZC3H12A	zinc finger CCCH-type containing 12A										
+401052	LOC401052	uncharacterized LOC401052										
+91298	C12orf29	chromosome 12 open reading frame 29										
+130271	PLEKHH2	pleckstrin homology domain containing, family H (with MyTH4 domain) member 2										
+145482	PTGR2	prostaglandin reductase 2										
+51290	ERGIC2	ERGIC and golgi 2										
+85414	SLC45A3	solute carrier family 45, member 3										
+29886	SNX8	sorting nexin 8										
+124402	FAM100A	family with sequence similarity 100, member A										
+83855	KLF16	Kruppel-like factor 16										
+84747	UNC119B	unc-119 homolog B (C. elegans)										
+285958	C7orf40	chromosome 7 open reading frame 40										
+220729	LOC220729	succinate dehydrogenase complex, subunit A, flavoprotein (Fp) pseudogene										
+55561	CDC42BPG	CDC42 binding protein kinase gamma (DMPK-like)										
+29998	GLTSCR1	glioma tumor suppressor candidate region gene 1										
+401466	C8orf59	chromosome 8 open reading frame 59										
+92126	DSEL	dermatan sulfate epimerase-like										
+5694	PSMB6	proteasome (prosome, macropain) subunit, beta type, 6										
+84326	C16orf13	chromosome 16 open reading frame 13										
+57469	PNMAL2	PNMA-like 2										

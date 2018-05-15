@@ -1,0 +1,202 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	177
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	45	0.0153	8.02E-16	4.47E-12
+BLALOCK_ALZHEIMERS_DISEASE_UP	1691	Genes up-regulated in brain from patients with Alzheimer's disease.	34	0.0201	2.35E-15	6.56E-12
+DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	855	Genes down-regulated in fibroblasts expressing mutant forms of ERCC3 [GeneID=2071] after UV irradiation.	23	0.0269	3.52E-13	6.53E-10
+BENPORATH_CYCLING_GENES	648	Genes showing cell-cycle stage-specific expression [PMID=12058064].	20	0.0309	1.13E-12	1.58E-9
+KRIEG_HYPOXIA_NOT_VIA_KDM3A	770	Genes induced under hypoxia independently of KDM3A [GeneID=55818] in RCC4 cells (renal carcinoma) expressing VHL [GeneID=7428].	20	0.0260	2.5E-11	2.6E-8
+DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	1382	Genes up-regulated in CD34+ [GeneID=947] cells isolated from bone marrow of CML (chronic myelogenous leukemia) patients, compared to those from normal donors.	26	0.0188	2.8E-11	2.6E-8
+KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	1278	Genes up-regulated in TC71 and EWS502 cells (Ewing's sarcoma) by EWSR1-FLI1  [GeneID=2130;2314] as inferred from RNAi knockdown of this fusion protein.	24	0.0188	1.81E-10	1.44E-7
+LOPEZ_MBD_TARGETS	957	Genes up-regulated in HeLa cells (cervical cancer) after simultaneus knockdown of all three MBD (methyl-CpG binding domain) proteins MeCP2, MBD1 and MBD2 [GeneID=4204;4152;8932] by RNAi.	20	0.0209	1.1E-9	7.65E-7
+PUJANA_BRCA1_PCC_NETWORK	1652	Genes constituting the BRCA1-PCC network of transcripts whose expression positively correlated (Pearson correlation coefficient, PCC >= 0.4) with that of BRCA1 [GeneID=672] across a compendium of normal tissues.	26	0.0157	1.26E-9	7.78E-7
+MILI_PSEUDOPODIA_HAPTOTAXIS_UP	518	Transcripts enriched in pseudopodia of NIH/3T3 cells (fibroblast) in response to haptotactic migratory stimulus by fibronectin, FN1 [GeneID=2335].	15	0.0290	2.02E-9	1.13E-6
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GGGCGGR_SP1_Q6	BLALOCK_ALZHEIMERS_DISEASE_UP	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BENPORATH_CYCLING_GENES	KRIEG_HYPOXIA_NOT_VIA_KDM3A	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	LOPEZ_MBD_TARGETS	PUJANA_BRCA1_PCC_NETWORK	MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+10299	MARCH6	membrane-associated ring finger (C3HC4) 6	GGGCGGR_SP1_Q6	BLALOCK_ALZHEIMERS_DISEASE_UP	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		KRIEG_HYPOXIA_NOT_VIA_KDM3A	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				
+8805	TRIM24	tripartite motif containing 24	GGGCGGR_SP1_Q6	BLALOCK_ALZHEIMERS_DISEASE_UP	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN						PUJANA_BRCA1_PCC_NETWORK	
+10090	UST	uronyl-2-sulfotransferase	GGGCGGR_SP1_Q6	BLALOCK_ALZHEIMERS_DISEASE_UP	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN							
+23527	ACAP2	ArfGAP with coiled-coil, ankyrin repeat and PH domains 2	GGGCGGR_SP1_Q6	BLALOCK_ALZHEIMERS_DISEASE_UP	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN							
+7398	USP1	ubiquitin specific peptidase 1	GGGCGGR_SP1_Q6	BLALOCK_ALZHEIMERS_DISEASE_UP		BENPORATH_CYCLING_GENES	KRIEG_HYPOXIA_NOT_VIA_KDM3A	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK	
+3145	HMBS	hydroxymethylbilane synthase	GGGCGGR_SP1_Q6	BLALOCK_ALZHEIMERS_DISEASE_UP				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				
+5062	PAK2	p21 protein (Cdc42/Rac)-activated kinase 2	GGGCGGR_SP1_Q6	BLALOCK_ALZHEIMERS_DISEASE_UP					KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK	
+9960	USP3	ubiquitin specific peptidase 3	GGGCGGR_SP1_Q6	BLALOCK_ALZHEIMERS_DISEASE_UP								
+51368	TEX264	testis expressed 264	GGGCGGR_SP1_Q6	BLALOCK_ALZHEIMERS_DISEASE_UP								
+51035	UBXN1	UBX domain protein 1	GGGCGGR_SP1_Q6	BLALOCK_ALZHEIMERS_DISEASE_UP								
+9833	MELK	maternal embryonic leucine zipper kinase	GGGCGGR_SP1_Q6		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BENPORATH_CYCLING_GENES	KRIEG_HYPOXIA_NOT_VIA_KDM3A		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK	
+1407	CRY1	cryptochrome 1 (photolyase-like)	GGGCGGR_SP1_Q6		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		LOPEZ_MBD_TARGETS		
+641	BLM	Bloom syndrome, RecQ helicase-like	GGGCGGR_SP1_Q6		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK	
+22878	TRAPPC8	trafficking protein particle complex 8	GGGCGGR_SP1_Q6		DACOSTA_UV_RESPONSE_VIA_ERCC3_DN							MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+28955	DEXI	Dexi homolog (mouse)	GGGCGGR_SP1_Q6			BENPORATH_CYCLING_GENES						
+140885	SIRPA	signal-regulatory protein alpha	GGGCGGR_SP1_Q6				KRIEG_HYPOXIA_NOT_VIA_KDM3A		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+23480	SEC61G	Sec61 gamma subunit	GGGCGGR_SP1_Q6				KRIEG_HYPOXIA_NOT_VIA_KDM3A				PUJANA_BRCA1_PCC_NETWORK	
+150864	FAM117B	family with sequence similarity 117, member B	GGGCGGR_SP1_Q6				KRIEG_HYPOXIA_NOT_VIA_KDM3A					
+201176	ARHGAP27	Rho GTPase activating protein 27	GGGCGGR_SP1_Q6				KRIEG_HYPOXIA_NOT_VIA_KDM3A					
+8987	STBD1	starch binding domain 1	GGGCGGR_SP1_Q6				KRIEG_HYPOXIA_NOT_VIA_KDM3A					
+6642	SNX1	sorting nexin 1	GGGCGGR_SP1_Q6					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		LOPEZ_MBD_TARGETS		
+8766	RAB11A	RAB11A, member RAS oncogene family	GGGCGGR_SP1_Q6					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+10162	LPCAT3	lysophosphatidylcholine acyltransferase 3	GGGCGGR_SP1_Q6					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				
+673	BRAF	v-raf murine sarcoma viral oncogene homolog B1	GGGCGGR_SP1_Q6							LOPEZ_MBD_TARGETS	PUJANA_BRCA1_PCC_NETWORK	
+5691	PSMB3	proteasome (prosome, macropain) subunit, beta type, 3	GGGCGGR_SP1_Q6							LOPEZ_MBD_TARGETS		
+6189	RPS3A	ribosomal protein S3A	GGGCGGR_SP1_Q6								PUJANA_BRCA1_PCC_NETWORK	
+1657	DMXL1	Dmx-like 1	GGGCGGR_SP1_Q6									MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+5977	DPF2	D4, zinc and double PHD fingers family 2	GGGCGGR_SP1_Q6									
+121268	RHEBL1	Ras homolog enriched in brain like 1	GGGCGGR_SP1_Q6									
+29799	YPEL1	yippee-like 1 (Drosophila)	GGGCGGR_SP1_Q6									
+59274	MESDC1	mesoderm development candidate 1	GGGCGGR_SP1_Q6									
+57805	KIAA1967	KIAA1967	GGGCGGR_SP1_Q6									
+84790	TUBA1C	tubulin, alpha 1c	GGGCGGR_SP1_Q6									
+8396	PIP4K2B	phosphatidylinositol-5-phosphate 4-kinase, type II, beta	GGGCGGR_SP1_Q6									
+5296	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (beta)	GGGCGGR_SP1_Q6									
+64598	MOSPD3	motile sperm domain containing 3	GGGCGGR_SP1_Q6									
+7920	ABHD16A	abhydrolase domain containing 16A	GGGCGGR_SP1_Q6									
+84289	ING5	inhibitor of growth family, member 5	GGGCGGR_SP1_Q6									
+64410	KLHL25	kelch-like 25 (Drosophila)	GGGCGGR_SP1_Q6									
+6727	SRP14	signal recognition particle 14kDa (homologous Alu RNA binding protein)	GGGCGGR_SP1_Q6									
+4665	NAB2	NGFI-A binding protein 2 (EGR1 binding protein 2)	GGGCGGR_SP1_Q6									
+1388	ATF6B	activating transcription factor 6 beta	GGGCGGR_SP1_Q6									
+83444	INO80B	INO80 complex subunit B	GGGCGGR_SP1_Q6									
+1838	DTNB	dystrobrevin, beta	GGGCGGR_SP1_Q6									
+84727	SPSB2	splA/ryanodine receptor domain and SOCS box containing 2	GGGCGGR_SP1_Q6									
+1875	E2F5	E2F transcription factor 5, p130-binding		BLALOCK_ALZHEIMERS_DISEASE_UP	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BENPORATH_CYCLING_GENES			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK	
+3475	IFRD1	interferon-related developmental regulator 1		BLALOCK_ALZHEIMERS_DISEASE_UP	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	LOPEZ_MBD_TARGETS		
+4603	MYBL1	v-myb myeloblastosis viral oncogene homolog (avian)-like 1		BLALOCK_ALZHEIMERS_DISEASE_UP	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN				KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+8650	NUMB	numb homolog (Drosophila)		BLALOCK_ALZHEIMERS_DISEASE_UP	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN							
+116984	ARAP2	ArfGAP with RhoGAP domain, ankyrin repeat and PH domain 2		BLALOCK_ALZHEIMERS_DISEASE_UP	DACOSTA_UV_RESPONSE_VIA_ERCC3_DN							
+60485	SAV1	salvador homolog 1 (Drosophila)		BLALOCK_ALZHEIMERS_DISEASE_UP			KRIEG_HYPOXIA_NOT_VIA_KDM3A	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				
+23062	GGA2	golgi-associated, gamma adaptin ear containing, ARF binding protein 2		BLALOCK_ALZHEIMERS_DISEASE_UP			KRIEG_HYPOXIA_NOT_VIA_KDM3A		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+11078	TRIOBP	TRIO and F-actin binding protein		BLALOCK_ALZHEIMERS_DISEASE_UP			KRIEG_HYPOXIA_NOT_VIA_KDM3A					
+6601	SMARCC2	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily c, member 2		BLALOCK_ALZHEIMERS_DISEASE_UP				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		LOPEZ_MBD_TARGETS		
+8662	EIF3B	eukaryotic translation initiation factor 3, subunit B		BLALOCK_ALZHEIMERS_DISEASE_UP				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			PUJANA_BRCA1_PCC_NETWORK	
+29894	CPSF1	cleavage and polyadenylation specific factor 1, 160kDa		BLALOCK_ALZHEIMERS_DISEASE_UP				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				
+23303	KIF13B	kinesin family member 13B		BLALOCK_ALZHEIMERS_DISEASE_UP					KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+2948	GSTM4	glutathione S-transferase mu 4		BLALOCK_ALZHEIMERS_DISEASE_UP					KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+9516	LITAF	lipopolysaccharide-induced TNF factor		BLALOCK_ALZHEIMERS_DISEASE_UP						LOPEZ_MBD_TARGETS		
+4839	NOP2	NOP2 nucleolar protein homolog (yeast)		BLALOCK_ALZHEIMERS_DISEASE_UP							PUJANA_BRCA1_PCC_NETWORK	
+860	RUNX2	runt-related transcription factor 2		BLALOCK_ALZHEIMERS_DISEASE_UP								
+56731	SLC2A4RG	SLC2A4 regulator		BLALOCK_ALZHEIMERS_DISEASE_UP								
+51665	ASB1	ankyrin repeat and SOCS box containing 1		BLALOCK_ALZHEIMERS_DISEASE_UP								
+84196	USP48	ubiquitin specific peptidase 48		BLALOCK_ALZHEIMERS_DISEASE_UP								
+10388	SYCP2	synaptonemal complex protein 2		BLALOCK_ALZHEIMERS_DISEASE_UP								
+29803	REPIN1	replication initiator 1		BLALOCK_ALZHEIMERS_DISEASE_UP								
+80230	RUFY1	RUN and FYVE domain containing 1		BLALOCK_ALZHEIMERS_DISEASE_UP								
+51191	HERC5	hect domain and RLD 5		BLALOCK_ALZHEIMERS_DISEASE_UP								
+5334	PLCL1	phospholipase C-like 1		BLALOCK_ALZHEIMERS_DISEASE_UP								
+2908	NR3C1	nuclear receptor subfamily 3, group C, member 1 (glucocorticoid receptor)			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BENPORATH_CYCLING_GENES	KRIEG_HYPOXIA_NOT_VIA_KDM3A					MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+595	CCND1	cyclin D1			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN	BENPORATH_CYCLING_GENES	KRIEG_HYPOXIA_NOT_VIA_KDM3A					
+9943	OXSR1	oxidative-stress responsive 1			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		KRIEG_HYPOXIA_NOT_VIA_KDM3A	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			PUJANA_BRCA1_PCC_NETWORK	
+23036	ZNF292	zinc finger protein 292			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN		KRIEG_HYPOXIA_NOT_VIA_KDM3A					
+4363	ABCC1	ATP-binding cassette, sub-family C (CFTR/MRP), member 1			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			PUJANA_BRCA1_PCC_NETWORK	
+7072	TIA1	TIA1 cytotoxic granule-associated RNA binding protein			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				
+23137	SMC5	structural maintenance of chromosomes 5			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN						PUJANA_BRCA1_PCC_NETWORK	MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+8453	CUL2	cullin 2			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN						PUJANA_BRCA1_PCC_NETWORK	MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+4205	MEF2A	myocyte enhancer factor 2A			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN							MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+9475	ROCK2	Rho-associated, coiled-coil containing protein kinase 2			DACOSTA_UV_RESPONSE_VIA_ERCC3_DN							
+5530	PPP3CA	protein phosphatase 3, catalytic subunit, alpha isozyme				BENPORATH_CYCLING_GENES		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		LOPEZ_MBD_TARGETS		MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+5573	PRKAR1A	protein kinase, cAMP-dependent, regulatory, type I, alpha (tissue specific extinguisher 1)				BENPORATH_CYCLING_GENES		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				
+995	CDC25C	cell division cycle 25 homolog C (S. pombe)				BENPORATH_CYCLING_GENES			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK	
+10024	TROAP	trophinin associated protein (tastin)				BENPORATH_CYCLING_GENES			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK	
+51659	GINS2	GINS complex subunit 2 (Psf2 homolog)				BENPORATH_CYCLING_GENES			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+51715	RAB23	RAB23, member RAS oncogene family				BENPORATH_CYCLING_GENES			KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+58486	ZBED5	zinc finger, BED-type containing 5				BENPORATH_CYCLING_GENES						
+84914	ZNF587	zinc finger protein 587				BENPORATH_CYCLING_GENES						
+1032	CDKN2D	cyclin-dependent kinase inhibitor 2D (p19, inhibits CDK4)				BENPORATH_CYCLING_GENES						
+5316	PKNOX1	PBX/knotted 1 homeobox 1				BENPORATH_CYCLING_GENES						
+55082	ARGLU1	arginine and glutamate rich 1				BENPORATH_CYCLING_GENES						
+3690	ITGB3	integrin, beta 3 (platelet glycoprotein IIIa, antigen CD61)				BENPORATH_CYCLING_GENES						
+10073	SNUPN	snurportin 1				BENPORATH_CYCLING_GENES						
+51530	ZC3HC1	zinc finger, C3HC-type containing 1				BENPORATH_CYCLING_GENES						
+55692	LUC7L	LUC7-like (S. cerevisiae)					KRIEG_HYPOXIA_NOT_VIA_KDM3A		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+666	BOK	BCL2-related ovarian killer					KRIEG_HYPOXIA_NOT_VIA_KDM3A					
+25841	ABTB2	ankyrin repeat and BTB (POZ) domain containing 2					KRIEG_HYPOXIA_NOT_VIA_KDM3A					
+197335	WDR90	WD repeat domain 90					KRIEG_HYPOXIA_NOT_VIA_KDM3A					
+3460	IFNGR2	interferon gamma receptor 2 (interferon gamma transducer 1)					KRIEG_HYPOXIA_NOT_VIA_KDM3A					
+6917	TCEA1	transcription elongation factor A (SII), 1						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	LOPEZ_MBD_TARGETS	PUJANA_BRCA1_PCC_NETWORK	MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+51065	RPS27L	ribosomal protein S27-like						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	LOPEZ_MBD_TARGETS		
+10988	METAP2	methionyl aminopeptidase 2						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK	MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+2107	ETF1	eukaryotic translation termination factor 1						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK	
+7555	CNBP	CCHC-type zinc finger, nucleic acid binding protein						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		LOPEZ_MBD_TARGETS	PUJANA_BRCA1_PCC_NETWORK	
+8669	EIF3J	eukaryotic translation initiation factor 3, subunit J						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		LOPEZ_MBD_TARGETS		MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+9448	MAP4K4	mitogen-activated protein kinase kinase kinase kinase 4						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				
+439	ASNA1	arsA arsenite transporter, ATP-binding, homolog 1 (bacterial)						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				
+59349	KLHL12	kelch-like 12 (Drosophila)						DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				
+85444	LRRCC1	leucine rich repeat and coiled-coil domain containing 1							KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+26054	SENP6	SUMO1/sentrin specific peptidase 6							KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+84133	ZNRF3	zinc and ring finger 3							KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+79000	C1orf135	chromosome 1 open reading frame 135							KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			
+10575	CCT4	chaperonin containing TCP1, subunit 4 (delta)								LOPEZ_MBD_TARGETS	PUJANA_BRCA1_PCC_NETWORK	MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+6199	RPS6KB2	ribosomal protein S6 kinase, 70kDa, polypeptide 2								LOPEZ_MBD_TARGETS	PUJANA_BRCA1_PCC_NETWORK	
+116228	FAM36A	family with sequence similarity 36, member A								LOPEZ_MBD_TARGETS		
+26999	CYFIP2	cytoplasmic FMR1 interacting protein 2								LOPEZ_MBD_TARGETS		
+330	BIRC3	baculoviral IAP repeat containing 3								LOPEZ_MBD_TARGETS		
+56655	POLE4	polymerase (DNA-directed), epsilon 4 (p12 subunit)								LOPEZ_MBD_TARGETS		
+79716	NPEPL1	aminopeptidase-like 1								LOPEZ_MBD_TARGETS		
+402	ARL2	ADP-ribosylation factor-like 2								LOPEZ_MBD_TARGETS		
+24149	ZNF318	zinc finger protein 318									PUJANA_BRCA1_PCC_NETWORK	
+6883	TAF12	TAF12 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 20kDa									PUJANA_BRCA1_PCC_NETWORK	
+23481	PES1	pescadillo homolog 1, containing BRCT domain (zebrafish)									PUJANA_BRCA1_PCC_NETWORK	
+57223	SMEK2	SMEK homolog 2, suppressor of mek1 (Dictyostelium)										MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+64841	GNPNAT1	glucosamine-phosphate N-acetyltransferase 1										MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+84437	KIAA1826	KIAA1826										MILI_PSEUDOPODIA_HAPTOTAXIS_UP
+1948	EFNB2	ephrin-B2										
+28964	GIT1	G protein-coupled receptor kinase interacting ArfGAP 1										
+4756	NEO1	neogenin 1										
+23164	MPRIP	myosin phosphatase Rho interacting protein										
+81624	DIAPH3	diaphanous homolog 3 (Drosophila)										
+54487	DGCR8	DiGeorge syndrome critical region gene 8										
+6309	SC5DL	sterol-C5-desaturase (ERG3 delta-5-desaturase homolog, S. cerevisiae)-like										
+5191	PEX7	peroxisomal biogenesis factor 7										
+84270	C9orf89	chromosome 9 open reading frame 89										
+29967	LRP12	low density lipoprotein receptor-related protein 12										
+26022	TMEM98	transmembrane protein 98										
+57035	C1orf63	chromosome 1 open reading frame 63										
+2132	EXT2	exostosin 2										
+3791	KDR	kinase insert domain receptor (a type III receptor tyrosine kinase)										
+9242	MSC	musculin										
+121053	C12orf45	chromosome 12 open reading frame 45										
+51337	C8orf55	chromosome 8 open reading frame 55										
+80206	FHOD3	formin homology 2 domain containing 3										
+4758	NEU1	sialidase 1 (lysosomal sialidase)										
+6609	SMPD1	sphingomyelin phosphodiesterase 1, acid lysosomal										
+148789	B3GALNT2	beta-1,3-N-acetylgalactosaminyltransferase 2										
+59269	HIVEP3	human immunodeficiency virus type I enhancer binding protein 3										
+656	BMP8B	bone morphogenetic protein 8b										
+10482	NXF1	nuclear RNA export factor 1										
+64149	C17orf75	chromosome 17 open reading frame 75										
+1489	CTF1	cardiotrophin 1										
+775	CACNA1C	calcium channel, voltage-dependent, L type, alpha 1C subunit										
+63908	NAPB	N-ethylmaleimide-sensitive factor attachment protein, beta										
+9751	SNPH	syntaphilin										
+84897	TBRG1	transforming growth factor beta regulator 1										
+768211	RELL1	RELT-like 1										
+29903	CCDC106	coiled-coil domain containing 106										
+55552	ZNF823	zinc finger protein 823										
+10656	KHDRBS3	KH domain containing, RNA binding, signal transduction associated 3										
+83549	UCK1	uridine-cytidine kinase 1										
+90956	ADCK2	aarF domain containing kinase 2										
+84910	TMEM87B	transmembrane protein 87B										
+489	ATP2A3	ATPase, Ca++ transporting, ubiquitous										
+84166	NLRC5	NLR family, CARD domain containing 5										
+100131187	TSTD1	thiosulfate sulfurtransferase (rhodanese)-like domain containing 1										
+8326	FZD9	frizzled family receptor 9										
+54507	ADAMTSL4	ADAMTS-like 4										
+128439	SNHG11	small nucleolar RNA host gene 11 (non-protein coding)										
+130026	ICA1L	islet cell autoantigen 1,69kDa-like										
+55051	C14orf102	chromosome 14 open reading frame 102										
+29062	WDR91	WD repeat domain 91										
+7691	ZNF132	zinc finger protein 132										
+90507	SCRN2	secernin 2										
+339524	LOC339524	uncharacterized LOC339524										
+84503	ZNF527	zinc finger protein 527										
+113230	LOC113230	uncharacterized LOC113230										
+728743	LOC728743	zinc finger protein pseudogene										

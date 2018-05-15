@@ -1,0 +1,11 @@
+gene,coef,description
+C7orf13,-5.39416377568356e-05,NA
+COL11A2,-0.00153427214168323,collagen type XI alpha 2 chain [Source:HGNC Symbol;Acc:HGNC:2187]
+CPT1C,-0.000128923296774054,carnitine palmitoyltransferase 1C [Source:HGNC Symbol;Acc:HGNC:18540]
+DNALI1,-0.000359262479902138,dynein axonemal light intermediate chain 1 [Source:HGNC Symbol;Acc:HGNC:14353]
+GPR160,0.00353104265408804,G protein-coupled receptor 160 [Source:HGNC Symbol;Acc:HGNC:23693]
+MOXD1,-1.19286471036843e-05,monooxygenase DBH like 1 [Source:HGNC Symbol;Acc:HGNC:21063]
+NPTXR,0.000126728725429763,neuronal pentraxin receptor [Source:HGNC Symbol;Acc:HGNC:7954]
+SELL,0.00230402196732472,selectin L [Source:HGNC Symbol;Acc:HGNC:10720]
+SQLE,-0.00551936360285042,squalene epoxidase [Source:HGNC Symbol;Acc:HGNC:11279]
+TMEM220,-0.00402297481669433,transmembrane protein 220 [Source:HGNC Symbol;Acc:HGNC:33757]

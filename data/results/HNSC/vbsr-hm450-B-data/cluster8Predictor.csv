@@ -1,0 +1,12 @@
+gene,coef,description
+ACAA2,-0.0188357577371287,acetyl-CoA acyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:83]
+BAIAP3,-0.0096547937861744,BAI1 associated protein 3 [Source:HGNC Symbol;Acc:HGNC:948]
+DUOX2,-0.00465963311772132,dual oxidase 2 [Source:HGNC Symbol;Acc:HGNC:13273]
+EVI5L,0.0140951073188168,ecotropic viral integration site 5 like [Source:HGNC Symbol;Acc:HGNC:30464]
+G0S2,-0.00763154008895648,G0/G1 switch 2 [Source:HGNC Symbol;Acc:HGNC:30229]
+LOC100130872,-0.0080935632914365,NA
+MAST3,-0.000592555267558448,microtubule associated serine/threonine kinase 3 [Source:HGNC Symbol;Acc:HGNC:19036]
+NAIF1,-0.0257817590394814,nuclear apoptosis inducing factor 1 [Source:HGNC Symbol;Acc:HGNC:25446]
+POLE3,0.0018459731412762,DNA polymerase epsilon 3, accessory subunit [Source:HGNC Symbol;Acc:HGNC:13546]
+RAC2,0.011981438089026,Rac family small GTPase 2 [Source:HGNC Symbol;Acc:HGNC:9802]
+TNNT1,0.00429899694655684,troponin T1, slow skeletal type [Source:HGNC Symbol;Acc:HGNC:11948]

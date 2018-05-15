@@ -1,0 +1,102 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	77
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+WAKABAYASHI_ADIPOGENESIS_PPARG_BOUND_8D	658	Genes with promoters bound by PPARG [GeneID=5468] at 8 day time point of adipocyte differentiation of 3T3-L1 cells (preadipocyte).	10	0.0152	1.57E-7	8.74E-4
+CTTTGT_LEF1_Q2	1972	Genes having at least one occurence of the highly conserved motif M13 CTTTGT sites. The motif matches transcription factor binding site V$LEF1_Q2 (v7.4 TRANSFAC).	15	0.0076	8.35E-7	1.42E-3
+GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	1781	Genes down-regulated in ME-A cells (breast cancer) undergoing apoptosis in response to doxorubicin [PubChem=31703].	14	0.0079	1.39E-6	1.42E-3
+SMID_BREAST_CANCER_BASAL_UP	648	Genes up-regulated in basal subtype of breast cancer samles.	9	0.0139	1.43E-6	1.42E-3
+FARMER_BREAST_CANCER_APOCRINE_VS_BASAL	330	Genes which best discriminate between two groups of breast cancer according the status of ESR1 and AR [GeneID=2099;367]: apocrine (ESR1- AR+) vs basal (ESR1- AR-).	7	0.0212	1.44E-6	1.42E-3
+SANSOM_APC_TARGETS_REQUIRE_MYC	210	Genes up-regulated after Cre-lox knockout of APC [GeneID=324] in the small intestine that require functional MYC [GeneID=4609].	6	0.0286	1.53E-6	1.42E-3
+LEE_BMP2_TARGETS_DN	882	Genes down-regulated in uterus upon knockout of BMP2 [GeneID=650].	10	0.0113	2.22E-6	1.76E-3
+SMID_BREAST_CANCER_LUMINAL_B_DN	564	Genes down-regulated in the luminal B subtype of breast cancer.	8	0.0142	4.9E-6	3.03E-3
+STAT_Q6	260	Genes having at least one occurence of the transcription factor binding site V$STAT_Q6 (v7.4 TRANSFAC) in the regions spanning up to 4 kb around their transcription starting sites.	6	0.0231	5.24E-6	3.03E-3
+CHICAS_RB1_TARGETS_SENESCENT	572	Genes up-regulated in senescent IMR90 cells (fibroblast) after knockdown of RB1 [GeneID=5925] by RNAi.	8	0.0140	5.43E-6	3.03E-3
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	WAKABAYASHI_ADIPOGENESIS_PPARG_BOUND_8D	CTTTGT_LEF1_Q2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	SMID_BREAST_CANCER_BASAL_UP	FARMER_BREAST_CANCER_APOCRINE_VS_BASAL	SANSOM_APC_TARGETS_REQUIRE_MYC	LEE_BMP2_TARGETS_DN	SMID_BREAST_CANCER_LUMINAL_B_DN	STAT_Q6	CHICAS_RB1_TARGETS_SENESCENT
+120	ADD3	adducin 3 (gamma)	WAKABAYASHI_ADIPOGENESIS_PPARG_BOUND_8D	CTTTGT_LEF1_Q2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					SMID_BREAST_CANCER_LUMINAL_B_DN	STAT_Q6	CHICAS_RB1_TARGETS_SENESCENT
+8914	TIMELESS	timeless homolog (Drosophila)	WAKABAYASHI_ADIPOGENESIS_PPARG_BOUND_8D		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			SANSOM_APC_TARGETS_REQUIRE_MYC				
+54487	DGCR8	DiGeorge syndrome critical region gene 8	WAKABAYASHI_ADIPOGENESIS_PPARG_BOUND_8D		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+2176	FANCC	Fanconi anemia, complementation group C	WAKABAYASHI_ADIPOGENESIS_PPARG_BOUND_8D		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+25937	WWTR1	WW domain containing transcription regulator 1	WAKABAYASHI_ADIPOGENESIS_PPARG_BOUND_8D			SMID_BREAST_CANCER_BASAL_UP				SMID_BREAST_CANCER_LUMINAL_B_DN		CHICAS_RB1_TARGETS_SENESCENT
+2023	ENO1	enolase 1, (alpha)	WAKABAYASHI_ADIPOGENESIS_PPARG_BOUND_8D			SMID_BREAST_CANCER_BASAL_UP						
+5272	SERPINB9	serpin peptidase inhibitor, clade B (ovalbumin), member 9	WAKABAYASHI_ADIPOGENESIS_PPARG_BOUND_8D						LEE_BMP2_TARGETS_DN			
+84196	USP48	ubiquitin specific peptidase 48	WAKABAYASHI_ADIPOGENESIS_PPARG_BOUND_8D									
+163859	C1orf55	chromosome 1 open reading frame 55	WAKABAYASHI_ADIPOGENESIS_PPARG_BOUND_8D									
+220323	OAF	OAF homolog (Drosophila)	WAKABAYASHI_ADIPOGENESIS_PPARG_BOUND_8D									
+24147	FJX1	four jointed box 1 (Drosophila)		CTTTGT_LEF1_Q2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		FARMER_BREAST_CANCER_APOCRINE_VS_BASAL					
+7703	PCGF2	polycomb group ring finger 2		CTTTGT_LEF1_Q2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+55205	ZNF532	zinc finger protein 532		CTTTGT_LEF1_Q2		SMID_BREAST_CANCER_BASAL_UP				SMID_BREAST_CANCER_LUMINAL_B_DN		
+8577	TMEFF1	transmembrane protein with EGF-like and two follistatin-like domains 1		CTTTGT_LEF1_Q2		SMID_BREAST_CANCER_BASAL_UP						
+55502	HES6	hairy and enhancer of split 6 (Drosophila)		CTTTGT_LEF1_Q2				SANSOM_APC_TARGETS_REQUIRE_MYC				
+8861	LDB1	LIM domain binding 1		CTTTGT_LEF1_Q2				SANSOM_APC_TARGETS_REQUIRE_MYC				
+8525	DGKZ	diacylglycerol kinase, zeta		CTTTGT_LEF1_Q2							STAT_Q6	
+4628	MYH10	myosin, heavy chain 10, non-muscle		CTTTGT_LEF1_Q2								CHICAS_RB1_TARGETS_SENESCENT
+4854	NOTCH3	notch 3		CTTTGT_LEF1_Q2								
+8728	ADAM19	ADAM metallopeptidase domain 19		CTTTGT_LEF1_Q2								
+7046	TGFBR1	transforming growth factor, beta receptor 1		CTTTGT_LEF1_Q2								
+84191	FAM96A	family with sequence similarity 96, member A		CTTTGT_LEF1_Q2								
+120534	C11orf46	chromosome 11 open reading frame 46		CTTTGT_LEF1_Q2								
+389136	VGLL3	vestigial like 3 (Drosophila)		CTTTGT_LEF1_Q2								
+5885	RAD21	RAD21 homolog (S. pombe)			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	SMID_BREAST_CANCER_BASAL_UP						
+1595	CYP51A1	cytochrome P450, family 51, subfamily A, polypeptide 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		FARMER_BREAST_CANCER_APOCRINE_VS_BASAL		LEE_BMP2_TARGETS_DN			
+10322	SMYD5	SMYD family member 5			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			SANSOM_APC_TARGETS_REQUIRE_MYC	LEE_BMP2_TARGETS_DN			
+23371	TENC1	tensin like C1 domain containing phosphatase (tensin 2)			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN						STAT_Q6	
+57194	ATP10A	ATPase, class V, type 10A			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+28977	MRPL42	mitochondrial ribosomal protein L42			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+3831	KLC1	kinesin light chain 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+10211	FLOT1	flotillin 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+3945	LDHB	lactate dehydrogenase B				SMID_BREAST_CANCER_BASAL_UP	FARMER_BREAST_CANCER_APOCRINE_VS_BASAL			SMID_BREAST_CANCER_LUMINAL_B_DN		
+25907	TMEM158	transmembrane protein 158 (gene/pseudogene)				SMID_BREAST_CANCER_BASAL_UP	FARMER_BREAST_CANCER_APOCRINE_VS_BASAL			SMID_BREAST_CANCER_LUMINAL_B_DN		
+51450	PRRX2	paired related homeobox 2				SMID_BREAST_CANCER_BASAL_UP			LEE_BMP2_TARGETS_DN	SMID_BREAST_CANCER_LUMINAL_B_DN		
+2762	GMDS	GDP-mannose 4,6-dehydratase				SMID_BREAST_CANCER_BASAL_UP						
+10125	RASGRP1	RAS guanyl releasing protein 1 (calcium and DAG-regulated)					FARMER_BREAST_CANCER_APOCRINE_VS_BASAL		LEE_BMP2_TARGETS_DN			
+5932	RBBP8	retinoblastoma binding protein 8					FARMER_BREAST_CANCER_APOCRINE_VS_BASAL					CHICAS_RB1_TARGETS_SENESCENT
+23677	SH3BP4	SH3-domain binding protein 4					FARMER_BREAST_CANCER_APOCRINE_VS_BASAL					
+55798	METTL2B	methyltransferase like 2B						SANSOM_APC_TARGETS_REQUIRE_MYC				
+10755	GIPC1	GIPC PDZ domain containing family, member 1						SANSOM_APC_TARGETS_REQUIRE_MYC				
+81831	NETO2	neuropilin (NRP) and tolloid (TLL)-like 2							LEE_BMP2_TARGETS_DN			CHICAS_RB1_TARGETS_SENESCENT
+2706	GJB2	gap junction protein, beta 2, 26kDa							LEE_BMP2_TARGETS_DN			CHICAS_RB1_TARGETS_SENESCENT
+122769	LRR1	leucine rich repeat protein 1							LEE_BMP2_TARGETS_DN			
+3364	HUS1	HUS1 checkpoint homolog (S. pombe)							LEE_BMP2_TARGETS_DN			
+51299	NRN1	neuritin 1							LEE_BMP2_TARGETS_DN			
+2920	CXCL2	chemokine (C-X-C motif) ligand 2								SMID_BREAST_CANCER_LUMINAL_B_DN		CHICAS_RB1_TARGETS_SENESCENT
+25891	PAMR1	peptidase domain containing associated with muscle regeneration 1								SMID_BREAST_CANCER_LUMINAL_B_DN		
+1901	S1PR1	sphingosine-1-phosphate receptor 1									STAT_Q6	
+221504	ZBTB9	zinc finger and BTB domain containing 9									STAT_Q6	
+8664	EIF3D	eukaryotic translation initiation factor 3, subunit D									STAT_Q6	
+84918	LRP11	low density lipoprotein receptor-related protein 11										CHICAS_RB1_TARGETS_SENESCENT
+1728	NQO1	NAD(P)H dehydrogenase, quinone 1										
+5898	RALA	v-ral simian leukemia viral oncogene homolog A (ras related)										
+8572	PDLIM4	PDZ and LIM domain 4										
+11264	PXMP4	peroxisomal membrane protein 4, 24kDa										
+79134	TMEM185B	transmembrane protein 185B										
+3338	DNAJC4	DnaJ (Hsp40) homolog, subfamily C, member 4										
+84629	TNRC18	trinucleotide repeat containing 18										
+54915	YTHDF1	YTH domain family, member 1										
+51665	ASB1	ankyrin repeat and SOCS box containing 1										
+26993	AKAP8L	A kinase (PRKA) anchor protein 8-like										
+132864	CPEB2	cytoplasmic polyadenylation element binding protein 2										
+57095	PITHD1	PITH (C-terminal proteasome-interacting domain of thioredoxin-like) domain containing 1										
+79796	ALG9	asparagine-linked glycosylation 9, alpha-1,2-mannosyltransferase homolog (S. cerevisiae)										
+26508	HEYL	hairy/enhancer-of-split related with YRPW motif-like										
+55929	DMAP1	DNA methyltransferase 1 associated protein 1										
+285268	ZNF621	zinc finger protein 621										
+123036	TC2N	tandem C2 domains, nuclear										
+55974	SLC50A1	solute carrier family 50 (sugar transporter), member 1										
+440270	GOLGA8B	golgin A8 family, member B										
+144108	SPTY2D1	SPT2, Suppressor of Ty, domain containing 1 (S. cerevisiae)										
+57732	ZFYVE28	zinc finger, FYVE domain containing 28										
+254887	ZDHHC23	zinc finger, DHHC-type containing 23										
+26164	GTPBP5	GTP binding protein 5 (putative)										
+25790	CCDC19	coiled-coil domain containing 19										
+63908	NAPB	N-ethylmaleimide-sensitive factor attachment protein, beta										

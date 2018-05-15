@@ -1,0 +1,5 @@
+gene,coef,description
+ACCN3,0.0220745712859336,NA
+C1orf59,-0.0153631388124812,NA
+MAP1LC3A,-0.0165210552410252,microtubule associated protein 1 light chain 3 alpha [Source:HGNC Symbol;Acc:HGNC:6838]
+SLC27A3,-0.029307476326178,solute carrier family 27 member 3 [Source:HGNC Symbol;Acc:HGNC:10997]

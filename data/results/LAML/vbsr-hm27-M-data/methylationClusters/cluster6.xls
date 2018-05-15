@@ -1,0 +1,35 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	2
+# genesets in collections:	5574
+# genes in comparison (n):	18
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+AACTTT_UNKNOWN	1890	Genes having at least one occurence of the highly conserved motif M17 AACTTT in the region spanning up to 4 kb around their transcription start sites. The motif does not match any known transcription factor binding site (v7.4 TRANSFAC).	7	0.0037	4.2E-6	1.55E-2
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	7	0.0035	5.55E-6	1.55E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	AACTTT_UNKNOWN	PILON_KLF1_TARGETS_DN
+947	CD34	CD34 molecule	AACTTT_UNKNOWN	PILON_KLF1_TARGETS_DN
+29968	PSAT1	phosphoserine aminotransferase 1	AACTTT_UNKNOWN	PILON_KLF1_TARGETS_DN
+6584	SLC22A5	solute carrier family 22 (organic cation/carnitine transporter), member 5	AACTTT_UNKNOWN	PILON_KLF1_TARGETS_DN
+10140	TOB1	transducer of ERBB2, 1	AACTTT_UNKNOWN	
+752	FMNL1	formin-like 1	AACTTT_UNKNOWN	
+817	CAMK2D	calcium/calmodulin-dependent protein kinase II delta	AACTTT_UNKNOWN	
+377677	CA13	carbonic anhydrase XIII	AACTTT_UNKNOWN	
+6850	SYK	spleen tyrosine kinase		PILON_KLF1_TARGETS_DN
+8428	STK24	serine/threonine kinase 24		PILON_KLF1_TARGETS_DN
+55743	CHFR	checkpoint with forkhead and ring finger domains		PILON_KLF1_TARGETS_DN
+221294	NT5DC1	5'-nucleotidase domain containing 1		PILON_KLF1_TARGETS_DN
+27044	SND1	staphylococcal nuclease and tudor domain containing 1		
+6415	SEPW1	selenoprotein W, 1		
+5825	ABCD3	ATP-binding cassette, sub-family D (ALD), member 3		
+4232	MEST	mesoderm specific transcript homolog (mouse)		
+25979	DHRS7B	dehydrogenase/reductase (SDR family) member 7B		
+51478	HSD17B7	hydroxysteroid (17-beta) dehydrogenase 7		
+9701	PPP6R2	protein phosphatase 6, regulatory subunit 2		

@@ -1,0 +1,13 @@
+gene,coef,description
+AIF1L,0.0448714260961125,allograft inflammatory factor 1 like [Source:HGNC Symbol;Acc:HGNC:28904]
+C20orf134,-0.0521825532378102,NA
+CHST12,0.0859745834733372,carbohydrate sulfotransferase 12 [Source:HGNC Symbol;Acc:HGNC:17423]
+COQ6,0.0955229734732578,coenzyme Q6, monooxygenase [Source:HGNC Symbol;Acc:HGNC:20233]
+COTL1,0.0752853308858065,coactosin like F-actin binding protein 1 [Source:HGNC Symbol;Acc:HGNC:18304]
+CXCR6,0.050971480337336,C-X-C motif chemokine receptor 6 [Source:HGNC Symbol;Acc:HGNC:16647]
+FAAH,-0.00546228679216726,fatty acid amide hydrolase [Source:HGNC Symbol;Acc:HGNC:3553]
+KIAA0495,-0.0443977697687765,NA
+PLBD1,-0.0712381745633815,phospholipase B domain containing 1 [Source:HGNC Symbol;Acc:HGNC:26215]
+RCOR2,-0.0349236402554331,REST corepressor 2 [Source:HGNC Symbol;Acc:HGNC:27455]
+SRCRB4D,-0.0725674225213572,NA
+TNFRSF10D,-0.0356258403997624,TNF receptor superfamily member 10d [Source:HGNC Symbol;Acc:HGNC:11907]

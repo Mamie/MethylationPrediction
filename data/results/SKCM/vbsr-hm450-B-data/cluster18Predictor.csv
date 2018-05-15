@@ -1,0 +1,12 @@
+gene,coef,description
+ADM,-0.0159831325056363,adrenomedullin [Source:HGNC Symbol;Acc:HGNC:259]
+ARMCX2,-0.0105391522791297,armadillo repeat containing, X-linked 2 [Source:HGNC Symbol;Acc:HGNC:16869]
+ATP6V1G2,-0.00847604577551448,ATPase H+ transporting V1 subunit G2 [Source:HGNC Symbol;Acc:HGNC:862]
+EFNB3,0.0131815757511512,ephrin B3 [Source:HGNC Symbol;Acc:HGNC:3228]
+GPX7,-0.0148958425559864,glutathione peroxidase 7 [Source:HGNC Symbol;Acc:HGNC:4559]
+MANEAL,0.0132140838185926,mannosidase endo-alpha like [Source:HGNC Symbol;Acc:HGNC:26452]
+PIF1,-0.0109248774808621,PIF1 5'-to-3' DNA helicase [Source:HGNC Symbol;Acc:HGNC:26220]
+SERPINB9,-0.00874178730698371,serpin family B member 9 [Source:HGNC Symbol;Acc:HGNC:8955]
+SUSD1,-0.0150933033110423,sushi domain containing 1 [Source:HGNC Symbol;Acc:HGNC:25413]
+TMEM119,-0.00656695625739393,transmembrane protein 119 [Source:HGNC Symbol;Acc:HGNC:27884]
+TMEM25,-0.00814414885034159,transmembrane protein 25 [Source:HGNC Symbol;Acc:HGNC:25890]

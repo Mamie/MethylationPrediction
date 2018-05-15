@@ -1,0 +1,134 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	109
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+AACTTT_UNKNOWN	1890	Genes having at least one occurence of the highly conserved motif M17 AACTTT in the region spanning up to 4 kb around their transcription start sites. The motif does not match any known transcription factor binding site (v7.4 TRANSFAC).	20	0.0106	1.88E-8	1.05E-4
+LEE_BMP2_TARGETS_DN	882	Genes down-regulated in uterus upon knockout of BMP2 [GeneID=650].	13	0.0147	1.89E-7	3.72E-4
+ETS1_B	259	Genes having at least one occurence of the transcription factor binding site V$ETS1_B (v7.4 TRANSFAC) in the regions spanning up to 4 kb around their transcription starting sites.	8	0.0309	2.12E-7	3.72E-4
+MGGAAGTG_GABP_B	757	Genes having at least one occurence of the highly conserved motif M11 MGGAAGTG sites. The motif matches transcription factor binding site V$GABP_B (v7.4 TRANSFAC).	12	0.0159	2.67E-7	3.72E-4
+PAL_PRMT5_TARGETS_UP	203	Genes up-regulated in NIH-3T3 cells (fibroblast) after knockdown of PRMT5 [GeneID=10419] by RNAi.	7	0.0345	6.02E-7	6.02E-4
+CAGCTG_AP4_Q5	1524	Genes having at least one occurence of the highly conserved motif M15 CAGCTG sites. The motif matches transcription factor binding site V$AP4_Q5 (v7.4 TRANSFAC).	16	0.0105	6.48E-7	6.02E-4
+SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN	584	Genes down-regulated in lymphoblastoid cells from the European population compared to those from the Asian population.	10	0.0171	1.41E-6	1.12E-3
+REACTOME_GENERIC_TRANSCRIPTION_PATHWAY	352	Genes involved in Generic Transcription Pathway	8	0.0227	2.12E-6	1.24E-3
+ETS_Q4	247	Genes having at least one occurence of the transcription factor binding site V$ETS_Q4 (v7.4 TRANSFAC) in the regions spanning up to 4 kb around their transcription starting sites.	7	0.0283	2.22E-6	1.24E-3
+NERF_Q2	247	Genes having at least one occurence of the transcription factor binding site V$NERF_Q2 (v7.4 TRANSFAC) in the regions spanning up to 4 kb around their transcription starting sites.	7	0.0283	2.22E-6	1.24E-3
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	AACTTT_UNKNOWN	LEE_BMP2_TARGETS_DN	ETS1_B	MGGAAGTG_GABP_B	PAL_PRMT5_TARGETS_UP	CAGCTG_AP4_Q5	SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN	REACTOME_GENERIC_TRANSCRIPTION_PATHWAY	ETS_Q4	NERF_Q2
+64651	CSRNP1	cysteine-serine-rich nuclear protein 1	AACTTT_UNKNOWN	LEE_BMP2_TARGETS_DN	ETS1_B							
+9761	MLEC	malectin	AACTTT_UNKNOWN	LEE_BMP2_TARGETS_DN		MGGAAGTG_GABP_B						
+80031	SEMA6D	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6D	AACTTT_UNKNOWN	LEE_BMP2_TARGETS_DN				CAGCTG_AP4_Q5				
+122769	LRR1	leucine rich repeat protein 1	AACTTT_UNKNOWN	LEE_BMP2_TARGETS_DN								
+5099	PCDH7	protocadherin 7	AACTTT_UNKNOWN		ETS1_B	MGGAAGTG_GABP_B	PAL_PRMT5_TARGETS_UP				ETS_Q4	NERF_Q2
+3221	HOXC4	homeobox C4	AACTTT_UNKNOWN		ETS1_B	MGGAAGTG_GABP_B		CAGCTG_AP4_Q5			ETS_Q4	NERF_Q2
+5080	PAX6	paired box 6	AACTTT_UNKNOWN		ETS1_B	MGGAAGTG_GABP_B					ETS_Q4	NERF_Q2
+91748	C14orf43	chromosome 14 open reading frame 43	AACTTT_UNKNOWN		ETS1_B	MGGAAGTG_GABP_B						NERF_Q2
+5747	PTK2	PTK2 protein tyrosine kinase 2	AACTTT_UNKNOWN		ETS1_B			CAGCTG_AP4_Q5			ETS_Q4	
+25925	ZNF521	zinc finger protein 521	AACTTT_UNKNOWN					CAGCTG_AP4_Q5				
+694	BTG1	B-cell translocation gene 1, anti-proliferative	AACTTT_UNKNOWN					CAGCTG_AP4_Q5				
+782	CACNB1	calcium channel, voltage-dependent, beta 1 subunit	AACTTT_UNKNOWN					CAGCTG_AP4_Q5				
+51701	NLK	nemo-like kinase	AACTTT_UNKNOWN									NERF_Q2
+160851	DGKH	diacylglycerol kinase, eta	AACTTT_UNKNOWN									
+4216	MAP3K4	mitogen-activated protein kinase kinase kinase 4	AACTTT_UNKNOWN									
+29789	OLA1	Obg-like ATPase 1	AACTTT_UNKNOWN									
+114134	SLC2A13	solute carrier family 2 (facilitated glucose transporter), member 13	AACTTT_UNKNOWN									
+115123	MARCH3	membrane-associated ring finger (C3HC4) 3	AACTTT_UNKNOWN									
+23244	PDS5A	PDS5, regulator of cohesion maintenance, homolog A (S. cerevisiae)	AACTTT_UNKNOWN									
+64844	MARCH7	membrane-associated ring finger (C3HC4) 7	AACTTT_UNKNOWN									
+10921	RNPS1	RNA binding protein S1, serine-rich domain		LEE_BMP2_TARGETS_DN		MGGAAGTG_GABP_B						
+54433	GAR1	GAR1 ribonucleoprotein homolog (yeast)		LEE_BMP2_TARGETS_DN		MGGAAGTG_GABP_B						
+9123	SLC16A3	solute carrier family 16, member 3 (monocarboxylic acid transporter 4)		LEE_BMP2_TARGETS_DN					SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN			
+3320	HSP90AA1	heat shock protein 90kDa alpha (cytosolic), class A member 1		LEE_BMP2_TARGETS_DN								
+4907	NT5E	5'-nucleotidase, ecto (CD73)		LEE_BMP2_TARGETS_DN								
+63901	FAM111A	family with sequence similarity 111, member A		LEE_BMP2_TARGETS_DN								
+80178	C16orf59	chromosome 16 open reading frame 59		LEE_BMP2_TARGETS_DN								
+134218	DNAJC21	DnaJ (Hsp40) homolog, subfamily C, member 21		LEE_BMP2_TARGETS_DN								
+51478	HSD17B7	hydroxysteroid (17-beta) dehydrogenase 7		LEE_BMP2_TARGETS_DN								
+64236	PDLIM2	PDZ and LIM domain 2 (mystique)			ETS1_B	MGGAAGTG_GABP_B		CAGCTG_AP4_Q5			ETS_Q4	
+821	CANX	calnexin			ETS1_B	MGGAAGTG_GABP_B					ETS_Q4	
+51341	ZBTB7A	zinc finger and BTB domain containing 7A				MGGAAGTG_GABP_B					ETS_Q4	
+79815	NIPAL2	NIPA-like domain containing 2				MGGAAGTG_GABP_B						NERF_Q2
+51371	POMP	proteasome maturation protein				MGGAAGTG_GABP_B						
+10498	CARM1	coactivator-associated arginine methyltransferase 1					PAL_PRMT5_TARGETS_UP					
+53635	PTOV1	prostate tumor overexpressed 1					PAL_PRMT5_TARGETS_UP					
+9429	ABCG2	ATP-binding cassette, sub-family G (WHITE), member 2					PAL_PRMT5_TARGETS_UP					
+92675	DTD1	D-tyrosyl-tRNA deacylase 1 homolog (S. cerevisiae)					PAL_PRMT5_TARGETS_UP					
+10329	TMEM5	transmembrane protein 5					PAL_PRMT5_TARGETS_UP					
+10919	EHMT2	euchromatic histone-lysine N-methyltransferase 2					PAL_PRMT5_TARGETS_UP					
+3093	UBE2K	ubiquitin-conjugating enzyme E2K						CAGCTG_AP4_Q5	SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN			
+80233	C17orf70	chromosome 17 open reading frame 70						CAGCTG_AP4_Q5				NERF_Q2
+25852	ARMC8	armadillo repeat containing 8						CAGCTG_AP4_Q5				
+5252	PHF1	PHD finger protein 1						CAGCTG_AP4_Q5				
+5026	P2RX5	purinergic receptor P2X, ligand-gated ion channel, 5						CAGCTG_AP4_Q5				
+9253	NUMBL	numb homolog (Drosophila)-like						CAGCTG_AP4_Q5				
+10391	CORO2B	coronin, actin binding protein, 2B						CAGCTG_AP4_Q5				
+1455	CSNK1G2	casein kinase 1, gamma 2						CAGCTG_AP4_Q5				
+64285	RHBDF1	rhomboid 5 homolog 1 (Drosophila)						CAGCTG_AP4_Q5				
+9422	ZNF264	zinc finger protein 264							SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN	REACTOME_GENERIC_TRANSCRIPTION_PATHWAY		
+9331	B4GALT6	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 6							SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN			
+8678	BECN1	beclin 1, autophagy related							SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN			
+3704	ITPA	inosine triphosphatase (nucleoside triphosphate pyrophosphatase)							SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN			
+9697	TRAM2	translocation associated membrane protein 2							SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN			
+6850	SYK	spleen tyrosine kinase							SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN			
+10978	CLP1	CLP1, cleavage and polyadenylation factor I subunit, homolog (S. cerevisiae)							SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN			
+9046	DOK2	docking protein 2, 56kDa							SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN			
+80110	ZNF614	zinc finger protein 614								REACTOME_GENERIC_TRANSCRIPTION_PATHWAY		
+163050	ZNF564	zinc finger protein 564								REACTOME_GENERIC_TRANSCRIPTION_PATHWAY		
+22869	ZNF510	zinc finger protein 510								REACTOME_GENERIC_TRANSCRIPTION_PATHWAY		
+7699	ZNF140	zinc finger protein 140								REACTOME_GENERIC_TRANSCRIPTION_PATHWAY		
+58500	ZNF250	zinc finger protein 250								REACTOME_GENERIC_TRANSCRIPTION_PATHWAY		
+7673	ZNF222	zinc finger protein 222								REACTOME_GENERIC_TRANSCRIPTION_PATHWAY		
+84765	ZNF577	zinc finger protein 577								REACTOME_GENERIC_TRANSCRIPTION_PATHWAY		
+85377	MICALL1	MICAL-like 1										
+55810	FOXJ2	forkhead box J2										
+5480	PPIC	peptidylprolyl isomerase C (cyclophilin C)										
+998	CDC42	cell division cycle 42 (GTP binding protein, 25kDa)										
+9644	SH3PXD2A	SH3 and PX domains 2A										
+7538	ZFP36	zinc finger protein 36, C3H type, homolog (mouse)										
+91056	DKFZp761E198	uncharacterized protein DKFZp761E198										
+3601	IL15RA	interleukin 15 receptor, alpha										
+3107	HLA-C	major histocompatibility complex, class I, C										
+166785	MMAA	methylmalonic aciduria (cobalamin deficiency) cblA type										
+9824	ARHGAP11A	Rho GTPase activating protein 11A										
+280636	C11orf31	chromosome 11 open reading frame 31										
+286826	LIN9	lin-9 homolog (C. elegans)										
+4294	MAP3K10	mitogen-activated protein kinase kinase kinase 10										
+388228	SBK1	SH3-binding domain kinase 1										
+222194	RSBN1L	round spermatid basic protein 1-like										
+26502	NARF	nuclear prelamin A recognition factor										
+9330	GTF3C3	general transcription factor IIIC, polypeptide 3, 102kDa										
+7746	ZNF193	zinc finger protein 193										
+10220	GDF11	growth differentiation factor 11										
+64110	MAGEF1	melanoma antigen family F, 1										
+9931	HELZ	helicase with zinc finger										
+283120	H19	H19, imprinted maternally expressed transcript (non-protein coding)										
+2805	GOT1	glutamic-oxaloacetic transaminase 1, soluble (aspartate aminotransferase 1)										
+90488	C12orf23	chromosome 12 open reading frame 23										
+400961	PAIP2B	poly(A) binding protein interacting protein 2B										
+2050	EPHB4	EPH receptor B4										
+4920	ROR2	receptor tyrosine kinase-like orphan receptor 2										
+349152	DPY19L2P2	dpy-19-like 2 pseudogene 2 (C. elegans)										
+83452	RAB33B	RAB33B, member RAS oncogene family										
+375287	RBM43	RNA binding motif protein 43										
+25920	COBRA1	cofactor of BRCA1										
+123016	TTC8	tetratricopeptide repeat domain 8										
+284439	SLC25A42	solute carrier family 25, member 42										
+57168	ASPHD2	aspartate beta-hydroxylase domain containing 2										
+146857	SLFN13	schlafen family member 13										
+205717	KIAA2018	KIAA2018										
+730101	LOC730101	uncharacterized LOC730101										
+85451	UNK	unkempt homolog (Drosophila)										
+57594	HOMEZ	homeobox and leucine zipper encoding										
+126017	ZNF813	zinc finger protein 813										
+114791	TUBGCP5	tubulin, gamma complex associated protein 5										
+79746	ECHDC3	enoyl CoA hydratase domain containing 3										
+389333	C5orf65	chromosome 5 open reading frame 65										
+727956	SDHAP2	succinate dehydrogenase complex, subunit A, flavoprotein pseudogene 2										

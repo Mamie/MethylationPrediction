@@ -1,0 +1,6 @@
+gene,coef,description
+ACCN3,0.0245636045026511,NA
+C7orf46,-0.0137296576781303,NA
+DEPDC5,-0.0584495917437028,DEP domain containing 5 [Source:HGNC Symbol;Acc:HGNC:18423]
+HIPK2,0.0223122505364401,homeodomain interacting protein kinase 2 [Source:HGNC Symbol;Acc:HGNC:14402]
+TNFSF12,-0.0175762699572829,TNF superfamily member 12 [Source:HGNC Symbol;Acc:HGNC:11927]

@@ -1,0 +1,210 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	185
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP	863	Genes up-regulated in liver tumor compared to the normal adjacent tissue.	24	0.0278	1.37E-13	7.64E-10
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	42	0.0143	4.66E-13	1.3E-9
+GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	975	Expressed genes (FPKM>1) associated with high-confidence PAX3-FOXO1 sites with enhancers in primary tumors and cell lines, restricted to those within topological domain boundaries	23	0.0236	1.27E-11	2.37E-8
+DODD_NASOPHARYNGEAL_CARCINOMA_DN	1375	Genes down-regulated in nasopharyngeal carcinoma (NPC) compared to the normal tissue.	25	0.0182	3.71E-10	4.6E-7
+DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	1382	Genes up-regulated in CD34+ [GeneID=947] cells isolated from bone marrow of CML (chronic myelogenous leukemia) patients, compared to those from normal donors.	25	0.0181	4.12E-10	4.6E-7
+KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN	911	Genes down-regulated in HL-60 cells (acute promyelocytic leukemia, APL) after treatment with the aminopeptidase inhibitor tosedostat (CHR-2797) [PubChem=15547703] for 6 h.	20	0.0220	1.04E-9	9.63E-7
+BENPORATH_CYCLING_GENES	648	Genes showing cell-cycle stage-specific expression [PMID=12058064].	17	0.0262	1.44E-9	1.14E-6
+GRADE_COLON_CANCER_UP	871	Up-regulated genes in colon carcinoma tumors compared to the matched normal mucosa samples.	19	0.0218	3.08E-9	2.15E-6
+MARKEY_RB1_ACUTE_LOF_UP	235	Genes up-regulated in adult fibroblasts with inactivated RB1 [GeneID=5925] by Cre-lox: acute loss of function (LOF) of RB1.	11	0.0468	3.64E-9	2.26E-6
+CHANG_CYCLING_GENES	148	Fibroblast serum response genes showing periodic expression during the cell cycle; excluded from the core serum response signature.	9	0.0608	1.03E-8	5.61E-6
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP	GGGCGGR_SP1_Q6	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	DODD_NASOPHARYNGEAL_CARCINOMA_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN	BENPORATH_CYCLING_GENES	GRADE_COLON_CANCER_UP	MARKEY_RB1_ACUTE_LOF_UP	CHANG_CYCLING_GENES
+3417	IDH1	isocitrate dehydrogenase 1 (NADP+), soluble	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP	GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+51637	C14orf166	chromosome 14 open reading frame 166	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP	GGGCGGR_SP1_Q6								
+4259	MGST3	microsomal glutathione S-transferase 3	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP	GGGCGGR_SP1_Q6								
+6383	SDC2	syndecan 2	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP		GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	DODD_NASOPHARYNGEAL_CARCINOMA_DN		KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN				
+81031	SLC2A10	solute carrier family 2 (facilitated glucose transporter), member 10	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP		GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+81610	FAM83D	family with sequence similarity 83, member D	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP		GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				BENPORATH_CYCLING_GENES			CHANG_CYCLING_GENES
+55619	DOCK10	dedicator of cytokinesis 10	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP		GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS							
+3608	ILF2	interleukin enhancer binding factor 2, 45kDa	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP			DODD_NASOPHARYNGEAL_CARCINOMA_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		BENPORATH_CYCLING_GENES	GRADE_COLON_CANCER_UP		CHANG_CYCLING_GENES
+51053	GMNN	geminin, DNA replication inhibitor	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP			DODD_NASOPHARYNGEAL_CARCINOMA_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		BENPORATH_CYCLING_GENES		MARKEY_RB1_ACUTE_LOF_UP	CHANG_CYCLING_GENES
+23029	RBM34	RNA binding motif protein 34	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP			DODD_NASOPHARYNGEAL_CARCINOMA_DN				GRADE_COLON_CANCER_UP		
+1399	CRKL	v-crk sarcoma virus CT10 oncogene homolog (avian)-like	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP				DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+27338	UBE2S	ubiquitin-conjugating enzyme E2S	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP						BENPORATH_CYCLING_GENES	GRADE_COLON_CANCER_UP	MARKEY_RB1_ACUTE_LOF_UP	CHANG_CYCLING_GENES
+2052	EPHX1	epoxide hydrolase 1, microsomal (xenobiotic)	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP								MARKEY_RB1_ACUTE_LOF_UP	
+9553	MRPL33	mitochondrial ribosomal protein L33	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP									
+25994	HIGD1A	HIG1 hypoxia inducible domain family, member 1A	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP									
+23609	MKRN2	makorin ring finger protein 2	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP									
+28978	TMEM14A	transmembrane protein 14A	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP									
+84260	TCHP	trichoplein, keratin filament binding	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP									
+83483	PLVAP	plasmalemma vesicle associated protein	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP									
+25853	DCAF12	DDB1 and CUL4 associated factor 12	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP									
+57645	POGK	pogo transposable element with KRAB domain	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP									
+4520	MTF1	metal-regulatory transcription factor 1	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP									
+90522	YIF1B	Yip1 interacting factor homolog B (S. cerevisiae)	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP									
+56270	WDR45L	WDR45-like	ACEVEDO_LIVER_TUMOR_VS_NORMAL_ADJACENT_TISSUE_UP									
+6904	TBCD	tubulin folding cofactor D		GGGCGGR_SP1_Q6	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS							
+221935	SDK1	sidekick homolog 1, cell adhesion molecule (chicken)		GGGCGGR_SP1_Q6	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS							
+10171	RCL1	RNA terminal phosphate cyclase-like 1		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			GRADE_COLON_CANCER_UP	MARKEY_RB1_ACUTE_LOF_UP	
+5682	PSMA1	proteasome (prosome, macropain) subunit, alpha type, 1		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			GRADE_COLON_CANCER_UP		
+9585	KIF20B	kinesin family member 20B		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN		KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN	BENPORATH_CYCLING_GENES			CHANG_CYCLING_GENES
+2744	GLS	glutaminase		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+8577	TMEFF1	transmembrane protein with EGF-like and two follistatin-like domains 1		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+11212	PROSC	proline synthetase co-transcribed homolog (bacterial)		GGGCGGR_SP1_Q6		DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+23761	PISD	phosphatidylserine decarboxylase		GGGCGGR_SP1_Q6			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN				
+7414	VCL	vinculin		GGGCGGR_SP1_Q6			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		BENPORATH_CYCLING_GENES			
+5360	PLTP	phospholipid transfer protein		GGGCGGR_SP1_Q6			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+10959	TMED2	transmembrane emp24 domain trafficking protein 2		GGGCGGR_SP1_Q6			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+9520	NPEPPS	aminopeptidase puromycin sensitive		GGGCGGR_SP1_Q6			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+2639	GCDH	glutaryl-CoA dehydrogenase		GGGCGGR_SP1_Q6			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+6470	SHMT1	serine hydroxymethyltransferase 1 (soluble)		GGGCGGR_SP1_Q6			DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+4678	NASP	nuclear autoantigenic sperm protein (histone-binding)		GGGCGGR_SP1_Q6				KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN	BENPORATH_CYCLING_GENES		MARKEY_RB1_ACUTE_LOF_UP	
+84245	MRI1	methylthioribose-1-phosphate isomerase homolog (S. cerevisiae)		GGGCGGR_SP1_Q6				KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN	BENPORATH_CYCLING_GENES			
+4335	MNT	MAX binding protein		GGGCGGR_SP1_Q6					BENPORATH_CYCLING_GENES			CHANG_CYCLING_GENES
+6525	SMTN	smoothelin		GGGCGGR_SP1_Q6					BENPORATH_CYCLING_GENES			
+9925	ZBTB5	zinc finger and BTB domain containing 5		GGGCGGR_SP1_Q6						GRADE_COLON_CANCER_UP		
+29997	GLTSCR2	glioma tumor suppressor candidate region gene 2		GGGCGGR_SP1_Q6						GRADE_COLON_CANCER_UP		
+4091	SMAD6	SMAD family member 6		GGGCGGR_SP1_Q6							MARKEY_RB1_ACUTE_LOF_UP	
+256949	KANK3	KN motif and ankyrin repeat domains 3		GGGCGGR_SP1_Q6							MARKEY_RB1_ACUTE_LOF_UP	
+150468	CKAP2L	cytoskeleton associated protein 2-like		GGGCGGR_SP1_Q6								CHANG_CYCLING_GENES
+10270	AKAP8	A kinase (PRKA) anchor protein 8		GGGCGGR_SP1_Q6								
+387882	C12orf75	chromosome 12 open reading frame 75		GGGCGGR_SP1_Q6								
+4215	MAP3K3	mitogen-activated protein kinase kinase kinase 3		GGGCGGR_SP1_Q6								
+8153	RND2	Rho family GTPase 2		GGGCGGR_SP1_Q6								
+498	ATP5A1	ATP synthase, H+ transporting, mitochondrial F1 complex, alpha subunit 1, cardiac muscle		GGGCGGR_SP1_Q6								
+5423	POLB	polymerase (DNA directed), beta		GGGCGGR_SP1_Q6								
+9847	KIAA0528	KIAA0528		GGGCGGR_SP1_Q6								
+283149	BCL9L	B-cell CLL/lymphoma 9-like		GGGCGGR_SP1_Q6								
+9049	AIP	aryl hydrocarbon receptor interacting protein		GGGCGGR_SP1_Q6								
+56674	TMEM9B	TMEM9 domain family, member B		GGGCGGR_SP1_Q6								
+79016	DDA1	DET1 and DDB1 associated 1		GGGCGGR_SP1_Q6								
+7376	NR1H2	nuclear receptor subfamily 1, group H, member 2		GGGCGGR_SP1_Q6								
+55611	OTUB1	OTU domain, ubiquitin aldehyde binding 1		GGGCGGR_SP1_Q6								
+55229	PANK4	pantothenate kinase 4		GGGCGGR_SP1_Q6								
+54869	EPS8L1	EPS8-like 1		GGGCGGR_SP1_Q6								
+2590	GALNT2	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 2 (GalNAc-T2)			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	DODD_NASOPHARYNGEAL_CARCINOMA_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN				
+7272	TTK	TTK protein kinase			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	DODD_NASOPHARYNGEAL_CARCINOMA_DN			BENPORATH_CYCLING_GENES			
+157697	ERICH1	glutamate-rich 1			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+121441	NEDD1	neural precursor cell expressed, developmentally down-regulated 1			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+10726	NUDC	nuclear distribution gene C homolog (A. nidulans)			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN				
+5825	ABCD3	ATP-binding cassette, sub-family D (ALD), member 3			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN				
+9948	WDR1	WD repeat domain 1			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS		DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+51126	NAA20	N(alpha)-acetyltransferase 20, NatB catalytic subunit			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS			KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN				
+3241	HPCAL1	hippocalcin-like 1			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS					GRADE_COLON_CANCER_UP		
+7566	ZNF18	zinc finger protein 18			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS					GRADE_COLON_CANCER_UP		
+51278	IER5	immediate early response 5			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS							
+54454	ATAD2B	ATPase family, AAA domain containing 2B			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS							
+30836	DNTTIP2	deoxynucleotidyltransferase, terminal, interacting protein 2			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS							
+55226	NAT10	N-acetyltransferase 10 (GCN5-related)			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS							
+23041	MON2	MON2 homolog (S. cerevisiae)			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS							
+50512	PODXL2	podocalyxin-like 2			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS							
+23138	N4BP3	NEDD4 binding protein 3			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS							
+51433	ANAPC5	anaphase promoting complex subunit 5				DODD_NASOPHARYNGEAL_CARCINOMA_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN		GRADE_COLON_CANCER_UP	MARKEY_RB1_ACUTE_LOF_UP	
+54165	DCUN1D1	DCN1, defective in cullin neddylation 1, domain containing 1 (S. cerevisiae)				DODD_NASOPHARYNGEAL_CARCINOMA_DN	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+25926	NOL11	nucleolar protein 11				DODD_NASOPHARYNGEAL_CARCINOMA_DN		KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN				
+332	BIRC5	baculoviral IAP repeat containing 5				DODD_NASOPHARYNGEAL_CARCINOMA_DN			BENPORATH_CYCLING_GENES		MARKEY_RB1_ACUTE_LOF_UP	CHANG_CYCLING_GENES
+203068	TUBB	tubulin, beta class I				DODD_NASOPHARYNGEAL_CARCINOMA_DN					MARKEY_RB1_ACUTE_LOF_UP	CHANG_CYCLING_GENES
+23512	SUZ12	suppressor of zeste 12 homolog (Drosophila)				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+9891	NUAK1	NUAK family, SNF1-like kinase, 1				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+6128	RPL6	ribosomal protein L6				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+84928	TMEM209	transmembrane protein 209				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+58155	PTBP2	polypyrimidine tract binding protein 2				DODD_NASOPHARYNGEAL_CARCINOMA_DN						
+8881	CDC16	cell division cycle 16 homolog (S. cerevisiae)					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		BENPORATH_CYCLING_GENES			
+8539	API5	apoptosis inhibitor 5					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			GRADE_COLON_CANCER_UP		
+5912	RAP2B	RAP2B, member of RAS oncogene family					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+4221	MEN1	multiple endocrine neoplasia I					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+7013	TERF1	telomeric repeat binding factor (NIMA-interacting) 1					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+81579	PLA2G12A	phospholipase A2, group XIIA					DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					
+6157	RPL27A	ribosomal protein L27a						KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN	BENPORATH_CYCLING_GENES	GRADE_COLON_CANCER_UP		
+9145	SYNGR1	synaptogyrin 1						KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN		GRADE_COLON_CANCER_UP		
+6282	S100A11	S100 calcium binding protein A11						KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN		GRADE_COLON_CANCER_UP		
+10963	STIP1	stress-induced-phosphoprotein 1						KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN				
+55735	DNAJC11	DnaJ (Hsp40) homolog, subfamily C, member 11						KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN				
+9324	HMGN3	high mobility group nucleosomal binding domain 3						KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN				
+84337	ELOF1	elongation factor 1 homolog (S. cerevisiae)						KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN				
+54093	SETD4	SET domain containing 4						KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN				
+7133	TNFRSF1B	tumor necrosis factor receptor superfamily, member 1B						KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_DN				
+6722	SRF	serum response factor (c-fos serum response element-binding transcription factor)							BENPORATH_CYCLING_GENES			
+828	CAPS	calcyphosine							BENPORATH_CYCLING_GENES			
+65250	C5orf42	chromosome 5 open reading frame 42							BENPORATH_CYCLING_GENES			
+1938	EEF2	eukaryotic translation elongation factor 2								GRADE_COLON_CANCER_UP		
+6232	RPS27	ribosomal protein S27								GRADE_COLON_CANCER_UP		
+8666	EIF3G	eukaryotic translation initiation factor 3, subunit G								GRADE_COLON_CANCER_UP		
+51142	CHCHD2	coiled-coil-helix-coiled-coil-helix domain containing 2								GRADE_COLON_CANCER_UP		
+23352	UBR4	ubiquitin protein ligase E3 component n-recognin 4								GRADE_COLON_CANCER_UP		
+2192	FBLN1	fibulin 1									MARKEY_RB1_ACUTE_LOF_UP	
+116988	AGAP3	ArfGAP with GTPase domain, ankyrin repeat and PH domain 3										
+51646	YPEL5	yippee-like 5 (Drosophila)										
+4052	LTBP1	latent transforming growth factor beta binding protein 1										
+84987	C12orf62	chromosome 12 open reading frame 62										
+57728	WDR19	WD repeat domain 19										
+57472	CNOT6	CCR4-NOT transcription complex, subunit 6										
+79922	MRM1	mitochondrial rRNA methyltransferase 1 homolog (S. cerevisiae)										
+5413	SEPT5	septin 5										
+84343	HPS3	Hermansky-Pudlak syndrome 3										
+6574	SLC20A1	solute carrier family 20 (phosphate transporter), member 1										
+8417	STX7	syntaxin 7										
+9853	RUSC2	RUN and SH3 domain containing 2										
+2882	GPX7	glutathione peroxidase 7										
+6793	STK10	serine/threonine kinase 10										
+2059	EPS8	epidermal growth factor receptor pathway substrate 8										
+54558	SPATA6	spermatogenesis associated 6										
+161145	TMEM229B	transmembrane protein 229B										
+92181	UBTD2	ubiquitin domain containing 2										
+5980	REV3L	REV3-like, catalytic subunit of DNA polymerase zeta (yeast)										
+23347	SMCHD1	structural maintenance of chromosomes flexible hinge domain containing 1										
+1760	DMPK	dystrophia myotonica-protein kinase										
+134549	SHROOM1	shroom family member 1										
+54480	CHPF2	chondroitin polymerizing factor 2										
+653583	PHLDB3	pleckstrin homology-like domain, family B, member 3										
+221895	JAZF1	JAZF zinc finger 1										
+23266	LPHN2	latrophilin 2										
+55837	EAPP	E2F-associated phosphoprotein										
+8703	B4GALT3	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 3										
+388789	LINC00493	long intergenic non-protein coding RNA 493										
+58528	RRAGD	Ras-related GTP binding D										
+130074	FAM168B	family with sequence similarity 168, member B										
+54477	PLEKHA5	pleckstrin homology domain containing, family A member 5										
+9747	FAM115A	family with sequence similarity 115, member A										
+54680	ZNHIT6	zinc finger, HIT-type containing 6										
+135	ADORA2A	adenosine A2a receptor										
+8569	MKNK1	MAP kinase interacting serine/threonine kinase 1										
+27175	TUBG2	tubulin, gamma 2										
+5792	PTPRF	protein tyrosine phosphatase, receptor type, F										
+151613	TTC14	tetratricopeptide repeat domain 14										
+54439	RBM27	RNA binding motif protein 27										
+7164	TPD52L1	tumor protein D52-like 1										
+135154	C6orf57	chromosome 6 open reading frame 57										
+55695	NSUN5	NOP2/Sun domain family, member 5										
+6663	SOX10	SRY (sex determining region Y)-box 10										
+1102	RCBTB2	regulator of chromosome condensation (RCC1) and BTB (POZ) domain containing protein 2										
+55534	MAML3	mastermind-like 3 (Drosophila)										
+148418	SAMD13	sterile alpha motif domain containing 13										
+57209	ZNF248	zinc finger protein 248										
+169792	GLIS3	GLIS family zinc finger 3										
+54859	C3orf75	chromosome 3 open reading frame 75										
+10201	NME6	non-metastatic cells 6, protein expressed in (nucleoside-diphosphate kinase)										
+84811	BUD13	BUD13 homolog (S. cerevisiae)										
+79760	GEMIN7	gem (nuclear organelle) associated protein 7										
+9636	ISG15	ISG15 ubiquitin-like modifier										
+79991	OBFC1	oligonucleotide/oligosaccharide-binding fold containing 1										
+153733	CCDC112	coiled-coil domain containing 112										
+84869	CBR4	carbonyl reductase 4										
+49854	ZNF295	zinc finger protein 295										
+154043	CNKSR3	CNKSR family member 3										
+11213	IRAK3	interleukin-1 receptor-associated kinase 3										
+7695	ZNF136	zinc finger protein 136										
+160428	ALDH1L2	aldehyde dehydrogenase 1 family, member L2										
+222183	SRRM3	serine/arginine repetitive matrix 3										
+284309	ZNF776	zinc finger protein 776										
+10974	C10orf116	chromosome 10 open reading frame 116										
+57655	GRAMD1A	GRAM domain containing 1A										
+201292	TRIM65	tripartite motif containing 65										
+10241	CALCOCO2	calcium binding and coiled-coil domain 2										
+65243	ZNF643	zinc finger protein 643										
+126299	ZNF428	zinc finger protein 428										
+54625	PARP14	poly (ADP-ribose) polymerase family, member 14										

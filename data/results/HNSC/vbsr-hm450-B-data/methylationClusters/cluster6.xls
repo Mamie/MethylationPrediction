@@ -1,0 +1,210 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	185
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	46	0.0156	9.62E-16	5.36E-12
+NUYTTEN_NIPP1_TARGETS_DN	848	Genes down-regulated in PC3 cells (prostate cancer) after knockdown of NIPP1 [GeneID=5511] by RNAi.	22	0.0259	5.91E-12	1.65E-8
+CAGGTG_E12_Q6	2485	Genes having at least one occurence of the highly conserved motif M12 CAGGTG sites. The motif matches transcription factor binding site V$E12_Q6 (v7.4 TRANSFAC).	32	0.0129	5.53E-9	8.02E-6
+WONG_ADULT_TISSUE_STEM_MODULE	721	The 'adult tissue stem' module: genes coordinately up-regulated in a compendium of adult tissue stem cells.	17	0.0236	6.99E-9	8.02E-6
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	28	0.0142	7.2E-9	8.02E-6
+CAGCTG_AP4_Q5	1524	Genes having at least one occurence of the highly conserved motif M15 CAGCTG sites. The motif matches transcription factor binding site V$AP4_Q5 (v7.4 TRANSFAC).	24	0.0157	1.38E-8	1.18E-5
+CHANG_CORE_SERUM_RESPONSE_DN	209	Down-regulated genes in the canonical gene expression signature of the fibroblast core serum response (CSR) defined by the Stanford group.	10	0.0478	1.54E-8	1.18E-5
+RNGTGGGC_UNKNOWN	766	Genes having at least one occurence of the highly conserved motif M140 RNGTGGGC in the region spanning up to 4 kb around their transcription start sites. The motif does not match any known transcription factor binding site (v7.4 TRANSFAC).	17	0.0222	1.69E-8	1.18E-5
+ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	516	Class I of genes transiently induced by EGF [GeneID =1950] in 184A1 cells (mammary epithelium).	14	0.0271	2.82E-8	1.58E-5
+RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN	805	Genes down-regulated in poorly differentiated thyroid carcinoma (PDTC) compared to normal thyroid tissue.	17	0.0211	3.46E-8	1.58E-5
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GGGCGGR_SP1_Q6	NUYTTEN_NIPP1_TARGETS_DN	CAGGTG_E12_Q6	WONG_ADULT_TISSUE_STEM_MODULE	PILON_KLF1_TARGETS_DN	CAGCTG_AP4_Q5	CHANG_CORE_SERUM_RESPONSE_DN	RNGTGGGC_UNKNOWN	ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+7358	UGDH	UDP-glucose 6-dehydrogenase	GGGCGGR_SP1_Q6	NUYTTEN_NIPP1_TARGETS_DN	CAGGTG_E12_Q6	WONG_ADULT_TISSUE_STEM_MODULE	PILON_KLF1_TARGETS_DN					
+55809	TRERF1	transcriptional regulating factor 1	GGGCGGR_SP1_Q6	NUYTTEN_NIPP1_TARGETS_DN	CAGGTG_E12_Q6			CAGCTG_AP4_Q5		RNGTGGGC_UNKNOWN		
+9517	SPTLC2	serine palmitoyltransferase, long chain base subunit 2	GGGCGGR_SP1_Q6	NUYTTEN_NIPP1_TARGETS_DN	CAGGTG_E12_Q6							
+2049	EPHB3	EPH receptor B3	GGGCGGR_SP1_Q6	NUYTTEN_NIPP1_TARGETS_DN		WONG_ADULT_TISSUE_STEM_MODULE				RNGTGGGC_UNKNOWN		
+7422	VEGFA	vascular endothelial growth factor A	GGGCGGR_SP1_Q6	NUYTTEN_NIPP1_TARGETS_DN				CAGCTG_AP4_Q5		RNGTGGGC_UNKNOWN	ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	
+8562	DENR	density-regulated protein	GGGCGGR_SP1_Q6	NUYTTEN_NIPP1_TARGETS_DN				CAGCTG_AP4_Q5				
+30061	SLC40A1	solute carrier family 40 (iron-regulated transporter), member 1	GGGCGGR_SP1_Q6	NUYTTEN_NIPP1_TARGETS_DN					CHANG_CORE_SERUM_RESPONSE_DN			RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+6645	SNTB2	syntrophin, beta 2 (dystrophin-associated protein A1, 59kDa, basic component 2)	GGGCGGR_SP1_Q6	NUYTTEN_NIPP1_TARGETS_DN								
+64236	PDLIM2	PDZ and LIM domain 2 (mystique)	GGGCGGR_SP1_Q6		CAGGTG_E12_Q6	WONG_ADULT_TISSUE_STEM_MODULE		CAGCTG_AP4_Q5		RNGTGGGC_UNKNOWN		
+152006	RNF38	ring finger protein 38	GGGCGGR_SP1_Q6		CAGGTG_E12_Q6		PILON_KLF1_TARGETS_DN					RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+2115	ETV1	ets variant 1	GGGCGGR_SP1_Q6		CAGGTG_E12_Q6			CAGCTG_AP4_Q5	CHANG_CORE_SERUM_RESPONSE_DN			
+113251	LARP4	La ribonucleoprotein domain family, member 4	GGGCGGR_SP1_Q6		CAGGTG_E12_Q6			CAGCTG_AP4_Q5		RNGTGGGC_UNKNOWN		
+7008	TEF	thyrotrophic embryonic factor	GGGCGGR_SP1_Q6		CAGGTG_E12_Q6			CAGCTG_AP4_Q5				RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+65056	GPBP1	GC-rich promoter binding protein 1	GGGCGGR_SP1_Q6		CAGGTG_E12_Q6			CAGCTG_AP4_Q5				
+51155	HN1	hematological and neurological expressed 1	GGGCGGR_SP1_Q6		CAGGTG_E12_Q6			CAGCTG_AP4_Q5				
+4900	NRGN	neurogranin (protein kinase C substrate, RC3)	GGGCGGR_SP1_Q6		CAGGTG_E12_Q6					RNGTGGGC_UNKNOWN		
+5451	POU2F1	POU class 2 homeobox 1	GGGCGGR_SP1_Q6		CAGGTG_E12_Q6							
+64321	SOX17	SRY (sex determining region Y)-box 17	GGGCGGR_SP1_Q6		CAGGTG_E12_Q6							
+221935	SDK1	sidekick homolog 1, cell adhesion molecule (chicken)	GGGCGGR_SP1_Q6		CAGGTG_E12_Q6							
+327	APEH	N-acylaminoacyl-peptide hydrolase	GGGCGGR_SP1_Q6		CAGGTG_E12_Q6							
+5579	PRKCB	protein kinase C, beta	GGGCGGR_SP1_Q6			WONG_ADULT_TISSUE_STEM_MODULE	PILON_KLF1_TARGETS_DN	CAGCTG_AP4_Q5		RNGTGGGC_UNKNOWN		
+1026	CDKN1A	cyclin-dependent kinase inhibitor 1A (p21, Cip1)	GGGCGGR_SP1_Q6			WONG_ADULT_TISSUE_STEM_MODULE			CHANG_CORE_SERUM_RESPONSE_DN			
+4781	NFIB	nuclear factor I/B	GGGCGGR_SP1_Q6			WONG_ADULT_TISSUE_STEM_MODULE				RNGTGGGC_UNKNOWN		
+4209	MEF2D	myocyte enhancer factor 2D	GGGCGGR_SP1_Q6				PILON_KLF1_TARGETS_DN	CAGCTG_AP4_Q5	CHANG_CORE_SERUM_RESPONSE_DN		ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	
+3309	HSPA5	heat shock 70kDa protein 5 (glucose-regulated protein, 78kDa)	GGGCGGR_SP1_Q6				PILON_KLF1_TARGETS_DN	CAGCTG_AP4_Q5				
+153830	RNF145	ring finger protein 145	GGGCGGR_SP1_Q6				PILON_KLF1_TARGETS_DN			RNGTGGGC_UNKNOWN		
+10146	G3BP1	GTPase activating protein (SH3 domain) binding protein 1	GGGCGGR_SP1_Q6				PILON_KLF1_TARGETS_DN					
+137964	AGPAT6	1-acylglycerol-3-phosphate O-acyltransferase 6 (lysophosphatidic acid acyltransferase, zeta)	GGGCGGR_SP1_Q6				PILON_KLF1_TARGETS_DN					
+23082	PPRC1	peroxisome proliferator-activated receptor gamma, coactivator-related 1	GGGCGGR_SP1_Q6				PILON_KLF1_TARGETS_DN					
+9988	DMTF1	cyclin D binding myb-like transcription factor 1	GGGCGGR_SP1_Q6					CAGCTG_AP4_Q5		RNGTGGGC_UNKNOWN		
+79893	GGNBP2	gametogenetin binding protein 2	GGGCGGR_SP1_Q6					CAGCTG_AP4_Q5				RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+8847	DLEU2	deleted in lymphocytic leukemia 2 (non-protein coding)	GGGCGGR_SP1_Q6					CAGCTG_AP4_Q5				
+6777	STAT5B	signal transducer and activator of transcription 5B	GGGCGGR_SP1_Q6					CAGCTG_AP4_Q5				
+79798	ARMC5	armadillo repeat containing 5	GGGCGGR_SP1_Q6					CAGCTG_AP4_Q5				
+11273	ATXN2L	ataxin 2-like	GGGCGGR_SP1_Q6							RNGTGGGC_UNKNOWN		
+55683	KIAA1310	KIAA1310	GGGCGGR_SP1_Q6							RNGTGGGC_UNKNOWN		
+79191	IRX3	iroquois homeobox 3	GGGCGGR_SP1_Q6								ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	
+9064	MAP3K6	mitogen-activated protein kinase kinase kinase 6	GGGCGGR_SP1_Q6									
+6811	STX5	syntaxin 5	GGGCGGR_SP1_Q6									
+25953	PNKD	paroxysmal nonkinesigenic dyskinesia	GGGCGGR_SP1_Q6									
+4259	MGST3	microsomal glutathione S-transferase 3	GGGCGGR_SP1_Q6									
+51315	KRCC1	lysine-rich coiled-coil 1	GGGCGGR_SP1_Q6									
+23788	MTCH2	mitochondrial carrier 2	GGGCGGR_SP1_Q6									
+55466	DNAJA4	DnaJ (Hsp40) homolog, subfamily A, member 4	GGGCGGR_SP1_Q6									
+282991	BLOC1S2	biogenesis of lysosomal organelles complex-1, subunit 2	GGGCGGR_SP1_Q6									
+11182	SLC2A6	solute carrier family 2 (facilitated glucose transporter), member 6	GGGCGGR_SP1_Q6									
+1969	EPHA2	EPH receptor A2		NUYTTEN_NIPP1_TARGETS_DN	CAGGTG_E12_Q6			CAGCTG_AP4_Q5				
+57007	CXCR7	chemokine (C-X-C motif) receptor 7		NUYTTEN_NIPP1_TARGETS_DN	CAGGTG_E12_Q6						ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	
+871	SERPINH1	serpin peptidase inhibitor, clade H (heat shock protein 47), member 1, (collagen binding protein 1)		NUYTTEN_NIPP1_TARGETS_DN		WONG_ADULT_TISSUE_STEM_MODULE						
+5311	PKD2	polycystic kidney disease 2 (autosomal dominant)		NUYTTEN_NIPP1_TARGETS_DN		WONG_ADULT_TISSUE_STEM_MODULE						
+255919	TMEM188	transmembrane protein 188		NUYTTEN_NIPP1_TARGETS_DN			PILON_KLF1_TARGETS_DN					
+10613	ERLIN1	ER lipid raft associated 1		NUYTTEN_NIPP1_TARGETS_DN			PILON_KLF1_TARGETS_DN					
+115294	PCMTD1	protein-L-isoaspartate (D-aspartate) O-methyltransferase domain containing 1		NUYTTEN_NIPP1_TARGETS_DN					CHANG_CORE_SERUM_RESPONSE_DN			RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+6692	SPINT1	serine peptidase inhibitor, Kunitz type 1		NUYTTEN_NIPP1_TARGETS_DN								
+4288	MKI67	antigen identified by monoclonal antibody Ki-67		NUYTTEN_NIPP1_TARGETS_DN								
+10336	PCGF3	polycomb group ring finger 3		NUYTTEN_NIPP1_TARGETS_DN								
+9804	TOMM20	translocase of outer mitochondrial membrane 20 homolog (yeast)		NUYTTEN_NIPP1_TARGETS_DN								
+440026	TMEM41B	transmembrane protein 41B		NUYTTEN_NIPP1_TARGETS_DN								
+151354	FAM84A	family with sequence similarity 84, member A		NUYTTEN_NIPP1_TARGETS_DN								
+26147	PHF19	PHD finger protein 19		NUYTTEN_NIPP1_TARGETS_DN								
+351	APP	amyloid beta (A4) precursor protein			CAGGTG_E12_Q6	WONG_ADULT_TISSUE_STEM_MODULE		CAGCTG_AP4_Q5	CHANG_CORE_SERUM_RESPONSE_DN	RNGTGGGC_UNKNOWN		
+4897	NRCAM	neuronal cell adhesion molecule			CAGGTG_E12_Q6	WONG_ADULT_TISSUE_STEM_MODULE				RNGTGGGC_UNKNOWN		
+7421	VDR	vitamin D (1,25- dihydroxyvitamin D3) receptor			CAGGTG_E12_Q6	WONG_ADULT_TISSUE_STEM_MODULE						
+84961	FBXL20	F-box and leucine-rich repeat protein 20			CAGGTG_E12_Q6		PILON_KLF1_TARGETS_DN					
+3710	ITPR3	inositol 1,4,5-trisphosphate receptor, type 3			CAGGTG_E12_Q6			CAGCTG_AP4_Q5				
+2224	FDPS	farnesyl diphosphate synthase			CAGGTG_E12_Q6				CHANG_CORE_SERUM_RESPONSE_DN			
+23022	PALLD	palladin, cytoskeletal associated protein			CAGGTG_E12_Q6						ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	
+639	PRDM1	PR domain containing 1, with ZNF domain			CAGGTG_E12_Q6							
+4776	NFATC4	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 4			CAGGTG_E12_Q6							
+65009	NDRG4	NDRG family member 4			CAGGTG_E12_Q6							
+3703	STT3A	STT3, subunit of the oligosaccharyltransferase complex, homolog A (S. cerevisiae)			CAGGTG_E12_Q6							
+10040	TOM1L1	target of myb1 (chicken)-like 1			CAGGTG_E12_Q6							
+79837	PIP4K2C	phosphatidylinositol-5-phosphate 4-kinase, type II, gamma			CAGGTG_E12_Q6							
+5720	PSME1	proteasome (prosome, macropain) activator subunit 1 (PA28 alpha)			CAGGTG_E12_Q6							
+49854	ZNF295	zinc finger protein 295			CAGGTG_E12_Q6							
+3383	ICAM1	intercellular adhesion molecule 1				WONG_ADULT_TISSUE_STEM_MODULE						
+2199	FBLN2	fibulin 2				WONG_ADULT_TISSUE_STEM_MODULE						
+54463	FAM134B	family with sequence similarity 134, member B				WONG_ADULT_TISSUE_STEM_MODULE						
+1291	COL6A1	collagen, type VI, alpha 1				WONG_ADULT_TISSUE_STEM_MODULE						
+5733	PTGER3	prostaglandin E receptor 3 (subtype EP3)				WONG_ADULT_TISSUE_STEM_MODULE						
+140735	DYNLL2	dynein, light chain, LC8-type 2				WONG_ADULT_TISSUE_STEM_MODULE						
+81847	RNF146	ring finger protein 146					PILON_KLF1_TARGETS_DN		CHANG_CORE_SERUM_RESPONSE_DN			RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+8674	VAMP4	vesicle-associated membrane protein 4					PILON_KLF1_TARGETS_DN		CHANG_CORE_SERUM_RESPONSE_DN			
+7171	TPM4	tropomyosin 4					PILON_KLF1_TARGETS_DN				ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	
+54622	ARL15	ADP-ribosylation factor-like 15					PILON_KLF1_TARGETS_DN				ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	
+51111	SUV420H1	suppressor of variegation 4-20 homolog 1 (Drosophila)					PILON_KLF1_TARGETS_DN					RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+5037	PEBP1	phosphatidylethanolamine binding protein 1					PILON_KLF1_TARGETS_DN					RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+10208	USPL1	ubiquitin specific peptidase like 1					PILON_KLF1_TARGETS_DN					
+51056	LAP3	leucine aminopeptidase 3					PILON_KLF1_TARGETS_DN					
+22949	PTGR1	prostaglandin reductase 1					PILON_KLF1_TARGETS_DN					
+55622	TTC27	tetratricopeptide repeat domain 27					PILON_KLF1_TARGETS_DN					
+34	ACADM	acyl-CoA dehydrogenase, C-4 to C-12 straight chain					PILON_KLF1_TARGETS_DN					
+103910	MYL12B	myosin, light chain 12B, regulatory					PILON_KLF1_TARGETS_DN					
+283951	C16orf91	chromosome 16 open reading frame 91					PILON_KLF1_TARGETS_DN					
+8428	STK24	serine/threonine kinase 24					PILON_KLF1_TARGETS_DN					
+54951	COMMD8	COMM domain containing 8					PILON_KLF1_TARGETS_DN					
+54680	ZNHIT6	zinc finger, HIT-type containing 6					PILON_KLF1_TARGETS_DN					
+6722	SRF	serum response factor (c-fos serum response element-binding transcription factor)						CAGCTG_AP4_Q5		RNGTGGGC_UNKNOWN	ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	
+5754	PTK7	PTK7 protein tyrosine kinase 7						CAGCTG_AP4_Q5				
+4697	NDUFA4	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 4, 9kDa						CAGCTG_AP4_Q5				
+222183	SRRM3	serine/arginine repetitive matrix 3						CAGCTG_AP4_Q5				
+80232	WDR26	WD repeat domain 26							CHANG_CORE_SERUM_RESPONSE_DN			
+868	CBLB	Cas-Br-M (murine) ecotropic retroviral transforming sequence b								RNGTGGGC_UNKNOWN	ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	
+8365	HIST1H4H	histone cluster 1, H4h								RNGTGGGC_UNKNOWN		
+1465	CSRP1	cysteine and glycine-rich protein 1									ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+81606	LBH	limb bud and heart development homolog (mouse)									ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+65983	GRAMD3	GRAM domain containing 3									ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+84612	PARD6B	par-6 partitioning defective 6 homolog beta (C. elegans)									ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	
+285966	FAM115C	family with sequence similarity 115, member C									ZWANG_CLASS_1_TRANSIENTLY_INDUCED_BY_EGF	
+25957	PNISR	PNN-interacting serine/arginine-rich protein										RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+9766	KIAA0247	KIAA0247										RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+23382	AHCYL2	adenosylhomocysteinase-like 2										RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+65982	ZSCAN18	zinc finger and SCAN domain containing 18										RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+84869	CBR4	carbonyl reductase 4										RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+55174	INTS10	integrator complex subunit 10										RODRIGUES_THYROID_CARCINOMA_POORLY_DIFFERENTIATED_DN
+9435	CHST2	carbohydrate (N-acetylglucosamine-6-O) sulfotransferase 2										
+23493	HEY2	hairy/enhancer-of-split related with YRPW motif 2										
+3556	IL1RAP	interleukin 1 receptor accessory protein										
+10620	ARID3B	AT rich interactive domain 3B (BRIGHT-like)										
+6782	HSPA13	heat shock protein 70kDa family, member 13										
+27032	ATP2C1	ATPase, Ca++ transporting, type 2C, member 1										
+84311	MRPL45	mitochondrial ribosomal protein L45										
+2799	GNS	glucosamine (N-acetyl)-6-sulfatase										
+57182	ANKRD50	ankyrin repeat domain 50										
+100170841	C17orf96	chromosome 17 open reading frame 96										
+79637	ARMC7	armadillo repeat containing 7										
+158219	TTC39B	tetratricopeptide repeat domain 39B										
+57608	KIAA1462	KIAA1462										
+151613	TTC14	tetratricopeptide repeat domain 14										
+408	ARRB1	arrestin, beta 1										
+90332	EXOC3L2	exocyst complex component 3-like 2										
+2593	GAMT	guanidinoacetate N-methyltransferase										
+57446	NDRG3	NDRG family member 3										
+274	BIN1	bridging integrator 1										
+83988	NCALD	neurocalcin delta										
+8771	TNFRSF6B	tumor necrosis factor receptor superfamily, member 6b, decoy										
+3485	IGFBP2	insulin-like growth factor binding protein 2, 36kDa										
+57597	BAHCC1	BAH domain and coiled-coil containing 1										
+4172	MCM3	minichromosome maintenance complex component 3										
+389362	PSMG4	proteasome (prosome, macropain) assembly chaperone 4										
+7566	ZNF18	zinc finger protein 18										
+84105	PCBD2	pterin-4 alpha-carbinolamine dehydratase/dimerization cofactor of hepatocyte nuclear factor 1 alpha (TCF1) 2										
+10588	MTHFS	5,10-methenyltetrahydrofolate synthetase (5-formyltetrahydrofolate cyclo-ligase)										
+10612	TRIM3	tripartite motif containing 3										
+337876	CHSY3	chondroitin sulfate synthase 3										
+23181	DIP2A	DIP2 disco-interacting protein 2 homolog A (Drosophila)										
+1938	EEF2	eukaryotic translation elongation factor 2										
+51606	ATP6V1H	ATPase, H+ transporting, lysosomal 50/57kDa, V1 subunit H										
+51513	ETV7	ets variant 7										
+9108	MTMR7	myotubularin related protein 7										
+8808	IL1RL2	interleukin 1 receptor-like 2										
+22909	FAN1	FANCD2/FANCI-associated nuclease 1										
+81890	QTRT1	queuine tRNA-ribosyltransferase 1										
+3420	IDH3B	isocitrate dehydrogenase 3 (NAD+) beta										
+91316	GUSBP11	glucuronidase, beta pseudogene 11										
+118738	ZNF488	zinc finger protein 488										
+64754	SMYD3	SET and MYND domain containing 3										
+23008	KLHDC10	kelch domain containing 10										
+147015	DHRS13	dehydrogenase/reductase (SDR family) member 13										
+1337	COX6A1	cytochrome c oxidase subunit VIa polypeptide 1										
+6169	RPL38	ribosomal protein L38										
+54849	DEF8	differentially expressed in FDCP 8 homolog (mouse)										
+57045	TWSG1	twisted gastrulation homolog 1 (Drosophila)										
+91057	CCDC34	coiled-coil domain containing 34										
+284371	ZNF841	zinc finger protein 841										
+51149	C5orf45	chromosome 5 open reading frame 45										
+153733	CCDC112	coiled-coil domain containing 112										
+51379	CRLF3	cytokine receptor-like factor 3										
+9984	THOC1	THO complex 1										
+57460	PPM1H	protein phosphatase, Mg2+/Mn2+ dependent, 1H										
+9633	MTL5	metallothionein-like 5, testis-specific (tesmin)										
+27297	CRCP	CGRP receptor component										
+339344	MYPOP	Myb-related transcription factor, partner of profilin										
+196483	FAM86A	family with sequence similarity 86, member A										
+93100	NAPRT1	nicotinate phosphoribosyltransferase domain containing 1										
+116832	RPL39L	ribosomal protein L39-like										
+92259	MRPS36	mitochondrial ribosomal protein S36										
+147657	ZNF480	zinc finger protein 480										
+54807	ZNF586	zinc finger protein 586										
+284023	LOC284023	uncharacterized LOC284023										
+84166	NLRC5	NLR family, CARD domain containing 5										
+8705	B3GALT4	UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 4										
+286257	C9orf142	chromosome 9 open reading frame 142										
+124411	ZNF720	zinc finger protein 720										
+349114	LINC00265	long intergenic non-protein coding RNA 265										

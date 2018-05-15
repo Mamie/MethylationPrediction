@@ -1,0 +1,5 @@
+gene,coef,description
+ALDOC,-0.0944147689669975,aldolase, fructose-bisphosphate C [Source:HGNC Symbol;Acc:HGNC:418]
+FAM109B,-0.119710699120741,family with sequence similarity 109 member B [Source:HGNC Symbol;Acc:HGNC:27161]
+MGC12982,0.0817169383647564,NA
+ZNF518B,-0.188022475969236,zinc finger protein 518B [Source:HGNC Symbol;Acc:HGNC:29365]

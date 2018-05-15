@@ -1,0 +1,119 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	94
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	25	0.0085	6.92E-10	3.85E-6
+KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN	1011	Genes down-regulated in HL-60 cells (acute promyelocytic leukemia, APL) after treatment with the aminopeptidase inhibitor tosedostat (CHR-2797) [PubChem=15547703] for 24 h.	14	0.0138	1.94E-8	5.41E-5
+KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP	953	Genes up-regulated in HL-60 cells (acute promyelocytic leukemia, APL) after treatment with the aminopeptidase inhibitor tosedostat (CHR-2797) [PubChem=15547703] for 6 h.	13	0.0136	7.75E-8	1.26E-4
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	18	0.0091	9.05E-8	1.26E-4
+CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN	663	Genes down-regulated in APL (acute promyeolocytic leukemia) blasts expressing PML-RARA fusion [GeneID=5371;5914] compared to normal promyeloblasts.	11	0.0166	1.21E-7	1.35E-4
+GCCATNTTG_YY1_Q6	427	Genes having at least one occurence of the highly conserved motif M10 GCCATNTTG sites. The motif matches transcription factor binding site V$YY1_Q6 (v7.4 TRANSFAC).	9	0.0211	2.51E-7	2.34E-4
+ENK_UV_RESPONSE_EPIDERMIS_DN	508	Genes down-regulated in epidermis after to UVB irradiation.	9	0.0177	1.06E-6	7.44E-4
+TGACAGNY_MEIS1_01	827	Genes having at least one occurence of the highly conserved motif M41 TGACAGNY sites. The motif matches transcription factor binding site V$MEIS1_01 (v7.4 TRANSFAC).	11	0.0133	1.07E-6	7.44E-4
+CACGTG_MYC_Q2	1032	Genes having at least one occurence of the highly conserved motif M2 CACGTG sites. The motif matches transcription factor binding site V$MYC_Q2 (v7.4 TRANSFAC).	12	0.0116	1.36E-6	8.43E-4
+GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	1781	Genes down-regulated in ME-A cells (breast cancer) undergoing apoptosis in response to doxorubicin [PubChem=31703].	15	0.0084	3.28E-6	1.83E-3
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GGGCGGR_SP1_Q6	KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP	PILON_KLF1_TARGETS_DN	CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN	GCCATNTTG_YY1_Q6	ENK_UV_RESPONSE_EPIDERMIS_DN	TGACAGNY_MEIS1_01	CACGTG_MYC_Q2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+8531	CSDA	cold shock domain protein A	GGGCGGR_SP1_Q6	KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN							CACGTG_MYC_Q2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+81603	TRIM8	tripartite motif containing 8	GGGCGGR_SP1_Q6		KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP			GCCATNTTG_YY1_Q6				
+140688	C20orf112	chromosome 20 open reading frame 112	GGGCGGR_SP1_Q6		KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP					TGACAGNY_MEIS1_01	CACGTG_MYC_Q2	
+7702	ZNF143	zinc finger protein 143	GGGCGGR_SP1_Q6			PILON_KLF1_TARGETS_DN		GCCATNTTG_YY1_Q6				
+10602	CDC42EP3	CDC42 effector protein (Rho GTPase binding) 3	GGGCGGR_SP1_Q6			PILON_KLF1_TARGETS_DN				TGACAGNY_MEIS1_01		
+51167	CYB5R4	cytochrome b5 reductase 4	GGGCGGR_SP1_Q6			PILON_KLF1_TARGETS_DN				TGACAGNY_MEIS1_01		
+8407	TAGLN2	transgelin 2	GGGCGGR_SP1_Q6			PILON_KLF1_TARGETS_DN					CACGTG_MYC_Q2	
+8458	TTF2	transcription termination factor, RNA polymerase II	GGGCGGR_SP1_Q6			PILON_KLF1_TARGETS_DN						
+57620	STIM2	stromal interaction molecule 2	GGGCGGR_SP1_Q6			PILON_KLF1_TARGETS_DN						
+5627	PROS1	protein S (alpha)	GGGCGGR_SP1_Q6				CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		ENK_UV_RESPONSE_EPIDERMIS_DN			
+7520	XRCC5	X-ray repair complementing defective repair in Chinese hamster cells 5 (double-strand-break rejoining)	GGGCGGR_SP1_Q6				CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN					GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+7337	UBE3A	ubiquitin protein ligase E3A	GGGCGGR_SP1_Q6					GCCATNTTG_YY1_Q6		TGACAGNY_MEIS1_01		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+27332	ZNF638	zinc finger protein 638	GGGCGGR_SP1_Q6					GCCATNTTG_YY1_Q6		TGACAGNY_MEIS1_01		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+85457	KIAA1737	KIAA1737	GGGCGGR_SP1_Q6					GCCATNTTG_YY1_Q6			CACGTG_MYC_Q2	
+8491	MAP4K3	mitogen-activated protein kinase kinase kinase kinase 3	GGGCGGR_SP1_Q6					GCCATNTTG_YY1_Q6				GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+2077	ERF	Ets2 repressor factor	GGGCGGR_SP1_Q6						ENK_UV_RESPONSE_EPIDERMIS_DN		CACGTG_MYC_Q2	
+54101	RIPK4	receptor-interacting serine-threonine kinase 4	GGGCGGR_SP1_Q6						ENK_UV_RESPONSE_EPIDERMIS_DN			
+51701	NLK	nemo-like kinase	GGGCGGR_SP1_Q6							TGACAGNY_MEIS1_01		
+55500	ETNK1	ethanolamine kinase 1	GGGCGGR_SP1_Q6									
+57333	RCN3	reticulocalbin 3, EF-hand calcium binding domain	GGGCGGR_SP1_Q6									
+79142	PHF23	PHD finger protein 23	GGGCGGR_SP1_Q6									
+55113	XKR8	XK, Kell blood group complex subunit-related family, member 8	GGGCGGR_SP1_Q6									
+160897	GPR180	G protein-coupled receptor 180	GGGCGGR_SP1_Q6									
+55697	VAC14	Vac14 homolog (S. cerevisiae)	GGGCGGR_SP1_Q6									
+203328	SUSD3	sushi domain containing 3	GGGCGGR_SP1_Q6									
+10257	ABCC4	ATP-binding cassette, sub-family C (CFTR/MRP), member 4		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP	PILON_KLF1_TARGETS_DN	CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN		ENK_UV_RESPONSE_EPIDERMIS_DN		CACGTG_MYC_Q2	
+56926	NCLN	nicalin		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP	PILON_KLF1_TARGETS_DN						
+27340	UTP20	UTP20, small subunit (SSU) processome component, homolog (yeast)		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP			GCCATNTTG_YY1_Q6				
+200916	RPL22L1	ribosomal protein L22-like 1		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+79763	ISOC2	isochorismatase domain containing 2		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP							
+2193	FARSA	phenylalanyl-tRNA synthetase, alpha subunit		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP							
+55009	C19orf24	chromosome 19 open reading frame 24		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN	KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP							
+6573	SLC19A1	solute carrier family 19 (folate transporter), member 1		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN		PILON_KLF1_TARGETS_DN						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+9414	TJP2	tight junction protein 2 (zona occludens 2)		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN			CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN			TGACAGNY_MEIS1_01		
+51805	COQ3	coenzyme Q3 homolog, methyltransferase (S. cerevisiae)		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN			CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN					GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+9334	B4GALT5	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 5		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN					ENK_UV_RESPONSE_EPIDERMIS_DN			
+51018	RRP15	ribosomal RNA processing 15 homolog (S. cerevisiae)		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN							CACGTG_MYC_Q2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+5029	P2RY2	purinergic receptor P2Y, G-protein coupled, 2		KRIGE_RESPONSE_TO_TOSEDOSTAT_24HR_DN								GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+5226	PGD	phosphogluconate dehydrogenase			KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP	PILON_KLF1_TARGETS_DN	CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN					
+6850	SYK	spleen tyrosine kinase			KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP	PILON_KLF1_TARGETS_DN						
+55810	FOXJ2	forkhead box J2			KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP							
+3707	ITPKB	inositol-trisphosphate 3-kinase B			KRIGE_RESPONSE_TO_TOSEDOSTAT_6HR_UP							
+51329	ARL6IP4	ADP-ribosylation-like factor 6 interacting protein 4				PILON_KLF1_TARGETS_DN	CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN					
+23443	SLC35A3	solute carrier family 35 (UDP-N-acetylglucosamine (UDP-GlcNAc) transporter), member A3				PILON_KLF1_TARGETS_DN						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+57606	SLAIN2	SLAIN motif family, member 2				PILON_KLF1_TARGETS_DN						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+11171	STRAP	serine/threonine kinase receptor associated protein				PILON_KLF1_TARGETS_DN						
+23387	SIK3	SIK family kinase 3				PILON_KLF1_TARGETS_DN						
+5934	RBL2	retinoblastoma-like 2 (p130)				PILON_KLF1_TARGETS_DN						
+134553	C5orf24	chromosome 5 open reading frame 24				PILON_KLF1_TARGETS_DN						
+8204	NRIP1	nuclear receptor interacting protein 1					CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN					GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+50810	HDGFRP3	hepatoma-derived growth factor, related protein 3					CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN					
+93594	WDR67	WD repeat domain 67					CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN					
+10998	SLC27A5	solute carrier family 27 (fatty acid transporter), member 5					CASORELLI_ACUTE_PROMYELOCYTIC_LEUKEMIA_DN					
+84919	PPP1R15B	protein phosphatase 1, regulatory subunit 15B						GCCATNTTG_YY1_Q6				
+57107	PDSS2	prenyl (decaprenyl) diphosphate synthase, subunit 2						GCCATNTTG_YY1_Q6				
+6095	RORA	RAR-related orphan receptor A							ENK_UV_RESPONSE_EPIDERMIS_DN	TGACAGNY_MEIS1_01		
+9308	CD83	CD83 molecule							ENK_UV_RESPONSE_EPIDERMIS_DN			
+4929	NR4A2	nuclear receptor subfamily 4, group A, member 2							ENK_UV_RESPONSE_EPIDERMIS_DN			
+4756	NEO1	neogenin 1							ENK_UV_RESPONSE_EPIDERMIS_DN			
+10608	MXD4	MAX dimerization protein 4								TGACAGNY_MEIS1_01	CACGTG_MYC_Q2	
+9886	RHOBTB1	Rho-related BTB domain containing 1								TGACAGNY_MEIS1_01		
+29984	RHOD	ras homolog gene family, member D								TGACAGNY_MEIS1_01		
+93145	OLFM2	olfactomedin 2									CACGTG_MYC_Q2	
+80306	MED28	mediator complex subunit 28									CACGTG_MYC_Q2	
+666	BOK	BCL2-related ovarian killer									CACGTG_MYC_Q2	
+90693	CCDC126	coiled-coil domain containing 126									CACGTG_MYC_Q2	
+26275	HIBCH	3-hydroxyisobutyryl-CoA hydrolase										GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+285527	FRYL	FRY-like										GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN
+51133	KCTD3	potassium channel tetramerisation domain containing 3										
+7251	TSG101	tumor susceptibility gene 101										
+10180	RBM6	RNA binding motif protein 6										
+4681	NBL1	neuroblastoma, suppression of tumorigenicity 1										
+5562	PRKAA1	protein kinase, AMP-activated, alpha 1 catalytic subunit										
+8899	PRPF4B	PRP4 pre-mRNA processing factor 4 homolog B (yeast)										
+10483	SEC23B	Sec23 homolog B (S. cerevisiae)										
+10656	KHDRBS3	KH domain containing, RNA binding, signal transduction associated 3										
+5335	PLCG1	phospholipase C, gamma 1										
+120224	TMEM45B	transmembrane protein 45B										
+55930	MYO5C	myosin VC										
+9649	RALGPS1	Ral GEF with PH domain and SH3 binding motif 1										
+9344	TAOK2	TAO kinase 2										
+80148	PQLC1	PQ loop repeat containing 1										
+55846	ITFG2	integrin alpha FG-GAP repeat containing 2										
+57583	TMEM181	transmembrane protein 181										
+79705	LRRK1	leucine-rich repeat kinase 1										
+130814	PQLC3	PQ loop repeat containing 3										
+122616	C14orf79	chromosome 14 open reading frame 79										
+54344	DPM3	dolichyl-phosphate mannosyltransferase polypeptide 3										
+166785	MMAA	methylmalonic aciduria (cobalamin deficiency) cblA type										
+115708	TRMT61A	tRNA methyltransferase 61 homolog A (S. cerevisiae)										
+202051	SPATA24	spermatogenesis associated 24										
+26258	PLDN	pallidin homolog (mouse)										
+146206	RLTPR	RGD motif, leucine rich repeats, tropomodulin domain and proline-rich containing										
+79777	ACBD4	acyl-CoA binding domain containing 4										

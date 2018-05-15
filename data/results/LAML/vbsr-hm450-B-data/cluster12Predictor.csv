@@ -1,0 +1,5 @@
+gene,coef,description
+LOC100286793,0.0145959072609847,NA
+MTX3,-0.0154581858125865,metaxin 3 [Source:HGNC Symbol;Acc:HGNC:24812]
+RPP25,-0.0208955697960331,ribonuclease P and MRP subunit p25 [Source:HGNC Symbol;Acc:HGNC:30361]
+ZBTB38,-0.0116237175698507,zinc finger and BTB domain containing 38 [Source:HGNC Symbol;Acc:HGNC:26636]

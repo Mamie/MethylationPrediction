@@ -1,0 +1,6 @@
+gene,coef,description
+ACTG1,-0.37545938224441,actin gamma 1 [Source:HGNC Symbol;Acc:HGNC:144]
+IRAK3,-0.33771010234133,interleukin 1 receptor associated kinase 3 [Source:HGNC Symbol;Acc:HGNC:17020]
+KIAA0495,-0.299786966164038,NA
+MUC5B,0.108589289818865,mucin 5B, oligomeric mucus/gel-forming [Source:HGNC Symbol;Acc:HGNC:7516]
+RAPGEFL1,0.187346650237847,Rap guanine nucleotide exchange factor like 1 [Source:HGNC Symbol;Acc:HGNC:17428]

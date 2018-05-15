@@ -1,0 +1,8 @@
+gene,coef,description
+A2LD1,-0.0331502408178128,NA
+ADPRH,-0.0215138390933812,ADP-ribosylarginine hydrolase [Source:HGNC Symbol;Acc:HGNC:269]
+C7orf46,-0.0158987462457648,NA
+CYB5R1,-0.0363862370258088,cytochrome b5 reductase 1 [Source:HGNC Symbol;Acc:HGNC:13397]
+KLF11,-0.0117363668949423,Kruppel like factor 11 [Source:HGNC Symbol;Acc:HGNC:11811]
+SLC22A18,0.0133580179718927,solute carrier family 22 member 18 [Source:HGNC Symbol;Acc:HGNC:10964]
+ST14,-0.0081228448131338,suppression of tumorigenicity 14 [Source:HGNC Symbol;Acc:HGNC:11344]

@@ -1,0 +1,11 @@
+gene,coef,description
+MED20,1.52449404649578e-05,mediator complex subunit 20 [Source:HGNC Symbol;Acc:HGNC:16840]
+MPHOSPH10,-0.0027866113905231,M-phase phosphoprotein 10 [Source:HGNC Symbol;Acc:HGNC:7213]
+MRPL49,1.10044533894886e-05,mitochondrial ribosomal protein L49 [Source:HGNC Symbol;Acc:HGNC:1176]
+MRPS10,8.19968894819322e-06,mitochondrial ribosomal protein S10 [Source:HGNC Symbol;Acc:HGNC:14502]
+MTBP,3.64164760923548e-06,MDM2 binding protein [Source:HGNC Symbol;Acc:HGNC:7417]
+POLE2,2.12724384520275e-05,DNA polymerase epsilon 2, accessory subunit [Source:HGNC Symbol;Acc:HGNC:9178]
+PPP1R8,8.686720908486e-06,protein phosphatase 1 regulatory subunit 8 [Source:HGNC Symbol;Acc:HGNC:9296]
+SHPK,4.25529558715329e-06,sedoheptulokinase [Source:HGNC Symbol;Acc:HGNC:1492]
+SUPT6H,-7.56603244366843e-06,SPT6 homolog, histone chaperone [Source:HGNC Symbol;Acc:HGNC:11470]
+TCEAL3,-3.30923718421949e-06,transcription elongation factor A like 3 [Source:HGNC Symbol;Acc:HGNC:28247]

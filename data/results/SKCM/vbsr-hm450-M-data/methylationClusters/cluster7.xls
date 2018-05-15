@@ -1,0 +1,195 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	170
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	1781	Genes down-regulated in ME-A cells (breast cancer) undergoing apoptosis in response to doxorubicin [PubChem=31703].	34	0.0191	2.99E-15	1.67E-11
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	39	0.0133	2.21E-12	6.15E-9
+PUJANA_BRCA1_PCC_NETWORK	1652	Genes constituting the BRCA1-PCC network of transcripts whose expression positively correlated (Pearson correlation coefficient, PCC >= 0.4) with that of BRCA1 [GeneID=672] across a compendium of normal tissues.	29	0.0176	3.33E-12	6.18E-9
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	31	0.0157	9.01E-12	1.26E-8
+MARSON_BOUND_BY_E2F4_UNSTIMULATED	728	Genes with promoters bound by E2F4 [GeneID=1874] in unstimulated hybridoma cells.	18	0.0247	2.95E-10	3.29E-7
+DODD_NASOPHARYNGEAL_CARCINOMA_DN	1375	Genes down-regulated in nasopharyngeal carcinoma (NPC) compared to the normal tissue.	23	0.0167	1.81E-9	1.68E-6
+FISCHER_DREAM_TARGETS	929	Target genes of the DREAM complex.	19	0.0205	2.12E-9	1.69E-6
+MGGAAGTG_GABP_B	757	Genes having at least one occurence of the highly conserved motif M11 MGGAAGTG sites. The motif matches transcription factor binding site V$GABP_B (v7.4 TRANSFAC).	17	0.0225	3.97E-9	2.76E-6
+PUJANA_CHEK2_PCC_NETWORK	779	Genes constituting the CHEK2-PCC network of transcripts whose expression positively correlates (Pearson correlation coefficient, PCC >= 0.4) with that of CHEK2 [GeneID=11200].	17	0.0218	6.05E-9	3.75E-6
+KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	824	Genes with promoters occupied by SMAD2 or SMAD3 [GeneID=4087, 4088] in HaCaT cells (keratinocyte) according to a ChIP-chip analysis.	17	0.0206	1.38E-8	7.67E-6
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN	MARSON_BOUND_BY_E2F4_UNSTIMULATED	DODD_NASOPHARYNGEAL_CARCINOMA_DN	FISCHER_DREAM_TARGETS	MGGAAGTG_GABP_B	PUJANA_CHEK2_PCC_NETWORK	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+4609	MYC	v-myc myelocytomatosis viral oncogene homolog (avian)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN	MARSON_BOUND_BY_E2F4_UNSTIMULATED	DODD_NASOPHARYNGEAL_CARCINOMA_DN	FISCHER_DREAM_TARGETS		PUJANA_CHEK2_PCC_NETWORK	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+9364	RAB28	RAB28, member RAS oncogene family	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN						
+7520	XRCC5	X-ray repair complementing defective repair in Chinese hamster cells 5 (double-strand-break rejoining)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PUJANA_BRCA1_PCC_NETWORK			DODD_NASOPHARYNGEAL_CARCINOMA_DN			PUJANA_CHEK2_PCC_NETWORK	
+132	ADK	adenosine kinase	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PUJANA_BRCA1_PCC_NETWORK							KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+3980	LIG3	ligase III, DNA, ATP-dependent	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6	PUJANA_BRCA1_PCC_NETWORK							
+83879	CDCA7	cell division cycle associated 7	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6		PILON_KLF1_TARGETS_DN	MARSON_BOUND_BY_E2F4_UNSTIMULATED	DODD_NASOPHARYNGEAL_CARCINOMA_DN	FISCHER_DREAM_TARGETS			
+53916	RAB4B	RAB4B, member RAS oncogene family	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6						MGGAAGTG_GABP_B		
+85007	AGXT2L2	alanine-glyoxylate aminotransferase 2-like 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6								
+124930	ANKRD13B	ankyrin repeat domain 13B	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	GGGCGGR_SP1_Q6								
+1111	CHEK1	CHK1 checkpoint homolog (S. pombe)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN	MARSON_BOUND_BY_E2F4_UNSTIMULATED	DODD_NASOPHARYNGEAL_CARCINOMA_DN	FISCHER_DREAM_TARGETS		PUJANA_CHEK2_PCC_NETWORK	
+5933	RBL1	retinoblastoma-like 1 (p107)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN	MARSON_BOUND_BY_E2F4_UNSTIMULATED	DODD_NASOPHARYNGEAL_CARCINOMA_DN	FISCHER_DREAM_TARGETS			
+11065	UBE2C	ubiquitin-conjugating enzyme E2C	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PUJANA_BRCA1_PCC_NETWORK		MARSON_BOUND_BY_E2F4_UNSTIMULATED	DODD_NASOPHARYNGEAL_CARCINOMA_DN	FISCHER_DREAM_TARGETS		PUJANA_CHEK2_PCC_NETWORK	
+23394	ADNP	activity-dependent neuroprotector homeobox	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PUJANA_BRCA1_PCC_NETWORK			DODD_NASOPHARYNGEAL_CARCINOMA_DN		MGGAAGTG_GABP_B	PUJANA_CHEK2_PCC_NETWORK	
+246243	RNASEH1	ribonuclease H1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PUJANA_BRCA1_PCC_NETWORK			DODD_NASOPHARYNGEAL_CARCINOMA_DN			PUJANA_CHEK2_PCC_NETWORK	
+3796	KIF2A	kinesin heavy chain member 2A	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PUJANA_BRCA1_PCC_NETWORK				FISCHER_DREAM_TARGETS			
+56829	ZC3HAV1	zinc finger CCCH-type, antiviral 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PUJANA_BRCA1_PCC_NETWORK							
+4853	NOTCH2	notch 2	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			PILON_KLF1_TARGETS_DN			FISCHER_DREAM_TARGETS			KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+2005	ELK4	ELK4, ETS-domain protein (SRF accessory protein 1)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			PILON_KLF1_TARGETS_DN				MGGAAGTG_GABP_B		
+8850	KAT2B	K(lysine) acetyltransferase 2B	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			PILON_KLF1_TARGETS_DN						
+29945	ANAPC4	anaphase promoting complex subunit 4	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			PILON_KLF1_TARGETS_DN						
+56970	ATXN7L3	ataxin 7-like 3	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			PILON_KLF1_TARGETS_DN						
+25914	RTTN	rotatin	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				MARSON_BOUND_BY_E2F4_UNSTIMULATED		FISCHER_DREAM_TARGETS			KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+3915	LAMC1	laminin, gamma 1 (formerly LAMB2)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					DODD_NASOPHARYNGEAL_CARCINOMA_DN		MGGAAGTG_GABP_B		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+641638	SNHG6	small nucleolar RNA host gene 6 (non-protein coding)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					DODD_NASOPHARYNGEAL_CARCINOMA_DN				
+6171	RPL41	ribosomal protein L41	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							MGGAAGTG_GABP_B		
+23371	TENC1	tensin like C1 domain containing phosphatase (tensin 2)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							MGGAAGTG_GABP_B		
+80824	DUSP16	dual specificity phosphatase 16	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+2235	FECH	ferrochelatase	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+594	BCKDHB	branched chain keto acid dehydrogenase E1, beta polypeptide	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+5095	PCCA	propionyl CoA carboxylase, alpha polypeptide	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+84626	KRBA1	KRAB-A domain containing 1	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+55915	LANCL2	LanC lantibiotic synthetase component C-like 2 (bacterial)	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+8816	DCAF5	DDB1 and CUL4 associated factor 5	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+55604	LRRC16A	leucine rich repeat containing 16A	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN									
+23047	PDS5B	PDS5, regulator of cohesion maintenance, homolog B (S. cerevisiae)		GGGCGGR_SP1_Q6	PUJANA_BRCA1_PCC_NETWORK				FISCHER_DREAM_TARGETS			
+958	CD40	CD40 molecule, TNF receptor superfamily member 5		GGGCGGR_SP1_Q6	PUJANA_BRCA1_PCC_NETWORK							
+79191	IRX3	iroquois homeobox 3		GGGCGGR_SP1_Q6	PUJANA_BRCA1_PCC_NETWORK							
+4122	MAN2A2	mannosidase, alpha, class 2A, member 2		GGGCGGR_SP1_Q6		PILON_KLF1_TARGETS_DN						
+11021	RAB35	RAB35, member RAS oncogene family		GGGCGGR_SP1_Q6		PILON_KLF1_TARGETS_DN						
+2627	GATA6	GATA binding protein 6		GGGCGGR_SP1_Q6				DODD_NASOPHARYNGEAL_CARCINOMA_DN				
+407975	MIR17HG	miR-17-92 cluster host gene (non-protein coding)		GGGCGGR_SP1_Q6				DODD_NASOPHARYNGEAL_CARCINOMA_DN				
+9988	DMTF1	cyclin D binding myb-like transcription factor 1		GGGCGGR_SP1_Q6						MGGAAGTG_GABP_B		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+9632	SEC24C	SEC24 family, member C (S. cerevisiae)		GGGCGGR_SP1_Q6						MGGAAGTG_GABP_B		
+10207	INADL	InaD-like (Drosophila)		GGGCGGR_SP1_Q6						MGGAAGTG_GABP_B		
+54878	DPP8	dipeptidyl-peptidase 8		GGGCGGR_SP1_Q6						MGGAAGTG_GABP_B		
+25	ABL1	c-abl oncogene 1, non-receptor tyrosine kinase		GGGCGGR_SP1_Q6								KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+1832	DSP	desmoplakin		GGGCGGR_SP1_Q6								KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+1836	SLC26A2	solute carrier family 26 (sulfate transporter), member 2		GGGCGGR_SP1_Q6								
+28232	SLCO3A1	solute carrier organic anion transporter family, member 3A1		GGGCGGR_SP1_Q6								
+284119	PTRF	polymerase I and transcript release factor		GGGCGGR_SP1_Q6								
+28992	MACROD1	MACRO domain containing 1		GGGCGGR_SP1_Q6								
+60509	AGBL5	ATP/GTP binding protein-like 5		GGGCGGR_SP1_Q6								
+3790	KCNS3	potassium voltage-gated channel, delayed-rectifier, subfamily S, member 3		GGGCGGR_SP1_Q6								
+284086	NEK8	NIMA (never in mitosis gene a)- related kinase 8		GGGCGGR_SP1_Q6								
+83871	RAB34	RAB34, member RAS oncogene family		GGGCGGR_SP1_Q6								
+140688	C20orf112	chromosome 20 open reading frame 112		GGGCGGR_SP1_Q6								
+6813	STXBP2	syntaxin binding protein 2		GGGCGGR_SP1_Q6								
+4043	LRPAP1	low density lipoprotein receptor-related protein associated protein 1		GGGCGGR_SP1_Q6								
+11248	NXPH3	neurexophilin 3		GGGCGGR_SP1_Q6								
+79365	BHLHE41	basic helix-loop-helix family, member e41		GGGCGGR_SP1_Q6								
+124790	HEXIM2	hexamethylene bis-acetamide inducible 2		GGGCGGR_SP1_Q6								
+127829	ARL8A	ADP-ribosylation factor-like 8A		GGGCGGR_SP1_Q6								
+113452	TMEM54	transmembrane protein 54		GGGCGGR_SP1_Q6								
+51101	FAM164A	family with sequence similarity 164, member A		GGGCGGR_SP1_Q6								
+1854	DUT	deoxyuridine triphosphatase			PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN		DODD_NASOPHARYNGEAL_CARCINOMA_DN	FISCHER_DREAM_TARGETS		PUJANA_CHEK2_PCC_NETWORK	
+6599	SMARCC1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily c, member 1			PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN			FISCHER_DREAM_TARGETS		PUJANA_CHEK2_PCC_NETWORK	
+6902	TBCA	tubulin folding cofactor A			PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN					PUJANA_CHEK2_PCC_NETWORK	
+23379	KIAA0947	KIAA0947			PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN						
+11073	TOPBP1	topoisomerase (DNA) II binding protein 1			PUJANA_BRCA1_PCC_NETWORK		MARSON_BOUND_BY_E2F4_UNSTIMULATED	DODD_NASOPHARYNGEAL_CARCINOMA_DN	FISCHER_DREAM_TARGETS		PUJANA_CHEK2_PCC_NETWORK	
+79441	HAUS3	HAUS augmin-like complex, subunit 3			PUJANA_BRCA1_PCC_NETWORK		MARSON_BOUND_BY_E2F4_UNSTIMULATED		FISCHER_DREAM_TARGETS	MGGAAGTG_GABP_B	PUJANA_CHEK2_PCC_NETWORK	
+57405	SPC25	SPC25, NDC80 kinetochore complex component, homolog (S. cerevisiae)			PUJANA_BRCA1_PCC_NETWORK		MARSON_BOUND_BY_E2F4_UNSTIMULATED		FISCHER_DREAM_TARGETS		PUJANA_CHEK2_PCC_NETWORK	
+9352	TXNL1	thioredoxin-like 1			PUJANA_BRCA1_PCC_NETWORK		MARSON_BOUND_BY_E2F4_UNSTIMULATED					
+5366	PMAIP1	phorbol-12-myristate-13-acetate-induced protein 1			PUJANA_BRCA1_PCC_NETWORK			DODD_NASOPHARYNGEAL_CARCINOMA_DN	FISCHER_DREAM_TARGETS			
+6227	RPS21	ribosomal protein S21			PUJANA_BRCA1_PCC_NETWORK			DODD_NASOPHARYNGEAL_CARCINOMA_DN			PUJANA_CHEK2_PCC_NETWORK	
+55854	ZC3H15	zinc finger CCCH-type containing 15			PUJANA_BRCA1_PCC_NETWORK			DODD_NASOPHARYNGEAL_CARCINOMA_DN			PUJANA_CHEK2_PCC_NETWORK	
+9404	LPXN	leupaxin			PUJANA_BRCA1_PCC_NETWORK					MGGAAGTG_GABP_B	PUJANA_CHEK2_PCC_NETWORK	
+1060	CENPC1	centromere protein C 1			PUJANA_BRCA1_PCC_NETWORK						PUJANA_CHEK2_PCC_NETWORK	
+8021	NUP214	nucleoporin 214kDa			PUJANA_BRCA1_PCC_NETWORK							
+83605	CCM2	cerebral cavernous malformation 2				PILON_KLF1_TARGETS_DN	MARSON_BOUND_BY_E2F4_UNSTIMULATED					
+51649	MRPS23	mitochondrial ribosomal protein S23				PILON_KLF1_TARGETS_DN		DODD_NASOPHARYNGEAL_CARCINOMA_DN				
+10949	HNRNPA0	heterogeneous nuclear ribonucleoprotein A0				PILON_KLF1_TARGETS_DN			FISCHER_DREAM_TARGETS	MGGAAGTG_GABP_B		
+359948	IRF2BP2	interferon regulatory factor 2 binding protein 2				PILON_KLF1_TARGETS_DN						KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+23048	FNBP1	formin binding protein 1				PILON_KLF1_TARGETS_DN						
+2308	FOXO1	forkhead box O1				PILON_KLF1_TARGETS_DN						
+10782	ZNF274	zinc finger protein 274				PILON_KLF1_TARGETS_DN						
+23411	SIRT1	sirtuin 1				PILON_KLF1_TARGETS_DN						
+9111	NMI	N-myc (and STAT) interactor				PILON_KLF1_TARGETS_DN						
+88455	ANKRD13A	ankyrin repeat domain 13A				PILON_KLF1_TARGETS_DN						
+9276	COPB2	coatomer protein complex, subunit beta 2 (beta prime)				PILON_KLF1_TARGETS_DN						
+23367	LARP1	La ribonucleoprotein domain family, member 1				PILON_KLF1_TARGETS_DN						
+317649	EIF4E3	eukaryotic translation initiation factor 4E family member 3				PILON_KLF1_TARGETS_DN						
+57600	FNIP2	folliculin interacting protein 2				PILON_KLF1_TARGETS_DN						
+150223	YDJC	YdjC homolog (bacterial)				PILON_KLF1_TARGETS_DN						
+55789	DEPDC1B	DEP domain containing 1B					MARSON_BOUND_BY_E2F4_UNSTIMULATED	DODD_NASOPHARYNGEAL_CARCINOMA_DN	FISCHER_DREAM_TARGETS			
+121642	ALKBH2	alkB, alkylation repair homolog 2 (E. coli)					MARSON_BOUND_BY_E2F4_UNSTIMULATED	DODD_NASOPHARYNGEAL_CARCINOMA_DN				
+83541	FAM110A	family with sequence similarity 110, member A					MARSON_BOUND_BY_E2F4_UNSTIMULATED		FISCHER_DREAM_TARGETS	MGGAAGTG_GABP_B		
+23299	BICD2	bicaudal D homolog 2 (Drosophila)					MARSON_BOUND_BY_E2F4_UNSTIMULATED					
+23596	OPN3	opsin 3					MARSON_BOUND_BY_E2F4_UNSTIMULATED					
+51149	C5orf45	chromosome 5 open reading frame 45					MARSON_BOUND_BY_E2F4_UNSTIMULATED					
+100131211	TMEM194B	transmembrane protein 194B					MARSON_BOUND_BY_E2F4_UNSTIMULATED					
+64778	FNDC3B	fibronectin type III domain containing 3B						DODD_NASOPHARYNGEAL_CARCINOMA_DN				
+80306	MED28	mediator complex subunit 28						DODD_NASOPHARYNGEAL_CARCINOMA_DN				
+728568	C12orf73	chromosome 12 open reading frame 73						DODD_NASOPHARYNGEAL_CARCINOMA_DN				
+54930	HAUS4	HAUS augmin-like complex, subunit 4							FISCHER_DREAM_TARGETS			
+1024	CDK8	cyclin-dependent kinase 8								MGGAAGTG_GABP_B		
+23644	EDC4	enhancer of mRNA decapping 4								MGGAAGTG_GABP_B		
+5051	PAFAH2	platelet-activating factor acetylhydrolase 2, 40kDa								MGGAAGTG_GABP_B		
+2643	GCH1	GTP cyclohydrolase 1									PUJANA_CHEK2_PCC_NETWORK	
+4053	LTBP2	latent transforming growth factor beta binding protein 2										KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+4054	LTBP3	latent transforming growth factor beta binding protein 3										KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+56905	C15orf39	chromosome 15 open reading frame 39										KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+91283	C9orf30	chromosome 9 open reading frame 30										KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+23318	ZCCHC11	zinc finger, CCHC domain containing 11										KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+26040	SETBP1	SET binding protein 1										KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+123169	LEO1	Leo1, Paf1/RNA polymerase II complex component, homolog (S. cerevisiae)										KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+196483	FAM86A	family with sequence similarity 86, member A										KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3
+1028	CDKN1C	cyclin-dependent kinase inhibitor 1C (p57, Kip2)										
+2063	NR2F6	nuclear receptor subfamily 2, group F, member 6										
+5300	PIN1	peptidylprolyl cis/trans isomerase, NIMA-interacting 1										
+27065	D4S234E	DNA segment on chromosome 4 (unique) 234 expressed sequence										
+196513	DCP1B	DCP1 decapping enzyme homolog B (S. cerevisiae)										
+55270	NUDT15	nudix (nucleoside diphosphate linked moiety X)-type motif 15										
+10560	SLC19A2	solute carrier family 19 (thiamine transporter), member 2										
+285203	C3orf64	chromosome 3 open reading frame 64										
+51439	FAM8A1	family with sequence similarity 8, member A1										
+51397	COMMD10	COMM domain containing 10										
+2199	FBLN2	fibulin 2										
+2242	FES	feline sarcoma oncogene										
+308	ANXA5	annexin A5										
+1535	CYBA	cytochrome b-245, alpha polypeptide										
+129804	FBLN7	fibulin 7										
+160622	GRASP	GRP1 (general receptor for phosphoinositides 1)-associated scaffold protein										
+131583	FAM43A	family with sequence similarity 43, member A										
+644096	SDHAF1	succinate dehydrogenase complex assembly factor 1										
+25851	TECPR1	tectonin beta-propeller repeat containing 1										
+6320	CLEC11A	C-type lectin domain family 11, member A										
+23362	PSD3	pleckstrin and Sec7 domain containing 3										
+56121	PCDHB15	protocadherin beta 15										
+93621	MRFAP1	Morf4 family associated protein 1										
+57722	IGDCC4	immunoglobulin superfamily, DCC subclass, member 4										
+4320	MMP11	matrix metallopeptidase 11 (stromelysin 3)										
+57494	RIMKLB	ribosomal modification protein rimK-like family member B										
+4700	NDUFA6	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 6, 14kDa										
+8916	HERC3	hect domain and RLD 3										
+11018	TMED1	transmembrane emp24 protein transport domain containing 1										
+51239	ANKRD39	ankyrin repeat domain 39										
+5272	SERPINB9	serpin peptidase inhibitor, clade B (ovalbumin), member 9										
+55617	TASP1	taspase, threonine aspartase, 1										
+146059	CDAN1	congenital dyserythropoietic anemia, type I										
+85360	SYDE1	synapse defective 1, Rho GTPase, homolog 1 (C. elegans)										
+56922	MCCC1	methylcrotonoyl-CoA carboxylase 1 (alpha)										
+9907	KIAA0415	KIAA0415										
+23251	KIAA1024	KIAA1024										
+121260	SLC15A4	solute carrier family 15, member 4										
+81545	FBXO38	F-box protein 38										
+2906	GRIN2D	glutamate receptor, ionotropic, N-methyl D-aspartate 2D										
+51129	ANGPTL4	angiopoietin-like 4										
+254427	C10orf47	chromosome 10 open reading frame 47										
+132299	OCIAD2	OCIA domain containing 2										
+23582	CCNDBP1	cyclin D-type binding-protein 1										
+6838	SURF6	surfeit 6										
+374443	LOC374443	CLR pseudogene										
+84498	FAM120B	family with sequence similarity 120B										
+84269	CHCHD5	coiled-coil-helix-coiled-coil-helix domain containing 5										
+203054	ADCK5	aarF domain containing kinase 5										
+114609	TIRAP	toll-interleukin 1 receptor (TIR) domain containing adaptor protein										
+79178	THTPA	thiamine triphosphatase										
+80024	SLC24A6	solute carrier family 24 (sodium/potassium/calcium exchanger), member 6										
+55845	BRK1	BRICK1, SCAR/WAVE actin-nucleating complex subunit										
+26240	FAM50B	family with sequence similarity 50, member B										

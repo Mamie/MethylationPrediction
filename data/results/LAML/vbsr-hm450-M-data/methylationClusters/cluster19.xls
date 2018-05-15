@@ -1,0 +1,75 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	50
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+JOHNSTONE_PARVB_TARGETS_3_UP	430	Genes up-regulated upon overexpression of PARVB [GeneID=29780] in MDA-MB-231 cells (breast cancer) cultured in 3D Matrigel only.	8	0.0186	2.1E-8	1.17E-4
+KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	824	Genes with promoters occupied by SMAD2 or SMAD3 [GeneID=4087, 4088] in HaCaT cells (keratinocyte) according to a ChIP-chip analysis.	9	0.0109	2.38E-7	4.37E-4
+RUTELLA_RESPONSE_TO_HGF_VS_CSF2RB_AND_IL4_UP	408	Genes up-regulated in peripheral blood mononucleocytes by HGF [GeneID=3082] compared to those regulated by CSF2RB (GM-CSF) and IL4 [GeneID=1437;3565].	7	0.0172	2.97E-7	4.37E-4
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	15	0.0051	3.14E-7	4.37E-4
+RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_DN	315	Genes down-regulated in peripheral blood monocytes by CSF2RB (GM-CSF) and IL4 [GeneID=1437;3565].	6	0.0190	1.22E-6	1.19E-3
+ENK_UV_RESPONSE_EPIDERMIS_DN	508	Genes down-regulated in epidermis after to UVB irradiation.	7	0.0138	1.28E-6	1.19E-3
+BLALOCK_ALZHEIMERS_DISEASE_UP	1691	Genes up-regulated in brain from patients with Alzheimer's disease.	11	0.0065	1.61E-6	1.28E-3
+WIERENGA_STAT5A_TARGETS_UP	217	Genes up-regulated in CD34+ [GeneID=947] cells by intermediate activity levels of STAT5A [GeneID=6776]; predominant long-term growth and self-renewal phenotype.	5	0.0230	3.99E-6	2.78E-3
+CONCANNON_APOPTOSIS_BY_EPOXOMICIN_UP	239	Genes up-regulated in SH-SY5Y cells (neuroblastoma) after treatment with epoxomicin [PubChem=3035402], a protease inhibitor causing apoptosis.	5	0.0209	6.39E-6	3.96E-3
+ROME_INSULIN_TARGETS_IN_MUSCLE_UP	442	Genes up-regulated by 3 h of euglycemic hyperinsulinemic clamp in the vastus lateralis muscle of healthy lean subjects.	6	0.0136	8.5E-6	4.36E-3
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	JOHNSTONE_PARVB_TARGETS_3_UP	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	RUTELLA_RESPONSE_TO_HGF_VS_CSF2RB_AND_IL4_UP	GGGCGGR_SP1_Q6	RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_DN	ENK_UV_RESPONSE_EPIDERMIS_DN	BLALOCK_ALZHEIMERS_DISEASE_UP	WIERENGA_STAT5A_TARGETS_UP	CONCANNON_APOPTOSIS_BY_EPOXOMICIN_UP	ROME_INSULIN_TARGETS_IN_MUSCLE_UP
+1891	ECH1	enoyl CoA hydratase 1, peroxisomal	JOHNSTONE_PARVB_TARGETS_3_UP	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3		GGGCGGR_SP1_Q6						
+10312	TCIRG1	T-cell, immune regulator 1, ATPase, H+ transporting, lysosomal V0 subunit A3	JOHNSTONE_PARVB_TARGETS_3_UP		RUTELLA_RESPONSE_TO_HGF_VS_CSF2RB_AND_IL4_UP	GGGCGGR_SP1_Q6	RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_DN					
+928	CD9	CD9 molecule	JOHNSTONE_PARVB_TARGETS_3_UP		RUTELLA_RESPONSE_TO_HGF_VS_CSF2RB_AND_IL4_UP	GGGCGGR_SP1_Q6						
+8635	RNASET2	ribonuclease T2	JOHNSTONE_PARVB_TARGETS_3_UP		RUTELLA_RESPONSE_TO_HGF_VS_CSF2RB_AND_IL4_UP		RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_DN	ENK_UV_RESPONSE_EPIDERMIS_DN	BLALOCK_ALZHEIMERS_DISEASE_UP			
+123	PLIN2	perilipin 2	JOHNSTONE_PARVB_TARGETS_3_UP		RUTELLA_RESPONSE_TO_HGF_VS_CSF2RB_AND_IL4_UP		RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_DN	ENK_UV_RESPONSE_EPIDERMIS_DN		WIERENGA_STAT5A_TARGETS_UP		ROME_INSULIN_TARGETS_IN_MUSCLE_UP
+25865	PRKD2	protein kinase D2	JOHNSTONE_PARVB_TARGETS_3_UP			GGGCGGR_SP1_Q6			BLALOCK_ALZHEIMERS_DISEASE_UP			
+51312	SLC25A37	solute carrier family 25, member 37	JOHNSTONE_PARVB_TARGETS_3_UP							WIERENGA_STAT5A_TARGETS_UP		
+58489	FAM108C1	family with sequence similarity 108, member C1	JOHNSTONE_PARVB_TARGETS_3_UP									
+22936	ELL2	elongation factor, RNA polymerase II, 2		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3		GGGCGGR_SP1_Q6		ENK_UV_RESPONSE_EPIDERMIS_DN			CONCANNON_APOPTOSIS_BY_EPOXOMICIN_UP	
+124997	WDR81	WD repeat domain 81		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3		GGGCGGR_SP1_Q6						
+6720	SREBF1	sterol regulatory element binding transcription factor 1		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3					BLALOCK_ALZHEIMERS_DISEASE_UP			
+7378	UPP1	uridine phosphorylase 1		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3							CONCANNON_APOPTOSIS_BY_EPOXOMICIN_UP	
+50650	ARHGEF3	Rho guanine nucleotide exchange factor (GEF) 3		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3								
+57584	ARHGAP21	Rho GTPase activating protein 21		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3								
+10490	VTI1B	vesicle transport through interaction with t-SNAREs homolog 1B (yeast)		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3								
+55695	NSUN5	NOP2/Sun domain family, member 5		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3								
+10135	NAMPT	nicotinamide phosphoribosyltransferase			RUTELLA_RESPONSE_TO_HGF_VS_CSF2RB_AND_IL4_UP		RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_DN	ENK_UV_RESPONSE_EPIDERMIS_DN	BLALOCK_ALZHEIMERS_DISEASE_UP			
+1675	CFD	complement factor D (adipsin)			RUTELLA_RESPONSE_TO_HGF_VS_CSF2RB_AND_IL4_UP		RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_DN	ENK_UV_RESPONSE_EPIDERMIS_DN				
+79772	MCTP1	multiple C2 domains, transmembrane 1			RUTELLA_RESPONSE_TO_HGF_VS_CSF2RB_AND_IL4_UP		RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_DN					
+8462	KLF11	Kruppel-like factor 11				GGGCGGR_SP1_Q6		ENK_UV_RESPONSE_EPIDERMIS_DN				
+7289	TULP3	tubby like protein 3				GGGCGGR_SP1_Q6			BLALOCK_ALZHEIMERS_DISEASE_UP	WIERENGA_STAT5A_TARGETS_UP		
+64236	PDLIM2	PDZ and LIM domain 2 (mystique)				GGGCGGR_SP1_Q6			BLALOCK_ALZHEIMERS_DISEASE_UP			
+8732	RNGTT	RNA guanylyltransferase and 5'-phosphatase				GGGCGGR_SP1_Q6			BLALOCK_ALZHEIMERS_DISEASE_UP			
+8704	B4GALT2	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 2				GGGCGGR_SP1_Q6			BLALOCK_ALZHEIMERS_DISEASE_UP			
+2035	EPB41	erythrocyte membrane protein band 4.1 (elliptocytosis 1, RH-linked)				GGGCGGR_SP1_Q6				WIERENGA_STAT5A_TARGETS_UP	CONCANNON_APOPTOSIS_BY_EPOXOMICIN_UP	
+60488	MRPS35	mitochondrial ribosomal protein S35				GGGCGGR_SP1_Q6						
+160897	GPR180	G protein-coupled receptor 180				GGGCGGR_SP1_Q6						
+90550	MCU	mitochondrial calcium uniporter				GGGCGGR_SP1_Q6						
+6744	SSFA2	sperm specific antigen 2						ENK_UV_RESPONSE_EPIDERMIS_DN	BLALOCK_ALZHEIMERS_DISEASE_UP			
+745	C11orf9	chromosome 11 open reading frame 9							BLALOCK_ALZHEIMERS_DISEASE_UP			
+9379	NRXN2	neurexin 2							BLALOCK_ALZHEIMERS_DISEASE_UP			
+84418	C5orf32	chromosome 5 open reading frame 32								WIERENGA_STAT5A_TARGETS_UP		ROME_INSULIN_TARGETS_IN_MUSCLE_UP
+23231	SEL1L3	sel-1 suppressor of lin-12-like 3 (C. elegans)									CONCANNON_APOPTOSIS_BY_EPOXOMICIN_UP	
+8526	DGKE	diacylglycerol kinase, epsilon 64kDa									CONCANNON_APOPTOSIS_BY_EPOXOMICIN_UP	
+10600	USP16	ubiquitin specific peptidase 16										ROME_INSULIN_TARGETS_IN_MUSCLE_UP
+10618	TGOLN2	trans-golgi network protein 2										ROME_INSULIN_TARGETS_IN_MUSCLE_UP
+6443	SGCB	sarcoglycan, beta (43kDa dystrophin-associated glycoprotein)										ROME_INSULIN_TARGETS_IN_MUSCLE_UP
+57095	PITHD1	PITH (C-terminal proteasome-interacting domain of thioredoxin-like) domain containing 1										ROME_INSULIN_TARGETS_IN_MUSCLE_UP
+637	BID	BH3 interacting domain death agonist										
+23348	DOCK9	dedicator of cytokinesis 9										
+23362	PSD3	pleckstrin and Sec7 domain containing 3										
+26160	IFT172	intraflagellar transport 172 homolog (Chlamydomonas)										
+891	CCNB1	cyclin B1										
+3142	HLX	H2.0-like homeobox										
+6320	CLEC11A	C-type lectin domain family 11, member A										
+2550	GABBR1	gamma-aminobutyric acid (GABA) B receptor, 1										
+6487	ST3GAL3	ST3 beta-galactoside alpha-2,3-sialyltransferase 3										
+57645	POGK	pogo transposable element with KRAB domain										
+64708	COPS7B	COP9 constitutive photomorphogenic homolog subunit 7B (Arabidopsis)										
+84765	ZNF577	zinc finger protein 577										

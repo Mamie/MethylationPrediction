@@ -1,0 +1,11 @@
+gene,coef,description
+ACAA2,-0.0712164133973044,acetyl-CoA acyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:83]
+BAIAP3,-0.0568841404316733,BAI1 associated protein 3 [Source:HGNC Symbol;Acc:HGNC:948]
+C19orf51,0.054338415502802,NA
+CCDC74A,-0.0409021866118005,coiled-coil domain containing 74A [Source:HGNC Symbol;Acc:HGNC:25197]
+CTU1,-0.0878054971390265,cytosolic thiouridylase subunit 1 [Source:HGNC Symbol;Acc:HGNC:29590]
+HMGN5,-0.0689872827380526,high mobility group nucleosome binding domain 5 [Source:HGNC Symbol;Acc:HGNC:8013]
+LTB,0.10352698344236,lymphotoxin beta [Source:HGNC Symbol;Acc:HGNC:6711]
+PLBD1,-0.0727905932438184,phospholipase B domain containing 1 [Source:HGNC Symbol;Acc:HGNC:26215]
+RASGEF1A,-0.0306924851900632,RasGEF domain family member 1A [Source:HGNC Symbol;Acc:HGNC:24246]
+RCOR2,-0.0554928769417184,REST corepressor 2 [Source:HGNC Symbol;Acc:HGNC:27455]

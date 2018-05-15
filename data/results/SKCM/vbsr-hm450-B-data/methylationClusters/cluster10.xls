@@ -1,0 +1,162 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	137
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	1382	Genes up-regulated in CD34+ [GeneID=947] cells isolated from bone marrow of CML (chronic myelogenous leukemia) patients, compared to those from normal donors.	28	0.0203	9.19E-16	5.12E-12
+KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	1278	Genes up-regulated in TC71 and EWS502 cells (Ewing's sarcoma) by EWSR1-FLI1  [GeneID=2130;2314] as inferred from RNAi knockdown of this fusion protein.	25	0.0196	8.46E-14	2.36E-10
+GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	1781	Genes down-regulated in ME-A cells (breast cancer) undergoing apoptosis in response to doxorubicin [PubChem=31703].	28	0.0157	4.63E-13	8.61E-10
+PUJANA_BRCA1_PCC_NETWORK	1652	Genes constituting the BRCA1-PCC network of transcripts whose expression positively correlated (Pearson correlation coefficient, PCC >= 0.4) with that of BRCA1 [GeneID=672] across a compendium of normal tissues.	25	0.0151	2.22E-11	3.1E-8
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	27	0.0137	3.02E-11	3.36E-8
+GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	975	Expressed genes (FPKM>1) associated with high-confidence PAX3-FOXO1 sites with enhancers in primary tumors and cell lines, restricted to those within topological domain boundaries	19	0.0195	1.13E-10	9.73E-8
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	32	0.0109	1.22E-10	9.73E-8
+GEORGES_TARGETS_OF_MIR192_AND_MIR215	893	Genes down-regulated in HCT116 cells (colon cancer) by expression of MIR192 or MIR215 [GeneID=406967;406997] at 24 h.	17	0.0190	1.65E-9	1.15E-6
+PUJANA_ATM_PCC_NETWORK	1442	Genes constituting the ATM-PCC network of transcripts whose expression positively correlated (Pearson correlation coefficient, PCC >= 0.4) with that of ATM [GeneID=472] across a compendium of normal tissues.	21	0.0146	2.1E-9	1.3E-6
+FISCHER_DREAM_TARGETS	929	Target genes of the DREAM complex.	17	0.0183	2.98E-9	1.58E-6
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	GGGCGGR_SP1_Q6	GEORGES_TARGETS_OF_MIR192_AND_MIR215	PUJANA_ATM_PCC_NETWORK	FISCHER_DREAM_TARGETS
+1615	DARS	aspartyl-tRNA synthetase	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	GGGCGGR_SP1_Q6		PUJANA_ATM_PCC_NETWORK	
+4089	SMAD4	SMAD family member 4	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN					
+142	PARP1	poly (ADP-ribose) polymerase 1	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS			PUJANA_ATM_PCC_NETWORK	
+2035	EPB41	erythrocyte membrane protein band 4.1 (elliptocytosis 1, RH-linked)	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK			GGGCGGR_SP1_Q6		PUJANA_ATM_PCC_NETWORK	
+10426	TUBGCP3	tubulin, gamma complex associated protein 3	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK				GEORGES_TARGETS_OF_MIR192_AND_MIR215		
+10935	PRDX3	peroxiredoxin 3	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK					PUJANA_ATM_PCC_NETWORK	
+3556	IL1RAP	interleukin 1 receptor accessory protein	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP				GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS		GEORGES_TARGETS_OF_MIR192_AND_MIR215		
+9994	CASP8AP2	caspase 8 associated protein 2	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP					GGGCGGR_SP1_Q6			FISCHER_DREAM_TARGETS
+375	ARF1	ADP-ribosylation factor 1	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP					GGGCGGR_SP1_Q6			
+51133	KCTD3	potassium channel tetramerisation domain containing 3	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP	KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP								
+10664	CTCF	CCCTC-binding factor (zinc finger protein)	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN		GGGCGGR_SP1_Q6	GEORGES_TARGETS_OF_MIR192_AND_MIR215	PUJANA_ATM_PCC_NETWORK	FISCHER_DREAM_TARGETS
+6745	SSR1	signal sequence receptor, alpha	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN		GGGCGGR_SP1_Q6			
+6776	STAT5A	signal transducer and activator of transcription 5A	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN				PUJANA_ATM_PCC_NETWORK	
+2222	FDFT1	farnesyl-diphosphate farnesyltransferase 1	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	PUJANA_BRCA1_PCC_NETWORK			GGGCGGR_SP1_Q6			
+2224	FDPS	farnesyl diphosphate synthase	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	PUJANA_BRCA1_PCC_NETWORK						
+4772	NFATC1	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 1	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN				PUJANA_ATM_PCC_NETWORK	
+6648	SOD2	superoxide dismutase 2, mitochondrial	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+23658	LSM5	LSM5 homolog, U6 small nuclear RNA associated (S. cerevisiae)	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN					FISCHER_DREAM_TARGETS
+10360	NPM3	nucleophosmin/nucleoplasmin 3	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP			PUJANA_BRCA1_PCC_NETWORK		GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	GGGCGGR_SP1_Q6		PUJANA_ATM_PCC_NETWORK	
+56886	UGGT1	UDP-glucose glycoprotein glucosyltransferase 1	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP				PILON_KLF1_TARGETS_DN		GGGCGGR_SP1_Q6			
+5270	SERPINE2	serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 2	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP					GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+7024	TFCP2	transcription factor CP2	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP						GGGCGGR_SP1_Q6		PUJANA_ATM_PCC_NETWORK	
+10771	ZMYND11	zinc finger, MYND-type containing 11	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP							GEORGES_TARGETS_OF_MIR192_AND_MIR215		
+81890	QTRT1	queuine tRNA-ribosyltransferase 1	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP									
+5264	PHYH	phytanoyl-CoA 2-hydroxylase	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP									
+10166	SLC25A15	solute carrier family 25 (mitochondrial carrier; ornithine transporter) member 15	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP									
+9435	CHST2	carbohydrate (N-acetylglucosamine-6-O) sulfotransferase 2	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP									
+2962	GTF2F1	general transcription factor IIF, polypeptide 1, 74kDa	DIAZ_CHRONIC_MEYLOGENOUS_LEUKEMIA_UP									
+9110	MTMR4	myotubularin related protein 4		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN		GGGCGGR_SP1_Q6			
+56852	RAD18	RAD18 homolog (S. cerevisiae)		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN					FISCHER_DREAM_TARGETS
+3799	KIF5B	kinesin family member 5B		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS		GEORGES_TARGETS_OF_MIR192_AND_MIR215		
+55719	FAM178A	family with sequence similarity 178, member A		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				GGGCGGR_SP1_Q6	GEORGES_TARGETS_OF_MIR192_AND_MIR215		FISCHER_DREAM_TARGETS
+84188	FAR1	fatty acyl CoA reductase 1		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							FISCHER_DREAM_TARGETS
+6627	SNRPA1	small nuclear ribonucleoprotein polypeptide A'		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN				PUJANA_ATM_PCC_NETWORK	
+1033	CDKN3	cyclin-dependent kinase inhibitor 3		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK				GEORGES_TARGETS_OF_MIR192_AND_MIR215		FISCHER_DREAM_TARGETS
+4174	MCM5	minichromosome maintenance complex component 5		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP		PUJANA_BRCA1_PCC_NETWORK					PUJANA_ATM_PCC_NETWORK	FISCHER_DREAM_TARGETS
+388753	C1orf31	chromosome 1 open reading frame 31		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP			PILON_KLF1_TARGETS_DN					
+79644	SRD5A3	steroid 5 alpha-reductase 3		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP				GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	GGGCGGR_SP1_Q6			
+205327	C2orf69	chromosome 2 open reading frame 69		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP				GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				FISCHER_DREAM_TARGETS
+2673	GFPT1	glutamine--fructose-6-phosphate transaminase 1		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP								
+30001	ERO1L	ERO1-like (S. cerevisiae)		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP								
+670	BPHL	biphenyl hydrolase-like (serine hydrolase)		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP								
+65062	TMEM237	transmembrane protein 237		KINSEY_TARGETS_OF_EWSR1_FLII_FUSION_UP								
+3720	JARID2	jumonji, AT rich interactive domain 2			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS			PUJANA_ATM_PCC_NETWORK	
+861	RUNX1	runt-related transcription factor 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	PUJANA_BRCA1_PCC_NETWORK		GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS			PUJANA_ATM_PCC_NETWORK	FISCHER_DREAM_TARGETS
+4968	OGG1	8-oxoguanine DNA glycosylase			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	PUJANA_BRCA1_PCC_NETWORK			GGGCGGR_SP1_Q6		PUJANA_ATM_PCC_NETWORK	
+94081	SFXN1	sideroflexin 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+79718	TBL1XR1	transducin (beta)-like 1 X-linked receptor 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+57584	ARHGAP21	Rho GTPase activating protein 21			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		PILON_KLF1_TARGETS_DN					
+25836	NIPBL	Nipped-B homolog (Drosophila)			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN				GGGCGGR_SP1_Q6			FISCHER_DREAM_TARGETS
+444	ASPH	aspartate beta-hydroxylase			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN					GEORGES_TARGETS_OF_MIR192_AND_MIR215		
+23308	ICOSLG	inducible T-cell co-stimulator ligand			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN						PUJANA_ATM_PCC_NETWORK	
+55127	HEATR1	HEAT repeat containing 1			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							FISCHER_DREAM_TARGETS
+57602	USP36	ubiquitin specific peptidase 36			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+23325	KIAA1033	KIAA1033			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+54664	TMEM106B	transmembrane protein 106B			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+27434	POLM	polymerase (DNA directed), mu			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN							
+8819	SAP30	Sin3A-associated protein, 30kDa				PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN		GGGCGGR_SP1_Q6	GEORGES_TARGETS_OF_MIR192_AND_MIR215	PUJANA_ATM_PCC_NETWORK	FISCHER_DREAM_TARGETS
+840	CASP7	caspase 7, apoptosis-related cysteine peptidase				PUJANA_BRCA1_PCC_NETWORK	PILON_KLF1_TARGETS_DN			GEORGES_TARGETS_OF_MIR192_AND_MIR215	PUJANA_ATM_PCC_NETWORK	
+2827	GPR3	G protein-coupled receptor 3				PUJANA_BRCA1_PCC_NETWORK			GGGCGGR_SP1_Q6		PUJANA_ATM_PCC_NETWORK	
+5925	RB1	retinoblastoma 1				PUJANA_BRCA1_PCC_NETWORK				GEORGES_TARGETS_OF_MIR192_AND_MIR215	PUJANA_ATM_PCC_NETWORK	
+6875	TAF4B	TAF4b RNA polymerase II, TATA box binding protein (TBP)-associated factor, 105kDa				PUJANA_BRCA1_PCC_NETWORK					PUJANA_ATM_PCC_NETWORK	
+5820	PVT1	Pvt1 oncogene (non-protein coding)				PUJANA_BRCA1_PCC_NETWORK					PUJANA_ATM_PCC_NETWORK	
+10300	KATNB1	katanin p80 (WD repeat containing) subunit B 1				PUJANA_BRCA1_PCC_NETWORK						
+29116	MYLIP	myosin regulatory light chain interacting protein					PILON_KLF1_TARGETS_DN	GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	GGGCGGR_SP1_Q6			
+10513	APPBP2	amyloid beta precursor protein (cytoplasmic tail) binding protein 2					PILON_KLF1_TARGETS_DN		GGGCGGR_SP1_Q6			
+55280	CWF19L1	CWF19-like 1, cell cycle control (S. pombe)					PILON_KLF1_TARGETS_DN					FISCHER_DREAM_TARGETS
+55798	METTL2B	methyltransferase like 2B					PILON_KLF1_TARGETS_DN					FISCHER_DREAM_TARGETS
+8672	EIF4G3	eukaryotic translation initiation factor 4 gamma, 3					PILON_KLF1_TARGETS_DN					
+401548	SNX30	sorting nexin family member 30					PILON_KLF1_TARGETS_DN					
+2990	GUSB	glucuronidase, beta					PILON_KLF1_TARGETS_DN					
+8514	KCNAB2	potassium voltage-gated channel, shaker-related subfamily, beta member 2					PILON_KLF1_TARGETS_DN					
+79913	ACTR5	ARP5 actin-related protein 5 homolog (yeast)						GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS	GGGCGGR_SP1_Q6			
+27345	KCNMB4	potassium large conductance calcium-activated channel, subfamily M, beta member 4						GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS		GEORGES_TARGETS_OF_MIR192_AND_MIR215		
+10014	HDAC5	histone deacetylase 5						GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+124565	SLC38A10	solute carrier family 38, member 10						GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+285382	C3orf70	chromosome 3 open reading frame 70						GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+55967	NDUFA12	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 12						GRYDER_PAX3FOXO1_ENHANCERS_IN_TADS				
+25865	PRKD2	protein kinase D2							GGGCGGR_SP1_Q6			
+84725	PLEKHA8	pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 8							GGGCGGR_SP1_Q6			
+10444	ZER1	zer-1 homolog (C. elegans)							GGGCGGR_SP1_Q6			
+4898	NRD1	nardilysin (N-arginine dibasic convertase)							GGGCGGR_SP1_Q6			
+8601	RGS20	regulator of G-protein signaling 20							GGGCGGR_SP1_Q6			
+23239	PHLPP1	PH domain and leucine rich repeat protein phosphatase 1							GGGCGGR_SP1_Q6			
+2115	ETV1	ets variant 1							GGGCGGR_SP1_Q6			
+63910	SLC17A9	solute carrier family 17, member 9							GGGCGGR_SP1_Q6			
+26013	L3MBTL1	l(3)mbt-like 1 (Drosophila)							GGGCGGR_SP1_Q6			
+151556	GPR155	G protein-coupled receptor 155							GGGCGGR_SP1_Q6			
+56605	ERO1LB	ERO1-like beta (S. cerevisiae)							GGGCGGR_SP1_Q6			
+353	APRT	adenine phosphoribosyltransferase							GGGCGGR_SP1_Q6			
+2353	FOS	FBJ murine osteosarcoma viral oncogene homolog								GEORGES_TARGETS_OF_MIR192_AND_MIR215		
+285440	CYP4V2	cytochrome P450, family 4, subfamily V, polypeptide 2								GEORGES_TARGETS_OF_MIR192_AND_MIR215		
+11112	HIBADH	3-hydroxyisobutyrate dehydrogenase								GEORGES_TARGETS_OF_MIR192_AND_MIR215		
+29887	SNX10	sorting nexin 10								GEORGES_TARGETS_OF_MIR192_AND_MIR215		
+64857	PLEKHG2	pleckstrin homology domain containing, family G (with RhoGef domain) member 2								GEORGES_TARGETS_OF_MIR192_AND_MIR215		
+23028	KDM1A	lysine (K)-specific demethylase 1A										FISCHER_DREAM_TARGETS
+54532	USP53	ubiquitin specific peptidase 53										FISCHER_DREAM_TARGETS
+10724	MGEA5	meningioma expressed antigen 5 (hyaluronidase)										
+64089	SNX16	sorting nexin 16										
+10620	ARID3B	AT rich interactive domain 3B (BRIGHT-like)										
+55791	LRIF1	ligand dependent nuclear receptor interacting factor 1										
+26503	SLC17A5	solute carrier family 17 (anion/sugar transporter), member 5										
+9197	SLC33A1	solute carrier family 33 (acetyl-CoA transporter), member 1										
+9882	TBC1D4	TBC1 domain family, member 4										
+9246	UBE2L6	ubiquitin-conjugating enzyme E2L 6										
+153241	CEP120	centrosomal protein 120kDa										
+30844	EHD4	EH-domain containing 4										
+79048	SECISBP2	SECIS binding protein 2										
+3691	ITGB4	integrin, beta 4										
+79685	SAP30L	SAP30-like										
+22981	NINL	ninein-like										
+57085	AGTRAP	angiotensin II receptor-associated protein										
+415116	PIM3	pim-3 oncogene										
+8694	DGAT1	diacylglycerol O-acyltransferase 1										
+54812	AFTPH	aftiphilin										
+196743	PAOX	polyamine oxidase (exo-N4-amino)										
+1059	CENPB	centromere protein B, 80kDa										
+79990	PLEKHH3	pleckstrin homology domain containing, family H (with MyTH4 domain) member 3										
+9903	KLHL21	kelch-like 21 (Drosophila)										
+9825	SPATA2	spermatogenesis associated 2										
+9296	ATP6V1F	ATPase, H+ transporting, lysosomal 14kDa, V1 subunit F										
+65982	ZSCAN18	zinc finger and SCAN domain containing 18										
+64943	NT5DC2	5'-nucleotidase domain containing 2										
+169611	OLFML2A	olfactomedin-like 2A										
+26133	TRPC4AP	transient receptor potential cation channel, subfamily C, member 4 associated protein										
+4486	MST1R	macrophage stimulating 1 receptor (c-met-related tyrosine kinase)										
+8705	B3GALT4	UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 4										
+91975	ZNF300	zinc finger protein 300										
+84501	SPIRE2	spire homolog 2 (Drosophila)										
+2737	GLI3	GLI family zinc finger 3										
+5224	PGAM2	phosphoglycerate mutase 2 (muscle)										
+79034	C7orf26	chromosome 7 open reading frame 26										
+132789	GNPDA2	glucosamine-6-phosphate deaminase 2										
+2116	ETV2	ets variant 2										
+90321	ZNF766	zinc finger protein 766										
+286257	C9orf142	chromosome 9 open reading frame 142										
+162962	ZNF836	zinc finger protein 836										

@@ -1,0 +1,38 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	2
+# genesets in collections:	5574
+# genes in comparison (n):	21
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+KIM_WT1_TARGETS_12HR_DN	209	Genes down-regulated in UB27 cells (osteosarcoma) at 12 hr after inducing the expression of a mutated form of WT1 [GeneID=7490].	4	0.0191	2.34E-6	1.3E-2
+ZHOU_INFLAMMATORY_RESPONSE_FIMA_DN	284	Genes down-regulated in macrophages by P.gingivalis FimA pathogen.	4	0.0141	7.87E-6	2.19E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	KIM_WT1_TARGETS_12HR_DN	ZHOU_INFLAMMATORY_RESPONSE_FIMA_DN
+55701	ARHGEF40	Rho guanine nucleotide exchange factor (GEF) 40	KIM_WT1_TARGETS_12HR_DN	ZHOU_INFLAMMATORY_RESPONSE_FIMA_DN
+57228	SMAGP	small cell adhesion glycoprotein	KIM_WT1_TARGETS_12HR_DN	
+8976	WASL	Wiskott-Aldrich syndrome-like	KIM_WT1_TARGETS_12HR_DN	
+7057	THBS1	thrombospondin 1	KIM_WT1_TARGETS_12HR_DN	
+7090	TLE3	transducin-like enhancer of split 3 (E(sp1) homolog, Drosophila)		ZHOU_INFLAMMATORY_RESPONSE_FIMA_DN
+221037	JMJD1C	jumonji domain containing 1C		ZHOU_INFLAMMATORY_RESPONSE_FIMA_DN
+203328	SUSD3	sushi domain containing 3		ZHOU_INFLAMMATORY_RESPONSE_FIMA_DN
+753	C18orf1	chromosome 18 open reading frame 1		
+10018	BCL2L11	BCL2-like 11 (apoptosis facilitator)		
+2959	GTF2B	general transcription factor IIB		
+3784	KCNQ1	potassium voltage-gated channel, KQT-like subfamily, member 1		
+9759	HDAC4	histone deacetylase 4		
+84456	L3MBTL3	l(3)mbt-like 3 (Drosophila)		
+9659	PDE4DIP	phosphodiesterase 4D interacting protein		
+10200	MPHOSPH6	M-phase phosphoprotein 6		
+79637	ARMC7	armadillo repeat containing 7		
+9306	SOCS6	suppressor of cytokine signaling 6		
+151050	C2orf67	chromosome 2 open reading frame 67		
+51293	CD320	CD320 molecule		
+317762	CCDC85C	coiled-coil domain containing 85C		
+84769	MPV17L2	MPV17 mitochondrial membrane protein-like 2		

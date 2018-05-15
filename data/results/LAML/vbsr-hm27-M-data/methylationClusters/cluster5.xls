@@ -1,0 +1,56 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	1
+# genesets in collections:	5574
+# genes in comparison (n):	40
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+BRUINS_UVC_RESPONSE_LATE	1137	Late response genes: differentially expressed only 12 h after UV-C irradiation of MEF cells (embryonic fibroblast).	8	0.0070	5.21E-6	2.91E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	BRUINS_UVC_RESPONSE_LATE
+9135	RABEP1	rabaptin, RAB GTPase binding effector protein 1	BRUINS_UVC_RESPONSE_LATE
+8692	HYAL2	hyaluronoglucosaminidase 2	BRUINS_UVC_RESPONSE_LATE
+5272	SERPINB9	serpin peptidase inhibitor, clade B (ovalbumin), member 9	BRUINS_UVC_RESPONSE_LATE
+10404	PGCP	plasma glutamate carboxypeptidase	BRUINS_UVC_RESPONSE_LATE
+79603	CERS4	ceramide synthase 4	BRUINS_UVC_RESPONSE_LATE
+84680	ACCS	1-aminocyclopropane-1-carboxylate synthase homolog (Arabidopsis)(non-functional)	BRUINS_UVC_RESPONSE_LATE
+282991	BLOC1S2	biogenesis of lysosomal organelles complex-1, subunit 2	BRUINS_UVC_RESPONSE_LATE
+84267	C9orf64	chromosome 9 open reading frame 64	BRUINS_UVC_RESPONSE_LATE
+81544	GDPD5	glycerophosphodiester phosphodiesterase domain containing 5	
+1938	EEF2	eukaryotic translation elongation factor 2	
+3460	IFNGR2	interferon gamma receptor 2 (interferon gamma transducer 1)	
+90488	C12orf23	chromosome 12 open reading frame 23	
+6646	SOAT1	sterol O-acyltransferase 1	
+9663	LPIN2	lipin 2	
+7433	VIPR1	vasoactive intestinal peptide receptor 1	
+55884	WSB2	WD repeat and SOCS box containing 2	
+4092	SMAD7	SMAD family member 7	
+23313	KIAA0930	KIAA0930	
+4253	CTAGE5	CTAGE family, member 5	
+8661	EIF3A	eukaryotic translation initiation factor 3, subunit A	
+10499	NCOA2	nuclear receptor coactivator 2	
+6884	TAF13	TAF13 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 18kDa	
+10217	CTDSPL	CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase-like	
+2734	GLG1	golgi glycoprotein 1	
+51491	NOP16	NOP16 nucleolar protein homolog (yeast)	
+51750	RTEL1	regulator of telomere elongation helicase 1	
+56829	ZC3HAV1	zinc finger CCCH-type, antiviral 1	
+5210	PFKFB4	6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 4	
+3992	FADS1	fatty acid desaturase 1	
+23412	COMMD3	COMM domain containing 3	
+11311	VPS45	vacuolar protein sorting 45 homolog (S. cerevisiae)	
+84236	RHBDD1	rhomboid domain containing 1	
+8970	HIST1H2BJ	histone cluster 1, H2bj	
+113802	HENMT1	HEN1 methyltransferase homolog 1 (Arabidopsis)	
+5333	PLCD1	phospholipase C, delta 1	
+9219	MTA2	metastasis associated 1 family, member 2	
+64866	CDCP1	CUB domain containing protein 1	
+9853	RUSC2	RUN and SH3 domain containing 2	
+252839	TMEM9	transmembrane protein 9	
+64122	FN3K	fructosamine 3 kinase	

@@ -1,0 +1,8 @@
+gene,coef,description
+AK1,0.0246368936078659,adenylate kinase 1 [Source:HGNC Symbol;Acc:HGNC:361]
+C9orf64,-0.0174207780753755,chromosome 9 open reading frame 64 [Source:HGNC Symbol;Acc:HGNC:28144]
+CYB5R1,-0.0391727867100958,cytochrome b5 reductase 1 [Source:HGNC Symbol;Acc:HGNC:13397]
+GAMT,0.0318443444709508,guanidinoacetate N-methyltransferase [Source:HGNC Symbol;Acc:HGNC:4136]
+HCG11,-0.0143733489380041,HLA complex group 11 (non-protein coding) [Source:HGNC Symbol;Acc:HGNC:17707]
+LDLRAD2,-0.0327729841298005,low density lipoprotein receptor class A domain containing 2 [Source:HGNC Symbol;Acc:HGNC:32071]
+MAP1LC3A,-0.0220764865602933,microtubule associated protein 1 light chain 3 alpha [Source:HGNC Symbol;Acc:HGNC:6838]

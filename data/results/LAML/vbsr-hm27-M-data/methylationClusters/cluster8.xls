@@ -1,0 +1,44 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	3
+# genesets in collections:	5574
+# genes in comparison (n):	26
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+NUYTTEN_NIPP1_TARGETS_DN	848	Genes down-regulated in PC3 cells (prostate cancer) after knockdown of NIPP1 [GeneID=5511] by RNAi.	6	0.0071	6.51E-6	2.59E-2
+MARTORIATI_MDM4_TARGETS_FETAL_LIVER_DN	514	Genes down-regulated in non-apoptotic tissues (fetal liver) after MDM4 [GeneID=4194] knockout.	5	0.0097	9.3E-6	2.59E-2
+CACGTG_MYC_Q2	1032	Genes having at least one occurence of the highly conserved motif M2 CACGTG sites. The motif matches transcription factor binding site V$MYC_Q2 (v7.4 TRANSFAC).	6	0.0058	1.98E-5	3.68E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	NUYTTEN_NIPP1_TARGETS_DN	MARTORIATI_MDM4_TARGETS_FETAL_LIVER_DN	CACGTG_MYC_Q2
+29015	SLC43A3	solute carrier family 43, member 3	NUYTTEN_NIPP1_TARGETS_DN		
+9555	H2AFY	H2A histone family, member Y	NUYTTEN_NIPP1_TARGETS_DN		
+2644	GCHFR	GTP cyclohydrolase I feedback regulator	NUYTTEN_NIPP1_TARGETS_DN		
+9817	KEAP1	kelch-like ECH-associated protein 1	NUYTTEN_NIPP1_TARGETS_DN		
+23612	PHLDA3	pleckstrin homology-like domain, family A, member 3	NUYTTEN_NIPP1_TARGETS_DN		
+51477	ISYNA1	inositol-3-phosphate synthase 1	NUYTTEN_NIPP1_TARGETS_DN		
+3162	HMOX1	heme oxygenase (decycling) 1		MARTORIATI_MDM4_TARGETS_FETAL_LIVER_DN	CACGTG_MYC_Q2
+6643	SNX2	sorting nexin 2		MARTORIATI_MDM4_TARGETS_FETAL_LIVER_DN	CACGTG_MYC_Q2
+5090	PBX3	pre-B-cell leukemia homeobox 3		MARTORIATI_MDM4_TARGETS_FETAL_LIVER_DN	
+25999	CLIP3	CAP-GLY domain containing linker protein 3		MARTORIATI_MDM4_TARGETS_FETAL_LIVER_DN	
+10600	USP16	ubiquitin specific peptidase 16		MARTORIATI_MDM4_TARGETS_FETAL_LIVER_DN	
+55640	FLVCR2	feline leukemia virus subgroup C cellular receptor family, member 2			CACGTG_MYC_Q2
+10783	NEK6	NIMA (never in mitosis gene a)-related kinase 6			CACGTG_MYC_Q2
+3601	IL15RA	interleukin 15 receptor, alpha			CACGTG_MYC_Q2
+27020	NPTN	neuroplastin			CACGTG_MYC_Q2
+6720	SREBF1	sterol regulatory element binding transcription factor 1			
+6812	STXBP1	syntaxin binding protein 1			
+79109	MAPKAP1	mitogen-activated protein kinase associated protein 1			
+4773	NFATC2	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 2			
+116447	TOP1MT	topoisomerase (DNA) I, mitochondrial			
+349565	NMNAT3	nicotinamide nucleotide adenylyltransferase 3			
+9531	BAG3	BCL2-associated athanogene 3			
+84939	MUM1	melanoma associated antigen (mutated) 1			
+64418	TMEM168	transmembrane protein 168			
+284459	HKR1	HKR1, GLI-Kruppel zinc finger family member			
+57573	ZNF471	zinc finger protein 471			

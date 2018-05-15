@@ -1,0 +1,20 @@
+gene,coef,description
+ABAT,-0.0140474015010382,4-aminobutyrate aminotransferase [Source:HGNC Symbol;Acc:HGNC:23]
+AMACR,-0.00027924230788501,alpha-methylacyl-CoA racemase [Source:HGNC Symbol;Acc:HGNC:451]
+C6orf145,0.0181041386895308,NA
+CHST3,0.0183214795142549,carbohydrate sulfotransferase 3 [Source:HGNC Symbol;Acc:HGNC:1971]
+DDX10,-0.00112771281723487,DEAD-box helicase 10 [Source:HGNC Symbol;Acc:HGNC:2735]
+GALK2,-0.00107274645273048,galactokinase 2 [Source:HGNC Symbol;Acc:HGNC:4119]
+KLC2,0.0237457718862472,kinesin light chain 2 [Source:HGNC Symbol;Acc:HGNC:20716]
+LGI4,-0.0154283541144183,leucine rich repeat LGI family member 4 [Source:HGNC Symbol;Acc:HGNC:18712]
+NSUN6,-0.0194644606857593,NOP2/Sun RNA methyltransferase family member 6 [Source:HGNC Symbol;Acc:HGNC:23529]
+PRCC,-0.0376231447489502,papillary renal cell carcinoma (translocation-associated) [Source:HGNC Symbol;Acc:HGNC:9343]
+PTPN7,-0.0261108930133901,protein tyrosine phosphatase, non-receptor type 7 [Source:HGNC Symbol;Acc:HGNC:9659]
+PTPRCAP,0.0284431114294057,protein tyrosine phosphatase, receptor type C associated protein [Source:HGNC Symbol;Acc:HGNC:9667]
+RAB7L1,0.0189226522606753,NA
+RCOR2,-0.0143484233648836,REST corepressor 2 [Source:HGNC Symbol;Acc:HGNC:27455]
+TMCO7,-0.000360669733973634,NA
+TMEM144,0.0150692366663529,transmembrane protein 144 [Source:HGNC Symbol;Acc:HGNC:25633]
+ZNF438,0.0234597800586915,zinc finger protein 438 [Source:HGNC Symbol;Acc:HGNC:21029]
+ZNF488,0.0100209641326094,zinc finger protein 488 [Source:HGNC Symbol;Acc:HGNC:23535]
+ZNF839,0.000334672534335362,zinc finger protein 839 [Source:HGNC Symbol;Acc:HGNC:20345]

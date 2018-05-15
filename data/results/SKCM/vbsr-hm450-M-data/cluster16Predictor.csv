@@ -1,0 +1,8 @@
+gene,coef,description
+APOBEC3C,0.0962073896435728,apolipoprotein B mRNA editing enzyme catalytic subunit 3C [Source:HGNC Symbol;Acc:HGNC:17353]
+DNALI1,-0.0557273844800143,dynein axonemal light intermediate chain 1 [Source:HGNC Symbol;Acc:HGNC:14353]
+ME1,-0.0594011705000258,malic enzyme 1 [Source:HGNC Symbol;Acc:HGNC:6983]
+MRPL9,-0.214459023437211,mitochondrial ribosomal protein L9 [Source:HGNC Symbol;Acc:HGNC:14277]
+PDZD4,0.0412151388903473,PDZ domain containing 4 [Source:HGNC Symbol;Acc:HGNC:21167]
+PLCD1,-0.0959579191502556,phospholipase C delta 1 [Source:HGNC Symbol;Acc:HGNC:9060]
+STRADB,-0.0840001778235277,STE20-related kinase adaptor beta [Source:HGNC Symbol;Acc:HGNC:13205]

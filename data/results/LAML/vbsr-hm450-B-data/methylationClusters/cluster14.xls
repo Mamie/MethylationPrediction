@@ -1,0 +1,96 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	71
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+TGCCTTA_MIR124A	552	Genes having at least one occurence of the motif TGCCTTA in their 3' untranslated region. The motif represents putative target (that is, seed match) of human mature miRNA hsa-miR-124a (v7.1 miRBase).	12	0.0217	5.39E-11	3E-7
+GTGCCTT_MIR506	727	Genes having at least one occurence of the motif GTGCCTT in their 3' untranslated region. The motif represents putative target (that is, seed match) of human mature miRNA hsa-miR-506 (v7.1 miRBase).	12	0.0165	1.23E-9	3.42E-6
+CUI_TCF21_TARGETS_2_DN	830	All significantly down-regulated genes in kidney glomeruli isolated from TCF21 [Gene ID=6943] knockout mice.	12	0.0145	5.38E-9	8.42E-6
+PILON_KLF1_TARGETS_DN	1972	Genes down-regulated in erythroid progenitor cells from fetal livers of E13.5 embryos with KLF1 [GeneID=10661] knockout compared to those from the wild type embryos.	17	0.0086	6.04E-9	8.42E-6
+PHONG_TNF_RESPONSE_VIA_P38_COMPLETE	227	Genes whose expression changes in Calu-6 cells (lung cancer) by TNF [GeneID=7124] were blocked completely by p38 inhibitor LY479754.	7	0.0308	6.65E-8	7.41E-5
+FOSTER_TOLERANT_MACROPHAGE_DN	409	Class NT (non-tolerizeable) genes: induced during the first LPS stimulation and induced at equal or greater degree in tolerant macrophages.	8	0.0196	2.4E-7	2.09E-4
+MOHANKUMAR_TLX1_TARGETS_UP	414	Up-regulated in MCF7 cells (breast cancer) by TLX1 (HOX11) [GeneID=3195].	8	0.0193	2.63E-7	2.09E-4
+GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	1781	Genes down-regulated in ME-A cells (breast cancer) undergoing apoptosis in response to doxorubicin [PubChem=31703].	14	0.0079	4.96E-7	3.46E-4
+KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	824	Genes with promoters occupied by SMAD2 or SMAD3 [GeneID=4087, 4088] in HaCaT cells (keratinocyte) according to a ChIP-chip analysis.	10	0.0121	5.6E-7	3.47E-4
+TTTGTAG_MIR520D	336	Genes having at least one occurence of the motif TTTGTAG in their 3' untranslated region. The motif represents putative target (that is, seed match) of human mature miRNA hsa-miR-520d* (v7.1 miRBase).	7	0.0208	9.34E-7	5.09E-4
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	TGCCTTA_MIR124A	GTGCCTT_MIR506	CUI_TCF21_TARGETS_2_DN	PILON_KLF1_TARGETS_DN	PHONG_TNF_RESPONSE_VIA_P38_COMPLETE	FOSTER_TOLERANT_MACROPHAGE_DN	MOHANKUMAR_TLX1_TARGETS_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	TTTGTAG_MIR520D
+6319	SCD	stearoyl-CoA desaturase (delta-9-desaturase)	TGCCTTA_MIR124A	GTGCCTT_MIR506	CUI_TCF21_TARGETS_2_DN	PILON_KLF1_TARGETS_DN				GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	TTTGTAG_MIR520D
+10019	SH2B3	SH2B adaptor protein 3	TGCCTTA_MIR124A	GTGCCTT_MIR506	CUI_TCF21_TARGETS_2_DN	PILON_KLF1_TARGETS_DN						
+2908	NR3C1	nuclear receptor subfamily 3, group C, member 1 (glucocorticoid receptor)	TGCCTTA_MIR124A	GTGCCTT_MIR506		PILON_KLF1_TARGETS_DN	PHONG_TNF_RESPONSE_VIA_P38_COMPLETE	FOSTER_TOLERANT_MACROPHAGE_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		
+6431	SRSF6	serine/arginine-rich splicing factor 6	TGCCTTA_MIR124A	GTGCCTT_MIR506		PILON_KLF1_TARGETS_DN				GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		TTTGTAG_MIR520D
+6263	RYR3	ryanodine receptor 3	TGCCTTA_MIR124A	GTGCCTT_MIR506								
+3090	HIC1	hypermethylated in cancer 1	TGCCTTA_MIR124A	GTGCCTT_MIR506								
+81839	VANGL1	vang-like 1 (van gogh, Drosophila)	TGCCTTA_MIR124A		CUI_TCF21_TARGETS_2_DN					GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		
+60481	ELOVL5	ELOVL fatty acid elongase 5	TGCCTTA_MIR124A			PILON_KLF1_TARGETS_DN			MOHANKUMAR_TLX1_TARGETS_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		
+115207	KCTD12	potassium channel tetramerisation domain containing 12	TGCCTTA_MIR124A			PILON_KLF1_TARGETS_DN						
+27020	NPTN	neuroplastin	TGCCTTA_MIR124A						MOHANKUMAR_TLX1_TARGETS_UP		KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	
+2107	ETF1	eukaryotic translation termination factor 1	TGCCTTA_MIR124A							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		
+129642	MBOAT2	membrane bound O-acyltransferase domain containing 2	TGCCTTA_MIR124A								KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	
+6840	SVIL	supervillin		GTGCCTT_MIR506		PILON_KLF1_TARGETS_DN	PHONG_TNF_RESPONSE_VIA_P38_COMPLETE			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	
+10553	HTATIP2	HIV-1 Tat interactive protein 2, 30kDa		GTGCCTT_MIR506			PHONG_TNF_RESPONSE_VIA_P38_COMPLETE		MOHANKUMAR_TLX1_TARGETS_UP			
+8728	ADAM19	ADAM metallopeptidase domain 19		GTGCCTT_MIR506							KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	
+4306	NR3C2	nuclear receptor subfamily 3, group C, member 2		GTGCCTT_MIR506								
+25999	CLIP3	CAP-GLY domain containing linker protein 3		GTGCCTT_MIR506								
+5598	MAPK7	mitogen-activated protein kinase 7		GTGCCTT_MIR506								
+23678	SGK3	serum/glucocorticoid regulated kinase family, member 3			CUI_TCF21_TARGETS_2_DN	PILON_KLF1_TARGETS_DN		FOSTER_TOLERANT_MACROPHAGE_DN				
+51714	SELT	selenoprotein T			CUI_TCF21_TARGETS_2_DN	PILON_KLF1_TARGETS_DN			MOHANKUMAR_TLX1_TARGETS_UP			
+80005	DOCK5	dedicator of cytokinesis 5			CUI_TCF21_TARGETS_2_DN	PILON_KLF1_TARGETS_DN				GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	
+2992	GYG1	glycogenin 1			CUI_TCF21_TARGETS_2_DN	PILON_KLF1_TARGETS_DN						
+9710	KIAA0355	KIAA0355			CUI_TCF21_TARGETS_2_DN	PILON_KLF1_TARGETS_DN						
+54625	PARP14	poly (ADP-ribose) polymerase family, member 14			CUI_TCF21_TARGETS_2_DN			FOSTER_TOLERANT_MACROPHAGE_DN				
+162394	SLFN5	schlafen family member 5			CUI_TCF21_TARGETS_2_DN			FOSTER_TOLERANT_MACROPHAGE_DN				
+57551	TAOK1	TAO kinase 1			CUI_TCF21_TARGETS_2_DN					GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		
+10395	DLC1	deleted in liver cancer 1			CUI_TCF21_TARGETS_2_DN							
+6281	S100A10	S100 calcium binding protein A10				PILON_KLF1_TARGETS_DN		FOSTER_TOLERANT_MACROPHAGE_DN			KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	
+9276	COPB2	coatomer protein complex, subunit beta 2 (beta prime)				PILON_KLF1_TARGETS_DN			MOHANKUMAR_TLX1_TARGETS_UP			
+5962	RDX	radixin				PILON_KLF1_TARGETS_DN				GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		TTTGTAG_MIR520D
+7874	USP7	ubiquitin specific peptidase 7 (herpes virus-associated)				PILON_KLF1_TARGETS_DN						
+64859	OBFC2A	oligonucleotide/oligosaccharide-binding fold containing 2A				PILON_KLF1_TARGETS_DN						
+54910	SEMA4C	sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4C					PHONG_TNF_RESPONSE_VIA_P38_COMPLETE	FOSTER_TOLERANT_MACROPHAGE_DN	MOHANKUMAR_TLX1_TARGETS_UP			
+9871	SEC24D	SEC24 family, member D (S. cerevisiae)					PHONG_TNF_RESPONSE_VIA_P38_COMPLETE		MOHANKUMAR_TLX1_TARGETS_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		
+1523	CUX1	cut-like homeobox 1					PHONG_TNF_RESPONSE_VIA_P38_COMPLETE					TTTGTAG_MIR520D
+2119	ETV5	ets variant 5					PHONG_TNF_RESPONSE_VIA_P38_COMPLETE					TTTGTAG_MIR520D
+79668	PARP8	poly (ADP-ribose) polymerase family, member 8						FOSTER_TOLERANT_MACROPHAGE_DN			KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	
+79161	C7orf23	chromosome 7 open reading frame 23						FOSTER_TOLERANT_MACROPHAGE_DN				
+3939	LDHA	lactate dehydrogenase A							MOHANKUMAR_TLX1_TARGETS_UP			
+81554	WBSCR16	Williams-Beuren syndrome chromosome region 16								GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	
+5338	PLD2	phospholipase D2								GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		
+9753	ZSCAN12	zinc finger and SCAN domain containing 12								GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		
+85027	C5orf62	chromosome 5 open reading frame 62									KOINUMA_TARGETS_OF_SMAD2_OR_SMAD3	
+1393	CRHBP	corticotropin releasing hormone binding protein										TTTGTAG_MIR520D
+11160	ERLIN2	ER lipid raft associated 2										TTTGTAG_MIR520D
+84886	C1orf198	chromosome 1 open reading frame 198										
+55361	PI4K2A	phosphatidylinositol 4-kinase type 2 alpha										
+6452	SH3BP2	SH3-domain binding protein 2										
+25992	SNED1	sushi, nidogen and EGF-like domains 1										
+54961	SSH3	slingshot homolog 3 (Drosophila)										
+10908	PNPLA6	patatin-like phospholipase domain containing 6										
+286	ANK1	ankyrin 1, erythrocytic										
+201164	PLD6	phospholipase D family, member 6										
+91351	DDX60L	DEAD (Asp-Glu-Ala-Asp) box polypeptide 60-like										
+84986	ARHGAP19	Rho GTPase activating protein 19										
+9778	KIAA0232	KIAA0232										
+4773	NFATC2	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 2										
+147837	ZNF563	zinc finger protein 563										
+8659	ALDH4A1	aldehyde dehydrogenase 4 family, member A1										
+64753	CCDC136	coiled-coil domain containing 136										
+143888	KDELC2	KDEL (Lys-Asp-Glu-Leu) containing 2										
+10437	IFI30	interferon, gamma-inducible protein 30										
+79603	CERS4	ceramide synthase 4										
+64789	DEM1	defects in morphology 1 homolog (S. cerevisiae)										
+51092	SIDT2	SID1 transmembrane family, member 2										
+6940	ZNF354A	zinc finger protein 354A										
+57494	RIMKLB	ribosomal modification protein rimK-like family member B										
+84436	ZNF528	zinc finger protein 528										
+785	CACNB4	calcium channel, voltage-dependent, beta 4 subunit										
+117145	THEM4	thioesterase superfamily member 4										
+78996	C7orf49	chromosome 7 open reading frame 49										

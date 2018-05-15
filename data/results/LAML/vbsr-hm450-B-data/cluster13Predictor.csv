@@ -1,0 +1,11 @@
+gene,coef,description
+BTBD12,0.0237371942460237,NA
+CBX1,-0.022293782211247,chromobox 1 [Source:HGNC Symbol;Acc:HGNC:1551]
+CHFR,-0.0621406138192714,checkpoint with forkhead and ring finger domains [Source:HGNC Symbol;Acc:HGNC:20455]
+CSNK1G3,-0.0138937114638778,casein kinase 1 gamma 3 [Source:HGNC Symbol;Acc:HGNC:2456]
+CTPS2,-0.0114364419940236,CTP synthase 2 [Source:HGNC Symbol;Acc:HGNC:2520]
+IFT172,-0.0130476654803662,intraflagellar transport 172 [Source:HGNC Symbol;Acc:HGNC:30391]
+INTS12,0.0143399828414523,integrator complex subunit 12 [Source:HGNC Symbol;Acc:HGNC:25067]
+KDM3B,0.0135244299890448,lysine demethylase 3B [Source:HGNC Symbol;Acc:HGNC:1337]
+PKP4,-0.0184160746491693,plakophilin 4 [Source:HGNC Symbol;Acc:HGNC:9026]
+SEC31B,0.0062802540215186,SEC31 homolog B, COPII coat complex component [Source:HGNC Symbol;Acc:HGNC:23197]

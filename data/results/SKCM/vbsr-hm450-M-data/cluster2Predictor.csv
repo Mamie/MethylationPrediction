@@ -1,0 +1,11 @@
+gene,coef,description
+ADM,-0.147808050410776,adrenomedullin [Source:HGNC Symbol;Acc:HGNC:259]
+B3GALNT1,-0.0946913433393218,beta-1,3-N-acetylgalactosaminyltransferase 1 (globoside blood group) [Source:HGNC Symbol;Acc:HGNC:918]
+EFNB3,0.117003966515349,ephrin B3 [Source:HGNC Symbol;Acc:HGNC:3228]
+GPX7,-0.153357020130404,glutathione peroxidase 7 [Source:HGNC Symbol;Acc:HGNC:4559]
+LOXL4,-0.096933561341527,lysyl oxidase like 4 [Source:HGNC Symbol;Acc:HGNC:17171]
+MERTK,-0.110883622812523,MER proto-oncogene, tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:7027]
+PLXNB3,0.104089954286252,plexin B3 [Source:HGNC Symbol;Acc:HGNC:9105]
+PSAT1,-0.0999029790303049,phosphoserine aminotransferase 1 [Source:HGNC Symbol;Acc:HGNC:19129]
+ST3GAL5,0.173877036879111,ST3 beta-galactoside alpha-2,3-sialyltransferase 5 [Source:HGNC Symbol;Acc:HGNC:10872]
+TMEM220,-0.116131320874399,transmembrane protein 220 [Source:HGNC Symbol;Acc:HGNC:33757]

@@ -1,0 +1,48 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	23
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+GGGCGGR_SP1_Q6	2940	Genes having at least one occurence of the highly conserved motif M6 GGGCGGR sites. The motif matches transcription factor binding site V$SP1_Q6 (v7.4 TRANSFAC).	10	0.0034	5.97E-7	3.33E-3
+LI_WILMS_TUMOR_VS_FETAL_KIDNEY_1_UP	182	Genes up-regulated in Wilm's tumor samples compared to fetal  kidney.	4	0.0220	1.99E-6	4.42E-3
+HALMOS_CEBPA_TARGETS_UP	52	Genes up-regulated in H358 cells (lung cancer) by inducible expression of CEBPA [GeneID=1050] off plasmid vector.	3	0.0577	2.38E-6	4.42E-3
+TTANTCA_UNKNOWN	952	Genes having at least one occurence of the highly conserved motif M64 TTANTCA in the region spanning up to 4 kb around their transcription start sites. The motif does not match any known transcription factor binding site (v7.4 TRANSFAC).	6	0.0063	5.81E-6	8.09E-3
+CAGGTG_E12_Q6	2485	Genes having at least one occurence of the highly conserved motif M12 CAGGTG sites. The motif matches transcription factor binding site V$E12_Q6 (v7.4 TRANSFAC).	8	0.0032	1.7E-5	1.9E-2
+KEGG_LYSOSOME	121	Lysosome	3	0.0248	3.03E-5	2.66E-2
+TRAYNOR_RETT_SYNDROM_DN	19	Genes down-regulated in primary fibroblasts from Rett syndrom patients who carry mutations inactivating MECP2 [GeneID=4204].	2	0.1053	4.08E-5	2.66E-2
+GARGALOVIC_RESPONSE_TO_OXIDIZED_PHOSPHOLIPIDS_BLUE_UP	136	Genes from the blue module which are up-regulated in HAEC cells (primary aortic endothelium) after exposure to the oxidized 1-palmitoyl-2-arachidonyl-sn-3-glycerophosphorylcholine (oxPAPC).	3	0.0221	4.3E-5	2.66E-2
+WIERENGA_STAT5A_TARGETS_GROUP1	136	Genes up-regulated to their maximal levels in CD34+ [GeneID=947] cells by intermediate activity levels of STAT5A [GeneID=6776]; predominant long-term growth and self-renewal phenotype.	3	0.0221	4.3E-5	2.66E-2
+RUTELLA_RESPONSE_TO_HGF_UP	418	Genes up-regulated in peripheral blood monocytes by HGF [GeneID=3082].	4	0.0096	5.21E-5	2.9E-2
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	GGGCGGR_SP1_Q6	LI_WILMS_TUMOR_VS_FETAL_KIDNEY_1_UP	HALMOS_CEBPA_TARGETS_UP	TTANTCA_UNKNOWN	CAGGTG_E12_Q6	KEGG_LYSOSOME	TRAYNOR_RETT_SYNDROM_DN	GARGALOVIC_RESPONSE_TO_OXIDIZED_PHOSPHOLIPIDS_BLUE_UP	WIERENGA_STAT5A_TARGETS_GROUP1	RUTELLA_RESPONSE_TO_HGF_UP
+25816	TNFAIP8	tumor necrosis factor, alpha-induced protein 8	GGGCGGR_SP1_Q6	LI_WILMS_TUMOR_VS_FETAL_KIDNEY_1_UP	HALMOS_CEBPA_TARGETS_UP							RUTELLA_RESPONSE_TO_HGF_UP
+23607	CD2AP	CD2-associated protein	GGGCGGR_SP1_Q6	LI_WILMS_TUMOR_VS_FETAL_KIDNEY_1_UP			CAGGTG_E12_Q6					RUTELLA_RESPONSE_TO_HGF_UP
+688	KLF5	Kruppel-like factor 5 (intestinal)	GGGCGGR_SP1_Q6		HALMOS_CEBPA_TARGETS_UP	TTANTCA_UNKNOWN			TRAYNOR_RETT_SYNDROM_DN	GARGALOVIC_RESPONSE_TO_OXIDIZED_PHOSPHOLIPIDS_BLUE_UP		
+10124	ARL4A	ADP-ribosylation factor-like 4A	GGGCGGR_SP1_Q6		HALMOS_CEBPA_TARGETS_UP		CAGGTG_E12_Q6				WIERENGA_STAT5A_TARGETS_GROUP1	
+55182	RNF220	ring finger protein 220	GGGCGGR_SP1_Q6			TTANTCA_UNKNOWN	CAGGTG_E12_Q6					
+23171	GPD1L	glycerol-3-phosphate dehydrogenase 1-like	GGGCGGR_SP1_Q6				CAGGTG_E12_Q6					
+90952	ESAM	endothelial cell adhesion molecule	GGGCGGR_SP1_Q6				CAGGTG_E12_Q6					
+4891	SLC11A2	solute carrier family 11 (proton-coupled divalent metal ion transporters), member 2	GGGCGGR_SP1_Q6					KEGG_LYSOSOME				RUTELLA_RESPONSE_TO_HGF_UP
+10289	EIF1B	eukaryotic translation initiation factor 1B	GGGCGGR_SP1_Q6									
+191	AHCY	adenosylhomocysteinase	GGGCGGR_SP1_Q6									
+1512	CTSH	cathepsin H		LI_WILMS_TUMOR_VS_FETAL_KIDNEY_1_UP				KEGG_LYSOSOME			WIERENGA_STAT5A_TARGETS_GROUP1	
+9709	HERPUD1	homocysteine-inducible, endoplasmic reticulum stress-inducible, ubiquitin-like domain member 1		LI_WILMS_TUMOR_VS_FETAL_KIDNEY_1_UP						GARGALOVIC_RESPONSE_TO_OXIDIZED_PHOSPHOLIPIDS_BLUE_UP		
+221895	JAZF1	JAZF zinc finger 1				TTANTCA_UNKNOWN	CAGGTG_E12_Q6					
+3337	DNAJB1	DnaJ (Hsp40) homolog, subfamily B, member 1				TTANTCA_UNKNOWN				GARGALOVIC_RESPONSE_TO_OXIDIZED_PHOSPHOLIPIDS_BLUE_UP		
+9184	BUB3	budding uninhibited by benzimidazoles 3 homolog (yeast)				TTANTCA_UNKNOWN						
+3034	HAL	histidine ammonia-lyase				TTANTCA_UNKNOWN						
+3784	KCNQ1	potassium voltage-gated channel, KQT-like subfamily, member 1					CAGGTG_E12_Q6					
+55604	LRRC16A	leucine rich repeat containing 16A					CAGGTG_E12_Q6					
+1522	CTSZ	cathepsin Z						KEGG_LYSOSOME			WIERENGA_STAT5A_TARGETS_GROUP1	
+347902	AMIGO2	adhesion molecule with Ig-like domain 2							TRAYNOR_RETT_SYNDROM_DN			
+374868	ATP9B	ATPase, class II, type 9B										RUTELLA_RESPONSE_TO_HGF_UP
+10302	SNAPC5	small nuclear RNA activating complex, polypeptide 5, 19kDa										
+51000	SLC35B3	solute carrier family 35, member B3										

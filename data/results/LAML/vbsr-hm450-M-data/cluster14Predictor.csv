@@ -1,0 +1,4 @@
+gene,coef,description
+CDC27,-0.381317781038524,cell division cycle 27 [Source:HGNC Symbol;Acc:HGNC:1728]
+MTX3,-0.11858586077799,metaxin 3 [Source:HGNC Symbol;Acc:HGNC:24812]
+RPP25,-0.217246694060048,ribonuclease P and MRP subunit p25 [Source:HGNC Symbol;Acc:HGNC:30361]

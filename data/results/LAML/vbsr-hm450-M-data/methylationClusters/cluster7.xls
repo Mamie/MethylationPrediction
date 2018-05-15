@@ -1,0 +1,205 @@
+
+Overlap Results
+
+Collection(s):	C2, C3
+# overlaps shown:	10
+# genesets in collections:	5574
+# genes in comparison (n):	180
+# genes in universe (N):	45956
+
+Gene Set Name	# Genes in Gene Set (K)	Description	# Genes in Overlap (k)	k/K	p-value	FDR q-value
+CUI_TCF21_TARGETS_2_DN	830	All significantly down-regulated genes in kidney glomeruli isolated from TCF21 [Gene ID=6943] knockout mice.	25	0.0301	3.56E-15	1.98E-11
+CHEN_METABOLIC_SYNDROM_NETWORK	1210	Genes forming the macrophage-enriched metabolic network (MEMN) claimed to have a causal relationship with the metabolic syndrom traits.	27	0.0223	3.33E-13	9.28E-10
+NUYTTEN_NIPP1_TARGETS_DN	848	Genes down-regulated in PC3 cells (prostate cancer) after knockdown of NIPP1 [GeneID=5511] by RNAi.	22	0.0259	3.4E-12	6.31E-9
+BRUINS_UVC_RESPONSE_LATE	1137	Late response genes: differentially expressed only 12 h after UV-C irradiation of MEF cells (embryonic fibroblast).	24	0.0211	2.42E-11	3.37E-8
+GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN	1080	Genes down-regulated during differentiation of Oli-Neu cells (oligodendroglial precursor) in response to PD174265 [PubChem=4709].	22	0.0204	3.4E-10	3.79E-7
+WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP	397	Genes up-regulated in RS4;11 cells (MLL, mixed lineage leukemia) in response to SB216763 [PubChem=176158], an inhibitor of GSK3B [GeneID=2932].	13	0.0327	7.18E-9	6.66E-6
+GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	1781	Genes down-regulated in ME-A cells (breast cancer) undergoing apoptosis in response to doxorubicin [PubChem=31703].	26	0.0146	8.47E-9	6.66E-6
+CAGGTG_E12_Q6	2485	Genes having at least one occurence of the highly conserved motif M12 CAGGTG sites. The motif matches transcription factor binding site V$E12_Q6 (v7.4 TRANSFAC).	31	0.0125	1.06E-8	6.66E-6
+MILI_PSEUDOPODIA_HAPTOTAXIS_DN	668	Transcripts depleted from pseudopodia of NIH/3T3 cells (fibroblast) in response to haptotactic migratory stimulus by fibronectin, FN1 [GeneID=2335].	16	0.0240	1.08E-8	6.66E-6
+SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN	584	Genes down-regulated in lymphoblastoid cells from the European population compared to those from the Asian population.	15	0.0257	1.26E-8	7.03E-6
+
+
+Gene/Gene Set Overlap Matrix
+
+Entrez Gene Id	Gene Symbol	Gene Description	CUI_TCF21_TARGETS_2_DN	CHEN_METABOLIC_SYNDROM_NETWORK	NUYTTEN_NIPP1_TARGETS_DN	BRUINS_UVC_RESPONSE_LATE	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN	WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	CAGGTG_E12_Q6	MILI_PSEUDOPODIA_HAPTOTAXIS_DN	SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+84898	PLXDC2	plexin domain containing 2	CUI_TCF21_TARGETS_2_DN	CHEN_METABOLIC_SYNDROM_NETWORK		BRUINS_UVC_RESPONSE_LATE	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN	WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP				
+7048	TGFBR2	transforming growth factor, beta receptor II (70/80kDa)	CUI_TCF21_TARGETS_2_DN	CHEN_METABOLIC_SYNDROM_NETWORK		BRUINS_UVC_RESPONSE_LATE						
+9935	MAFB	v-maf musculoaponeurotic fibrosarcoma oncogene homolog B (avian)	CUI_TCF21_TARGETS_2_DN	CHEN_METABOLIC_SYNDROM_NETWORK								
+375387	LRRC33	leucine rich repeat containing 33	CUI_TCF21_TARGETS_2_DN	CHEN_METABOLIC_SYNDROM_NETWORK								
+11000	SLC27A3	solute carrier family 27 (fatty acid transporter), member 3	CUI_TCF21_TARGETS_2_DN	CHEN_METABOLIC_SYNDROM_NETWORK								
+79026	AHNAK	AHNAK nucleoprotein	CUI_TCF21_TARGETS_2_DN		NUYTTEN_NIPP1_TARGETS_DN	BRUINS_UVC_RESPONSE_LATE						
+4641	MYO1C	myosin IC	CUI_TCF21_TARGETS_2_DN		NUYTTEN_NIPP1_TARGETS_DN							
+80854	SETD7	SET domain containing (lysine methyltransferase) 7	CUI_TCF21_TARGETS_2_DN		NUYTTEN_NIPP1_TARGETS_DN							
+64423	INF2	inverted formin, FH2 and WH2 domain containing	CUI_TCF21_TARGETS_2_DN		NUYTTEN_NIPP1_TARGETS_DN							
+5578	PRKCA	protein kinase C, alpha	CUI_TCF21_TARGETS_2_DN			BRUINS_UVC_RESPONSE_LATE	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN					
+10100	TSPAN2	tetraspanin 2	CUI_TCF21_TARGETS_2_DN				GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	CAGGTG_E12_Q6		
+132720	C4orf32	chromosome 4 open reading frame 32	CUI_TCF21_TARGETS_2_DN				GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN					
+1657	DMXL1	Dmx-like 1	CUI_TCF21_TARGETS_2_DN					WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP		CAGGTG_E12_Q6		
+3799	KIF5B	kinesin family member 5B	CUI_TCF21_TARGETS_2_DN						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	CAGGTG_E12_Q6		SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+57194	ATP10A	ATPase, class V, type 10A	CUI_TCF21_TARGETS_2_DN						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+10217	CTDSPL	CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase-like	CUI_TCF21_TARGETS_2_DN						GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+5795	PTPRJ	protein tyrosine phosphatase, receptor type, J	CUI_TCF21_TARGETS_2_DN							CAGGTG_E12_Q6		
+83699	SH3BGRL2	SH3 domain binding glutamic acid-rich protein like 2	CUI_TCF21_TARGETS_2_DN							CAGGTG_E12_Q6		
+5583	PRKCH	protein kinase C, eta	CUI_TCF21_TARGETS_2_DN							CAGGTG_E12_Q6		
+2817	GPC1	glypican 1	CUI_TCF21_TARGETS_2_DN								MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+10129	FRY	furry homolog (Drosophila)	CUI_TCF21_TARGETS_2_DN									
+51136	RNFT1	ring finger protein, transmembrane 1	CUI_TCF21_TARGETS_2_DN									
+29761	USP25	ubiquitin specific peptidase 25	CUI_TCF21_TARGETS_2_DN									
+51022	GLRX2	glutaredoxin 2	CUI_TCF21_TARGETS_2_DN									
+114879	OSBPL5	oxysterol binding protein-like 5	CUI_TCF21_TARGETS_2_DN									
+1031	CDKN2C	cyclin-dependent kinase inhibitor 2C (p18, inhibits CDK4)		CHEN_METABOLIC_SYNDROM_NETWORK	NUYTTEN_NIPP1_TARGETS_DN					CAGGTG_E12_Q6		
+6850	SYK	spleen tyrosine kinase		CHEN_METABOLIC_SYNDROM_NETWORK	NUYTTEN_NIPP1_TARGETS_DN							SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+6793	STK10	serine/threonine kinase 10		CHEN_METABOLIC_SYNDROM_NETWORK	NUYTTEN_NIPP1_TARGETS_DN							
+29108	PYCARD	PYD and CARD domain containing		CHEN_METABOLIC_SYNDROM_NETWORK	NUYTTEN_NIPP1_TARGETS_DN							
+10797	MTHFD2	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2, methenyltetrahydrofolate cyclohydrolase		CHEN_METABOLIC_SYNDROM_NETWORK		BRUINS_UVC_RESPONSE_LATE		WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+5019	OXCT1	3-oxoacid CoA transferase 1		CHEN_METABOLIC_SYNDROM_NETWORK		BRUINS_UVC_RESPONSE_LATE						
+134957	STXBP5	syntaxin binding protein 5 (tomosyn)		CHEN_METABOLIC_SYNDROM_NETWORK		BRUINS_UVC_RESPONSE_LATE						
+4791	NFKB2	nuclear factor of kappa light polypeptide gene enhancer in B-cells 2 (p49/p100)		CHEN_METABOLIC_SYNDROM_NETWORK			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN	WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP			MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+4052	LTBP1	latent transforming growth factor beta binding protein 1		CHEN_METABOLIC_SYNDROM_NETWORK			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	CAGGTG_E12_Q6	MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+2037	EPB41L2	erythrocyte membrane protein band 4.1-like 2		CHEN_METABOLIC_SYNDROM_NETWORK			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN		GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+8879	SGPL1	sphingosine-1-phosphate lyase 1		CHEN_METABOLIC_SYNDROM_NETWORK			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN				MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+26010	SPATS2L	spermatogenesis associated, serine-rich 2-like		CHEN_METABOLIC_SYNDROM_NETWORK			GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN					
+6812	STXBP1	syntaxin binding protein 1		CHEN_METABOLIC_SYNDROM_NETWORK				WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP		CAGGTG_E12_Q6		
+427	ASAH1	N-acylsphingosine amidohydrolase (acid ceramidase) 1		CHEN_METABOLIC_SYNDROM_NETWORK				WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP				SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+3587	IL10RA	interleukin 10 receptor, alpha		CHEN_METABOLIC_SYNDROM_NETWORK				WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP				SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+84188	FAR1	fatty acyl CoA reductase 1		CHEN_METABOLIC_SYNDROM_NETWORK					GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+25816	TNFAIP8	tumor necrosis factor, alpha-induced protein 8		CHEN_METABOLIC_SYNDROM_NETWORK								SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+54458	PRR13	proline rich 13		CHEN_METABOLIC_SYNDROM_NETWORK								
+10257	ABCC4	ATP-binding cassette, sub-family C (CFTR/MRP), member 4		CHEN_METABOLIC_SYNDROM_NETWORK								
+339665	SLC35E4	solute carrier family 35, member E4		CHEN_METABOLIC_SYNDROM_NETWORK								
+5732	PTGER2	prostaglandin E receptor 2 (subtype EP2), 53kDa		CHEN_METABOLIC_SYNDROM_NETWORK								
+23498	HAAO	3-hydroxyanthranilate 3,4-dioxygenase		CHEN_METABOLIC_SYNDROM_NETWORK								
+444	ASPH	aspartate beta-hydroxylase			NUYTTEN_NIPP1_TARGETS_DN	BRUINS_UVC_RESPONSE_LATE			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+5718	PSMD12	proteasome (prosome, macropain) 26S subunit, non-ATPase, 12			NUYTTEN_NIPP1_TARGETS_DN	BRUINS_UVC_RESPONSE_LATE						SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+10755	GIPC1	GIPC PDZ domain containing family, member 1			NUYTTEN_NIPP1_TARGETS_DN		GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN			CAGGTG_E12_Q6		
+84792	C7orf70	chromosome 7 open reading frame 70			NUYTTEN_NIPP1_TARGETS_DN			WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+85315	PAQR8	progestin and adipoQ receptor family member VIII			NUYTTEN_NIPP1_TARGETS_DN			WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP				
+55179	FAIM	Fas apoptotic inhibitory molecule			NUYTTEN_NIPP1_TARGETS_DN				GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+23225	NUP210	nucleoporin 210kDa			NUYTTEN_NIPP1_TARGETS_DN					CAGGTG_E12_Q6		
+1522	CTSZ	cathepsin Z			NUYTTEN_NIPP1_TARGETS_DN						MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+23530	NNT	nicotinamide nucleotide transhydrogenase			NUYTTEN_NIPP1_TARGETS_DN							
+26986	PABPC1	poly(A) binding protein, cytoplasmic 1			NUYTTEN_NIPP1_TARGETS_DN							
+2181	ACSL3	acyl-CoA synthetase long-chain family member 3			NUYTTEN_NIPP1_TARGETS_DN							
+80727	TTYH3	tweety homolog 3 (Drosophila)			NUYTTEN_NIPP1_TARGETS_DN							
+9583	ENTPD4	ectonucleoside triphosphate diphosphohydrolase 4			NUYTTEN_NIPP1_TARGETS_DN							
+91607	SLFN11	schlafen family member 11			NUYTTEN_NIPP1_TARGETS_DN							
+57409	MIF4GD	MIF4G domain containing				BRUINS_UVC_RESPONSE_LATE	GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN					
+64374	SIL1	SIL1 homolog, endoplasmic reticulum chaperone (S. cerevisiae)				BRUINS_UVC_RESPONSE_LATE			GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+154	ADRB2	adrenergic, beta-2-, receptor, surface				BRUINS_UVC_RESPONSE_LATE				CAGGTG_E12_Q6	MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+3516	RBPJ	recombination signal binding protein for immunoglobulin kappa J region				BRUINS_UVC_RESPONSE_LATE				CAGGTG_E12_Q6		SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+9114	ATP6V0D1	ATPase, H+ transporting, lysosomal 38kDa, V0 subunit d1				BRUINS_UVC_RESPONSE_LATE				CAGGTG_E12_Q6		
+5236	PGM1	phosphoglucomutase 1				BRUINS_UVC_RESPONSE_LATE						SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+3801	KIFC3	kinesin family member C3				BRUINS_UVC_RESPONSE_LATE						
+55466	DNAJA4	DnaJ (Hsp40) homolog, subfamily A, member 4				BRUINS_UVC_RESPONSE_LATE						
+158	ADSL	adenylosuccinate lyase				BRUINS_UVC_RESPONSE_LATE						
+9694	TTC35	tetratricopeptide repeat domain 35				BRUINS_UVC_RESPONSE_LATE						
+10113	PREB	prolactin regulatory element binding				BRUINS_UVC_RESPONSE_LATE						
+4123	MAN2C1	mannosidase, alpha, class 2C, member 1				BRUINS_UVC_RESPONSE_LATE						
+84267	C9orf64	chromosome 9 open reading frame 64				BRUINS_UVC_RESPONSE_LATE						
+5272	SERPINB9	serpin peptidase inhibitor, clade B (ovalbumin), member 9				BRUINS_UVC_RESPONSE_LATE						
+57696	DDX55	DEAD (Asp-Glu-Ala-Asp) box polypeptide 55				BRUINS_UVC_RESPONSE_LATE						
+7077	TIMP2	TIMP metallopeptidase inhibitor 2					GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN	WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP			MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+7942	TFEB	transcription factor EB					GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN			CAGGTG_E12_Q6		
+57210	SLC45A4	solute carrier family 45, member 4					GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN				MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+1368	CPM	carboxypeptidase M					GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN					
+7580	ZNF32	zinc finger protein 32					GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN					
+55573	CDV3	CDV3 homolog (mouse)					GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN					
+23313	KIAA0930	KIAA0930					GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN					
+57162	PELI1	pellino homolog 1 (Drosophila)					GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN					
+59338	PLEKHA1	pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 1					GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN					
+6884	TAF13	TAF13 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 18kDa					GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN					
+60312	AFAP1	actin filament associated protein 1					GOBERT_OLIGODENDROCYTE_DIFFERENTIATION_DN					
+4048	LTA4H	leukotriene A4 hydrolase						WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP	GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+58528	RRAGD	Ras-related GTP binding D						WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP		CAGGTG_E12_Q6		
+121274	ZNF641	zinc finger protein 641						WANG_RESPONSE_TO_GSK3_INHIBITOR_SB216763_UP				
+10492	SYNCRIP	synaptotagmin binding, cytoplasmic RNA interacting protein							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN	CAGGTG_E12_Q6		
+2734	GLG1	golgi glycoprotein 1							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		MILI_PSEUDOPODIA_HAPTOTAXIS_DN	SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+56172	ANKH	ankylosis, progressive homolog (mouse)							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN		MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+64087	MCCC2	methylcrotonoyl-CoA carboxylase 2 (beta)							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+27044	SND1	staphylococcal nuclease and tudor domain containing 1							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+55636	CHD7	chromodomain helicase DNA binding protein 7							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+8209	C21orf33	chromosome 21 open reading frame 33							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+65084	TMEM135	transmembrane protein 135							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+5533	PPP3CC	protein phosphatase 3, catalytic subunit, gamma isozyme							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+84236	RHBDD1	rhomboid domain containing 1							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+54976	C20orf27	chromosome 20 open reading frame 27							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+10445	MCRS1	microspherule protein 1							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+79109	MAPKAP1	mitogen-activated protein kinase associated protein 1							GRAESSMANN_APOPTOSIS_BY_DOXORUBICIN_DN			
+51061	TXNDC11	thioredoxin domain containing 11								CAGGTG_E12_Q6	MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+3899	AFF3	AF4/FMR2 family, member 3								CAGGTG_E12_Q6		
+5420	PODXL	podocalyxin-like								CAGGTG_E12_Q6		
+27075	TSPAN13	tetraspanin 13								CAGGTG_E12_Q6		
+25801	GCA	grancalcin, EF-hand calcium binding protein								CAGGTG_E12_Q6		
+752	FMNL1	formin-like 1								CAGGTG_E12_Q6		
+55502	HES6	hairy and enhancer of split 6 (Drosophila)								CAGGTG_E12_Q6		
+6525	SMTN	smoothelin								CAGGTG_E12_Q6		
+5362	PLXNA2	plexin A2								CAGGTG_E12_Q6		
+113201	CASC4	cancer susceptibility candidate 4								CAGGTG_E12_Q6		
+79651	RHBDF2	rhomboid 5 homolog 2 (Drosophila)								CAGGTG_E12_Q6		
+353189	SLCO4C1	solute carrier organic anion transporter family, member 4C1								CAGGTG_E12_Q6		
+79696	FAM164C	family with sequence similarity 164, member C								CAGGTG_E12_Q6		
+90668	LRRC16B	leucine rich repeat containing 16B								CAGGTG_E12_Q6		
+10970	CKAP4	cytoskeleton-associated protein 4									MILI_PSEUDOPODIA_HAPTOTAXIS_DN	SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+29123	ANKRD11	ankyrin repeat domain 11									MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+7133	TNFRSF1B	tumor necrosis factor receptor superfamily, member 1B									MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+22827	PUF60	poly-U binding splicing factor 60KDa									MILI_PSEUDOPODIA_HAPTOTAXIS_DN	
+5696	PSMB8	proteasome (prosome, macropain) subunit, beta type, 8 (large multifunctional peptidase 7)										SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+9123	SLC16A3	solute carrier family 16, member 3 (monocarboxylic acid transporter 4)										SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+58472	SQRDL	sulfide quinone reductase-like (yeast)										SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+29777	ABT1	activator of basal transcription 1										SPIELMAN_LYMPHOBLAST_EUROPEAN_VS_ASIAN_DN
+10494	STK25	serine/threonine kinase 25										
+51645	PPIL1	peptidylprolyl isomerase (cyclophilin)-like 1										
+4967	OGDH	oxoglutarate (alpha-ketoglutarate) dehydrogenase (lipoamide)										
+8621	CDK13	cyclin-dependent kinase 13										
+23513	SCRIB	scribbled homolog (Drosophila)										
+6936	C2orf3	chromosome 2 open reading frame 3										
+10594	PRPF8	PRP8 pre-mRNA processing factor 8 homolog (S. cerevisiae)										
+9060	PAPSS2	3'-phosphoadenosine 5'-phosphosulfate synthase 2										
+400961	PAIP2B	poly(A) binding protein interacting protein 2B										
+80124	VCPIP1	valosin containing protein (p97)/p47 complex interacting protein 1										
+65080	MRPL44	mitochondrial ribosomal protein L44										
+51237	MZB1	marginal zone B and B1 cell-specific protein										
+22876	INPP5F	inositol polyphosphate-5-phosphatase F										
+57209	ZNF248	zinc finger protein 248										
+23593	HEBP2	heme binding protein 2										
+1962	EHHADH	enoyl-CoA, hydratase/3-hydroxyacyl CoA dehydrogenase										
+130814	PQLC3	PQ loop repeat containing 3										
+133746	JMY	junction mediating and regulatory protein, p53 cofactor										
+170394	PWWP2B	PWWP domain containing 2B										
+26511	CHIC2	cysteine-rich hydrophobic domain 2										
+1742	DLG4	discs, large homolog 4 (Drosophila)										
+79027	ZNF655	zinc finger protein 655										
+81856	ZNF611	zinc finger protein 611										
+11215	AKAP11	A kinase (PRKA) anchor protein 11										
+220213	OTUD1	OTU domain containing 1										
+441212	RP9P	retinitis pigmentosa 9 pseudogene										
+123803	NTAN1	N-terminal asparagine amidase										
+10420	TESK2	testis-specific kinase 2										
+63925	ZNF335	zinc finger protein 335										
+387032	ZKSCAN4	zinc finger with KRAB and SCAN domains 4										
+55016	MARCH1	membrane-associated ring finger (C3HC4) 1										
+23660	ZKSCAN5	zinc finger with KRAB and SCAN domains 5										
+162963	ZNF610	zinc finger protein 610										
+7710	ZNF154	zinc finger protein 154										
+339559	ZNF642	zinc finger protein 642										
+5333	PLCD1	phospholipase C, delta 1										
+85358	SHANK3	SH3 and multiple ankyrin repeat domains 3										
+160428	ALDH1L2	aldehyde dehydrogenase 1 family, member L2										
+55328	RNLS	renalase, FAD-dependent amine oxidase										
+56927	GPR108	G protein-coupled receptor 108										
+11224	RPL35	ribosomal protein L35										
+8970	HIST1H2BJ	histone cluster 1, H2bj										
+54980	C2orf42	chromosome 2 open reading frame 42										
+389206	BEND4	BEN domain containing 4										
+54681	P4HTM	prolyl 4-hydroxylase, transmembrane (endoplasmic reticulum)										
+652968	GATSL3	GATS protein-like 3										
+925	CD8A	CD8a molecule										
+92312	MEX3A	mex-3 homolog A (C. elegans)										
+8938	BAIAP3	BAI1-associated protein 3										
+144571	LOC144571	uncharacterized LOC144571										
+85413	SLC22A16	solute carrier family 22 (organic cation/carnitine transporter), member 16										
+389114	ZNF662	zinc finger protein 662										
+83694	RPS6KL1	ribosomal protein S6 kinase-like 1										
+100130771	EFCAB10	EF-hand calcium binding domain 10										
+645811	CCDC154	coiled-coil domain containing 154										
