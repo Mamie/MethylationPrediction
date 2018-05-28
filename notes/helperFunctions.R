@@ -3,6 +3,9 @@
 library(dplyr)
 library(biomaRt)
 library(fossil)
+library(ggplot2)
+library(grid)
+library(pheatmap)
 
 ensembl <- useMart("ENSEMBL_MART_ENSEMBL", dataset="hsapiens_gene_ensembl", host="www.ensembl.org")
 
@@ -100,3 +103,14 @@ WritePredictorInfo <- function(folder, k) {
         }
     }
 }
+
+  
+save_pheatmap_pdf <- function(x, filename, width=7, height=7) {
+   stopifnot(!missing(x))
+   stopifnot(!missing(filename))
+   pdf(filename, width=width, height=height)
+   grid::grid.newpage()
+   grid::grid.draw(x$gtable)
+   dev.off()
+}
+# example usage: save_pheatmap_pdf(xx, "test.pdf") where ww is the pheatmap object
