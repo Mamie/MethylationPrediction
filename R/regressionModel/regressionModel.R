@@ -103,26 +103,30 @@ ExtractVBSRSignificantCoef <- function(vbsr.fit, m, coef.names) {
 #' @param rnaseq a data matrix of predictive gene RNAseq level (each probe is a column)
 #' @param filename the path to which the image file (eps) will be saved
 #' @return None (side effect: image saved at filename)
-ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename, center=F, scale=F) {
+ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename=NULL, center=F, scale=F) {
   rownames(methylation) <- NULL
   colnames(methylation) <- NULL
   rownames(rnaseq) <- NULL
   rownames(avemethyl) <- NULL
-  ht1 <- Heatmap(methylation, col=viridis(256), width=unit(4.5, 'inches'), name='methylation', cluster_row=T, 
+  ht1 <- Heatmap(methylation, col=inferno(10), width=unit(2.5, 'inches'), name='methylation', cluster_row=T, 
                  column_title='methylation')
   ha1 <- avemethyl
-  ht2 <- Heatmap(ha1, col=viridis(256), width=unit(0.25, 'inches'), name='Average methylation')
+  ht2 <- Heatmap(ha1, col=inferno(10), width=unit(0.1, 'inches'), name='Average methylation')
   if (center) {
     GEP <- scale(rnaseq, center=center, scale=scale)
   } else {
     GEP <- rnaseq 
   }
-  ht3 <- Heatmap(GEP, col=viridis(256), width=unit(2, 'inches'),  name='GEP', column_title='GEP', cluster_columns=F)
+  ht3 <- Heatmap(GEP, col=inferno(10), width=unit(0.4, 'inches'),  name='GEP', column_title='GEP', cluster_columns=T)
+  if(!is.null(filename)) {
   setEPS()
   postscript(file=filename, width=13, height=10)
     draw(ht1 + ht2 + ht3)
   dev.off()
   print(paste('Image saved as', filename))
+  } else {
+    draw(ht1 + ht2 + ht3)
+  }
 }
 
 
