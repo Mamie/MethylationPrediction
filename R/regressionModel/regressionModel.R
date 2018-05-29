@@ -103,7 +103,7 @@ ExtractVBSRSignificantCoef <- function(vbsr.fit, m, coef.names) {
 #' @param rnaseq a data matrix of predictive gene RNAseq level (each probe is a column)
 #' @param filename the path to which the image file (eps) will be saved
 #' @return None (side effect: image saved at filename)
-ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename=NULL, center=F, scale=F) {
+ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename=NULL, center=F, scale=F, coef=NULL) {
   rownames(methylation) <- NULL
   colnames(methylation) <- NULL
   rownames(rnaseq) <- NULL
@@ -114,6 +114,7 @@ ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename=NULL, center=
   ht2 <- Heatmap(ha1, col=inferno(10), width=unit(0.1, 'inches'), name='Average methylation')
   if (center) {
     GEP <- scale(rnaseq, center=center, scale=scale)
+    if(!is.null(coef)) GEP <- t(t(GEP) * coef)
   } else {
     GEP <- rnaseq 
   }
