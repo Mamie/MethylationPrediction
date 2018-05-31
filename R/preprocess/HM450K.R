@@ -62,7 +62,8 @@ print('Matching patients present in RNAseq...')
 rnaseq <- read.csv('/oak/stanford/groups/andrewg/users/szmamie/repos/MethylationPrediction/data/LAML/processed/RNAseq-imputed.tsv', sep='\t', header=F, stringsAsFactor=F)
 patients.rnaseq <- rnaseq[1,-dim(rnaseq)[2]]
 patients.HM450 <- sapply(colnames(HM450.processed), function(x) toupper(substr(x, 1, 15)))
-patients.matched <- which(patients.HM450 %in% colnames(rnaseq))
+colnames(HM450.processed) <- patients.HM450
+patients.matched <- patients.HM450 %in% patients.rnaseq
 HM450.processed <- HM450.processed[, patients.matched]
 print(dim(HM450.processed))
 
