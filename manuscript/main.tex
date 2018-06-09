@@ -28,12 +28,12 @@
 
 % The \icmltitle you define below is probably too long as a header.
 % Therefore, a short form for the running title is supplied here:
-\icmltitlerunning{Bayesian prediction of intensity rates from multivariate point processes}
+\icmltitlerunning{??}
 
 \begin{document}
 
 \twocolumn[
-\icmltitle{?}
+\icmltitle{??}
 
 % It is OKAY to include author information, even for blind
 % submissions: the style file will automatically remove it for you
@@ -51,26 +51,13 @@
 \icmlsetsymbol{equal}{*}
 
 \begin{icmlauthorlist}
-\icmlauthor{Aeiau Zzzz}{equal,to}
-\icmlauthor{Bauiu C.~Yyyy}{equal,to,goo}
-\icmlauthor{Cieua Vvvvv}{goo}
-\icmlauthor{Iaesut Saoeu}{ed}
-\icmlauthor{Fiuea Rrrr}{to}
-\icmlauthor{Tateu H.~Yasehe}{ed,to,goo}
-\icmlauthor{Aaoeu Iasoh}{goo}
-\icmlauthor{Buiui Eueu}{ed}
-\icmlauthor{Aeuia Zzzz}{ed}
-\icmlauthor{Bieea C.~Yyyy}{to,goo}
-\icmlauthor{Teoau Xxxx}{ed}
-\icmlauthor{Eee Pppp}{ed}
+\icmlauthor{Meng Wang}{bmi}
+\icmlauthor{Andrew J. Gentles}{bds}
 \end{icmlauthorlist}
 
-\icmlaffiliation{to}{Department of Computation, University of Torontoland, Torontoland, Canada}
-\icmlaffiliation{goo}{Googol ShallowMind, New London, Michigan, USA}
-\icmlaffiliation{ed}{School of Computation, University of Edenborrow, Edenborrow, United Kingdom}
-
-\icmlcorrespondingauthor{Cieua Vvvvv}{c.vvvvv@googol.com}
-\icmlcorrespondingauthor{Eee Pppp}{ep@eden.co.uk}
+\icmlaffiliation{bmi}{Biomedical Informatics Training Program, Stanford University, CA, USA}
+\icmlaffiliation{bds}{Department of Biomedical Data Sciences, Stanford University, CA, USA}
+\icmlcorrespondingauthor{Andrew J. Gentles}{andrewg@stanford.edu}
 
 % You may provide any keywords that you
 % find helpful for describing your paper; these are used to populate
@@ -88,33 +75,60 @@
 % The \icmlEqualContribution command is standard text for equal contribution.
 % Remove it (just {}) if you do not need this facility.
 
-%\printAffiliationsAndNotice{}  % leave blank if no need to mention equal contribution
-\printAffiliationsAndNotice{\icmlEqualContribution} % otherwise use the standard text.
+\printAffiliationsAndNotice{}  % leave blank if no need to mention equal contribution
+%\printAffiliationsAndNotice{\icmlEqualContribution} % otherwise use the standard text.
 
 \begin{abstract} 
+
 \end{abstract}
 
 \section{Introduction}
 
+
+
 \section{Methods}
+
+\subsection{\citet{figueroa2010dna} DNA methylation and gene expression microarray data }
+
+DNA methylation and gene expression microarray data from \citet{figueroa2010dna} were downloaded from the GEO repository (Accession number ). We followed preprocessing procedure in \citet{figueroa2010dna} and performed unsupervised hierarchical clustering of patients from methylation microarray using the subset of probe set ($n = 3745$) with standard deviation $> 1$ across all AML cases. Lingoes transformed 1 - Pearson correlation distance is used as the distance metrics and Ward's method is used as the clustering algorithm to reproduce the same patient groupings from original study. Gene expression array \citep{precog...}
+
+\subsection{Consensus clustering of methylation probes}
+
+Consensus clustering \citep{monti2003consensus, wilkerson2010consensusclusterplus} was used determine the optimal number of clusters of probes. [parameters]
+
 \begin{figure}[h]
 \includegraphics[width=0.5\textwidth]{../figs/flowChart}
 \caption{\textbf{Pipeline}}
 \end{figure}
-\subsection{data preprocessing}
+
+
+\subsection{TCGA data preprocessing}
 TCGA Level 3 mRNAseq and DNA methylation data (HumanMethylation450 arrays) was downloaded from Broad TCGA GDAC site for LAML, SKCM and HNSC. mRNAseq probes with missing values were removed. We queried the GO terms (molecular function and biological process) based on the HUGO symbol of the probes and kept only probes that contain keywords related to transcription and methylation as our feature matrix.   
 
-Methylation array data was filtered to remove probes that are on chromosome X and Y and have missing values. Probes with UCSC RefGene group annotation as TSS 1500 and located within UCSC CpG island annotation were selected. The correlation between the Beta value of filtered methylation probes and RSEM level of the corresponding genes in mRNAseq data were computed and significant methylation probes was filtered with FDR adjusted p-value (FDR < 0.1) of 0.05. The resulting probes were clustered using hierarchical clustering with euclidean distance using Ward's method. 20 clusters were set as the cutoff for assigning cluster membership. The average methylation level within the cluster of each patient was computed as the response vector. 
+Methylation array data was filtered to remove probes that are on chromosome X and Y and have missing values. Probes with UCSC RefGene group annotation as TSS 1500 and located within UCSC CpG island annotation were selected. The correlation between the Beta value of filtered methylation probes and RSEM level of the corresponding genes in mRNAseq data were computed and significant methylation probes was filtered with FDR adjusted p-value (FDR $< 0.1$) of 0.05. The resulting probes were clustered using hierarchical clustering with euclidean distance using Ward's method. 20 clusters were set as the cutoff for assigning cluster membership. The average methylation level within the cluster of each patient was computed as the response vector. 
 
 \subsection{variational Bayesian spike regression}
-variational Bayesian spike regression (VBSR) \cite{logsdon2012novel} is a Bayesian approximation of best subset selection. We used VBSR to select subset of informative mRNAseq probes that best explain the observed pattern of methylation level across patients out of all possible subset. VBSR approaches the problem by using a variational Bayes approximation that probabilistically models the inclusion of any probes in the regression model. The p-value on the estimated value of penalized regression coefficient were computed and significant probes were extracted at FDR adjusted p-value (FDR < 0.1) of 0.05. R package \texttt{vbsr} was used. 
+variational Bayesian spike regression (VBSR) \cite{logsdon2012novel} is a Bayesian approximation of best subset selection. We used VBSR to select subset of informative mRNAseq probes that best explain the observed pattern of methylation level across patients out of all possible subset. VBSR approaches the problem by using a variational Bayes approximation that probabilistically models the inclusion of any probes in the regression model. The p-value on the estimated value of penalized regression coefficient were computed and significant probes were extracted at FDR adjusted p-value (FDR < 0.1) of 0.05. R package \texttt{vbsr} was used. [parameters]
 
 \subsection{Geneset analysis of methylation clusters}
 The enrichment of biological processes in each methylation clusters were examined by comparing to pre-defined genesets on MSigDB by hypergeometric test. 
 
 \section{Results}
 
-\subsection{Methylation clustering}
+\subsection{Consensus clustering of methylation probes}
+
+Consensus clustering \citep{monti2003consensus, wilkerson2010consensusclusterplus} provides quantitative and visual stability evidence for number of groups present in the dataset and were used to cluster the methylation probes. Figure \ref{CC}.
+
+\begin{figure*}[ht!]
+\centering
+\includegraphics[width=\textwidth]{Figures/clustering}
+\caption{\textbf{Consensus clustering (CC) of methylation probes for \citet{figueroa2010dna}} (a) consensus matrix for k = $6, 7, 8$. $k = 7$ shows high intra-cluster consensus and low intercluster consensus. (b) cumulative distribution function of consensus matrix at each $k = 1, \dots, 10$. $k = 7$ approaches the maximum consensus distribution (c) Area under CDF of consensus matrix for $k = 1, \dots, 10$. $k = 7$ is the largest $k$ with a appreciable increase in consensus (d) Hierarchical clustering of cases and probes. Each row represents a probe and each column represents a patients. Methylation intensity level were row and column normalized. The16 clusters of AML cases from \citet{figueroa2010dna} were reproduced. Probes were clustered using Ward's method with Pearson correlation distance transformed to Euclidean space and $k=7$ were chosen as the cutoff from CC. }
+\label{CC}
+\end{figure*}
+
+
+\subsection{Gene enrichment analysis}
+[table here]
 
 \section{Discussion}
 
