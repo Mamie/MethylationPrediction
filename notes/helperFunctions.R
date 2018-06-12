@@ -45,12 +45,7 @@ ExtractClusterProbes <- function(cluster, geneid, k) {
 #'
 #' @param geneid a data frame containing the gene and probe id
 #' @return a data frame with gene description from hgnc if available
-MergeHGNCDescription <- function(geneid) {
-    genes.info <- getBM(c("hgnc_symbol", "description"), "hgnc_symbol", geneid$gene, mart=ensembl)
-    if (dim(genes.info)[1] == 0) return(NULL)
-    geneid %>%
-      left_join(genes.info, by=c('gene'='hgnc_symbol'))
-}
+
 
 #' Write csv file for data frame
 #'
