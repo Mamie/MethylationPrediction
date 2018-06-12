@@ -107,7 +107,7 @@ Variational Bayesian spike regression (vBsr) \cite{logsdon2012novel} is a penali
 \begin{figure*}[htb!]
 \centering
 \includegraphics[width=\textwidth]{Figures/clustering}
-\caption{\textbf{Consensus clustering of methylation probes for \citet{figueroa2010dna}} (a) consensus matrix for k = $6, 7, 8$. $k = 7$ shows high intra-cluster consensus and low intercluster consensus. (b) cumulative distribution function of consensus matrix at each $k = 1, \dots, 10$. $k = 7$ approaches the maximum consensus distribution (c) Area under CDF of consensus matrix for $k = 1, \dots, 10$. $k = 7$ is the largest $k$ with a appreciable increase in consensus (d) Hierarchical clustering of cases and probes. Each row represents a probe and each column represents a patients. Methylation intensity level were row and column normalized. The16 clusters of AML cases from \citet{figueroa2010dna} were reproduced. Probes were clustered using Ward's method with Pearson correlation distance transformed to Euclidean space and $k=7$ were chosen as the cutoff from CC.}
+\caption{\textbf{Consensus clustering of methylation probes for \citet{figueroa2010dna}} (a) consensus matrix for k = $6, 7, 8$ (b) cumulative distribution function of consensus matrix at each $k = 1, \dots, 10$ (c) Area under CDF of consensus matrix for $k = 1, \dots, 10$ (d) Hierarchical clustering of cases and probes. Each row represents a probe and each column represents a patients. Methylation intensity level were row and column normalized. The16 AML cases from \citet{figueroa2010dna} were reproduced. Probes were clustered using Ward's method with lingoes transformation of 1 - Pearson correlation distance transformed to Euclidean space and $k=7$ were chosen as the cutoff from CC.}
 \label{CC}
 \end{figure*}
 
@@ -121,7 +121,11 @@ Methylation array data was obtained from Illumina Infinium HumanMethylation450 B
 
 \subsection{Significant associated gene expression probes in \citet{figueroa2010dna}}
 
-Figure \ref{CC} shows the results of consensus clustering on probes and significantly enriched biological processes in each cluster is shown below in Table \ref{enriched}. 
+Figure \ref{CC} shows the results of consensus clustering on probes. [Explain the choice of 7 clusters]
+ $k = 7$ shows high intra-cluster consensus and low intercluster consensus.
+$k = 7$ approaches the maximum consensus distribution 
+$k = 7$ is the largest $k$ with a appreciable increase in consensus 
+ and significantly enriched biological processes in each cluster is shown below in Table \ref{enriched}. 
 
 \begin{table*}[ht!]
 \centering
@@ -162,7 +166,12 @@ Enriched biological process & ref & overlap & expected & fold enrich & raw P & F
 \label{enriched}
 \end{table*}
 
+\subsection{vBsr}
 
+\begin{figure*}[htb!]
+\includegraphics[width=\textwidth]{Figures/vBsr}
+\caption{\textbf{Heatmap of methylation clusters, average methylation level and gene expression probes significantly associate with average methylation level}}
+\end{figure*}
 
 \section{Discussion}
 
