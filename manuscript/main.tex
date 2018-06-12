@@ -21,7 +21,7 @@
 \newcommand{\theHalgorithm}{\arabic{algorithm}}
 
 % Use the following line for the initial blind version submitted for review:
-\usepackage{example/icml2018}
+\usepackage[accepted]{example/icml2018}
 
 % If accepted, instead use the following line for the camera-ready submission:
 %\usepackage[accepted]{icml2018}
@@ -88,43 +88,42 @@
 
 \section{Methods}
 
-\subsection{\citet{figueroa2010dna} DNA methylation and gene expression microarray data }
+%\begin{figure}[h]
+%\includegraphics[width=0.5\textwidth]{../figs/flowChart}
+%\caption{\textbf{Pipeline}}
+%\end{figure}
 
-DNA methylation and gene expression microarray data from \citet{figueroa2010dna} were downloaded from the GEO repository (Accession number ). We followed preprocessing procedure in \citet{figueroa2010dna} and performed unsupervised hierarchical clustering of patients from methylation microarray using the subset of probe set ($n = 3745$) with standard deviation $> 1$ across all AML cases. Lingoes transformed 1 - Pearson correlation distance is used as the distance metrics and Ward's method is used as the clustering algorithm to reproduce the same patient groupings from original study. Gene expression array \citep{precog...}
+\subsection{\citet{figueroa2010dna} DNA methylation and gene expression data}
 
-\subsection{Consensus clustering of methylation probes}
+DNA methylation and gene expression microarray data of 344 AML cases from \citet{figueroa2010dna} were downloaded from the GEO repository (GEO Accession number: GSE18700, GSE14468). Briefly, methylation data were obtained from custom design human promoter microarray for HELP assay, and gene expression data was obtained from Affymetrix Human Genome U133 Plus 2.0 Array. 
 
-Consensus clustering \citep{monti2003consensus, wilkerson2010consensusclusterplus} was used determine the optimal number of clusters of probes. [parameters]
+Preprocessed gene expression data were obtained from \citet{gentles2015prognostic}, which normalized the raw CEL files with Affymetrix MAS5 algorithm and $\log_2$ transformed. We queried the GO terms on molecular function and biological process based on the HUGO gene symbol of the probes and filtered for probes that contain keywords related to transcription and methylation, which serves as predictors of our model.
 
-\begin{figure}[h]
-\includegraphics[width=0.5\textwidth]{../figs/flowChart}
-\caption{\textbf{Pipeline}}
-\end{figure}
+For methylation data analysis, we followed \citet{figueroa2010dna} and performed unsupervised hierarchical clustering of patients from methylation microarray using subset of the probes with standard deviation $> 1$ across all AML cases ($n = 3745$). Lingoes transformed 1 - Pearson correlation distance and Ward's minimum variance criterion were used. The patient clusters from the original study was reproduced. We clustered the methylation probes using consensus clustering \citep{monti2003consensus}, which produces visual and quantitative stability evidence to a given number of clusters $k$ and cluster assignments. R package \texttt{ConsensusClusterPlus} \citep{wilkerson2010consensusclusterplus} provides an implementation of the method and were used to determine the optimal number of clusters. We used the following options: 80 \% probe subsampling, Ward's criterion with Lingoes transformation on 1 - Pearson correlation distance, 50 replicates for each $k$  and maximum $k = 10$.  We decides the number of optimal number of clusters based on the consensus matrix and area under CDF. The enrichment of biological processes represented by genes in each methylation cluster were examined using PANTHER Classification System \citep{mi2013large}.
 
+\subsection{Selection of significant gene expression probes}
+Variational Bayesian spike regression (vBsr) \cite{logsdon2012novel} is a penalized Bayesian regression model that imposes sparsity constraint on the regression coefficients using a spike-and-slab prior and utilized mean-field approximation to achieve fast computation. In addition, the algorithm was ran multiple times with random initialization to identify multiple local maxima of lower bound and provides the option of Bayesian Model Averaging (BMA) over the identified models to produce an estimate to reduce the model uncertainty. vBsr also defines a test statistic $z_{vb}$ associated with each penalized coefficients that allow control over the family-wise error rate by tuning the penalty parameter $l_0$ such that $z_{vb}$ statistics are approximately $\mathcal{N}(0, 1)$ under the null hypothesis. We used vBsr to select the subset of gene expression probes that significantly associate with the observed pattern of methylation level across patients. We ran 100 random starts for each model and used BMA option. We tuned the penalty parameter $l_0$ such that a feature will have a posterior probability of 0.95 if it passes a Bonferroni correction in the multivariate model to control the Type I error rate. Gene expression probes that were significant for $z_{vb}$ at $\widehat{FDR} = 0.1$ were selected. 
 
-\subsection{TCGA data preprocessing}
-TCGA Level 3 mRNAseq and DNA methylation data (HumanMethylation450 arrays) was downloaded from Broad TCGA GDAC site for LAML, SKCM and HNSC. mRNAseq probes with missing values were removed. We queried the GO terms (molecular function and biological process) based on the HUGO symbol of the probes and kept only probes that contain keywords related to transcription and methylation as our feature matrix.   
+\begin{figure*}[htb!]
+\centering
+\includegraphics[width=\textwidth]{Figures/clustering}
+\caption{\textbf{Consensus clustering of methylation probes for \citet{figueroa2010dna}} (a) consensus matrix for k = $6, 7, 8$. $k = 7$ shows high intra-cluster consensus and low intercluster consensus. (b) cumulative distribution function of consensus matrix at each $k = 1, \dots, 10$. $k = 7$ approaches the maximum consensus distribution (c) Area under CDF of consensus matrix for $k = 1, \dots, 10$. $k = 7$ is the largest $k$ with a appreciable increase in consensus (d) Hierarchical clustering of cases and probes. Each row represents a probe and each column represents a patients. Methylation intensity level were row and column normalized. The16 clusters of AML cases from \citet{figueroa2010dna} were reproduced. Probes were clustered using Ward's method with Pearson correlation distance transformed to Euclidean space and $k=7$ were chosen as the cutoff from CC. }
+\label{CC}
+\end{figure*}
 
-Methylation array data was filtered to remove probes that are on chromosome X and Y and have missing values. Probes with UCSC RefGene group annotation as TSS 1500 and located within UCSC CpG island annotation were selected. The correlation between the Beta value of filtered methylation probes and RSEM level of the corresponding genes in mRNAseq data were computed and significant methylation probes was filtered with FDR adjusted p-value (FDR $< 0.1$) of 0.05. The resulting probes were clustered using hierarchical clustering with euclidean distance using Ward's method. 20 clusters were set as the cutoff for assigning cluster membership. The average methylation level within the cluster of each patient was computed as the response vector. 
+\subsection{TCGA LAML RNA-seq and DNA methylation data}
+TCGA Level 3 mRNAseq and DNA methylation data was downloaded from Broad TCGA GDAC site for LAML. mRNAseq probes with missing values were imputed by KNN using R packages \texttt{impute} \citep{hastie2001impute}. We queried the GO terms on molecular function and biological process based on the HUGO symbol of the probes and filtered for probes that contain keywords related to transcription and methylation as predictors for our model.   
 
-\subsection{variational Bayesian spike regression}
-variational Bayesian spike regression (VBSR) \cite{logsdon2012novel} is a Bayesian approximation of best subset selection. We used VBSR to select subset of informative mRNAseq probes that best explain the observed pattern of methylation level across patients out of all possible subset. VBSR approaches the problem by using a variational Bayes approximation that probabilistically models the inclusion of any probes in the regression model. The p-value on the estimated value of penalized regression coefficient were computed and significant probes were extracted at FDR adjusted p-value (FDR < 0.1) of 0.05. R package \texttt{vbsr} was used. [parameters]
+Methylation array data was obtained from Illumina Infinium HumanMethylation450 BeadChip. Probes that are on chromosome X and Y were removed. Probes with UCSC RefGene group annotation as TSS 1500 and located within UCSC CpG island annotation were selected. The correlation between the Beta value of filtered methylation probes and RSEM level of the corresponding genes in mRNAseq data were computed and significant methylation probes was filtered with FDR adjusted p-value (FDR $< 0.1$) of 0.05. The resulting probes were clustered using hierarchical clustering with euclidean distance using Ward's method. 20 clusters were set as the cutoff for assigning cluster membership. The average methylation level within the cluster of each patient was computed as the response vector. 
 
-\subsection{Geneset analysis of methylation clusters}
-The enrichment of biological processes in each methylation clusters were examined by comparing to pre-defined genesets on MSigDB by hypergeometric test. 
 
 \section{Results}
 
-\subsection{Consensus clustering of methylation probes}
+\subsection{Significant associated gene expression probes in \citet{figueroa2010dna}}
 
-Consensus clustering \citep{monti2003consensus, wilkerson2010consensusclusterplus} provides quantitative and visual stability evidence for number of groups present in the dataset and were used to cluster the methylation probes. Figure \ref{CC}.
+Figure \ref{CC} showed results of consensus clustering on the methylation probes for \citet{figueroa2010dna}. 
 
-\begin{figure*}[ht!]
-\centering
-\includegraphics[width=\textwidth]{Figures/clustering}
-\caption{\textbf{Consensus clustering (CC) of methylation probes for \citet{figueroa2010dna}} (a) consensus matrix for k = $6, 7, 8$. $k = 7$ shows high intra-cluster consensus and low intercluster consensus. (b) cumulative distribution function of consensus matrix at each $k = 1, \dots, 10$. $k = 7$ approaches the maximum consensus distribution (c) Area under CDF of consensus matrix for $k = 1, \dots, 10$. $k = 7$ is the largest $k$ with a appreciable increase in consensus (d) Hierarchical clustering of cases and probes. Each row represents a probe and each column represents a patients. Methylation intensity level were row and column normalized. The16 clusters of AML cases from \citet{figueroa2010dna} were reproduced. Probes were clustered using Ward's method with Pearson correlation distance transformed to Euclidean space and $k=7$ were chosen as the cutoff from CC. }
-\label{CC}
-\end{figure*}
+
 
 
 \subsection{Gene enrichment analysis}
