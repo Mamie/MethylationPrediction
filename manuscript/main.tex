@@ -119,37 +119,29 @@ Methylation array data was obtained from Illumina Infinium HumanMethylation450 B
 
 \section{Results}
 
-\subsection{Significant associated gene expression probes in \citet{figueroa2010dna}}
-
-Figure \ref{CC} shows the results of consensus clustering on probes. [Explain the choice of 7 clusters]
- $k = 7$ shows high intra-cluster consensus and low intercluster consensus.
-$k = 7$ approaches the maximum consensus distribution 
-$k = 7$ is the largest $k$ with a appreciable increase in consensus 
- and significantly enriched biological processes in each cluster is shown below in Table \ref{enriched}. 
-
 \begin{table*}[ht!]
 \centering
 \begin{tabular}{lllllllll}
   \toprule
 Enriched biological process & ref & overlap & expected & fold enrich & raw P & FDR \\ 
   \midrule
-  cluster 1 (size 326) \\
+  Cluster 1 (size 326) \\
   \midrule
   cell communication & 5693 &  97 & 63.04 & 1.54 & 1.8e-6 & 2.4e-3 \\ 
   signaling & 5578 &  96 & 61.77 & 1.55 & 1.5e-6 & 2.3e-3 \\ 
    \midrule
-   cluster 3 (size 671) \\
+   Cluster 3 (size 671) \\
    \midrule
      cellular process & 15478 & 436 & 379.56 & 1.15 & 6.1e-9 & 9.5e-5 \\ 
 \midrule
-  cluster 5 (size 816)\\
+  Cluster 5 (size 816)\\
   \midrule
   developmental process  & 5654 & 310 & 199.38 & 1.55 & 9.2e-18 & 1.4e-13 \\ 
   anatomical structure development & 5299 & 293 & 186.86 & 1.57 & 5.6e-17 & 4.4e-13 \\ 
   multicellular organism development & 4918 & 275 & 173.42 & 1.59 & 2.7e-16 & 1.1e-12 \\ 
   system development & 4309 & 244 & 151.95 & 1.61 & 1.0e-14 & 2.6e-11 \\ 
      \midrule
-   cluster 6 (size 656)\\
+   Cluster 6 (size 656)\\
   \midrule
   developmental process & 5654 & 199 & 147.52 & 1.35 & 2.2e-6 & 5.7e-3 \\ 
   cellular component organization or biogenesis & 5773 & 196 & 150.62 & 1.30 & 3.1e-5 & 2.7e-2 \\ 
@@ -157,21 +149,103 @@ Enriched biological process & ref & overlap & expected & fold enrich & raw P & F
   anatomical structure development & 5299 & 190 & 138.25 & 1.37 & 1.3e-6 & 5.2e-3 \\ 
   multicellular organism development & 4918 & 184 & 128.31 & 1.43 & 1.1e-7 & 1.6e-3 \\ 
      \midrule
-     cluster 7 (size 461) \\
+     Cluster 7 (size 461) \\
      \midrule
      negative regulation of biological process & 5129 & 132 & 89.21 & 1.48 & 8.2e-07 & 1.3e-2 \\ 
 	\bottomrule
 \end{tabular}
-\caption{\textbf{Enriched biological processes in \citet{figueroa2010dna} methylation probes cluster} }
+\caption{\textbf{Enriched biological processes in \citet{figueroa2010dna} methylation probes cluster} PANTHER overrepresentation test were performed using the associated gene with each methylation probe with control of $FDR < 0.05$. The table shows the test gene set (genes in each cluster), reference set size, overlap between the two sets, fold enrichment and corresponding raw p-value and FDR value. The hits with overlap between test and reference gene set at least 25\% of the cluster size were shown in the table. Cluster 2 (size 290) and 4 (size 525) result in no significant hits.}
 \label{enriched}
 \end{table*}
 
-\subsection{vBsr}
+\subsection{Methylation probes clustering}
+
+Figure \ref{CC} shows the results of consensus clustering on probes. Consensus of a pair of probe is defined to be the proportion of clustering runs on the resampled dataset that two probes are clustered together. Consensus matrices for cluster count $k = 1, \dots, 10$ were examined and $k = 7$ shows high intra-cluster consensus and low intercluster consensus among all cluster counts. Figure \ref{CC}(a) shows heat map of consensus matrix for cluster count $k = 6, 7, 8$. The CDF plot Figure \ref{CC}(b) shows that $k = 7$ approaches the maximum consensus distribution. The Delta Area Plot (Figure \ref{CC}(c)) shows the area under the CDF curves and $k = 7$ is observed to have the largest $k$ with a appreciable increase in consensus. These evidences suggest a cluster count of 7. Figure \ref{CC}(d) shows the heat map of methylation level with 16 column cluster of patients and 7 row cluster of probes. 
+
+We examine each clusters for enrichment of specific biological processes using PANTHER overrepresentation test \citep{mi2013large} and the annotations associated with each cluster were shown below in Table \ref{enriched}. Cluster 2 and 4 showed no significant enrichment results. 
+
+\subsection{Selection of gene expression probes associated with methylation pattern}
+
+For each cluster, we averaged the methylation level across patients. Variational Bayes spike regression was used to select the gene expression probes that are significantly associated with the average methylation profile. Figure \ref{heatmap} shows the heat map for methylation level, average methylation profile, and selected gene expression level for cluster $1, 3, 5, 6, 7$. Table \ref{genes} showed the significantly associated gene probes with each cluster and corresponding annotation and coefficient from vBsr model. 
 
 \begin{figure*}[htb!]
-\includegraphics[width=\textwidth]{Figures/vBsr}
-\caption{\textbf{Heatmap of methylation clusters, average methylation level and gene expression probes significantly associate with average methylation level}}
+\centering
+\includegraphics[width=0.8\textwidth]{Figures/vBsr}
+\caption{\textbf{Heatmap of methylation clusters, average methylation level and gene expression probes significantly associate with average methylation level} }
+\label{heatmap}
 \end{figure*}
+
+\begin{table*}[ht!]
+\centering
+\begin{tabular}{llr}
+  \toprule
+gene & description & coef \\ 
+  \midrule
+  Cluster 1 \\
+  \midrule
+ERBB2 & erb-b2 receptor tyrosine kinase 2 & 0.002 \\ 
+  ZBTB38 & zinc finger and BTB domain containing 38 & -0.00068 \\ 
+  HDAC2 & histone deacetylase 2 & 0.00059 \\ 
+  RBPJ & recombination signal binding protein for immunoglobulin kappa J region & -0.00019 \\ 
+  POU6F1 & POU class 6 homeobox 1 & 0.0023 \\ 
+  TAL1 & TAL bHLH transcription factor 1, erythroid differentiation factor & 0.0002 \\ 
+  CDCA7 & cell division cycle associated 7 & -0.00015 \\ 
+  AURKB & aurora kinase B & 0.0004 \\ 
+   \midrule
+   Cluster 3 \\
+   \midrule
+   MED13L & mediator complex subunit 13 like & -0.00015 \\ 
+  INTS6 & integrator complex subunit 6 & -0.00021 \\ 
+  MGMT & O-6-methylguanine-DNA methyltransferase & 0.0006 \\ 
+  SOX15 & SRY-box 15 & 0.00071 \\ 
+  TRAF7 & TNF receptor associated factor 7 & 0.00028 \\ 
+  ABHD14B & abhydrolase domain containing 14B & -0.00012 \\ 
+  PDLIM1 & PDZ and LIM domain 1 & 1.1e-05 \\ 
+  ZMYM4 & zinc finger MYM-type containing 4 & 0.00018 \\ 
+   \midrule
+   Cluster 5 \\
+   \midrule
+   TLR6 & toll like receptor 6 & 0.0007 \\ 
+  SSU72 & SSU72 homolog, RNA polymerase II CTD phosphatase & 0.00013 \\ 
+  BCL7A & BCL tumor suppressor 7A & 0.00021 \\ 
+  SARS & seryl-tRNA synthetase & -0.0003 \\ 
+  SFPQ & splicing factor proline and glutamine rich & -2.8e-05 \\ 
+  \midrule
+  Cluster 6 \\
+  \midrule
+  DEAF1 & DEAF1, transcription factor & 8.1e-05 \\ 
+  ATF7IP & activating transcription factor 7 interacting protein & -5.1e-05 \\ 
+  PSEN1 & presenilin 1 & -0.00022 \\ 
+  CREBZF & CREB/ATF bZIP transcription factor & 0.00031 \\ 
+  RBL2 & RB transcriptional corepressor like 2 & 0.00024 \\ 
+  VLDLR & very low density lipoprotein receptor & -6.4e-05 \\ 
+  ZC3H8 & zinc finger CCCH-type containing 8 & -0.00045 \\ 
+  ZBTB24 & zinc finger and BTB domain containing 24 & 0.00015 \\ 
+  \midrule
+  Cluster 7 \\
+  \midrule
+  MAMLD1 & mastermind like domain containing 1 & -0.00059 \\ 
+  AKT1 & AKT serine/threonine kinase 1 & 9e-05 \\ 
+  F2RL1 & F2R like trypsin receptor 1 & -0.00015 \\ 
+  GFI1 & growth factor independent 1 transcriptional repressor & 8.6e-05 \\ 
+  GLO1 & glyoxalase I & -3.8e-05 \\ 
+  HNMT & histamine N-methyltransferase & 0.00092 \\ 
+  MED1 & mediator complex subunit 1 & -0.00018 \\ 
+  PAK6 & p21 (RAC1) activated kinase 6 & 0.00033 \\ 
+  ZNF286A & zinc finger protein 286A & -0.004 \\ 
+  KIAA1549 & KIAA1549 & 0.00047 \\ 
+  ZBED5 & zinc finger BED-type containing 5 & -0.00034 \\ 
+  SCML1 & Scm polycomb group protein like 1 & -0.00043 \\ 
+  CRTC3 & CREB regulated transcription coactivator 3 & -8.9e-05 \\ 
+  SLC11A1 & solute carrier family 11 member 1 & 0.00019 \\ 
+  TP53BP1 & tumor protein p53 binding protein 1 & 0.00032 \\ 
+  CBX2 & chromobox 2 & -0.00037 \\ 
+  TRIM15 & tripartite motif containing 15 & 0.0005 \\ 
+   \bottomrule
+\end{tabular}
+\label{genes}
+\caption{\textbf{Gene expression probes significantly associated with methylation cluster}}
+\end{table*}
 
 \section{Discussion}
 
