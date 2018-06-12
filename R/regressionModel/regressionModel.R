@@ -107,11 +107,10 @@ ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename=NULL, center=
   rownames(methylation) <- NULL
   colnames(methylation) <- NULL
   rownames(rnaseq) <- NULL
-  rownames(avemethyl) <- NULL
+  names(avemethyl) <- NULL
   ht1 <- Heatmap(methylation, col=inferno(10), width=unit(2.5, 'inches'), name='methylation', cluster_row=T, 
                  column_title='methylation')
-  ha1 <- avemethyl
-  ht2 <- Heatmap(ha1, col=inferno(10), width=unit(0.1, 'inches'), name='Average methylation')
+  ht2 <- Heatmap(avemethyl, col=inferno(10), width=unit(0.1, 'inches'), name='average methylation', column_title="")
   if (center) {
     GEP <- scale(rnaseq, center=center, scale=scale)
     if(!is.null(coef)) GEP <- t(t(GEP) * coef)
@@ -120,13 +119,12 @@ ModuleHeatmap <- function(methylation, avemethyl, rnaseq, filename=NULL, center=
   }
   ht3 <- Heatmap(GEP, col=inferno(10), width=unit(0.4, 'inches'),  name='GEP', column_title='GEP', cluster_columns=T)
   if(!is.null(filename)) {
-  setEPS()
-  postscript(file=filename, width=13, height=10)
-    draw(ht1 + ht2 + ht3)
-  dev.off()
-  print(paste('Image saved as', filename))
+    pdf(file=filename, width=6, height=10)
+      draw(ht1 + ht2 + ht3)
+    dev.off()
+    print(paste('Image saved as', filename))
   } else {
-    draw(ht1 + ht2 + ht3)
+    draw(ht1+ht2+ht3)
   }
 }
 
