@@ -47,7 +47,7 @@ vignettes/*.pdf
 *.fls
 *.log
 *.out
-*.synctex.gz
+*.synctex*
 *.png
 *.pdf
 *.nav
