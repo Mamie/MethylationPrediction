@@ -1,9 +1,0 @@
-gene,coef,description
-ACAA2,-0.0124770575554918,acetyl-CoA acyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:83]
-GRAMD4,-0.0133947607774193,GRAM domain containing 4 [Source:HGNC Symbol;Acc:HGNC:29113]
-IQCE,0.0118745873578982,IQ motif containing E [Source:HGNC Symbol;Acc:HGNC:29171]
-LOC650368,-0.0127038428313142,NA
-RAC2,0.0182367944786419,Rac family small GTPase 2 [Source:HGNC Symbol;Acc:HGNC:9802]
-SPAG4,-0.00049430387425203,sperm associated antigen 4 [Source:HGNC Symbol;Acc:HGNC:11214]
-TNFRSF10D,-0.00629507643316993,TNF receptor superfamily member 10d [Source:HGNC Symbol;Acc:HGNC:11907]
-TNNT1,0.00414001229724636,troponin T1, slow skeletal type [Source:HGNC Symbol;Acc:HGNC:11948]
