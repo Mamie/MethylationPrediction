@@ -53,6 +53,7 @@ vignettes/*.pdf
 *.nav
 *.snm
 *.toc
+*.lof
 
 # Slurm log
 *.err

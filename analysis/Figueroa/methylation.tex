@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage{fullpage,graphicx}
+\usepackage{amsmath,amsfonts,amsthm,amssymb,multirow,xcolor}
+\usepackage{hyperref}
+\usepackage{algorithmic}
+\usepackage{booktabs}
+\usepackage{pdfpages}
+\usepackage[ruled,vlined,commentsnumbered,titlenotnumbered]{algorithm2e}
+\usepackage[export]{adjustbox}
+
+\begin{document}
+\noindent
+Methylation clustering analysis \hfill \textbf{Figueroa et al. 2010 data set} \newline 
+\today \hfill Mamie Wang
+
+\noindent
+\rule{\linewidth}{0.4pt}
+
+\listoffigures
+
+\clearpage
+
+\section{Preprocessing}
+
+Methylation array data for 344 AML patients was downloaded from GEO \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18700}{GSE 18700} and 22759 probes that were mapped to a gene are filtered for downstream analysis (Each probe is annotated to the nearest transcription start site allowing for a maximum distance of 5 kb from the TSS). The distribution of the mean and standard deviation are shown below in Figure \ref{methylDistn}. 
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{../../figures/Figueroa/methyl-distn}
+\caption[Mean and standard deviation of the raw methylation data]{}
+\label{methylDistn}
+\end{center}
+\end{figure}
+
+Successive normalization were performed on the methylation array \cite{olshen2010successive} until the absolute difference between Frobenius norm of consecutive iterations is below $10^{-8}$. PhenoGraph were applied on the filtered on the normalized dataset \cite{levine2015data} which constructs a nearest-neighbor graph ($k = 30$) with weight between each probe pair as Jaccard similarity coefficients between the corresponding nearest neighbor set and performs Louvain community detection algorithm by maximizing the modularity on the graph. 20 communities (modules) were obtained as a result. The ``eigengene'' profile was computed for each module as their first principal component, shown in the Figure \ref{eigenGene}. 
+
+\begin{figure}[htbp]
+\begin{center}
+
+\caption[Eigengene methylation profile of the modules]{Eigengene methylation profile of the modules. Each black line represents a methylation level of a probe across patients. The blue line shows the eigengene expression profile.}
+\label{eigenGene}
+\end{center}
+\end{figure}
+
+
+
+
+\clearpage
+
+\appendix
+
+\clearpage
+
+\end{document}
