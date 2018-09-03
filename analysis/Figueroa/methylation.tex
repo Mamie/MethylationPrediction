@@ -22,7 +22,13 @@ Methylation clustering analysis \hfill \textbf{Figueroa et al. 2010 data set} \n
 
 \section{Preprocessing}
 
-Methylation array data for 344 AML patients was downloaded from GEO \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18700}{GSE 18700} and 22759 probes that were mapped to a gene are filtered for downstream analysis (Each probe is annotated to the nearest transcription start site allowing for a maximum distance of 5 kb from the TSS). The distribution of the mean and standard deviation are shown below in Figure \ref{methylDistn}. 
+\subsection{Gene expression array data}
+
+Gene expression array data for 344 AML patients was downloaded from GEO \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14468}{(GSE 14468)}. Normalization was performed in \cite{gentles2015prognostic}. Each probe was annotated to the gene with nearest transcription start site and the corresponding gene symbol was provided in the file. The gene symbols of the probes are used to query the Gene Ontology \cite{ashburner2000gene} for biological process annotation. We are interested in genes related to methylation and transcriptional regulation. To remove irrelevant genes, we filter for genes that have keyword ``methylation'' and ``transcrip'' in their biological process annotation. In the end, 3417 out of 17788 remained for the downstream analysis. 
+
+\subsection{Methylation array data}
+
+Methylation array data for 344 AML patients was downloaded from GEO \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18700}{(GSE 18700)}. Each probe was annotated to the nearest transcription start site allowing for a maximum distance of 5 kb from the TSS. Any probes that were mapped to a gene are filtered for downstream analysis and in total 22759 out of 25626 probes are left after the filtering step. The distribution of the mean and standard deviation of the probes across patients are shown below in Figure \ref{methylDistn}. 
 
 \begin{figure}[htbp]
 \begin{center}
@@ -32,7 +38,7 @@ Methylation array data for 344 AML patients was downloaded from GEO \href{https:
 \end{center}
 \end{figure}
 
-Successive normalization were performed on the methylation array \cite{olshen2010successive} until the absolute difference between Frobenius norm of consecutive iterations is below $10^{-8}$. PhenoGraph were applied on the filtered on the normalized dataset \cite{levine2015data} which constructs a nearest-neighbor graph ($k = 30$) with weight between each probe pair as Jaccard similarity coefficients between the corresponding nearest neighbor set and performs Louvain community detection algorithm by maximizing the modularity on the graph. 20 communities (modules) were obtained as a result. The ``eigengene'' profile was computed for each module as their first principal component, shown in the Figure \ref{eigenGene}. 
+Successive normalization were performed on the methylation array \cite{olshen2010successive} until the absolute difference between Frobenius norm of consecutive iterations is below $10^{-8}$. PhenoGraph  \cite{levine2015data} were used to cluster probes. PhenoGraph first constructs a nearest-neighbor graph ($k = 30$) which has individual probe as a node and edge weight between each probe pair as Jaccard similarity coefficients between their nearest neighbor set. Louvain community detection algorithm was performed to find the clustering assignment that maximizes the modularity on the graph. 20 communities (modules) were obtained as a result. The ``eigengene'' profile was computed for each module as their first principal component, shown in the Figure \ref{eigenGene}. 
 
 \begin{figure}[htbp]
 \begin{center}
@@ -41,7 +47,6 @@ Successive normalization were performed on the methylation array \cite{olshen201
 \label{eigenGene}
 \end{center}
 \end{figure}
-
 
 
 
