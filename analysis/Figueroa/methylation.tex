@@ -7,7 +7,7 @@
 \usepackage{pdfpages}
 \usepackage[ruled,vlined,commentsnumbered,titlenotnumbered]{algorithm2e}
 \usepackage[export]{adjustbox}
-
+\usepackage[margin=0.5in]{geometry}
 \begin{document}
 \noindent
 Methylation clustering analysis \hfill \textbf{Figueroa et al. 2010 data set} \newline 
@@ -28,31 +28,69 @@ Gene expression array data for 344 AML patients was downloaded from GEO \href{ht
 
 \subsection{Methylation array data}
 
-Methylation array data for 344 AML patients was downloaded from GEO \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18700}{(GSE 18700)}. Each probe was annotated to the nearest transcription start site allowing for a maximum distance of 5 kb from the TSS. Any probes that were mapped to a gene are filtered for downstream analysis and in total 22759 out of 25626 probes are left after the filtering step. The distribution of the mean and standard deviation of the probes across patients are shown below in Figure \ref{methylDistn}. 
+Methylation array data for 344 AML patients was downloaded from GEO \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18700}{(GSE 18700)}. Each probe was annotated to the nearest transcription start site allowing for a maximum distance of 5 kb from the TSS. Any probes that were mapped to a gene are filtered for downstream analysis and in total 22759 out of 25626 probes are left after the filtering step. 
+
+Normalization was performed on the probes across patients. %Successive normalization were performed on the methylation array \cite{olshen2010successive} until the absolute difference between Frobenius norm of consecutive iterations is below $10^{-8}$. 
+PhenoGraph  \cite{levine2015data} were used to cluster probes. PhenoGraph first constructs a nearest-neighbor graph ($k = 30$) which has individual probe as a node and edge weight between each probe pair as Jaccard similarity coefficients between their nearest neighbor set. Louvain community detection algorithm was performed to find the clustering assignment that maximizes the modularity on the graph. 20 communities (modules) were obtained as a result. The counts of probes in each cluster along with the ``eigengene'' profile was computed for each module as their first principal component, shown in the Figure \ref{eigenGene}. 
 
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=0.8\textwidth]{../../figures/Figueroa/methyl-distn}
-\caption[Mean and standard deviation of the raw methylation data]{}
-\label{methylDistn}
-\end{center}
-\end{figure}
-
-Successive normalization were performed on the methylation array \cite{olshen2010successive} until the absolute difference between Frobenius norm of consecutive iterations is below $10^{-8}$. PhenoGraph  \cite{levine2015data} were used to cluster probes. PhenoGraph first constructs a nearest-neighbor graph ($k = 30$) which has individual probe as a node and edge weight between each probe pair as Jaccard similarity coefficients between their nearest neighbor set. Louvain community detection algorithm was performed to find the clustering assignment that maximizes the modularity on the graph. 20 communities (modules) were obtained as a result. The ``eigengene'' profile was computed for each module as their first principal component, shown in the Figure \ref{eigenGene}. 
-
-\begin{figure}[htbp]
-\begin{center}
-
-\caption[Eigengene methylation profile of the modules]{Eigengene methylation profile of the modules. Each black line represents a methylation level of a probe across patients. The blue line shows the eigengene expression profile.}
+\begin{tabular}{@{}c@{\hspace{.0cm}}@{\hspace{.0cm}}c@{\hspace{.0cm}}c@{\hspace{.0cm}}c@{}}
+\includegraphics[width=0.25\textwidth, page=1]{../../figures/Figueroa/eigen-profile} &
+\includegraphics[width=0.25\textwidth, page=2]{../../figures/Figueroa/eigen-profile} &
+\includegraphics[width=0.25\textwidth, page=3]{../../figures/Figueroa/eigen-profile} &
+\includegraphics[width=0.25\textwidth, page=4]{../../figures/Figueroa/eigen-profile} \\
+\includegraphics[width=0.25\textwidth, page=5]{../../figures/Figueroa/eigen-profile} &
+\includegraphics[width=0.25\textwidth, page=6]{../../figures/Figueroa/eigen-profile} & 
+\includegraphics[width=0.25\textwidth, page=7]{../../figures/Figueroa/eigen-profile} &
+\includegraphics[width=0.25\textwidth, page=8]{../../figures/Figueroa/eigen-profile} \\
+\includegraphics[width=0.25\textwidth, page=9]{../../figures/Figueroa/eigen-profile} &
+\includegraphics[width=0.25\textwidth, page=10]{../../figures/Figueroa/eigen-profile} & 
+\includegraphics[width=0.25\textwidth, page=11]{../../figures/Figueroa/eigen-profile} &
+\includegraphics[width=0.25\textwidth, page=12]{../../figures/Figueroa/eigen-profile} \\
+\includegraphics[width=0.25\textwidth, page=13]{../../figures/Figueroa/eigen-profile} &
+\includegraphics[width=0.25\textwidth, page=14]{../../figures/Figueroa/eigen-profile} & 
+\includegraphics[width=0.25\textwidth, page=15]{../../figures/Figueroa/eigen-profile} &
+\includegraphics[width=0.25\textwidth, page=16]{../../figures/Figueroa/eigen-profile} \\
+\includegraphics[width=0.25\textwidth, page=17]{../../figures/Figueroa/eigen-profile} &
+\includegraphics[width=0.25\textwidth, page=18]{../../figures/Figueroa/eigen-profile} \\
+\end{tabular}
+\begin{small}
+\begin{tabular}{rrrrrrrrrrrrrrrrrrr}
+  \hline
+module & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 \\ 
+  \hline
+probes & 3312 & 2810 & 2140 & 2013 & 1853 & 1842 & 1583 & 1325 & 1085 & 995 & 861 & 723 & 723 & 630 & 326 & 277 & 237 &  24 \\ 
+   \hline
+\end{tabular}
+\end{small}
+\caption[First principal component of methylation modules]{\textbf{First principal component of methylation modules} Each panel represent a module and the black lines represent the normalized methylation level of a probe across 344 patients. The blue lines show the first principal component of each module. The size of each module is shown in the table}
 \label{eigenGene}
 \end{center}
 \end{figure}
+
+In addition, the heatmap of expression level of the clusters are shown in Appendix Figure \ref{heatmap} and annotated by hits on GSEA. 
+
+\clearpage
+
+\section{Variational Bayes Spike Regression}
 
 
 
 \clearpage
 
 \appendix
+
+\section{Methylation array heatmap}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{../../figures/Figueroa/methyl-clustering}
+\caption[Heatmap of methylation modules]{\textbf{Heatmap of methylation modules} Heatmap of methylation array expression. The rows are annotated with the PhenoGraph clusters and columns are arrange by hierarchical clustering on patients using Euclidean distance. }
+\label{heatmap}
+\end{center}
+\end{figure}
+
 
 \clearpage
 
