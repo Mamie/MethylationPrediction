@@ -24,14 +24,14 @@ Methylation clustering analysis \hfill \textbf{Figueroa et al. 2010 data set} \n
 
 \subsection{Gene expression array data}
 
-Gene expression array data for 344 AML patients was downloaded from GEO \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14468}{(GSE 14468)}. Normalization was performed in \cite{gentles2015prognostic}. Each probe was annotated to the gene with nearest transcription start site and the corresponding gene symbol was provided in the file. The gene symbols of the probes are used to query the Gene Ontology \cite{ashburner2000gene} for biological process annotation. We are interested in genes related to methylation and transcriptional regulation. To remove irrelevant genes, we filter for genes that have keyword ``methylation'' and ``transcrip'' in their biological process annotation. In the end, 3417 out of 17788 remained for the downstream analysis. 
+Gene expression array data for 344 AML patients was downloaded from GEO \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE14468}{(GSE 14468)}. Normalization was performed in Gentles et al 2015 \cite{gentles2015prognostic}. Annotation of the probes to gene with nearest transcription start site were available from GEO. We query for the Gene Ontology terms of the corresponding genes and filtered the probes based on their GO biological process annotation to obtain genes related to methylation and transcriptional regulation. After filter for genes that have keyword ``methylation'' or ``transcrip'', 3417 out of 17788 are left for the downstream analysis. 
 
 \subsection{Methylation array data}
 
-Methylation array data for 344 AML patients was downloaded from GEO \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18700}{(GSE 18700)}. Each probe was annotated to the nearest transcription start site allowing for a maximum distance of 5 kb from the TSS. Any probes that were mapped to a gene are filtered for downstream analysis and in total 22759 out of 25626 probes are left after the filtering step. 
+Methylation array data for 344 AML patients was downloaded from GEO \href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18700}{(GSE 18700)}. Annotation of the probes to the nearest transcription start site allowing for a maximum distance of 5 kb from the TSS was provided along with the dataset. Any probes that were mapped to a gene are filtered for downstream analysis and in total 22759 out of 25626 probes are left after this step. 
 
-Normalization was performed on the probes across patients. %Successive normalization were performed on the methylation array \cite{olshen2010successive} until the absolute difference between Frobenius norm of consecutive iterations is below $10^{-8}$. 
-PhenoGraph  \cite{levine2015data} were used to cluster probes. PhenoGraph first constructs a nearest-neighbor graph ($k = 30$) which has individual probe as a node and edge weight between each probe pair as Jaccard similarity coefficients between their nearest neighbor set. Louvain community detection algorithm was performed to find the clustering assignment that maximizes the modularity on the graph. 20 communities (modules) were obtained as a result. The counts of probes in each cluster along with the ``eigengene'' profile was computed for each module as their first principal component, shown in the Figure \ref{eigenGene}. 
+Standardization was performed on the probes across patients. %Successive normalization were performed on the methylation array \cite{olshen2010successive} until the absolute difference between Frobenius norm of consecutive iterations is below $10^{-8}$. 
+PhenoGraph \cite{levine2015data} were used to cluster probes. PhenoGraph first constructs a nearest-neighbor graph ($k = 30$) that has individual probe as a node. The edge weight between probe pairs are computed as the Jaccard similarity coefficients between their nearest neighbor set. Louvain community detection was performed in this algorithm to find the clustering assignment that maximizes the modularity on the graph. After applying PhenoGraph on the 22759 methylation probes, 20 communities (modules) were obtained. The counts of probes in each module along with the first principal component of each module are shown in the Figure \ref{eigenGene}. 
 
 \begin{figure}[htbp]
 \begin{center}
@@ -69,13 +69,7 @@ probes & 3312 & 2810 & 2140 & 2013 & 1853 & 1842 & 1583 & 1325 & 1085 & 995 & 86
 \end{center}
 \end{figure}
 
-In addition, the heatmap of expression level of the clusters are shown in Appendix Figure \ref{heatmap} and annotated by hits on GSEA. 
-
-\clearpage
-
-\section{Variational Bayes Spike Regression}
-
-
+In addition, the heatmap of expression level of the clusters are shown in Appendix Figure \ref{heatmap}.
 
 \clearpage
 
@@ -93,5 +87,9 @@ In addition, the heatmap of expression level of the clusters are shown in Append
 
 
 \clearpage
+
+\bibliography{methylation} 
+\bibliographystyle{ieeetr}
+
 
 \end{document}
