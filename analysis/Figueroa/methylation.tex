@@ -73,6 +73,19 @@ In addition, the heatmap of expression level of the clusters are shown in Append
 
 \clearpage
 
+\subsection{Selection of significant gene expression probes using vBsr}
+We used Variational Bayesian spike regression (vBsr) \cite{logsdon2012novel} to select gene expression probes that are significantly associated with module methylation profile. vBsr is a penalized Bayesian regression model that uses a spike-and-slab prior to impose sparsity constraint on the regression coefficients. Fast computation were achieved by utilizing mean-field approximation. The algorithm was ran 50 times with random initialization to identify multiple local maxima of lower bound and Bayesian Model Averaging (BMA) was used to produce a unique estimate over all identified models. vBsr defines a test statistic $z_{vb}$ and corresponding p-value. We applied Bonferroni correction to the p-values at $\alpha = 0.05$. Figure \ref{vbsr} shows the $-\log p$ values of the gene probes for modules that have at least one significant hits.
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=\textwidth]{../../figures/Figueroa/vbsr.png}
+\caption[Gene expression probes significantly associated with methylation module profile selected by vBsr]{\textbf{Gene expression probes significantly associated with methylation module profile selected by vBsr} The Bonferroni corrected significant level is shown as the dashed lines and the significant hits are annotated with corresponding gene symbol. }
+\label{vbsr}
+\end{center}
+\end{figure}
+
+\clearpage
+
 \appendix
 
 \section{Methylation array heatmap}
